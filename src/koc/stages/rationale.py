@@ -4,6 +4,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 from koc.audience import Target
 from koc.config import load_prompt, prompt_vars
+from koc.llm.base import OutputRejected
 from koc.sources.kalodata import REVENUE_BASIS
 from koc.schemas import RationaleSet
 
@@ -43,18 +44,27 @@ def evidence_pack(row: dict, screen: dict, video: dict, campaign: dict) -> dict:
     }
 
 
+def citation_problem(data: dict, packs: list[dict]) -> str | None:
+    """Dùng làm `validate` cho LLM.call: sai thì không lưu cache và gọi lại."""
+    cc = check_citations(data, packs)
+    if not cc["handles_match"]:
+        return "danh sách KOC trong lời giải thích không khớp input"
+    if cc["refs_invalid"]:
+        return "trích mã bằng chứng không có thật: " + ", ".join(cc["refs_invalid"][:5])
+    return None
+
+
 def _write_chunk(llm, packs: list[dict], route: dict, campaign: dict) -> dict:
-    res = llm.call(
-        stage="rationale",
-        model=route["model"],
-        effort=route.get("effort"),
-        system=load_prompt(PROMPT_FILE, **prompt_vars(campaign)),
-        parts=[{"type": "text", "text": json.dumps(packs, ensure_ascii=False)}],
-        schema=RationaleSet,
-        item_ids=[p["handle"] for p in packs],
-        max_tokens=8000,
-    )
-    return res.data
+    """Code kiểm trích dẫn NGAY sau khi model trả lời: sai thì gọi lại 1 lần. Lần 2 vẫn sai thì giữ kết quả
+    và báo trong citation_check (không làm hỏng cả run vì lời giải thích)."""
+    kw = dict(stage="rationale", model=route["model"], effort=route.get("effort"),
+              system=load_prompt(PROMPT_FILE, **prompt_vars(campaign)),
+              parts=[{"type": "text", "text": json.dumps(packs, ensure_ascii=False)}],
+              schema=RationaleSet, item_ids=[p["handle"] for p in packs], max_tokens=8000)
+    try:
+        return llm.call(**kw, validate=lambda d: citation_problem(d, packs)).data
+    except OutputRejected:
+        return llm.call(**kw).data
 
 
 def write_rationale(llm, selected: list[dict], screens: dict, videos: dict, route: dict, campaign: dict,

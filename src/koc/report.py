@@ -25,7 +25,8 @@ def render(r: dict, routing: dict, total_seconds: float) -> str:
          f"> **Dữ liệu đã lưu (cache).** Run chạy lúc {r.get('generated_at', '?')} với "
          + ", ".join(f"{k}={v}" for k, v in (r.get("routing") or {}).items())
          + f"; {r.get('llm_calls', '?')} lần gọi model, chi phí ${r['cost_usd']:.4f}. Đọc file này không gọi model. "
-         f"Chạy lại: `uv run koc run --run-id {r['run_id']}` (cần ANTHROPIC_API_KEY).", ""]
+         f"Chạy lại: `uv run koc run --run-id {r['run_id']}` (cần GEMINI_API_KEY; chỉ có ANTHROPIC_API_KEY thì mọi "
+         "bước tự dùng Claude Haiku).", ""]
     f = r["funnel"]
     L += ["## Phễu xử lý", "",
           f"{f.get('ingested')} creator (gộp các danh sách Kalodata) → lọc luật {f.get('after_prefilter')} "

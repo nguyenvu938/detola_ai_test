@@ -1,7 +1,7 @@
 # Đo khả năng mở rộng: 5 → 50 → 500 KOC
 
-> **Dữ liệu đã lưu (cache)**, tạo lúc 2026-11-17 22:17 bằng `uv run koc scale-test` (0 đồng, không cần API key).
-> Chạy NGUYÊN pipeline thật trên dữ liệu Kalodata **giả lập** với model **giả** (không gọi mạng). Số người qua phễu, số lần gọi model, thời gian code, bài chọn, SQLite, phục hồi là **đo thật**. Token, USD, thời gian chờ model là **dự phóng** = số lần gọi × số đo thật mỗi item ở run `final` (screen: claude-haiku-5-5, video: gemini-3.1-flash-lite, rationale: gemini-3.1-flash-lite). Kết quả giả không đo chất lượng (xem benchmark).
+> **Dữ liệu đã lưu (cache)**, tạo lúc 2026-11-18 06:33 bằng `uv run koc scale-test` (0 đồng, không cần API key).
+> Chạy NGUYÊN pipeline thật trên dữ liệu Kalodata **giả lập** với model **giả** (không gọi mạng). Số người qua phễu, số lần gọi model, thời gian code, bài chọn, SQLite, phục hồi là **đo thật**. Token, USD, thời gian chờ model là **dự phóng** = số lần gọi × số đo thật mỗi item ở run `final` (screen: gemini-3.8-flash, video: gemini-3.5-flash-lite, rationale: gemini-3.1-flash-lite). Kết quả giả không đo chất lượng (xem benchmark).
 
 | | **5 KOC** | **50 KOC** | **500 KOC** |
 |---|---|---|---|
@@ -15,13 +15,13 @@
 | S7 viết lý do: lần gọi (10 KOC/lần) | 1 | 5 | 50 |
 | **Chọn được** / chi phí booking | **5** / 29.2 tr | **50** / 298.0 tr | **500** / 2,814.0 tr |
 | Tổng lần gọi model | 13 (10% số creator đầu vào) | 120 (10% số creator đầu vào) | 1,204 (10% số creator đầu vào) |
-| Token vào / ra (dự phóng) | 0.07M / 0.01M | 0.64M / 0.12M | 6.41M / 1.19M |
-| **Chi phí AI (dự phóng)** | **$0.03** ($0.0050/KOC) | **$0.23** ($0.0047/KOC) | **$2.36** ($0.0047/KOC) |
-| Chờ model, song song 4 / 16 (dự phóng) | 49 giây / 33 giây | 5 phút / 86 giây | 49 phút / 13 phút |
+| Token vào / ra (dự phóng) | 0.06M / 0.01M | 0.54M / 0.06M | 5.41M / 0.59M |
+| **Chi phí AI (dự phóng)** | **$0.04** ($0.0079/KOC) | **$0.35** ($0.0070/KOC) | **$3.56** ($0.0071/KOC) |
+| Chờ model, song song 4 / 16 (dự phóng) | 25 giây / 17 giây | 3 phút / 45 giây | 25 phút / 6 phút |
 | Kalodata API: lần gọi / điểm / thời gian ở 1 req/s | 60 / 6.0 / 60 giây | 600 / 60.0 / 10 phút | 6,000 / 600.0 / 1.7 giờ |
-| Thời gian phần code (đo thật) | < 0.1 giây | 1.1 giây | 18.0 giây |
+| Thời gian phần code (đo thật) | < 0.1 giây | 1.3 giây | 18.5 giây |
 | Giải bài chọn trong ngân sách (đo thật) | < 1 ms | 1 ms | 2 ms |
-| SQLite (checkpoint + cache) | 0.4 MB | 3.2 MB | 31.0 MB |
+| SQLite (checkpoint + cache) | 0.4 MB | 3.2 MB | 31.6 MB |
 
 **Phục hồi ở quy mô 50 KOC:** cho "sập" sau 60 lần gọi model rồi chạy lại cùng run: 120 lần gọi trả tiền (chạy liền một lèo: 120), **0 item bị gọi lặp**, chọn ra 50 KOC (trùng bộ chọn của lần chạy liền).
 

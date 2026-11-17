@@ -35,10 +35,10 @@ n = số KOC cần tìm (`n_koc`). Số người ở mỗi tầng tỷ lệ vớ
 |---|---|---|---|
 | S0 ingest | Đọc bảng xếp hạng creator theo danh mục | Kalodata | 0 |
 | S1 prefilter | Lọc follower, tên brand/shop, chấm điểm sơ bộ | Python | 0 |
-| S2 enrich | Lấy chi tiết: nhãn khán giả, 10 video, shop, sản phẩm | Kalodata | 0 |
+| S2 enrich | Lấy chi tiết: nhãn khán giả, 10 video doanh thu cao nhất (+ video đúng chủ đề trong bảng xếp hạng), shop, sản phẩm | Kalodata | 0 |
 | S3 metrics | Điểm định lượng 6 thành phần, loại khán giả nam | Python | 0 |
 | S4 screen | Phân loại account, ngách, độ liên quan, rủi ro | LLM rẻ, gom batch | rất thấp |
-| S5 video | Xem 1 video/creator: lộ mặt, thoa thử, hook, claim rủi ro | LLM đa phương thức | chiếm phần lớn |
+| S5 video | Xem 1 video/creator: đúng chủ đề, lộ mặt, thoa thử, hook, claim rủi ro | LLM đa phương thức | chiếm phần lớn |
 | S6 select | Chọn n KOC tối đa điểm, tổng giá ≤ ngân sách | Python (n ≤ 6: vét cạn; n lớn: Lagrange + đổi chỗ) | 0 |
 | S7 rationale | Viết lý do, trích mã bằng chứng; code kiểm trích dẫn | LLM, 1 lần gọi / 10 KOC | thấp |
 
@@ -53,18 +53,21 @@ chỉ chạy cho top-K (`video_per_koc` × n = 2× số KOC cần). Với 500 KO
 không theo số creator quét (đo bằng mô phỏng: mục Mở rộng bên dưới).
 
 **3. Tiết kiệm token ở từng bước LLM.**
-- S4 gom 8 creator/lần gọi, input đã rút gọn (tiêu đề cắt 100 ký tự, chỉ 10 video), prompt hệ thống cố định để dùng prompt cache.
+- S4 gom 8 creator/lần gọi, input đã rút gọn (tối đa 12 tiêu đề video, mỗi tiêu đề cắt 100 ký tự), prompt hệ thống cố định để dùng prompt cache.
 - S5 với model không xem được video (Claude): 6 khung hình 384px (2 khung trong 3 giây đầu để chấm hook) + phụ đề TikTok nếu có, ~4.5k token/video.
   Với model xem được video (Gemini): gửi thẳng 60 giây đầu, `media_resolution=LOW`, 1 khung/giây (~100 token/giây có tiếng).
+  `effort` được đổi sang `thinking_level` của Gemini; token âm thanh tính theo giá riêng (`audio_input_per_m`).
 - Structured output (JSON schema) → không tốn token cho lời dẫn, không phải gọi lại vì sai định dạng.
 - Cache theo hash (model + effort + prompt + input + schema): chạy lại, đổi trọng số, resume đều không gọi lại model.
-  Phân tích creator không phụ thuộc chiến dịch nên dùng lại được cho chiến dịch sau.
+  S4 còn cache theo **từng creator**: lần quét sau có người mới chen vào làm lô 8 người lệch đi thì người cũ vẫn dùng lại,
+  chỉ người mới được gửi cho model. Prompt chứa brief (sản phẩm, đối tượng) nên **đổi chiến dịch thì chưa dùng lại được**:
+  thiết kế tách tầng ở cuối mục 11.
 
 **4. Định tuyến model theo bước, chọn bằng benchmark** (`config/models.toml`). Benchmark 9 model của 3 hãng trên cùng
-input (`results/benchmark_models.md`) cho thấy model đắt không đáng tiền ở các bước này: sàng lọc dùng Claude Haiku 5.5
-(khớp 94%), xem video dùng Gemini 3.1 Flash-Lite (98%, xem được video có tiếng), viết lý do dùng Gemini 3.1 Flash-Lite.
-Chi phí dự phóng $2.90 / 500 KOC, so với $52.25 nếu dùng toàn Opus. Mỗi bước có `fallback` (Claude Haiku) khi máy
-thiếu API key của model chính. Đổi model là đổi 1 dòng cấu hình, hoặc `koc run --video-model ...`. Lớp `LLM` tách
+input (`results/benchmark_models.md`, đo lại 2026-11-18 sau khi Gemini áp dụng đúng `effort`) cho thấy model đắt không
+đáng tiền ở các bước này: sàng lọc dùng Gemini 3.8 Flash (khớp 91%; Claude Haiku chỉ 84%), xem video dùng Gemini 3.5
+Flash-Lite (97%, xem được video có tiếng), viết lý do dùng Gemini 3.1 Flash-Lite. Chi phí dự phóng $4.81 / 500 KOC, so với
+$51.05 nếu dùng toàn Opus. Mỗi bước có `fallback` (Claude Haiku) khi máy thiếu API key của model chính. Đổi model là đổi 1 dòng cấu hình, hoặc `koc run --video-model ...`. Lớp `LLM` tách
 phần chung (cache, ngân sách, sổ chi phí) khỏi adapter từng nhà cung cấp (Anthropic, Gemini, DeepSeek).
 
 **5. Bền bỉ khi gián đoạn.**
@@ -72,20 +75,28 @@ phần chung (cache, ngân sách, sổ chi phí) khỏi adapter từng nhà cung
   `run_id` = tên chiến dịch + hash cấu hình, nên đổi cấu hình thì tự sang run mới, giữ nguyên run cũ.
 - Lỗi một item (video bị xóa, video chỉ chạy quảng cáo, model trả sai) được ghi `failed`, không làm hỏng cả run; lần chạy sau thử lại tối đa 3 lần.
 - Video không tải được thì tự thử video kế tiếp theo thứ tự ưu tiên.
-- Chặn ngân sách: tổng chi phí run vượt `max_usd_per_run` thì dừng có kiểm soát.
+- Chặn ngân sách: tổng chi phí run vượt `max_usd_per_run` thì dừng có kiểm soát, huỷ các video còn xếp hàng (Ctrl+C cũng vậy).
+  Chạy song song có thể vượt tối đa (số luồng × chi phí 1 lần gọi) vì lần gọi đang chạy dở chưa ghi chi phí.
+  Lần gọi hỏng mà hãng vẫn tính tiền (hết `max_tokens`, JSON hỏng) vẫn được ghi đúng số tiền vào sổ.
 - `koc run --crash-after N` giả lập sự cố để chứng minh resume (có test tự động).
 
 **6. Bằng chứng kiểm chứng được.** Mỗi bằng chứng có mã (`M:gmv`, `S:screen`, `V:<video_id>`). LLM viết lý do phải trích mã;
-code kiểm mọi mã có thật trong input của đúng KOC đó, và báo tỷ lệ trích dẫn hợp lệ.
+code kiểm mọi mã có thật trong input của đúng KOC đó **ngay khi model trả lời**: sai thì không lưu cache và gọi lại 1 lần
+(lưu rồi thì lần gọi lại chỉ đọc đúng kết quả sai từ cache); báo cáo ghi tỷ lệ trích dẫn hợp lệ.
+Điểm video cũng chỉ tính bằng chứng đúng sản phẩm: video lạc chủ đề (vd quảng cáo sữa tắm) không được điểm "thoa lên da"
+hay "thấy kết cấu", vì đó không chứng minh creator review được kem chống nắng.
 
 **7. Nhiều nguồn ứng viên, vì một bảng xếp hạng là không đủ.** Lần chạy đầu chỉ dùng bảng xếp hạng doanh thu
 và phễu bị "cạn": phần lớn tài khoản doanh thu cao trong ngành kem chống nắng là shop/affiliate chốt đơn,
-đăng **bài ảnh slideshow** chứ không quay video review. Hệ thống gộp 3 nguồn (bỏ trùng theo handle):
-bảng doanh thu, preset *Top Video Creators*, và creator đứng sau các *video* kem chống nắng nhiều view nhất
-(tìm theo nội dung). Nguồn ưu tiên được cộng điểm ở bước lọc sơ bộ.
+đăng **bài ảnh slideshow** chứ không quay video review. Hệ thống gộp 4 nguồn (bỏ trùng theo handle):
+bảng doanh thu, preset *Top Video Creators*, creator đứng sau các *video* kem chống nắng nhiều view nhất
+(tìm theo nội dung), và danh sách nghiên cứu web đã kiểm chứng. Nguồn ưu tiên được cộng điểm ở bước lọc sơ bộ.
+Creator có mặt ở nhiều nguồn lấy số liệu của nguồn có doanh thu **so sánh được** trước (doanh thu danh mục, bán qua video),
+không theo thứ tự tên file.
 
 **8. Phễu thích ứng + ngưỡng chất lượng.** Bước sàng lọc chạy từng batch theo thứ tự điểm và dừng ngay khi đủ
-`video_per_koc` × n ứng viên đạt cổng (cá nhân thật, liên quan kem chống nắng ≥ 3/10); chưa đủ thì đi sâu thêm.
+`video_per_koc` × n ứng viên đạt cổng (cá nhân thật hoặc chưa rõ loại – loại này bị trừ điểm ở bước chọn; mức phù hợp
+với kem chống nắng ≥ 4/10); chưa đủ thì đi sâu thêm.
 Ứng viên điểm cuối dưới `min_final_score` không được đề xuất: thiếu người thì báo cáo nói thiếu, không chọn bù.
 
 **9. Lấy được video thật để AI xem.** Khi xem không đăng nhập, TikTok **giấu link luồng video** của bài gắn giỏ hàng
@@ -155,11 +166,11 @@ Kết quả: [`results/scale_test.md`](results/scale_test.md), tab "Mở rộng 
 
 | Quyết định | Lý do | Số đo ở 500 KOC |
 |---|---|---|
-| Tầng phễu = hệ số × n (`enrich_per_koc`, `screen_per_koc`, `video_per_koc`) | Chi phí tuyến tính theo số KOC, không theo số creator đầu vào; 5 KOC giữ nguyên 60/40/10 | 12.500 creator → 1.204 lần gọi model, $2.36 dự phóng |
-| Sàng lọc song song theo đợt, mỗi đợt số batch vừa đủ phần còn thiếu | Giữ tính "dừng sớm" của phễu thích ứng mà không chạy tuần tự | 154 lần gọi: 49 phút (4 luồng) / 13 phút (16 luồng) cho cả 3 bước gọi model |
+| Tầng phễu = hệ số × n (`enrich_per_koc`, `screen_per_koc`, `video_per_koc`) | Chi phí tuyến tính theo số KOC, không theo số creator đầu vào; 5 KOC giữ nguyên 60/40/10 | 12.500 creator → 1.204 lần gọi model, $3.56 dự phóng |
+| Sàng lọc song song theo đợt, mỗi đợt số batch vừa đủ phần còn thiếu | Giữ tính "dừng sớm" của phễu thích ứng mà không chạy tuần tự | 154 lần gọi sàng lọc; cả 3 bước gọi model: 25 phút (4 luồng) / 6 phút (16 luồng) |
 | Viết lý do chia lô 10 KOC/lần gọi, song song | 1 lần gọi cho 500 KOC vượt giới hạn token ra | 50 lần gọi |
 | Bài chọn: n ≤ 6 vét cạn; n lớn nhân tử Lagrange + đổi chỗ | Vét cạn bùng nổ tổ hợp; Lagrange chỉ cần sắp xếp, đổi chỗ tận dụng ngân sách còn dư | 2 ms; trùng đáp án vét cạn 99,4% trên 1.000 bài nhỏ ngẫu nhiên |
-| SQLite chế độ WAL, `synchronous=NORMAL` | Commit từng item để resume; chế độ mặc định chờ ghi đĩa 103 ms/commit | Code cả pipeline 18 giây (trước khi sửa: 50 KOC đã mất 193 giây) |
+| SQLite chế độ WAL, `synchronous=NORMAL` | Commit từng item để resume; chế độ mặc định chờ ghi đĩa 103 ms/commit | Code cả pipeline 18,5 giây ở 500 KOC (trước khi sửa: 50 KOC đã mất 193 giây) |
 | Xếp hạng phần trăm bằng tìm nhị phân | Bản cũ O(N²) | – |
 
 **Khi lên production:**
@@ -168,7 +179,7 @@ Kết quả: [`results/scale_test.md`](results/scale_test.md), tab "Mở rộng 
 |---|---|---|
 | Nguồn dữ liệu | Snapshot JSON thu từ giao diện Kalodata | Kalodata Open API, phân trang có checkpoint từng trang; lấy chi tiết theo đợt |
 | Song song | ThreadPool `concurrency` luồng (mặc định 4) | Hàng đợi (Redis/SQS) + worker, rate limit theo nhà cung cấp |
-| Trạng thái | SQLite 1 file (31 MB ở 500 KOC) | Postgres (cùng schema bảng) khi nhiều worker ghi cùng lúc |
+| Trạng thái | SQLite 1 file (32 MB ở 500 KOC) | Postgres (cùng schema bảng) khi nhiều worker ghi cùng lúc |
 | Gọi LLM số lượng lớn | Gọi trực tiếp | Batch API (rẻ 50%) cho S4/S5 vì không cần trả lời ngay |
 | Ngân sách mỗi run | `max_usd_per_run` = $1 | Đặt theo dự phóng (~$0.005/KOC → 500 KOC ~ $5) |
 | Đa dạng | Tối đa 1 KOC mỗi nhóm chung liên hệ | Thêm ràng buộc tối đa X KOC cùng MCN / cùng ngách |

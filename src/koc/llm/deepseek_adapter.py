@@ -11,6 +11,8 @@ from pathlib import Path
 
 from openai import OpenAI
 
+from koc.llm.base import CallFailed
+
 EFFORT_MAP = {"low": "low", "medium": "high", "high": "high", "xhigh": "max", "max": "max"}
 # Token suy nghĩ tính vào max_tokens -> cộng thêm chỗ cho suy nghĩ, kẻo hết chỗ trước khi viết JSON
 THINKING_HEADROOM = {"low": 4000, "high": 16000, "max": 32000}
@@ -66,9 +68,10 @@ class DeepSeekAdapter:
                 break
             except Exception as e:
                 last_err = e
-        else:
-            raise RuntimeError(f"DeepSeek trả JSON không hợp lệ sau 2 lần: {last_err}")
+            data = None
         miss = prompt_tokens - hit
         cost = (miss * model_cfg["input_per_m"] + hit * model_cfg.get("cache_hit_per_m", model_cfg["input_per_m"])
                 + completion_tokens * model_cfg["output_per_m"]) / 1_000_000
+        if data is None:   # 2 lần đều hỏng nhưng vẫn bị tính tiền cả 2 lần
+            raise CallFailed(f"DeepSeek trả JSON không hợp lệ sau 2 lần: {last_err}", prompt_tokens, completion_tokens, cost)
         return data, prompt_tokens, completion_tokens, cost

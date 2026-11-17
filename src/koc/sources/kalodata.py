@@ -44,10 +44,18 @@ def scrub_pii(text: str | None) -> str:
     return _PHONE.sub("[phone]", text)
 
 
+def _source_order(p: Path) -> tuple:
+    """Thứ tự gộp = thứ tự trong REVENUE_BASIS: danh sách có doanh thu SO SÁNH ĐƯỢC (cả danh mục, bán qua video)
+    đứng trước. Không xếp theo tên file: "_content" đứng trước "_video" theo bảng chữ cái sẽ làm creator có mặt
+    ở cả 2 danh sách bị lấy doanh thu không so sánh được."""
+    order = list(REVENUE_BASIS)
+    return (order.index(p.stem) if p.stem in order else len(order), p.stem)
+
+
 def load_creator_list(paths: list[Path] | None = None) -> dict:
     """Gộp các danh sách nguồn (creators_list*.json), bỏ trùng theo handle.
     Mỗi creator ghi lại đến từ danh sách nào (để báo cáo phễu theo nguồn)."""
-    paths = paths or sorted(KALO_DIR.glob("creators_list*.json"))
+    paths = sorted(paths or KALO_DIR.glob("creators_list*.json"), key=_source_order)
     merged: dict[str, dict] = {}
     for p in paths:
         data = json.loads(p.read_text(encoding="utf-8"))

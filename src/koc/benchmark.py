@@ -43,11 +43,15 @@ def input_signature(result: dict) -> str:
 
 def run_variant(stage, model, effort, cfg, store, details, result):
     camp = cfg["campaign"]["campaign"]
-    run = f"bench-{result['run_id']}-{input_signature(result)}-{stage}-{model}-{effort}"
+    sig = input_signature(result)
+    run = f"bench-{result['run_id']}-{sig}-{stage}-{model}-{effort}"
+    # Cùng input (cùng chữ ký) đã đo dưới tên run khác (run input bị đổi tên) -> dùng lại, không trả tiền đo lại
+    legacy = [r["run_id"] for r in store.db.execute(
+        "SELECT run_id FROM runs WHERE run_id LIKE ? AND run_id != ?", (f"bench-%-{sig}-{stage}-{model}-{effort}", run))]
     store.start_run(run, {"stage": stage, "model": model, "effort": effort})
     models_cfg = {**cfg["models"], "limits": {**cfg["models"]["limits"],
                                               "max_usd_per_run": cfg["models"]["benchmark"]["max_usd_per_variant"]}}
-    llm = LLM(models_cfg, store, run, cache_namespace=run)
+    llm = LLM(models_cfg, store, run, cache_namespace=run, legacy_namespaces=legacy)
     route = {**cfg["models"]["routing"][stage], "model": model, "effort": effort}
     outputs, errors = {}, []
     t0 = time.perf_counter()
@@ -81,15 +85,21 @@ def run_variant(stage, model, effort, cfg, store, details, result):
         except Exception as e:
             errors.append(str(e)[:200])
     stats, source = real_call_stats(store, run, stage, model)
+    for old in legacy:       # toàn bộ đọc lại từ lần đo trước -> lấy số của các lần gọi thật lúc đó
+        if stats is None:
+            stats, source = real_call_stats(store, old, stage, model)
+            source = f"lần gọi thật khi đo dưới tên {old}" if stats else None
     if stats is None and effort == route_effort(cfg, stage):
         # Toàn cache hit vì input trùng run pipeline -> lấy số của chính các lần gọi thật trong run đó
         stats, source = real_call_stats(store, result["run_id"], stage, model)
         source = f"lần gọi thật trong run {result['run_id']} (cùng model, cùng input)" if stats else None
     stats = stats or {"seconds": round(time.perf_counter() - t0, 1), "input_tokens": 0, "output_tokens": 0,
                       "cost_usd": 0.0, "avg_latency_ms": None, "calls": 0}
+    # Lần gọi hỏng nhưng hãng vẫn tính tiền (vd hết token ra): không vào chi phí/item của model, nhưng là tiền đã tiêu
+    failed = store.db.execute("SELECT SUM(cost_usd) c FROM llm_calls WHERE run_id=? AND ok=0", (run,)).fetchone()["c"]
     return {
         "stage": stage, "model": model, "provider": cfg["models"]["models"][model]["provider"], "effort": effort,
-        "outputs": outputs, "errors": errors, "stats_source": source, **stats,
+        "outputs": outputs, "errors": errors, "stats_source": source, "failed_cost_usd": failed or 0.0, **stats,
     }
 
 
@@ -99,7 +109,8 @@ def route_effort(cfg: dict, stage: str) -> str | None:
 
 def real_call_stats(store, run: str, stage: str, model: str) -> tuple[dict | None, str | None]:
     """Chi phí / token / thời gian từ các lần gọi THẬT (không tính cache hit) trong sổ llm_calls.
-    Thời gian chạy = từ lúc lần gọi đầu bắt đầu tới lúc lần gọi cuối xong (đúng cả khi gọi song song)."""
+    Thời gian chạy = từ lúc lần gọi đầu bắt đầu tới lúc lần gọi cuối xong (đúng khi gọi song song), nhưng không quá
+    tổng độ trễ các lần gọi (đúng cả khi biến thể được chạy tiếp sau một lần bị dừng, không tính khoảng nghỉ)."""
     rows = store.db.execute(
         """SELECT input_tokens, output_tokens, cost_usd, latency_ms, created_at FROM llm_calls
            WHERE run_id=? AND stage=? AND model=? AND cache_hit=0 AND ok=1""", (run, stage, model)
@@ -109,7 +120,8 @@ def real_call_stats(store, run: str, stage: str, model: str) -> tuple[dict | Non
     start = min(r["created_at"] - (r["latency_ms"] or 0) / 1000 for r in rows)
     return {
         "calls": len(rows),
-        "seconds": round(max(r["created_at"] for r in rows) - start, 1),
+        "seconds": round(min(max(r["created_at"] for r in rows) - start,
+                             sum(r["latency_ms"] or 0 for r in rows) / 1000), 1),
         "input_tokens": sum(r["input_tokens"] for r in rows),
         "output_tokens": sum(r["output_tokens"] for r in rows),
         "cost_usd": sum(r["cost_usd"] for r in rows),
@@ -268,6 +280,7 @@ def main(run_id: str | None = None):
     report["recommendation"] = recommend(report, result, b, cfg["models"]["routing"], cfg["models"]["models"])
     report["generated_at"] = time.strftime("%Y-%m-%d %H:%M")
     report["total_cost_usd"] = sum(r["cost_usd"] for runs in report["stages"].values() for r in runs)
+    report["failed_cost_usd"] = sum(r.get("failed_cost_usd", 0.0) for runs in report["stages"].values() for r in runs)
 
     raw = {s: {f"{r['model']}|{r['effort']}": r["outputs"] for r in runs} for s, runs in report["stages"].items()}
     (config.RESULTS_DIR / "benchmark_outputs.json").write_text(json.dumps(raw, ensure_ascii=False, indent=1, default=str), encoding="utf-8")
@@ -593,8 +606,11 @@ def render(rep: dict, result: dict, b: dict) -> str:
     L = [f"# Benchmark model – input của run `{rep['run_id']}`", "",
          f"> **Dữ liệu đã lưu (cache).** Benchmark chạy lúc {rep.get('generated_at', '?')}, tốn "
          f"${rep.get('total_cost_usd', 0):.2f} cho {sum(len(r) for r in rep['stages'].values())} biến thể "
-         "(bước × model × effort). Đọc file này không gọi model, không cần API key. Chạy lại: "
-         f"`uv run koc bench --run-id {rep['run_id']}` (cần key Anthropic, Gemini, DeepSeek; ~$2, ~40 phút).", ""]
+         "(bước × model × effort)"
+         + (f", cộng ${rep['failed_cost_usd']:.2f} cho các lần gọi hỏng mà hãng vẫn tính tiền"
+            if rep.get("failed_cost_usd") else "")
+         + ". Đọc file này không gọi model, không cần API key. Chạy lại: "
+         f"`uv run koc bench --run-id {rep['run_id']}` (cần key Anthropic, Gemini, DeepSeek; ~$3, ~1 giờ).", ""]
     if rep.get("recommendation"):
         L += render_recommendation(rep["recommendation"])
     L += ["## Số liệu chi tiết", "",

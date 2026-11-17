@@ -150,20 +150,23 @@ def run(cfg: dict, store: Store, run_id: str, llm: LLM, log=print) -> dict:
         with ThreadPoolExecutor(max_workers=limits["concurrency"]) as pool:
             futs = {pool.submit(analyze_creator, llm, details[h], camp["campaign"], route, mcfg): h
                     for h in pending}
-            fatal = None
-            for f in as_completed(futs):
-                h = futs[f]
-                try:
-                    out = f.result()
-                    store.save_item(run_id, "video", h, "done", out)
-                    videos[h] = out
-                except FATAL as e:
-                    fatal = fatal or e
-                except Exception as e:
-                    store.save_item(run_id, "video", h, "failed", error=str(e)[:500])
-                    log(f"  ! video {h} lỗi: {e}")
-            if fatal:
-                raise fatal
+            try:
+                for f in as_completed(futs):
+                    h = futs[f]
+                    try:
+                        out = f.result()
+                        store.save_item(run_id, "video", h, "done", out)
+                        videos[h] = out
+                    except FATAL:
+                        raise
+                    except Exception as e:
+                        store.save_item(run_id, "video", h, "failed", error=str(e)[:500])
+                        log(f"  ! video {h} lỗi: {e}")
+            except BaseException:
+                # Hết ngân sách / giả lập sập / Ctrl+C: huỷ các video còn xếp hàng (500 KOC = ~1000 video) thay vì
+                # chờ chạy hết. Video đang chạy dở vẫn xong và nằm trong cache -> resume không trả tiền lại.
+                pool.shutdown(wait=False, cancel_futures=True)
+                raise
     funnel_counts["video_analyzed"] = len([h for h in v_targets if h in videos])
 
     # S6 select – chỉ người đạt cổng screen và đạt ngưỡng điểm cuối

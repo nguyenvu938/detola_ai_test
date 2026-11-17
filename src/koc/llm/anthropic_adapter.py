@@ -4,6 +4,8 @@ from pathlib import Path
 
 import anthropic
 
+from koc.llm.base import CallFailed
+
 
 class AnthropicAdapter:
     def __init__(self):
@@ -36,13 +38,6 @@ class AnthropicAdapter:
             kwargs["output_config"] = {"effort": effort}
         resp = self.client.messages.parse(**kwargs)
 
-        if resp.stop_reason == "refusal":
-            raise RuntimeError(f"Model từ chối: {resp.stop_details}")
-        if resp.stop_reason == "max_tokens":
-            raise RuntimeError("Hết max_tokens trước khi xong JSON")
-        if resp.parsed_output is None:
-            raise RuntimeError("Không đọc được JSON theo schema")
-
         u = resp.usage
         cache_write = u.cache_creation_input_tokens or 0
         cache_read = u.cache_read_input_tokens or 0
@@ -50,4 +45,12 @@ class AnthropicAdapter:
         # Giá: ghi cache ×1.25, đọc cache ×0.1 so với input thường
         cost = ((u.input_tokens + 1.25 * cache_write + 0.1 * cache_read) * model_cfg["input_per_m"]
                 + u.output_tokens * model_cfg["output_per_m"]) / 1_000_000
+
+        # Các lỗi dưới đây vẫn bị tính tiền -> CallFailed mang theo chi phí để ghi đúng vào sổ
+        if resp.stop_reason == "refusal":
+            raise CallFailed(f"Model từ chối: {resp.stop_details}", in_tok, u.output_tokens, cost)
+        if resp.stop_reason == "max_tokens":
+            raise CallFailed("Hết max_tokens trước khi xong JSON", in_tok, u.output_tokens, cost)
+        if resp.parsed_output is None:
+            raise CallFailed("Không đọc được JSON theo schema", in_tok, u.output_tokens, cost)
         return resp.parsed_output.model_dump(), in_tok, u.output_tokens, cost

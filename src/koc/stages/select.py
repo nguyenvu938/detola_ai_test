@@ -21,7 +21,10 @@ def screen_score(s: dict) -> float:
 
 
 def video_score(v: dict) -> float:
-    checks = [v["is_on_topic"], v["face_on_camera"], v["product_demo_on_skin"], v["shows_texture_or_finish"]]
+    # "Thoa lên da" và "thấy kết cấu" chỉ là bằng chứng khi đúng sản phẩm của chiến dịch:
+    # thoa sữa tắm lên da không chứng minh creator review được kem chống nắng.
+    on = v["is_on_topic"]
+    checks = [on, v["face_on_camera"], on and v["product_demo_on_skin"], on and v["shows_texture_or_finish"]]
     base = (sum(checks) / len(checks)) * 0.6 + (v["hook_strength"] / 5) * 0.2 + (v["production_quality"] / 5) * 0.2
     base -= 0.15 * len(v.get("risky_claims") or [])
     return max(0.0, min(1.0, base))
@@ -61,7 +64,7 @@ def combine(metrics: list[dict], screens: dict, videos: dict, weights: dict, aud
 EXACT_MAX_N = 6   # n nhỏ: vét cạn (chính xác). n lớn: số tổ hợp bùng nổ -> thuật toán gần đúng bên dưới
 
 
-def choose(pool: list[dict], n: int, budget_vnd: int, top_k: int = 12) -> dict:
+def choose(pool: list[dict], n: int, budget_vnd: int, top_k: int = 20) -> dict:
     """Chọn n KOC có tổng điểm lớn nhất mà
       - tổng chi phí ước tính <= ngân sách, và
       - không có 2 KOC cùng nhóm liên hệ (chung người quản lý/agency -> độ phủ trùng).
@@ -81,7 +84,8 @@ def _result(best: list[dict] | None, budget_vnd: int) -> dict:
 
 
 def _choose_exact(pool: list[dict], n: int, budget_vnd: int, top_k: int) -> dict:
-    """Vét cạn tổ hợp trong top_k người điểm cao nhất. C(12,5) = 792 tổ hợp: chạy tức thì.
+    """Vét cạn tổ hợp trong top_k người điểm cao nhất. C(20,5) = 15.504 tổ hợp: dưới 0,1 giây.
+    top_k = 20 (không phải 12) để khi top đầu toàn kênh đắt/cùng nhóm liên hệ vẫn còn kênh rẻ hơn để ghép đủ n người.
     Không đủ n người hợp lệ thì thử n-1, n-2..."""
     cand = pool[:top_k]
     best, best_score = None, -1.0
@@ -159,28 +163,33 @@ def _choose_large(pool: list[dict], n: int, budget_vnd: int) -> dict:
 def _improve(pool: list[dict], sel: list[dict], budget_vnd: int) -> list[dict]:
     """Bước 3 – đổi 1 người trong bộ lấy 1 người ngoài nếu tổng điểm tăng mà vẫn vừa ngân sách.
     Chỉ cần xét người điểm THẤP NHẤT trong bộ và người điểm CAO NHẤT ngoài bộ ở từng mức chi phí
-    (chi phí theo tier nên chỉ có vài mức) -> mỗi vòng nhanh dù có hàng nghìn ứng viên."""
+    (chi phí theo tier nên chỉ có vài mức) -> mỗi vòng nhanh dù có hàng nghìn ứng viên.
+    Người ngoài thuộc nhóm liên hệ đã có trong bộ chỉ được đổi với chính người cùng nhóm đó
+    (đổi 1 lấy 1 trong cùng nhóm vẫn giữ luật tối đa 1 kênh/nhóm)."""
     sel = list(sel)
     for _ in range(2 * len(sel)):
         chosen = {c["handle"] for c in sel}
         used_groups = {c["contact_group"] for c in sel if c.get("contact_group")}
         left = budget_vnd - _cost(sel)
-        worst_in, best_out = {}, {}
+        worst_in, best_out, best_same = {}, {}, {}
         for c in sel:
             k = c["est_cost_vnd"]
             if k not in worst_in or c["final_score"] < worst_in[k]["final_score"]:
                 worst_in[k] = c
         for c in pool:
-            if c["handle"] in chosen or (c.get("contact_group") and c["contact_group"] in used_groups):
+            if c["handle"] in chosen:
                 continue
-            k = c["est_cost_vnd"]
-            if k not in best_out or c["final_score"] > best_out[k]["final_score"]:
-                best_out[k] = c
+            g, k = c.get("contact_group"), c["est_cost_vnd"]
+            best = best_same if g in used_groups else best_out
+            key = (g, k) if g in used_groups else k
+            if key not in best or c["final_score"] > best[key]["final_score"]:
+                best[key] = c
+        pairs = [(o, i) for o in worst_in.values() for i in best_out.values()]
+        pairs += [(o, i) for (g, _k), i in best_same.items() for o in sel if o.get("contact_group") == g]
         swap, gain = None, 1e-9
-        for o in worst_in.values():
-            for i in best_out.values():
-                if i["est_cost_vnd"] - o["est_cost_vnd"] <= left and i["final_score"] - o["final_score"] > gain:
-                    swap, gain = (o, i), i["final_score"] - o["final_score"]
+        for o, i in pairs:
+            if i["est_cost_vnd"] - o["est_cost_vnd"] <= left and i["final_score"] - o["final_score"] > gain:
+                swap, gain = (o, i), i["final_score"] - o["final_score"]
         if swap is None:
             break
         sel = [swap[1] if c is swap[0] else c for c in sel]

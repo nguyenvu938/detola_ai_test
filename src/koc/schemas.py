@@ -53,5 +53,5 @@ class KocRationale(BaseModel):
 
 
 class RationaleSet(BaseModel):
-    summary_vi: str = Field(description="2 câu tổng quan về bộ 5 KOC")
+    summary_vi: str = Field(description="2 câu tổng quan về các KOC trong danh sách được gửi")
     kocs: list[KocRationale]

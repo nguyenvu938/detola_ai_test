@@ -54,9 +54,11 @@ Với mỗi bước (`koc.benchmark.recommend`, tham số trong `config/models.t
 
 Không model rẻ nào đạt thì dùng model đắt hơn **chỉ cho bước đó** (định tuyến theo bước, có `fallback` khi thiếu API key).
 
-**Kết quả (2026-11-17):** sàng lọc = Claude Haiku 5.5 (94%), xem video = Gemini 3.1 Flash-Lite (98%, nâng cấp từ
-Haiku 91% với +$1.27/500 KOC), viết lý do = Gemini 3.1 Flash-Lite. Chi phí dự phóng $2.90 / 500 KOC
-(định tuyến cũ $5.77, toàn Opus $52.25).
+**Kết quả (đo lại 2026-11-18):** sàng lọc = Gemini 3.8 Flash (91%; Claude Haiku 84%), xem video = Gemini 3.5 Flash-Lite
+(97%, nâng cấp từ Haiku 91% với +$1.79/500 KOC), viết lý do = Gemini 3.1 Flash-Lite. Chi phí dự phóng $4.81 / 500 KOC
+(định tuyến của run `final-haiku` $4.82, toàn Opus $51.05). Đo lại toàn bộ vì lần đo đầu (2026-11-17: Haiku 94%,
+3.1 Flash-Lite 98%) có 2 lỗi: adapter Gemini bỏ qua `effort`, và cache của lần đo cũ được tạo trước khi code đổi định dạng input.
+Gemini 4 Carbon ở effort high cần chừa chỗ cho token suy nghĩ (đã sửa trong adapter), nếu không sẽ hết token ra trước khi viết JSON.
 
 ## 5. Giới hạn của cách đo
 

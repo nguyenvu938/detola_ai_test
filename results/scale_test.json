@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-11-17 22:17",
+  "generated_at": "2026-11-18 06:33",
   "seed": 7,
   "profile": {
     "screen": {
-      "model": "claude-haiku-5-5",
-      "in": 1320.125,
-      "out": 600.375,
-      "usd": 0.0004019375,
-      "latency_s": 2.5595
+      "model": "gemini-3.8-flash",
+      "in": 669.375,
+      "out": 135.25,
+      "usd": 0.00100925,
+      "latency_s": 1.1725
     },
     "video": {
-      "model": "gemini-3.1-flash-lite",
-      "in": 4542.666666666667,
-      "out": 343.44444444444446,
-      "usd": 0.001650777777777778,
-      "latency_s": 8.193
+      "model": "gemini-3.5-flash-lite",
+      "in": 4348.888888888889,
+      "out": 315.0,
+      "usd": 0.002092111111111111,
+      "latency_s": 4.184
     },
     "rationale": {
       "model": "gemini-3.1-flash-lite",
-      "in": 482.2,
-      "out": 206.6,
-      "usd": 0.00043039999999999994,
-      "latency_s": 0.7952
+      "in": 470.6,
+      "out": 215.4,
+      "usd": 0.0004408,
+      "latency_s": 0.672
     }
   },
   "scenarios": [
@@ -56,12 +56,12 @@
         "rationale": 1
       },
       "llm_calls_total": 13,
-      "input_tokens": 68963,
-      "output_tokens": 14069,
-      "usd": 0.0251,
+      "input_tokens": 56553,
+      "output_tokens": 6391,
+      "usd": 0.0393,
       "model_wait_s": {
-        "4": 49,
-        "16": 33
+        "4": 25,
+        "16": 17
       },
       "kalodata_calls": 60,
       "kalodata_points": 6.0,
@@ -117,25 +117,25 @@
         "rationale": 5
       },
       "llm_calls_total": 120,
-      "input_tokens": 636825,
-      "output_tokens": 116675,
-      "usd": 0.2348,
+      "input_tokens": 538755,
+      "output_tokens": 58500,
+      "usd": 0.3524,
       "model_wait_s": {
-        "4": 303,
-        "16": 86
+        "4": 156,
+        "16": 45
       },
       "kalodata_calls": 600,
       "kalodata_points": 60.0,
       "kalodata_s": 600,
-      "code_s": 1.1,
+      "code_s": 1.3,
       "select_s": 0.001,
       "db_mb": 3.2,
       "timings": {
-        "enrich": 0.55,
+        "enrich": 0.48,
         "ingest+prefilter": 0.01,
         "rationale": 0.01,
-        "screen": 0.25,
-        "video": 0.09
+        "screen": 0.3,
+        "video": 0.29
       },
       "crashed_then_resumed": false,
       "duplicate_paid_items": 0,
@@ -223,25 +223,25 @@
         "rationale": 50
       },
       "llm_calls_total": 1204,
-      "input_tokens": 6410494,
-      "output_tokens": 1185962,
-      "usd": 2.3612,
+      "input_tokens": 5408970,
+      "output_tokens": 589328,
+      "usd": 3.5559,
       "model_wait_s": {
-        "4": 2950,
-        "16": 753
+        "4": 1499,
+        "16": 384
       },
       "kalodata_calls": 6000,
       "kalodata_points": 600.0,
       "kalodata_s": 6000,
-      "code_s": 18.0,
+      "code_s": 18.5,
       "select_s": 0.002,
-      "db_mb": 31.0,
+      "db_mb": 31.6,
       "timings": {
-        "enrich": 9.22,
-        "ingest+prefilter": 0.14,
+        "enrich": 8.37,
+        "ingest+prefilter": 0.12,
         "rationale": 0.06,
-        "screen": 1.19,
-        "video": 2.96
+        "screen": 2.81,
+        "video": 3.05
       },
       "crashed_then_resumed": false,
       "duplicate_paid_items": 0,

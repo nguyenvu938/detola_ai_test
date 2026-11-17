@@ -155,7 +155,28 @@ def download(video: dict) -> dict:
                 ydl.download([video["url"]])
         except Exception:
             pass   # thiếu âm thanh thì vẫn phân tích được bằng ảnh bìa + mô tả
+    to_mp3(out_dir, vid)
     return {**meta, "cover": cover if cover.exists() else None, "audio": audio if audio.exists() else None}
+
+
+AUDIO_EXTS = (".m4a", ".aac", ".mp4a", ".webm", ".opus", ".ogg", ".wav")
+
+
+def to_mp3(out_dir: Path, vid: str) -> Path | None:
+    """TikTok trả âm thanh lúc .mp3, lúc .m4a (tuỳ bài). Đưa hết về .mp3 để model nào cũng đọc được."""
+    mp3 = out_dir / f"{vid}.mp3"
+    if mp3.exists():
+        return mp3
+    src = next((p for p in sorted(out_dir.glob(f"{vid}.*")) if p.suffix.lower() in AUDIO_EXTS), None)
+    if src is None:
+        return None
+    try:
+        subprocess.run([imageio_ffmpeg.get_ffmpeg_exe(), "-y", "-loglevel", "error", "-i", str(src),
+                        "-vn", "-ac", "1", "-b:a", "64k", str(mp3)], check=True)
+    except Exception:
+        mp3.unlink(missing_ok=True)
+        return None
+    return mp3
 
 
 def subtitle_text(path: Path | None, max_chars: int = 1500) -> str:

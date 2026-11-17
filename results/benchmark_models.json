@@ -9,18 +9,19 @@
         "effort": "low",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 2,
-        "seconds": 35.3,
-        "input_tokens": 21074,
-        "output_tokens": 8159,
-        "cost_usd": 0.00570252,
-        "avg_latency_ms": 17514.5,
+        "seconds": 42.1,
+        "input_tokens": 21122,
+        "output_tokens": 9768,
+        "cost_usd": 0.006821285,
+        "avg_latency_ms": 21035,
         "agreement_vs_ref": {
           "n": 16,
           "account_kind": 1,
-          "primary_niche": 0.875,
-          "topic_relevance_mae": 0.5625,
-          "exact_avg": 0.9375
+          "primary_niche": 0.6875,
+          "topic_relevance_mae": 0.875,
+          "exact_avg": 0.84375
         }
       },
       {
@@ -30,12 +31,13 @@
         "effort": "low",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 2,
-        "seconds": 19.6,
-        "input_tokens": 21074,
-        "output_tokens": 2961,
-        "cost_usd": 0.0682597,
-        "avg_latency_ms": 9637.5,
+        "seconds": 20.1,
+        "input_tokens": 21122,
+        "output_tokens": 2986,
+        "cost_usd": 0.074795,
+        "avg_latency_ms": 10065.5,
         "agreement_vs_ref": {
           "n": 16,
           "account_kind": 1,
@@ -51,18 +53,19 @@
         "effort": "low",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 2,
-        "seconds": 24.2,
-        "input_tokens": 21074,
-        "output_tokens": 2838,
-        "cost_usd": 0.1340594,
-        "avg_latency_ms": 11939.5,
+        "seconds": 24.3,
+        "input_tokens": 21122,
+        "output_tokens": 2883,
+        "cost_usd": 0.1351514,
+        "avg_latency_ms": 12164.5,
         "agreement_vs_ref": {
           "n": 16,
-          "account_kind": 0.875,
-          "primary_niche": 0.9375,
-          "topic_relevance_mae": 0.375,
-          "exact_avg": 0.90625
+          "account_kind": 1,
+          "primary_niche": 0.875,
+          "topic_relevance_mae": 0.1875,
+          "exact_avg": 0.9375
         }
       },
       {
@@ -72,17 +75,18 @@
         "effort": "low",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 2,
-        "seconds": 7.8,
-        "input_tokens": 10757,
-        "output_tokens": 2499,
-        "cost_usd": 0.0094746,
-        "avg_latency_ms": 3776,
+        "seconds": 5.3,
+        "input_tokens": 10783,
+        "output_tokens": 1671,
+        "cost_usd": 0.0074123999999999995,
+        "avg_latency_ms": 2652.5,
         "agreement_vs_ref": {
           "n": 16,
           "account_kind": 1,
           "primary_niche": 0.75,
-          "topic_relevance_mae": 0.875,
+          "topic_relevance_mae": 0.9375,
           "exact_avg": 0.875
         }
       },
@@ -93,12 +97,13 @@
         "effort": "low",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 2,
-        "seconds": 7.9,
-        "input_tokens": 10757,
-        "output_tokens": 2398,
-        "cost_usd": 0.00628625,
-        "avg_latency_ms": 3804,
+        "seconds": 8.4,
+        "input_tokens": 10783,
+        "output_tokens": 2995,
+        "cost_usd": 0.00718825,
+        "avg_latency_ms": 4218.5,
         "agreement_vs_ref": {
           "n": 16,
           "account_kind": 1,
@@ -114,12 +119,101 @@
         "effort": "low",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 2,
-        "seconds": 58.7,
-        "input_tokens": 10757,
-        "output_tokens": 7396,
-        "cost_usd": 0.03580275,
-        "avg_latency_ms": 29206,
+        "seconds": 19.8,
+        "input_tokens": 10783,
+        "output_tokens": 2286,
+        "cost_usd": 0.01665975,
+        "avg_latency_ms": 9896,
+        "agreement_vs_ref": {
+          "n": 16,
+          "account_kind": 1,
+          "primary_niche": 0.8125,
+          "topic_relevance_mae": 0.6875,
+          "exact_avg": 0.90625
+        }
+      },
+      {
+        "stage": "screen",
+        "model": "gemini-4-carbon",
+        "provider": "gemini",
+        "effort": "low",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
+        "calls": 2,
+        "seconds": 29.5,
+        "input_tokens": 11764,
+        "output_tokens": 2569,
+        "cost_usd": 0.049218,
+        "avg_latency_ms": 14764.5,
+        "agreement_vs_ref": {
+          "n": 16,
+          "account_kind": 1,
+          "primary_niche": 0.875,
+          "topic_relevance_mae": 0.1875,
+          "exact_avg": 0.9375
+        }
+      },
+      {
+        "stage": "screen",
+        "model": "deepseek-flash",
+        "provider": "deepseek",
+        "effort": "low",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
+        "calls": 2,
+        "seconds": 52.7,
+        "input_tokens": 14453,
+        "output_tokens": 11150,
+        "cost_usd": 0.016812732,
+        "avg_latency_ms": 26356,
+        "agreement_vs_ref": {
+          "n": 16,
+          "account_kind": 1,
+          "primary_niche": 0.8125,
+          "topic_relevance_mae": 0.375,
+          "exact_avg": 0.90625
+        }
+      },
+      {
+        "stage": "screen",
+        "model": "deepseek-v4-pro",
+        "provider": "deepseek",
+        "effort": "low",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
+        "calls": 2,
+        "seconds": 74.8,
+        "input_tokens": 14397,
+        "output_tokens": 11007,
+        "cost_usd": 0.05867188799999999,
+        "avg_latency_ms": 37410.5,
+        "agreement_vs_ref": {
+          "n": 16,
+          "account_kind": 1,
+          "primary_niche": 0.8125,
+          "topic_relevance_mae": 0.625,
+          "exact_avg": 0.90625
+        }
+      },
+      {
+        "stage": "screen",
+        "model": "claude-opus-5-5",
+        "provider": "anthropic",
+        "effort": "high",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
+        "calls": 2,
+        "seconds": 62.5,
+        "input_tokens": 21122,
+        "output_tokens": 6977,
+        "cost_usd": 0.2046528,
+        "avg_latency_ms": 31260.5,
         "agreement_vs_ref": {
           "n": 16,
           "account_kind": 1,
@@ -132,99 +226,16 @@
         "stage": "screen",
         "model": "gemini-4-carbon",
         "provider": "gemini",
-        "effort": "low",
-        "errors": [],
-        "stats_source": "lần gọi thật của biến thể này",
-        "calls": 2,
-        "seconds": 296.0,
-        "input_tokens": 11738,
-        "output_tokens": 4561,
-        "cost_usd": 0.069086,
-        "avg_latency_ms": 147875.5,
-        "agreement_vs_ref": {
-          "n": 16,
-          "account_kind": 1,
-          "primary_niche": 0.9375,
-          "topic_relevance_mae": 0.25,
-          "exact_avg": 0.96875
-        }
-      },
-      {
-        "stage": "screen",
-        "model": "deepseek-flash",
-        "provider": "deepseek",
-        "effort": "low",
-        "errors": [],
-        "stats_source": "lần gọi thật của biến thể này",
-        "calls": 2,
-        "seconds": 53.1,
-        "input_tokens": 21734,
-        "output_tokens": 11761,
-        "cost_usd": 0.017698104,
-        "avg_latency_ms": 26453,
-        "agreement_vs_ref": {
-          "n": 16,
-          "account_kind": 1,
-          "primary_niche": 0.8125,
-          "topic_relevance_mae": 0.3125,
-          "exact_avg": 0.90625
-        }
-      },
-      {
-        "stage": "screen",
-        "model": "deepseek-v4-pro",
-        "provider": "deepseek",
-        "effort": "low",
-        "errors": [],
-        "stats_source": "lần gọi thật của biến thể này",
-        "calls": 2,
-        "seconds": 152.9,
-        "input_tokens": 14349,
-        "output_tokens": 12595,
-        "cost_usd": 0.064897008,
-        "avg_latency_ms": 76340.5,
-        "agreement_vs_ref": {
-          "n": 16,
-          "account_kind": 1,
-          "primary_niche": 0.9375,
-          "topic_relevance_mae": 0.6875,
-          "exact_avg": 0.96875
-        }
-      },
-      {
-        "stage": "screen",
-        "model": "claude-opus-5-5",
-        "provider": "anthropic",
         "effort": "high",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.143528,
         "calls": 2,
-        "seconds": 59.4,
-        "input_tokens": 21074,
-        "output_tokens": 6718,
-        "cost_usd": 0.2116594,
-        "avg_latency_ms": 29613.5,
-        "agreement_vs_ref": {
-          "n": 16,
-          "account_kind": 1,
-          "primary_niche": 0.9375,
-          "topic_relevance_mae": 0.0625,
-          "exact_avg": 0.96875
-        }
-      },
-      {
-        "stage": "screen",
-        "model": "gemini-4-carbon",
-        "provider": "gemini",
-        "effort": "high",
-        "errors": [],
-        "stats_source": "lần gọi thật của biến thể này",
-        "calls": 2,
-        "seconds": 266.3,
-        "input_tokens": 11738,
-        "output_tokens": 4837,
-        "cost_usd": 0.07184600000000001,
-        "avg_latency_ms": 133036,
+        "seconds": 521.7,
+        "input_tokens": 11764,
+        "output_tokens": 29311,
+        "cost_usd": 0.316638,
+        "avg_latency_ms": 260827,
         "agreement_vs_ref": {
           "n": 16,
           "account_kind": 1,
@@ -240,18 +251,19 @@
         "effort": "high",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 2,
-        "seconds": 187.1,
-        "input_tokens": 14507,
-        "output_tokens": 14227,
-        "cost_usd": 0.071241632,
-        "avg_latency_ms": 93405,
+        "seconds": 96.9,
+        "input_tokens": 14555,
+        "output_tokens": 13459,
+        "cost_usd": 0.068263712,
+        "avg_latency_ms": 48465,
         "agreement_vs_ref": {
           "n": 16,
           "account_kind": 1,
-          "primary_niche": 0.9375,
-          "topic_relevance_mae": 0.1875,
-          "exact_avg": 0.96875
+          "primary_niche": 0.875,
+          "topic_relevance_mae": 0.375,
+          "exact_avg": 0.9375
         }
       }
     ],
@@ -263,22 +275,23 @@
         "effort": "low",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 9,
-        "seconds": 15.8,
-        "input_tokens": 41392,
-        "output_tokens": 5747,
-        "cost_usd": 0.0054559000000000005,
-        "avg_latency_ms": 3833.222222222222,
+        "seconds": 14.4,
+        "input_tokens": 40782,
+        "output_tokens": 5767,
+        "cost_usd": 0.0054049,
+        "avg_latency_ms": 3413.4444444444443,
         "agreement_vs_ref": {
           "n": 9,
           "is_on_topic": 1,
           "face_on_camera": 1,
           "product_demo_on_skin": 0.7142857142857143,
-          "shows_texture_or_finish": 0.8333333333333334,
+          "shows_texture_or_finish": 0.8571428571428571,
           "presenter_gender": 1,
-          "hook_strength_mae": 0.2777777777777778,
-          "production_quality_mae": 0.7222222222222222,
-          "exact_avg": 0.9095238095238095
+          "hook_strength_mae": 0.4444444444444444,
+          "production_quality_mae": 0.6111111111111112,
+          "exact_avg": 0.9142857142857143
         }
       },
       {
@@ -288,12 +301,13 @@
         "effort": "low",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 9,
-        "seconds": 18.9,
-        "input_tokens": 41392,
-        "output_tokens": 5975,
-        "cost_usd": 0.111398,
-        "avg_latency_ms": 5270.555555555556,
+        "seconds": 19.9,
+        "input_tokens": 40782,
+        "output_tokens": 5897,
+        "cost_usd": 0.109398,
+        "avg_latency_ms": 5437.666666666667,
         "agreement_vs_ref": {
           "n": 9,
           "is_on_topic": 1,
@@ -301,7 +315,7 @@
           "product_demo_on_skin": 0.8571428571428571,
           "shows_texture_or_finish": 1,
           "presenter_gender": 1,
-          "hook_strength_mae": 0.2777777777777778,
+          "hook_strength_mae": 0.3333333333333333,
           "production_quality_mae": 0.16666666666666666,
           "exact_avg": 0.9714285714285714
         }
@@ -313,12 +327,13 @@
         "effort": "low",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 9,
-        "seconds": 21.8,
-        "input_tokens": 41392,
-        "output_tokens": 5539,
-        "cost_usd": 0.214076,
-        "avg_latency_ms": 6320.111111111111,
+        "seconds": 23.1,
+        "input_tokens": 40782,
+        "output_tokens": 5517,
+        "cost_usd": 0.211196,
+        "avg_latency_ms": 6624.777777777777,
         "agreement_vs_ref": {
           "n": 9,
           "is_on_topic": 1,
@@ -326,7 +341,7 @@
           "product_demo_on_skin": 0.8571428571428571,
           "shows_texture_or_finish": 1,
           "presenter_gender": 0.875,
-          "hook_strength_mae": 0.2777777777777778,
+          "hook_strength_mae": 0.2222222222222222,
           "production_quality_mae": 0.16666666666666666,
           "exact_avg": 0.9464285714285714
         }
@@ -338,22 +353,23 @@
         "effort": "low",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 9,
         "seconds": 28.3,
-        "input_tokens": 43852,
-        "output_tokens": 3016,
-        "cost_usd": 0.020695599999999998,
-        "avg_latency_ms": 10236.666666666666,
+        "input_tokens": 43244,
+        "output_tokens": 2714,
+        "cost_usd": 0.0197582,
+        "avg_latency_ms": 9385.666666666666,
         "agreement_vs_ref": {
           "n": 9,
-          "is_on_topic": 0.8888888888888888,
+          "is_on_topic": 1,
           "face_on_camera": 1,
           "product_demo_on_skin": 1,
-          "shows_texture_or_finish": 1,
+          "shows_texture_or_finish": 0.8571428571428571,
           "presenter_gender": 1,
-          "hook_strength_mae": 0.6111111111111112,
-          "production_quality_mae": 0.16666666666666666,
-          "exact_avg": 0.9777777777777777
+          "hook_strength_mae": 0.6666666666666666,
+          "production_quality_mae": 0.3888888888888889,
+          "exact_avg": 0.9714285714285714
         }
       },
       {
@@ -363,22 +379,23 @@
         "effort": "low",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 9,
-        "seconds": 27.3,
-        "input_tokens": 43852,
-        "output_tokens": 3081,
-        "cost_usd": 0.0155845,
-        "avg_latency_ms": 8869,
+        "seconds": 38.5,
+        "input_tokens": 43244,
+        "output_tokens": 5998,
+        "cost_usd": 0.02014925,
+        "avg_latency_ms": 8877.888888888889,
         "agreement_vs_ref": {
           "n": 9,
           "is_on_topic": 0.8888888888888888,
           "face_on_camera": 1,
-          "product_demo_on_skin": 1,
-          "shows_texture_or_finish": 1,
+          "product_demo_on_skin": 0.7142857142857143,
+          "shows_texture_or_finish": 0.8571428571428571,
           "presenter_gender": 1,
-          "hook_strength_mae": 0.3888888888888889,
-          "production_quality_mae": 0.2777777777777778,
-          "exact_avg": 0.9777777777777777
+          "hook_strength_mae": 0.5555555555555556,
+          "production_quality_mae": 0.6111111111111112,
+          "exact_avg": 0.892063492063492
         }
       },
       {
@@ -388,22 +405,23 @@
         "effort": "low",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 9,
-        "seconds": 67.4,
-        "input_tokens": 43852,
-        "output_tokens": 9801,
-        "cost_usd": 0.06964275,
-        "avg_latency_ms": 23434,
+        "seconds": 34.3,
+        "input_tokens": 43244,
+        "output_tokens": 3264,
+        "cost_usd": 0.044673,
+        "avg_latency_ms": 13699.222222222223,
         "agreement_vs_ref": {
           "n": 9,
-          "is_on_topic": 1,
+          "is_on_topic": 0.8888888888888888,
           "face_on_camera": 1,
           "product_demo_on_skin": 0.8571428571428571,
           "shows_texture_or_finish": 1,
           "presenter_gender": 1,
-          "hook_strength_mae": 0.3888888888888889,
+          "hook_strength_mae": 0.2222222222222222,
           "production_quality_mae": 0.2777777777777778,
-          "exact_avg": 0.9714285714285714
+          "exact_avg": 0.9492063492063492
         }
       },
       {
@@ -413,12 +431,13 @@
         "effort": "low",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 9,
-        "seconds": 355.2,
-        "input_tokens": 57326,
-        "output_tokens": 6799,
-        "cost_usd": 0.182642,
-        "avg_latency_ms": 136398.88888888888,
+        "seconds": 38.7,
+        "input_tokens": 56718,
+        "output_tokens": 3656,
+        "cost_usd": 0.149996,
+        "avg_latency_ms": 15477.222222222223,
         "agreement_vs_ref": {
           "n": 9,
           "is_on_topic": 1,
@@ -426,8 +445,8 @@
           "product_demo_on_skin": 1,
           "shows_texture_or_finish": 1,
           "presenter_gender": 1,
-          "hook_strength_mae": 0.3888888888888889,
-          "production_quality_mae": 0.2777777777777778,
+          "hook_strength_mae": 0.4444444444444444,
+          "production_quality_mae": 0.3888888888888889,
           "exact_avg": 1
         }
       },
@@ -438,22 +457,23 @@
         "effort": "low",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 9,
-        "seconds": 27.7,
-        "input_tokens": 24231,
-        "output_tokens": 12175,
-        "cost_usd": 0.017024772,
-        "avg_latency_ms": 6962.555555555556,
+        "seconds": 35.9,
+        "input_tokens": 23738,
+        "output_tokens": 17545,
+        "cost_usd": 0.025127207999999998,
+        "avg_latency_ms": 10361.777777777777,
         "agreement_vs_ref": {
           "n": 9,
           "is_on_topic": 1,
           "face_on_camera": 1,
-          "product_demo_on_skin": 0.7142857142857143,
-          "shows_texture_or_finish": 0.8333333333333334,
+          "product_demo_on_skin": 1,
+          "shows_texture_or_finish": 0.7142857142857143,
           "presenter_gender": 1,
-          "hook_strength_mae": 0.3888888888888889,
-          "production_quality_mae": 0.2777777777777778,
-          "exact_avg": 0.9095238095238095
+          "hook_strength_mae": 0.3333333333333333,
+          "production_quality_mae": 0.6111111111111112,
+          "exact_avg": 0.9428571428571428
         }
       },
       {
@@ -463,12 +483,13 @@
         "effort": "high",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 9,
-        "seconds": 39.0,
-        "input_tokens": 41392,
-        "output_tokens": 10511,
-        "cost_usd": 0.313516,
-        "avg_latency_ms": 11653.666666666666,
+        "seconds": 39.6,
+        "input_tokens": 40782,
+        "output_tokens": 10423,
+        "cost_usd": 0.299012,
+        "avg_latency_ms": 11776.777777777777,
         "agreement_vs_ref": {
           "n": 9,
           "is_on_topic": 1,
@@ -476,7 +497,7 @@
           "product_demo_on_skin": 1,
           "shows_texture_or_finish": 1,
           "presenter_gender": 1,
-          "hook_strength_mae": 0.2777777777777778,
+          "hook_strength_mae": 0.2222222222222222,
           "production_quality_mae": 0.16666666666666666,
           "exact_avg": 1
         }
@@ -488,12 +509,13 @@
         "effort": "high",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.340232,
         "calls": 9,
-        "seconds": 225.7,
-        "input_tokens": 57326,
-        "output_tokens": 4778,
-        "cost_usd": 0.162432,
-        "avg_latency_ms": 88339.11111111111,
+        "seconds": 1351.8,
+        "input_tokens": 56718,
+        "output_tokens": 41590,
+        "cost_usd": 0.529336,
+        "avg_latency_ms": 150196.44444444444,
         "agreement_vs_ref": {
           "n": 9,
           "is_on_topic": 1,
@@ -501,7 +523,7 @@
           "product_demo_on_skin": 1,
           "shows_texture_or_finish": 1,
           "presenter_gender": 1,
-          "hook_strength_mae": 0.2777777777777778,
+          "hook_strength_mae": 0.2222222222222222,
           "production_quality_mae": 0.16666666666666666,
           "exact_avg": 1
         }
@@ -515,19 +537,20 @@
         "effort": "medium",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 1,
-        "seconds": 14.3,
-        "input_tokens": 4603,
-        "output_tokens": 3141,
-        "cost_usd": 0.0020653000000000004,
-        "avg_latency_ms": 14322,
+        "seconds": 16.8,
+        "input_tokens": 4635,
+        "output_tokens": 3773,
+        "cost_usd": 0.0023853000000000004,
+        "avg_latency_ms": 16830,
         "citation_check": {
-          "refs_total": 25,
+          "refs_total": 30,
           "refs_invalid": [],
           "valid_rate": 1.0,
           "handles_match": true
         },
-        "avg_reason_chars": 233.5
+        "avg_reason_chars": 311.75
       },
       {
         "stage": "rationale",
@@ -536,19 +559,20 @@
         "effort": "medium",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 1,
-        "seconds": 17.5,
-        "input_tokens": 4603,
-        "output_tokens": 2508,
-        "cost_usd": 0.034976,
-        "avg_latency_ms": 17471,
+        "seconds": 10.7,
+        "input_tokens": 4635,
+        "output_tokens": 1634,
+        "cost_usd": 0.026316,
+        "avg_latency_ms": 10678,
         "citation_check": {
-          "refs_total": 17,
+          "refs_total": 18,
           "refs_invalid": [],
           "valid_rate": 1.0,
           "handles_match": true
         },
-        "avg_reason_chars": 218.5
+        "avg_reason_chars": 215.25
       },
       {
         "stage": "rationale",
@@ -557,19 +581,20 @@
         "effort": "medium",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 1,
-        "seconds": 23.2,
-        "input_tokens": 4603,
-        "output_tokens": 2502,
-        "cost_usd": 0.069832,
-        "avg_latency_ms": 23248,
+        "seconds": 18.2,
+        "input_tokens": 4635,
+        "output_tokens": 2107,
+        "cost_usd": 0.062092,
+        "avg_latency_ms": 18228,
         "citation_check": {
-          "refs_total": 18,
+          "refs_total": 17,
           "refs_invalid": [],
           "valid_rate": 1.0,
           "handles_match": true
         },
-        "avg_reason_chars": 231.75
+        "avg_reason_chars": 231
       },
       {
         "stage": "rationale",
@@ -578,19 +603,20 @@
         "effort": "medium",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 1,
-        "seconds": 3.3,
+        "seconds": 3.0,
         "input_tokens": 2270,
-        "output_tokens": 905,
-        "cost_usd": 0.0029435,
-        "avg_latency_ms": 3334,
+        "output_tokens": 887,
+        "cost_usd": 0.0028985,
+        "avg_latency_ms": 3038,
         "citation_check": {
-          "refs_total": 12,
+          "refs_total": 17,
           "refs_invalid": [],
           "valid_rate": 1.0,
           "handles_match": true
         },
-        "avg_reason_chars": 214.5
+        "avg_reason_chars": 198.5
       },
       {
         "stage": "rationale",
@@ -599,19 +625,20 @@
         "effort": "medium",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 1,
-        "seconds": 3.8,
+        "seconds": 3.7,
         "input_tokens": 2270,
-        "output_tokens": 922,
-        "cost_usd": 0.0019505,
-        "avg_latency_ms": 3774,
+        "output_tokens": 1022,
+        "cost_usd": 0.0021005,
+        "avg_latency_ms": 3676,
         "citation_check": {
-          "refs_total": 15,
+          "refs_total": 17,
           "refs_invalid": [],
           "valid_rate": 1.0,
           "handles_match": true
         },
-        "avg_reason_chars": 224.25
+        "avg_reason_chars": 229.75
       },
       {
         "stage": "rationale",
@@ -620,19 +647,20 @@
         "effort": "medium",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 1,
-        "seconds": 31.2,
+        "seconds": 22.3,
         "input_tokens": 2270,
-        "output_tokens": 4115,
-        "cost_usd": 0.01713375,
-        "avg_latency_ms": 31221,
+        "output_tokens": 3180,
+        "cost_usd": 0.0136275,
+        "avg_latency_ms": 22269,
         "citation_check": {
-          "refs_total": 19,
+          "refs_total": 16,
           "refs_invalid": [],
           "valid_rate": 1.0,
           "handles_match": true
         },
-        "avg_reason_chars": 337.5
+        "avg_reason_chars": 267.75
       },
       {
         "stage": "rationale",
@@ -641,19 +669,20 @@
         "effort": "medium",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 1,
-        "seconds": 83.2,
-        "input_tokens": 2736,
-        "output_tokens": 5350,
-        "cost_usd": 0.058972,
-        "avg_latency_ms": 83157,
+        "seconds": 72.0,
+        "input_tokens": 2739,
+        "output_tokens": 5614,
+        "cost_usd": 0.061618,
+        "avg_latency_ms": 71965,
         "citation_check": {
           "refs_total": 29,
           "refs_invalid": [],
           "valid_rate": 1.0,
           "handles_match": true
         },
-        "avg_reason_chars": 335.25
+        "avg_reason_chars": 419.25
       },
       {
         "stage": "rationale",
@@ -662,19 +691,20 @@
         "effort": "medium",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 1,
-        "seconds": 25.0,
-        "input_tokens": 3212,
-        "output_tokens": 5293,
-        "cost_usd": 0.007127039999999999,
-        "avg_latency_ms": 24983,
+        "seconds": 22.1,
+        "input_tokens": 3218,
+        "output_tokens": 5126,
+        "cost_usd": 0.006966072,
+        "avg_latency_ms": 22085,
         "citation_check": {
-          "refs_total": 22,
+          "refs_total": 28,
           "refs_invalid": [],
           "valid_rate": 1.0,
           "handles_match": true
         },
-        "avg_reason_chars": 335.5
+        "avg_reason_chars": 377
       },
       {
         "stage": "rationale",
@@ -683,19 +713,20 @@
         "effort": "medium",
         "errors": [],
         "stats_source": "lần gọi thật của biến thể này",
+        "failed_cost_usd": 0.0,
         "calls": 1,
-        "seconds": 105.7,
-        "input_tokens": 3263,
-        "output_tokens": 9187,
-        "cost_usd": 0.04068767999999999,
-        "avg_latency_ms": 105730,
+        "seconds": 58.7,
+        "input_tokens": 3269,
+        "output_tokens": 9493,
+        "cost_usd": 0.04190736,
+        "avg_latency_ms": 58689,
         "citation_check": {
-          "refs_total": 17,
+          "refs_total": 18,
           "refs_invalid": [],
           "valid_rate": 1.0,
           "handles_match": true
         },
-        "avg_reason_chars": 273
+        "avg_reason_chars": 229.5
       }
     ]
   },
@@ -725,21 +756,20 @@
         "_huongdaily",
         "beobeo.21",
         "lapiszuzu",
-        "reviewkemchongnang",
-        "trangriviuuu_01"
+        "reviewkemchongnang"
       ],
-      "jaccard_vs_pipeline": 0.5
+      "jaccard_vs_pipeline": 0.6
     },
     {
       "model": "claude-sonnet-5-5",
       "effort": "low",
       "selected": [
         "_huongdaily",
+        "beobeo.21",
         "lapiszuzu",
-        "ngoc.matcha.review",
         "reviewkemchongnang"
       ],
-      "jaccard_vs_pipeline": 1.0
+      "jaccard_vs_pipeline": 0.6
     },
     {
       "model": "claude-opus-5-5",
@@ -747,8 +777,8 @@
       "selected": [
         "_huongdaily",
         "lapiszuzu",
-        "ngoc.matcha.review",
-        "trangriviuuu_01"
+        "mai.trinh.h",
+        "reviewkemchongnang"
       ],
       "jaccard_vs_pipeline": 0.6
     },
@@ -782,11 +812,11 @@
       "selected": [
         "_huongdaily",
         "emlylynguyen",
-        "mai.trinh.h",
+        "lapiszuzu",
         "reviewkemchongnang",
         "trangriviuuu_01"
       ],
-      "jaccard_vs_pipeline": 0.2857142857142857
+      "jaccard_vs_pipeline": 0.5
     },
     {
       "model": "gemini-4-carbon",
@@ -804,12 +834,13 @@
       "model": "deepseek-flash",
       "effort": "low",
       "selected": [
+        "_huongdaily",
+        "beobeo.21",
         "lapiszuzu",
-        "ngoc.matcha.review",
         "reviewkemchongnang",
         "trangriviuuu_01"
       ],
-      "jaccard_vs_pipeline": 0.6
+      "jaccard_vs_pipeline": 0.5
     },
     {
       "model": "claude-opus-5-5",
@@ -817,10 +848,10 @@
       "selected": [
         "_huongdaily",
         "lapiszuzu",
-        "ngoc.matcha.review",
+        "mai.trinh.h",
         "reviewkemchongnang"
       ],
-      "jaccard_vs_pipeline": 1.0
+      "jaccard_vs_pipeline": 0.6
     },
     {
       "model": "gemini-4-carbon",
@@ -839,44 +870,44 @@
     "min_agreement": 0.9,
     "stages": {
       "screen": {
-        "cheapest_passing": "claude-haiku-5-5",
-        "model": "claude-haiku-5-5",
+        "cheapest_passing": "gemini-3.8-flash",
+        "model": "gemini-3.8-flash",
         "effort": "low",
-        "agreement": 0.9375,
-        "usd_per_item": 0.0003564075,
-        "usd_500_koc": 0.712815,
-        "avg_latency_s": 17.5145,
+        "agreement": 0.90625,
+        "usd_per_item": 0.001041234375,
+        "usd_500_koc": 2.0824687500000003,
+        "avg_latency_s": 9.896,
         "best_quality": {
-          "model": "gemini-3.8-flash",
-          "agreement": 1,
-          "usd_500_koc": 4.47534375
+          "model": "gemini-4-carbon",
+          "agreement": 0.9375,
+          "usd_500_koc": 6.1522499999999996
         },
-        "current": "claude-haiku-5-5",
-        "why": "rẻ nhất trong các model khớp tham chiếu ≥ 90%: khớp 94%, 0.00036 USD/item. Model khớp cao nhất là gemini-3.8-flash (100%), đắt hơn 6 lần nhưng chỉ hơn 6 điểm %; không model nào vừa hơn ≥ 5 điểm % vừa tốn thêm ≤ $2/500 KOC"
+        "current": "gemini-3.8-flash",
+        "why": "rẻ nhất trong các model khớp tham chiếu ≥ 90%: khớp 91%, 0.00104 USD/item. Model khớp cao nhất là gemini-4-carbon (94%), đắt hơn 3 lần nhưng chỉ hơn 3 điểm %; không model nào vừa hơn ≥ 5 điểm % vừa tốn thêm ≤ $2/500 KOC"
       },
       "video": {
         "cheapest_passing": "claude-haiku-5-5",
-        "model": "gemini-3.1-flash-lite",
+        "model": "gemini-3.5-flash-lite",
         "effort": "low",
-        "agreement": 0.9777777777777777,
-        "usd_per_item": 0.001731611111111111,
-        "usd_500_koc": 1.9480625,
-        "avg_latency_s": 8.869,
+        "agreement": 0.9714285714285714,
+        "usd_per_item": 0.0021953555555555555,
+        "usd_500_koc": 2.469775,
+        "avg_latency_s": 9.385666666666665,
         "best_quality": {
           "model": "gemini-4-carbon",
           "agreement": 1,
-          "usd_500_koc": 22.83025
+          "usd_500_koc": 18.749499999999998
         },
-        "current": "gemini-3.1-flash-lite",
-        "why": "khớp 98%, cao hơn model rẻ nhất đạt ngưỡng (claude-haiku-5-5, 91%) 7 điểm % mà chỉ tốn thêm $1.27 cho 500 KOC (ngưỡng nâng cấp: ≥ 5 điểm %, ≤ $2)."
+        "current": "gemini-3.5-flash-lite",
+        "why": "khớp 97%, cao hơn model rẻ nhất đạt ngưỡng (claude-haiku-5-5, 91%) 6 điểm % mà chỉ tốn thêm $1.79 cho 500 KOC (ngưỡng nâng cấp: ≥ 5 điểm %, ≤ $2)."
       },
       "rationale": {
         "model": "gemini-3.1-flash-lite",
         "effort": "medium",
         "agreement": null,
-        "usd_per_item": 0.0019505,
-        "usd_500_koc": 0.2438125,
-        "avg_latency_s": 3.774,
+        "usd_per_item": 0.0021005,
+        "usd_500_koc": 0.2625625,
+        "avg_latency_s": 3.676,
         "current": "gemini-3.1-flash-lite",
         "why": "rẻ nhất trong 9 model có 100% mã bằng chứng hợp lệ (kiểm bằng code). Văn phong không đo tự động được: nên đọc 1 bản mẫu trước khi đổi (results/benchmark_outputs.json)."
       }
@@ -884,22 +915,22 @@
     "stability": [
       {
         "handle": "_huongdaily",
-        "share": 0.9,
+        "share": 1.0,
         "in_pipeline": true
       },
       {
         "handle": "lapiszuzu",
-        "share": 0.9,
+        "share": 1.0,
         "in_pipeline": true
       },
       {
         "handle": "reviewkemchongnang",
-        "share": 0.9,
+        "share": 1.0,
         "in_pipeline": true
       },
       {
         "handle": "trangriviuuu_01",
-        "share": 0.8,
+        "share": 0.6,
         "in_pipeline": false
       },
       {
@@ -908,18 +939,13 @@
         "in_pipeline": false
       },
       {
-        "handle": "ngoc.matcha.review",
-        "share": 0.4,
-        "in_pipeline": true
-      },
-      {
         "handle": "beobeo.21",
-        "share": 0.1,
+        "share": 0.3,
         "in_pipeline": false
       },
       {
         "handle": "mai.trinh.h",
-        "share": 0.1,
+        "share": 0.2,
         "in_pipeline": false
       }
     ],
@@ -929,10 +955,10 @@
         "stages": {
           "screen": {
             "pick": {
-              "model": "claude-haiku-5-5",
+              "model": "claude-opus-5-5",
               "agreement": 0.9375,
-              "usd_500_koc": 0.712815,
-              "latency_s": 17.5145,
+              "usd_500_koc": 16.893925,
+              "latency_s": 12.1645,
               "input": null,
               "n": 16,
               "fields": {
@@ -942,10 +968,10 @@
             },
             "passes": true,
             "best": {
-              "model": "claude-haiku-5-5",
+              "model": "claude-opus-5-5",
               "agreement": 0.9375,
-              "usd_500_koc": 0.712815,
-              "latency_s": 17.5145,
+              "usd_500_koc": 16.893925,
+              "latency_s": 12.1645,
               "input": null,
               "n": 16,
               "fields": {
@@ -955,14 +981,14 @@
             },
             "cheapest": {
               "model": "claude-haiku-5-5",
-              "agreement": 0.9375,
-              "usd_500_koc": 0.712815,
-              "latency_s": 17.5145,
+              "agreement": 0.84375,
+              "usd_500_koc": 0.852660625,
+              "latency_s": 21.035,
               "input": null,
               "n": 16,
               "fields": {
                 "account_kind": 1,
-                "primary_niche": 0.875
+                "primary_niche": 0.6875
               }
             },
             "tested": [
@@ -970,21 +996,21 @@
               "claude-opus-5-5",
               "claude-sonnet-5-5"
             ],
-            "why": "được chọn"
+            "why": "đắt hơn 8.1 lần"
           },
           "video": {
             "pick": {
               "model": "claude-haiku-5-5",
-              "agreement": 0.9095238095238095,
-              "usd_500_koc": 0.6819875000000001,
-              "latency_s": 3.833222222222222,
+              "agreement": 0.9142857142857143,
+              "usd_500_koc": 0.6756125,
+              "latency_s": 3.4134444444444445,
               "input": "6 khung hình + phụ đề",
               "n": 9,
               "fields": {
                 "is_on_topic": 1,
                 "face_on_camera": 1,
                 "product_demo_on_skin": 0.7142857142857143,
-                "shows_texture_or_finish": 0.8333333333333334,
+                "shows_texture_or_finish": 0.8571428571428571,
                 "presenter_gender": 1
               }
             },
@@ -992,8 +1018,8 @@
             "best": {
               "model": "claude-sonnet-5-5",
               "agreement": 0.9714285714285714,
-              "usd_500_koc": 13.92475,
-              "latency_s": 5.270555555555555,
+              "usd_500_koc": 13.67475,
+              "latency_s": 5.437666666666667,
               "input": "6 khung hình + phụ đề",
               "n": 9,
               "fields": {
@@ -1006,16 +1032,16 @@
             },
             "cheapest": {
               "model": "claude-haiku-5-5",
-              "agreement": 0.9095238095238095,
-              "usd_500_koc": 0.6819875000000001,
-              "latency_s": 3.833222222222222,
+              "agreement": 0.9142857142857143,
+              "usd_500_koc": 0.6756125,
+              "latency_s": 3.4134444444444445,
               "input": "6 khung hình + phụ đề",
               "n": 9,
               "fields": {
                 "is_on_topic": 1,
                 "face_on_camera": 1,
                 "product_demo_on_skin": 0.7142857142857143,
-                "shows_texture_or_finish": 0.8333333333333334,
+                "shows_texture_or_finish": 0.8571428571428571,
                 "presenter_gender": 1
               }
             },
@@ -1024,14 +1050,14 @@
               "claude-opus-5-5",
               "claude-sonnet-5-5"
             ],
-            "why": "khớp thấp hơn 7 điểm %; rẻ hơn 2.9 lần; nhanh hơn 2.3 lần"
+            "why": "khớp thấp hơn 6 điểm %; rẻ hơn 3.7 lần; nhanh hơn 2.7 lần"
           },
           "rationale": {
             "pick": {
               "model": "claude-haiku-5-5",
               "agreement": 1.0,
-              "usd_500_koc": 0.2581625000000001,
-              "latency_s": 14.322,
+              "usd_500_koc": 0.29816250000000005,
+              "latency_s": 16.83,
               "input": null,
               "n": null,
               "fields": {}
@@ -1040,8 +1066,8 @@
             "best": {
               "model": "claude-haiku-5-5",
               "agreement": 1.0,
-              "usd_500_koc": 0.2581625000000001,
-              "latency_s": 14.322,
+              "usd_500_koc": 0.29816250000000005,
+              "latency_s": 16.83,
               "input": null,
               "n": null,
               "fields": {}
@@ -1049,8 +1075,8 @@
             "cheapest": {
               "model": "claude-haiku-5-5",
               "agreement": 1.0,
-              "usd_500_koc": 0.2581625000000001,
-              "latency_s": 14.322,
+              "usd_500_koc": 0.29816250000000005,
+              "latency_s": 16.83,
               "input": null,
               "n": null,
               "fields": {}
@@ -1060,11 +1086,11 @@
               "claude-opus-5-5",
               "claude-sonnet-5-5"
             ],
-            "why": "chi phí ngang nhau; chậm hơn 3.8 lần"
+            "why": "chi phí ngang nhau; chậm hơn 4.6 lần"
           }
         },
         "plan": {
-          "screen": "claude-haiku-5-5",
+          "screen": "claude-opus-5-5",
           "video": "claude-haiku-5-5",
           "rationale": "claude-haiku-5-5"
         },
@@ -1080,34 +1106,34 @@
           "screen": {
             "pick": {
               "model": "gemini-3.8-flash",
-              "agreement": 1,
-              "usd_500_koc": 4.47534375,
-              "latency_s": 29.206,
+              "agreement": 0.90625,
+              "usd_500_koc": 2.0824687500000003,
+              "latency_s": 9.896,
               "input": null,
               "n": 16,
               "fields": {
                 "account_kind": 1,
-                "primary_niche": 1
+                "primary_niche": 0.8125
               }
             },
             "passes": true,
             "best": {
-              "model": "gemini-3.8-flash",
-              "agreement": 1,
-              "usd_500_koc": 4.47534375,
-              "latency_s": 29.206,
+              "model": "gemini-4-carbon",
+              "agreement": 0.9375,
+              "usd_500_koc": 6.1522499999999996,
+              "latency_s": 14.7645,
               "input": null,
               "n": 16,
               "fields": {
                 "account_kind": 1,
-                "primary_niche": 1
+                "primary_niche": 0.875
               }
             },
             "cheapest": {
               "model": "gemini-3.1-flash-lite",
               "agreement": 0.875,
-              "usd_500_koc": 0.78578125,
-              "latency_s": 3.804,
+              "usd_500_koc": 0.89853125,
+              "latency_s": 4.2185,
               "input": null,
               "n": 16,
               "fields": {
@@ -1121,21 +1147,21 @@
               "gemini-3.8-flash",
               "gemini-4-carbon"
             ],
-            "why": "đắt hơn 6.3 lần; chậm hơn 1.7 lần"
+            "why": "được chọn"
           },
           "video": {
             "pick": {
-              "model": "gemini-3.1-flash-lite",
-              "agreement": 0.9777777777777777,
-              "usd_500_koc": 1.9480625,
-              "latency_s": 8.869,
+              "model": "gemini-3.5-flash-lite",
+              "agreement": 0.9714285714285714,
+              "usd_500_koc": 2.469775,
+              "latency_s": 9.385666666666665,
               "input": "video gốc có tiếng",
               "n": 9,
               "fields": {
-                "is_on_topic": 0.8888888888888888,
+                "is_on_topic": 1,
                 "face_on_camera": 1,
                 "product_demo_on_skin": 1,
-                "shows_texture_or_finish": 1,
+                "shows_texture_or_finish": 0.8571428571428571,
                 "presenter_gender": 1
               }
             },
@@ -1143,8 +1169,8 @@
             "best": {
               "model": "gemini-4-carbon",
               "agreement": 1,
-              "usd_500_koc": 22.83025,
-              "latency_s": 136.39888888888888,
+              "usd_500_koc": 18.749499999999998,
+              "latency_s": 15.477222222222222,
               "input": "video gốc có tiếng",
               "n": 9,
               "fields": {
@@ -1156,17 +1182,17 @@
               }
             },
             "cheapest": {
-              "model": "gemini-3.1-flash-lite",
-              "agreement": 0.9777777777777777,
-              "usd_500_koc": 1.9480625,
-              "latency_s": 8.869,
+              "model": "gemini-3.5-flash-lite",
+              "agreement": 0.9714285714285714,
+              "usd_500_koc": 2.469775,
+              "latency_s": 9.385666666666665,
               "input": "video gốc có tiếng",
               "n": 9,
               "fields": {
-                "is_on_topic": 0.8888888888888888,
+                "is_on_topic": 1,
                 "face_on_camera": 1,
                 "product_demo_on_skin": 1,
-                "shows_texture_or_finish": 1,
+                "shows_texture_or_finish": 0.8571428571428571,
                 "presenter_gender": 1
               }
             },
@@ -1182,8 +1208,8 @@
             "pick": {
               "model": "gemini-3.1-flash-lite",
               "agreement": 1.0,
-              "usd_500_koc": 0.2438125,
-              "latency_s": 3.774,
+              "usd_500_koc": 0.2625625,
+              "latency_s": 3.676,
               "input": null,
               "n": null,
               "fields": {}
@@ -1192,8 +1218,8 @@
             "best": {
               "model": "gemini-3.1-flash-lite",
               "agreement": 1.0,
-              "usd_500_koc": 0.2438125,
-              "latency_s": 3.774,
+              "usd_500_koc": 0.2625625,
+              "latency_s": 3.676,
               "input": null,
               "n": null,
               "fields": {}
@@ -1201,8 +1227,8 @@
             "cheapest": {
               "model": "gemini-3.1-flash-lite",
               "agreement": 1.0,
-              "usd_500_koc": 0.2438125,
-              "latency_s": 3.774,
+              "usd_500_koc": 0.2625625,
+              "latency_s": 3.676,
               "input": null,
               "n": null,
               "fields": {}
@@ -1218,12 +1244,12 @@
         },
         "plan": {
           "screen": "gemini-3.8-flash",
-          "video": "gemini-3.1-flash-lite",
+          "video": "gemini-3.5-flash-lite",
           "rationale": "gemini-3.1-flash-lite"
         },
         "cheapest_plan": {
           "screen": "gemini-3.1-flash-lite",
-          "video": "gemini-3.1-flash-lite",
+          "video": "gemini-3.5-flash-lite",
           "rationale": "gemini-3.1-flash-lite"
         }
       },
@@ -1234,8 +1260,8 @@
             "pick": {
               "model": "deepseek-flash",
               "agreement": 0.90625,
-              "usd_500_koc": 2.212263,
-              "latency_s": 26.453,
+              "usd_500_koc": 2.1015915,
+              "latency_s": 26.356,
               "input": null,
               "n": 16,
               "fields": {
@@ -1245,22 +1271,22 @@
             },
             "passes": true,
             "best": {
-              "model": "deepseek-v4-pro",
-              "agreement": 0.96875,
-              "usd_500_koc": 8.112126,
-              "latency_s": 76.3405,
+              "model": "deepseek-flash",
+              "agreement": 0.90625,
+              "usd_500_koc": 2.1015915,
+              "latency_s": 26.356,
               "input": null,
               "n": 16,
               "fields": {
                 "account_kind": 1,
-                "primary_niche": 0.9375
+                "primary_niche": 0.8125
               }
             },
             "cheapest": {
               "model": "deepseek-flash",
               "agreement": 0.90625,
-              "usd_500_koc": 2.212263,
-              "latency_s": 26.453,
+              "usd_500_koc": 2.1015915,
+              "latency_s": 26.356,
               "input": null,
               "n": 16,
               "fields": {
@@ -1272,66 +1298,66 @@
               "deepseek-flash",
               "deepseek-v4-pro"
             ],
-            "why": "khớp thấp hơn 3 điểm %; đắt hơn 3.1 lần; chậm hơn 1.5 lần"
+            "why": "chi phí ngang nhau; chậm hơn 2.7 lần"
           },
           "video": {
             "pick": {
               "model": "deepseek-flash",
-              "agreement": 0.9095238095238095,
-              "usd_500_koc": 2.1280965000000003,
-              "latency_s": 6.962555555555555,
+              "agreement": 0.9428571428571428,
+              "usd_500_koc": 3.140901,
+              "latency_s": 10.361777777777778,
               "input": "6 khung hình + phụ đề",
               "n": 9,
               "fields": {
                 "is_on_topic": 1,
                 "face_on_camera": 1,
-                "product_demo_on_skin": 0.7142857142857143,
-                "shows_texture_or_finish": 0.8333333333333334,
+                "product_demo_on_skin": 1,
+                "shows_texture_or_finish": 0.7142857142857143,
                 "presenter_gender": 1
               }
             },
             "passes": true,
             "best": {
               "model": "deepseek-flash",
-              "agreement": 0.9095238095238095,
-              "usd_500_koc": 2.1280965000000003,
-              "latency_s": 6.962555555555555,
+              "agreement": 0.9428571428571428,
+              "usd_500_koc": 3.140901,
+              "latency_s": 10.361777777777778,
               "input": "6 khung hình + phụ đề",
               "n": 9,
               "fields": {
                 "is_on_topic": 1,
                 "face_on_camera": 1,
-                "product_demo_on_skin": 0.7142857142857143,
-                "shows_texture_or_finish": 0.8333333333333334,
+                "product_demo_on_skin": 1,
+                "shows_texture_or_finish": 0.7142857142857143,
                 "presenter_gender": 1
               }
             },
             "cheapest": {
               "model": "deepseek-flash",
-              "agreement": 0.9095238095238095,
-              "usd_500_koc": 2.1280965000000003,
-              "latency_s": 6.962555555555555,
+              "agreement": 0.9428571428571428,
+              "usd_500_koc": 3.140901,
+              "latency_s": 10.361777777777778,
               "input": "6 khung hình + phụ đề",
               "n": 9,
               "fields": {
                 "is_on_topic": 1,
                 "face_on_camera": 1,
-                "product_demo_on_skin": 0.7142857142857143,
-                "shows_texture_or_finish": 0.8333333333333334,
+                "product_demo_on_skin": 1,
+                "shows_texture_or_finish": 0.7142857142857143,
                 "presenter_gender": 1
               }
             },
             "tested": [
               "deepseek-flash"
             ],
-            "why": "khớp thấp hơn 7 điểm %; chi phí ngang nhau"
+            "why": "khớp thấp hơn 3 điểm %; đắt hơn 1.3 lần"
           },
           "rationale": {
             "pick": {
               "model": "deepseek-flash",
               "agreement": 1.0,
-              "usd_500_koc": 0.8908799999999999,
-              "latency_s": 24.983,
+              "usd_500_koc": 0.8707590000000001,
+              "latency_s": 22.085,
               "input": null,
               "n": null,
               "fields": {}
@@ -1340,8 +1366,8 @@
             "best": {
               "model": "deepseek-flash",
               "agreement": 1.0,
-              "usd_500_koc": 0.8908799999999999,
-              "latency_s": 24.983,
+              "usd_500_koc": 0.8707590000000001,
+              "latency_s": 22.085,
               "input": null,
               "n": null,
               "fields": {}
@@ -1349,8 +1375,8 @@
             "cheapest": {
               "model": "deepseek-flash",
               "agreement": 1.0,
-              "usd_500_koc": 0.8908799999999999,
-              "latency_s": 24.983,
+              "usd_500_koc": 0.8707590000000001,
+              "latency_s": 22.085,
               "input": null,
               "n": null,
               "fields": {}
@@ -1359,7 +1385,7 @@
               "deepseek-flash",
               "deepseek-v4-pro"
             ],
-            "why": "đắt hơn 3.7 lần; chậm hơn 6.6 lần"
+            "why": "đắt hơn 3.3 lần; chậm hơn 6.0 lần"
           }
         },
         "plan": {
@@ -1380,11 +1406,11 @@
       {
         "name": "Đề xuất (theo benchmark)",
         "routing": {
-          "screen": "claude-haiku-5-5",
-          "video": "gemini-3.1-flash-lite",
+          "screen": "gemini-3.8-flash",
+          "video": "gemini-3.5-flash-lite",
           "rationale": "gemini-3.1-flash-lite"
         },
-        "usd_500_koc": 2.9046899999999996
+        "usd_500_koc": 4.81480625
       },
       {
         "name": "Lúc chạy run final-haiku",
@@ -1393,7 +1419,7 @@
           "video": "claude-haiku-5-5",
           "rationale": "claude-sonnet-5-5"
         },
-        "usd_500_koc": 5.7668025
+        "usd_500_koc": 4.8177731249999995
       },
       {
         "name": "Toàn Claude Opus 5.5",
@@ -1402,34 +1428,43 @@
           "video": "claude-opus-5-5",
           "rationale": "claude-opus-5-5"
         },
-        "usd_500_koc": 52.245925
+        "usd_500_koc": 51.054925
       },
       {
         "name": "Chỉ dùng Anthropic (Claude)",
+        "routing": {
+          "screen": "claude-opus-5-5",
+          "video": "claude-haiku-5-5",
+          "rationale": "claude-haiku-5-5"
+        },
+        "usd_500_koc": 17.8677
+      },
+      {
+        "name": "Chỉ dùng Anthropic (Claude), model rẻ nhất mỗi bước (có bước chưa đạt ngưỡng)",
         "routing": {
           "screen": "claude-haiku-5-5",
           "video": "claude-haiku-5-5",
           "rationale": "claude-haiku-5-5"
         },
-        "usd_500_koc": 1.652965
+        "usd_500_koc": 1.826435625
       },
       {
         "name": "Chỉ dùng Google (Gemini)",
         "routing": {
           "screen": "gemini-3.8-flash",
-          "video": "gemini-3.1-flash-lite",
+          "video": "gemini-3.5-flash-lite",
           "rationale": "gemini-3.1-flash-lite"
         },
-        "usd_500_koc": 6.66721875
+        "usd_500_koc": 4.81480625
       },
       {
         "name": "Chỉ dùng Google (Gemini), model rẻ nhất mỗi bước (có bước chưa đạt ngưỡng)",
         "routing": {
           "screen": "gemini-3.1-flash-lite",
-          "video": "gemini-3.1-flash-lite",
+          "video": "gemini-3.5-flash-lite",
           "rationale": "gemini-3.1-flash-lite"
         },
-        "usd_500_koc": 2.97765625
+        "usd_500_koc": 3.63086875
       },
       {
         "name": "Chỉ dùng DeepSeek",
@@ -1438,22 +1473,18 @@
           "video": "deepseek-flash",
           "rationale": "deepseek-flash"
         },
-        "usd_500_koc": 5.2312395
+        "usd_500_koc": 6.1132515000000005
       }
     ],
     "provider_share": [
       {
-        "name": "Anthropic (Claude)",
-        "usd_500_koc": 0.712815,
-        "share": 0.24540140255930926
-      },
-      {
         "name": "Google (Gemini)",
-        "usd_500_koc": 2.191875,
-        "share": 0.7545985974406908
+        "usd_500_koc": 4.81480625,
+        "share": 1.0
       }
     ]
   },
-  "total_cost_usd": 2.114168656,
-  "generated_at": "2026-11-17 21:15"
+  "generated_at": "2026-11-18 06:31",
+  "total_cost_usd": 2.596247007,
+  "failed_cost_usd": 0.48375999999999997
 }

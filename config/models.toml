@@ -42,7 +42,8 @@ audio = true
 
 [models."gemini-3.1-flash-lite"]
 provider = "gemini"
-input_per_m = 0.25          # text/ảnh/video; audio 0.50
+input_per_m = 0.25          # text/ảnh/video
+audio_input_per_m = 0.50    # token âm thanh (video có tiếng, file mp3) đắt gấp đôi
 output_per_m = 1.50
 vision = true
 video = true
@@ -86,12 +87,13 @@ audio = false
 # Định tuyến: mỗi bước dùng model rẻ nhất đủ tốt (xem results/benchmark_models.md để biết vì sao).
 # fallback: dùng khi máy không có API key của model chính (vd người chấm chỉ có key Anthropic)
 [routing.screen]            # Stage 4: phân loại hàng loạt từ text
-model = "claude-haiku-5-5"
+model = "gemini-3.8-flash"  # benchmark 2026-11-18: rẻ nhất đạt ≥ 90% (khớp 91%; Haiku 84%, 3.1 Flash-Lite 88%)
+fallback = "claude-haiku-5-5"
 effort = "low"
 batch_size = 8
 
 [routing.video]             # Stage 5: keyframe + phụ đề (Claude/DeepSeek) hoặc video gốc có tiếng (Gemini)
-model = "gemini-3.1-flash-lite"   # benchmark: khớp 98% vs Haiku 91%, chỉ thêm ~$1.3 / 500 KOC
+model = "gemini-3.5-flash-lite"   # benchmark: khớp 97% vs Haiku 91% (rẻ nhất đạt ngưỡng), thêm $1.79 / 500 KOC
 fallback = "claude-haiku-5-5"
 effort = "low"
 frames = 6
@@ -99,7 +101,7 @@ frame_width = 384
 clip_seconds = 60
 
 [routing.rationale]         # Stage 7: viết lý do đề xuất, 1 lần gọi cho mỗi lô batch_size KOC
-model = "gemini-3.1-flash-lite"   # benchmark: 100% trích dẫn hợp lệ, rẻ hơn Sonnet ~17 lần
+model = "gemini-3.1-flash-lite"   # benchmark: rẻ nhất trong 9 model có 100% trích dẫn hợp lệ
 fallback = "claude-haiku-5-5"
 effort = "medium"
 batch_size = 10             # 500 KOC -> 50 lần gọi song song (1 lần gọi cho cả 500 sẽ vượt giới hạn token ra)
