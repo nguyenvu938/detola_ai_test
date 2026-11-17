@@ -1,0 +1,286 @@
+{
+  "handle": "kimthichnhacua",
+  "kalodata_id": "6979057125959992321",
+  "nickname": "Kim thích ở nhà",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": "ELEP",
+  "bio": "Yêu nhà cửa, mua sắm, chia sẻ kinh nghiệm lựa chọn sản phẩm chất lượng giá tốt",
+  "followers": 29000,
+  "debut_date": "2024-11-04",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": "18-24",
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được.",
+  "core_metrics": {
+    "revenue_vnd": 3600000000,
+    "live_revenue_vnd": 0,
+    "video_revenue_vnd": 3580000000,
+    "video_views": 44510000,
+    "live_views": 0,
+    "follower_change": 3100
+  },
+  "videos": [
+    {
+      "video_id": "7697249272785358088",
+      "url": "https://www.tiktok.com/@kimthichnhacua/video/7697249272785358088",
+      "description": "Dầu gội đầu hoa bưởi Thorakao hỗ trợ nuôi dưỡng bóng mượt khỏe #daugoidau #daugoi #daugoithiennhien #thorakao #chamsoctoc",
+      "duration_s": 28.167,
+      "views": 3800000,
+      "revenue_vnd": 620350000,
+      "items_sold": 7790,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.692,
+      "ad_view_ratio": "21.71%",
+      "publish_date": "2026-10-16"
+    },
+    {
+      "video_id": "7700094233469799698",
+      "url": "https://www.tiktok.com/@kimthichnhacua/video/7700094233469799698",
+      "description": "Dầu gội hoa bưởi Thorakao hỗ trợ cải thiện gãy rụng xơ rối #daugoi #daugoidau #daugoithiennhien #chamsoctoc #daugoithaoduoc",
+      "duration_s": 34.034,
+      "views": 1380000,
+      "revenue_vnd": 227130000,
+      "items_sold": 2850,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "28.15%",
+      "publish_date": "2026-10-24"
+    },
+    {
+      "video_id": "7696076779072556306",
+      "url": "https://www.tiktok.com/@kimthichnhacua/video/7696076779072556306",
+      "description": "Kem chống nắng cách ly dưỡng trắng YOQQ ống đôi, nâng tông, #kemchongnang #kemchongnangnangtone #kemnangtone #duongda #lamdep",
+      "duration_s": 32.667,
+      "views": 2520000,
+      "revenue_vnd": 225360000,
+      "items_sold": 2370,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.76,
+      "ad_view_ratio": "14.41%",
+      "publish_date": "2026-10-13"
+    },
+    {
+      "video_id": "7698355366609816839",
+      "url": "https://www.tiktok.com/@kimthichnhacua/video/7698355366609816839",
+      "description": "Giấm táo mèo Tây Bắc, giấm uống #giamtaomeo #giamtao #healthy #lamdep #AnCungTikTok",
+      "duration_s": 26.434,
+      "views": 3080000,
+      "revenue_vnd": 210540000,
+      "items_sold": 4210,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.381,
+      "ad_view_ratio": "5.28%",
+      "publish_date": "2026-10-19"
+    },
+    {
+      "video_id": "7670855516117126408",
+      "url": "https://www.tiktok.com/@kimthichnhacua/video/7670855516117126408",
+      "description": "BHA dung dịch tẩy tế bào BHA 2% in alcohol DRCEUTICS chân ái cho da mụn đầu đen, mụn ẩn, da sừng dày #damun #mundauden #bha #bhadrceutics #drceutics",
+      "duration_s": 33.343,
+      "views": 1200000,
+      "revenue_vnd": 146350000,
+      "items_sold": 1190,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.755,
+      "ad_view_ratio": "21.69%",
+      "publish_date": "2026-08-06"
+    },
+    {
+      "video_id": "7618145953622772999",
+      "url": "https://www.tiktok.com/@kimthichnhacua/video/7618145953622772999",
+      "description": "Miếng dán mụn FocalSkin  cho các vợ hay nặn nè #chamsoccanhan #duongda #mụn",
+      "duration_s": 33.334,
+      "views": 2100000,
+      "revenue_vnd": 130360000,
+      "items_sold": 1700,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.793,
+      "ad_view_ratio": "25.25%",
+      "publish_date": "2026-03-17"
+    },
+    {
+      "video_id": "7667541673588591890",
+      "url": "https://www.tiktok.com/@kimthichnhacua/video/7667541673588591890",
+      "description": "Sea Mosa Gel Phương Khuê Organic nhiều vị #seamossgel #AnCungTikTok #anngon #anvat #phuongkhueorganic",
+      "duration_s": 34,
+      "views": 701750,
+      "revenue_vnd": 129850000,
+      "items_sold": 1210,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "61.08%",
+      "publish_date": "2026-07-28"
+    },
+    {
+      "video_id": "7705237847577513224",
+      "url": "https://www.tiktok.com/@kimthichnhacua/video/7705237847577513224",
+      "description": "Acid Glycolic toner nhà Ice Lerskin, dưỡng da sáng , mịn #glycolicacid #duongda #icelerskin #duongtrangda #lamdep",
+      "duration_s": 31.867,
+      "views": 1010000,
+      "revenue_vnd": 107660000,
+      "items_sold": 1180,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "17.90%",
+      "publish_date": "2026-11-07"
+    },
+    {
+      "video_id": "7673724870793907464",
+      "url": "https://www.tiktok.com/@kimthichnhacua/video/7673724870793907464",
+      "description": "Tinh chất niacinamide dưỡng sáng cải thiện lỗ chân lông, thâm mụn ##tinhchatduongda##drceutics##niacinamide##serumduongtrang##skincare",
+      "duration_s": 29.867,
+      "views": 242670,
+      "revenue_vnd": 102470000,
+      "items_sold": 558,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.518,
+      "ad_view_ratio": "60.21%",
+      "publish_date": "2026-08-14"
+    },
+    {
+      "video_id": "7679518820586884370",
+      "url": "https://www.tiktok.com/@kimthichnhacua/video/7679518820586884370",
+      "description": "Nước nhỏ mắt Novotane Dual chuyên biệt cho mắt mỏi, cận, loạn,  đeo lens ….#nuocnhomat #thuocnhomat #review #novotane #nuocnhomatlens",
+      "duration_s": 23.313,
+      "views": 1350000,
+      "revenue_vnd": 96730000,
+      "items_sold": 1700,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.429,
+      "ad_view_ratio": "4.00%",
+      "publish_date": "2026-08-30"
+    }
+  ],
+  "shops": [
+    {
+      "name": "THORAKAO STORE",
+      "revenue_vnd": 877670000,
+      "product_count": 2,
+      "items_sold": 11020
+    },
+    {
+      "name": "Giấm Táo Mèo Tây Bắc",
+      "revenue_vnd": 362320000,
+      "product_count": 1,
+      "items_sold": 7250
+    },
+    {
+      "name": "DrCeutics Official Store",
+      "revenue_vnd": 248820000,
+      "product_count": 2,
+      "items_sold": 1750
+    },
+    {
+      "name": "MTN Personal Care",
+      "revenue_vnd": 231340000,
+      "product_count": 2,
+      "items_sold": 2440
+    },
+    {
+      "name": "NHÀ THUỐC BẠCH MAI 6868",
+      "revenue_vnd": 155450000,
+      "product_count": 2,
+      "items_sold": 5230
+    },
+    {
+      "name": "ICE LERSKIN.VN",
+      "revenue_vnd": 144850000,
+      "product_count": 3,
+      "items_sold": 1590
+    },
+    {
+      "name": "PHƯƠNG KHUÊ ORGANIC",
+      "revenue_vnd": 133700000,
+      "product_count": 1,
+      "items_sold": 1240
+    },
+    {
+      "name": "FOCALSKIN VIETNAM",
+      "revenue_vnd": 130360000,
+      "product_count": 1,
+      "items_sold": 1700
+    },
+    {
+      "name": "Novotane",
+      "revenue_vnd": 130340000,
+      "product_count": 2,
+      "items_sold": 2230
+    },
+    {
+      "name": "TODDA store",
+      "revenue_vnd": 87130000,
+      "product_count": 1,
+      "items_sold": 1200
+    }
+  ],
+  "products": [
+    {
+      "title": "Dầu Gội Hoa Bưởi Thorakao - Giảm Rụng Giúp Tóc Bóng Mượt 500ML",
+      "revenue_vnd": 874320000,
+      "items_sold": 10980,
+      "avg_price_vnd": 79660
+    },
+    {
+      "title": "Giấm Táo Mèo Hữu Cơ Tây Bắc - Dấm Táo Mèo Chính Hãng Vị Chua Thơm Ngon Dễ Uống",
+      "revenue_vnd": 362320000,
+      "items_sold": 7250,
+      "avg_price_vnd": 50000
+    },
+    {
+      "title": "Kem Chống Nắng Cách Ly Dưỡng Trắng YOQQ ️ - Ống Đôi 100g+100g | SPF50+ PA++++ | Công Thức 3 Thành Phần Vàng: 377+577+877, Hỗ Trợ Chống Nắng 24h, Làm Mờ Nám, Dưỡng Sáng Da & Cấp Ẩm | Có Chứng Nhận Đặc Biệt (200g)",
+      "revenue_vnd": 231150000,
+      "items_sold": 2430,
+      "avg_price_vnd": 94970
+    },
+    {
+      "title": "DRCEUTICS Dung Dịch Tẩy Tế Bào Chết Hóa Học Basic BHA 2% In Alcohol (Nền Cồn) Dung Dịch Hỗ Trợ Làm Sạch Dầu Cho Da (100ml - 200ml) Skincare",
+      "revenue_vnd": 146350000,
+      "items_sold": 1190,
+      "avg_price_vnd": 122670
+    },
+    {
+      "title": "【Mua 3 Tặng 1】ICE LERSKIN 7% Glycolic Acid Nước Hoa Hồng 200ML*3 + [Quà Tặng Miễn Phí] Sữa Rửa Mặt 100g, Set: Nước Hoa Hồng 200ML + Tinh Chất Trị Mụn 10ml, Nước Hoa Hồng 200ML + Sữa Rửa Mặt 100g, Nước Hoa Hồng 200ML + Sữa Rửa Mặt 100g + Kem mắt 20g",
+      "revenue_vnd": 136980000,
+      "items_sold": 1500,
+      "avg_price_vnd": 91140
+    },
+    {
+      "title": "[KOL] Hũ 390ml Sea Moss Gel Sụn Rong Biển Phương Khuê Organic Nhiều Vị Trái Cây Giàu Dưỡng Chất Từ Rong Biển Dễ Ăn, Dễ Mix Sữa Chua, Yến Mạch Granola phù hợp chế độ ăn lành, healthy",
+      "revenue_vnd": 133700000,
+      "items_sold": 1240,
+      "avg_price_vnd": 107740
+    },
+    {
+      "title": "[COMBO gói 60 miếng] FOCALSKIN Miếng dán mụn SalicylicAcid Hoa cúc 30 miếng ban ngày và 30 miếng ban đêm hỗ trợ hút nhân mụn và hỗ trợ che mụn trước khói bụi & makeup | Làm Đẹp Da Chăm Sóc Da Skincare Giảm Thâm",
+      "revenue_vnd": 130360000,
+      "items_sold": 1700,
+      "avg_price_vnd": 76680
+    },
+    {
+      "title": "Nước nhỏ mắt Novotane Dual dưỡng mắt giảm mỏi, phù hợp mắt cận thị, loạn thị, sử dụng thiết bị điện tử, nhìn màn hình, dùng hàng ngày cho mắt mỏi để bảo vệ mắt",
+      "revenue_vnd": 120640000,
+      "items_sold": 2120,
+      "avg_price_vnd": 56960
+    },
+    {
+      "title": "DRCEUTICS Tinh Chất Niacinamide 12% Hỗ Trợ Thu Nhỏ Lỗ Chân Lông (30g) Skincare Serum",
+      "revenue_vnd": 102470000,
+      "items_sold": 558,
+      "avg_price_vnd": 183640
+    },
+    {
+      "title": "[Chính Hãng] Kem Ủ Tóc TODDA Caviar - Phục Hồi Chuyên Sâu Axit Amin, Giữ Màu Siêu Mượt & Lưu Hương Lâu，Giữ Màu & Siêu Mượt Chuẩn Salon",
+      "revenue_vnd": 87130000,
+      "items_sold": 1200,
+      "avg_price_vnd": 72730
+    }
+  ],
+  "contact_keys": []
+}

@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KOC Discovery</title>
+<style>
+  :root {
+    --bg: #f7f7f5; --panel: #ffffff; --ink: #1d1d1b; --muted: #6b6b66; --line: #e4e3de;
+    --accent: #2f6f5e; --accent-soft: #e3efe9; --warn: #9a5b00; --warn-soft: #fbf0dc;
+    --bad: #a33a2b; --bad-soft: #f8e2de; --good: #2f6f5e; --chip: #efeee9;
+    --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161614; --panel: #1f1f1c; --ink: #ecebe6; --muted: #a3a29b; --line: #34332f;
+      --accent: #7cc3ac; --accent-soft: #23352f; --warn: #e2b064; --warn-soft: #3a2e1b;
+      --bad: #ee8f80; --bad-soft: #3d2420; --good: #7cc3ac; --chip: #2a2a26;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 15px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  header { background: var(--panel); border-bottom: 1px solid var(--line); padding: 14px 20px; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 16px; }
+  .top { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
+  h1 { font-size: 19px; margin: 0; letter-spacing: -.01em; }
+  h2 { font-size: 17px; margin: 26px 0 10px; }
+  h3 { font-size: 15px; margin: 0; }
+  .muted { color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { background: var(--chip); border-radius: 999px; padding: 2px 10px; font-size: 13px; }
+  select { font: inherit; padding: 4px 8px; border-radius: 6px; border: 1px solid var(--line);
+           background: var(--panel); color: var(--ink); }
+  nav.tabs { display: flex; gap: 4px; margin-top: 12px; flex-wrap: wrap; }
+  nav.tabs button { font: inherit; border: 0; background: none; color: var(--muted); padding: 6px 12px;
+                    border-radius: 6px; cursor: pointer; }
+  nav.tabs button.on { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+  main { padding: 6px 0 60px; }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
+  .funnel { display: flex; flex-wrap: wrap; gap: 6px; align-items: stretch; }
+  .step { flex: 1 1 110px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px;
+          padding: 8px 10px; position: relative; }
+  .step b { display: block; font-size: 20px; font-variant-numeric: tabular-nums; }
+  .step span { font-size: 12px; color: var(--muted); }
+  .step.final { border-color: var(--accent); background: var(--accent-soft); }
+  .note { border-left: 3px solid var(--warn); background: var(--warn-soft); padding: 8px 12px; border-radius: 6px;
+          margin: 10px 0; font-size: 14px; }
+  .grid { display: grid; gap: 14px; }
+  .koc { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 16px; }
+  @media (max-width: 820px) { .koc { grid-template-columns: 1fr; } }
+  .koc-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; margin-bottom: 6px; }
+  .rank { font-weight: 700; color: var(--accent); font-size: 18px; }
+  .koc a { color: var(--accent); }
+  .kv { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 13px; color: var(--muted); margin: 4px 0 8px; }
+  .kv b { color: var(--ink); font-weight: 600; }
+  .bars { display: grid; grid-template-columns: 90px 1fr 42px; gap: 4px 8px; align-items: center; font-size: 13px; margin: 8px 0; }
+  .bar { height: 8px; background: var(--chip); border-radius: 4px; overflow: hidden; }
+  .bar i { display: block; height: 100%; background: var(--accent); }
+  .risk { border-left: 3px solid var(--bad); background: var(--bad-soft); padding: 6px 10px; border-radius: 6px; margin: 8px 0; font-size: 14px; }
+  .brief { border-left: 3px solid var(--accent); background: var(--accent-soft); padding: 6px 10px; border-radius: 6px; font-size: 14px; }
+  video { width: 100%; max-height: 420px; background: #000; border-radius: 8px; }
+  .ev { list-style: none; padding: 0; margin: 8px 0 0; font-size: 13px; }
+  .ev li { padding: 4px 0; border-top: 1px dashed var(--line); }
+  .ts { font-family: var(--mono); font-size: 12px; background: var(--chip); border: 0; color: var(--accent);
+        border-radius: 4px; padding: 1px 6px; cursor: pointer; margin-right: 6px; }
+  .ts[disabled] { cursor: default; color: var(--muted); }
+  .codes { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+  details { margin-top: 8px; }
+  summary { cursor: pointer; color: var(--muted); font-size: 13px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+  .scroll { overflow-x: auto; }
+  .pill { display: inline-block; padding: 0 8px; border-radius: 999px; font-size: 12px; }
+  .pill.ok { background: var(--accent-soft); color: var(--good); }
+  .pill.warn { background: var(--warn-soft); color: var(--warn); }
+  .pill.bad { background: var(--bad-soft); color: var(--bad); }
+  .stage-row { display: grid; grid-template-columns: 110px 1fr 160px; gap: 10px; align-items: center; padding: 6px 0; }
+  .empty { padding: 30px; text-align: center; color: var(--muted); }
+  .big { font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .cards3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="top">
+      <h1>KOC Discovery</h1>
+      <div class="chips" id="brief"></div>
+      <label class="muted" style="margin-left:auto">Run
+        <select id="run"></select>
+      </label>
+    </div>
+    <nav class="tabs" id="tabs">
+      <button data-tab="result" class="on">Đề xuất</button>
+      <button data-tab="progress">Tiến độ</button>
+      <button data-tab="cost">Chi phí AI</button>
+      <button data-tab="bench">Benchmark model</button>
+      <button data-tab="scale">Mở rộng 50–500 KOC</button>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+  <div class="note" id="banner" style="margin-top:14px"></div>
+  <section id="tab-result"></section>
+  <section id="tab-progress" hidden></section>
+  <section id="tab-cost" hidden></section>
+  <section id="tab-bench" hidden></section>
+  <section id="tab-scale" hidden></section>
+</main>
+
+<script>
+// ---------- tiện ích ----------
+const $ = (s, el = document) => el.querySelector(s);
+const esc = (v) => String(v ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const vnd = (x) => x == null ? "–" : (x / 1e6).toLocaleString("vi-VN", {maximumFractionDigits: 2}) + " tr";
+const usd = (x, d = 4) => x == null ? "–" : "$" + Number(x).toFixed(d);
+const pct = (x) => x == null ? "–" : Math.round(x * 100) + "%";
+const num = (x) => x == null ? "–" : Number(x).toLocaleString("vi-VN");
+// Bản HTML tĩnh (koc export-html): dữ liệu nhúng sẵn, không gọi server
+const STATIC = window.__KOC_STATIC__ || null;
+async function api(path) {
+  if (STATIC) {
+    const u = new URL(path, "http://local");
+    if (u.pathname === "/api/runs") return STATIC.runs;
+    if (u.pathname === "/api/result") {
+      const r = STATIC.results[u.searchParams.get("run")];
+      if (!r) throw new Error(`Bản tĩnh chỉ chứa run ${STATIC.run_id}`);
+      return r;
+    }
+    if (u.pathname === "/api/benchmark") {
+      if (!STATIC.benchmark) throw new Error("Bản tĩnh không có benchmark");
+      return STATIC.benchmark;
+    }
+    if (u.pathname === "/api/scale") {
+      if (!STATIC.scale) throw new Error("Bản tĩnh không có kết quả đo mở rộng");
+      return STATIC.scale;
+    }
+    throw new Error("STATIC");
+  }
+  const r = await fetch(path, {cache: "no-store"});
+  if (!r.ok) throw new Error((await r.json().catch(() => ({}))).error || r.statusText);
+  return r.json();
+}
+// "00:13.7" | "0.5s (frame 1)" | "frame 4 @ 16.5s" -> giây
+function seconds(at) {
+  const s = String(at);
+  let m = s.match(/(\d+):(\d+(?:\.\d+)?)/);
+  if (m) return Number(m[1]) * 60 + Number(m[2]);
+  m = s.match(/(\d+(?:\.\d+)?)\s*s/);
+  return m ? Number(m[1]) : null;
+}
+const BASIS = {
+  creators_list: "danh mục, mọi kênh bán", creators_list_video: "danh mục, bán qua video",
+  creators_list_content: "vài video organic", creators_list_research: "mọi ngành hàng",
+};
+
+// ---------- trạng thái ----------
+let RUN = STATIC ? STATIC.run_id : (new URLSearchParams(location.search).get("run") || "final");
+let TAB = "result";
+let pollTimer = null;
+
+document.querySelectorAll("#tabs button").forEach(b => b.onclick = () => showTab(b.dataset.tab));
+$("#run").onchange = (e) => { RUN = e.target.value; if (!STATIC) history.replaceState(null, "", "?run=" + RUN); loadAll(); };
+
+// Dải thông báo: nói rõ người xem đang thấy DỮ LIỆU ĐÃ LƯU, không phải hệ thống đang gọi model
+function renderBanner(d, b) {
+  const parts = [];
+  if (d) parts.push(`run <b>${esc(d.run_id)}</b> chạy lúc ${esc(d.generated_at || "?")} ` +
+    `(${num(d.llm_calls)} lần gọi model, ${usd(d.cost_usd)}; ${esc(Object.entries(d.routing || {}).map(([k, v]) => k + "=" + v).join(", "))})`);
+  if (b) parts.push(`benchmark chạy lúc ${esc(b.generated_at || "?")} (${usd(b.total_cost_usd, 2)})`);
+  const how = STATIC
+    ? `Đây là <b>bản HTML tĩnh</b> xuất lúc ${esc(STATIC.exported_at)}: mở trực tiếp, không cần Python hay API key; video mở bằng link TikTok.`
+    : `Trang chỉ đọc các file kết quả và SQLite, không gọi model, không tốn tiền.`;
+  $("#banner").innerHTML = `<b>Dữ liệu đã lưu (cache)</b> – ${parts.join(" · ")}. ${how}
+    Chạy lại với AI thật: <code>uv run koc run --run-id ${esc(RUN)}</code> (cần API key, xem README).`;
+}
+
+function showTab(t) {
+  TAB = t;
+  document.querySelectorAll("#tabs button").forEach(b => b.classList.toggle("on", b.dataset.tab === t));
+  ["result", "progress", "cost", "bench", "scale"].forEach(x => $("#tab-" + x).hidden = x !== t);
+  if (t === "progress") startPolling(); else stopPolling();
+}
+
+async function loadRuns() {
+  const runs = await api("/api/runs").catch(() => []);
+  const ids = new Set(runs.map(r => r.run_id)); ids.add("final"); ids.add(RUN);
+  $("#run").innerHTML = [...ids].map(id => {
+    const r = runs.find(x => x.run_id === id);
+    const tag = r ? (r.status === "running" ? " · đang chạy" : "") : "";
+    return `<option value="${esc(id)}" ${id === RUN ? "selected" : ""}>${esc(id)}${tag}</option>`;
+  }).join("");
+}
+
+// ---------- tab Đề xuất ----------
+function renderResult(d) {
+  const c = d.campaign || {};
+  $("#brief").innerHTML = [
+    c.product && `Sản phẩm: ${c.product}`, c.target_gender && `Khán giả: ${{female: "nữ", male: "nam", all: "mọi giới"}[c.target_gender] || c.target_gender} ${c.target_age_min}–${c.target_age_max}`,
+    c.budget_vnd && `Ngân sách: ${vnd(c.budget_vnd)}`, c.n_koc && `Cần ${c.n_koc} KOC`,
+  ].filter(Boolean).map(t => `<span class="chip">${esc(t)}</span>`).join("");
+
+  const f = d.funnel;
+  const steps = [
+    ["Creator từ Kalodata", f.ingested], ["Qua lọc luật", f.after_prefilter], ["Lấy chi tiết", f.enriched_target],
+    ["Đúng khán giả/loại TK", f.after_metrics], ["LLM sàng lọc", f.screened], ["Qua cổng sàng lọc", f.passed_screen_gate],
+    ["AI xem video", f.video_analyzed], ["Đạt ngưỡng điểm", f.above_min_score], ["Chọn", f.selected],
+  ];
+  const ch = d.choice;
+  let html = `<h2>Phễu xử lý</h2><div class="funnel">${steps.map(([l, n], i) =>
+    `<div class="step ${i === steps.length - 1 ? "final" : ""}"><b>${num(n)}</b><span>${esc(l)}</span></div>`).join("")}</div>`;
+  if (d.summary) html += `<h2>Tóm tắt</h2><div class="panel">${esc(d.summary)}</div>`;
+  html += `<h2>${d.kocs.length} KOC đề xuất</h2>
+    <p class="muted">Booking ước tính <b>${vnd(ch.total_cost_vnd)}</b> · còn <b>${vnd(ch.ads_reserve_vnd)}</b> chạy Spark Ads
+    (khuyến nghị ${vnd(ch.recommended_ads_vnd)}) · chi phí AI cả run <b>${usd(d.cost_usd)}</b>
+    ${d.citation_check ? ` · trích dẫn hợp lệ ${pct(d.citation_check.valid_rate)} (${d.citation_check.refs_total} mã)` : ""}</p>`;
+  if (ch.note) html += `<div class="note">${esc(ch.note)}</div>`;
+  if (ch.ads_note) html += `<div class="note">${esc(ch.ads_note)}</div>`;
+  html += `<div class="grid">${d.kocs.map((k, i) => kocCard(k, i + 1, c)).join("")}</div>`;
+
+  if ((ch.below_threshold || []).length) {
+    html += `<h2>Đã xem video nhưng dưới ngưỡng điểm</h2><div class="panel">${ch.below_threshold.map(b =>
+      `<span class="chip">@${esc(b.handle)} · ${b.final_score.toFixed(2)}</span>`).join(" ")}</div>`;
+  }
+  html += `<details><summary>Kết quả LLM sàng lọc (${d.screens.length} creator)</summary><div class="scroll"><table>
+    <tr><th>Creator</th><th>Loại tài khoản</th><th>Ngách</th><th class="n">Phù hợp</th><th>Nhận xét</th></tr>
+    ${d.screens.map(s => `<tr><td>@${esc(s.handle)}</td><td>${esc(s.account_kind)}</td><td>${esc(s.primary_niche)}</td>
+      <td class="n">${s.topic_relevance}/10</td><td>${esc(s.fit_note)}</td></tr>`).join("")}</table></div></details>
+    <details><summary>Bị loại ở bước định lượng (${d.dropped.length})</summary><ul>${d.dropped.map(x =>
+      `<li>@${esc(x.handle)}: ${esc(x.reason)}</li>`).join("")}</ul></details>`;
+  $("#tab-result").innerHTML = html;
+  // bấm mốc thời gian -> tua video
+  document.querySelectorAll(".ts[data-t]").forEach(b => b.onclick = () => {
+    const v = document.getElementById(b.dataset.v);
+    if (v) { v.currentTime = Number(b.dataset.t); v.play(); }
+  });
+}
+
+function kocCard(k, rank, camp) {
+  const r = k.row, v = k.video || {}, a = v.analysis || {}, rat = k.rationale || {};
+  const vidId = "v-" + (v.video_id || rank);
+  const local = k.has_local_video && v.kind === "video";
+  const media = local
+    ? `<video id="${vidId}" controls preload="metadata" src="/video/${esc(v.video_id)}.mp4"></video>`
+    : `<div class="panel muted" style="font-size:13px">${v.kind === "video"
+        ? "Video chưa tải về máy này (thư mục data/videos không nằm trong repo)."
+        : "Bài này chỉ phân tích được ảnh bìa (TikTok không cung cấp luồng video)."}<br>
+        <a href="${esc(v.url)}" target="_blank" rel="noopener">Mở bài trên TikTok ↗</a></div>`;
+  const parts = r.metric_parts || {};
+  const bars = [["Định lượng", r.metric_score], ["Sàng lọc", r.screen_score], ["Video", r.video_score], ["Tổng", r.final_score]]
+    .map(([l, x]) => `<span>${l}</span><div class="bar"><i style="width:${Math.round((x || 0) * 100)}%"></i></div><span class="n">${(x ?? 0).toFixed(2)}</span>`).join("");
+  const ev = (a.evidence || []).map(e => {
+    const t = seconds(e.at);
+    const btn = local && t != null
+      ? `<button class="ts" data-v="${vidId}" data-t="${t}" title="Tua tới mốc này">${esc(e.at)}</button>`
+      : `<button class="ts" disabled>${esc(e.at)}</button>`;
+    return `<li>${btn}${esc(e.observation)}</li>`;
+  }).join("");
+  const flags = [
+    a.face_on_camera ? "lộ mặt" : "không lộ mặt", a.product_demo_on_skin ? "thử trên da" : "không thử trên da",
+    a.is_on_topic ? `đúng chủ đề ${camp.product || ""}` : "lệch chủ đề", `hook ${a.hook_strength}/5`,
+  ].map(t => `<span class="chip">${esc(t)}</span>`).join(" ");
+  return `<article class="panel koc">
+    <div>
+      <div class="koc-head"><span class="rank">#${rank}</span>
+        <h3><a href="https://www.tiktok.com/@${esc(r.handle)}" target="_blank" rel="noopener">@${esc(r.handle)}</a></h3>
+        <span class="muted">${esc(r.nickname || "")}</span></div>
+      <div class="kv"><span>Follower <b>${num(r.followers)}</b></span><span>Chi phí ước tính <b>${vnd(r.est_cost_vnd)}</b></span>
+        <span>Doanh thu 30 ngày <b>${vnd(r.category_gmv_vnd)}</b> (${esc(BASIS[r.gmv_basis] || "?")})</span>
+        <span>Khán giả: <b>${esc(r.audience_source || "–")}</b></span>
+        ${r.engagement_rate ? `<span>ER <b>${(r.engagement_rate * 100).toFixed(2)}%</b></span>` : ""}</div>
+      <p>${esc(rat.reason_vi || "")}</p>
+      ${rat.risks_vi ? `<div class="risk"><b>Rủi ro:</b> ${esc(rat.risks_vi)}</div>` : ""}
+      ${r.reach_flag ? `<div class="risk"><b>Cờ:</b> ${esc(r.reach_flag)}</div>` : ""}
+      ${rat.brief_suggestion_vi ? `<div class="brief"><b>Gợi ý brief:</b> ${esc(rat.brief_suggestion_vi)}</div>` : ""}
+      <div class="bars">${bars}</div>
+      <details><summary>Điểm định lượng chi tiết & mã bằng chứng</summary>
+        <div class="kv">${Object.entries(parts).map(([x, y]) => `<span>${esc(x)} <b>${y}</b></span>`).join("")}</div>
+        <ul class="ev">${Object.entries(k.evidence || {}).map(([code, txt]) => `<li><span class="codes">${esc(code)}</span> ${esc(txt)}</li>`).join("")}</ul>
+        <p class="codes">LLM trích: ${esc((rat.evidence_refs || []).join(", "))}</p>
+      </details>
+    </div>
+    <div>
+      ${media}
+      <div style="margin-top:8px">${flags}</div>
+      <p style="font-size:13px;margin:8px 0 0">${esc(a.summary_vi || "")}</p>
+      <ul class="ev">${ev}</ul>
+      <p class="muted" style="font-size:12px;margin-top:6px">Cách AI xem: ${esc((v.input || {}).mode || "")}
+        ${v.format_mix ? ` · ${v.format_mix.no_stream_posts}/${v.format_mix.checked} bài kiểm không có luồng video` : ""}</p>
+    </div>
+  </article>`;
+}
+
+// ---------- tab Tiến độ (hỏi lại mỗi 2 giây) ----------
+const STAGES = [["enrich", "S2 Lấy chi tiết"], ["screen", "S4 LLM sàng lọc"], ["video", "S5 AI xem video"], ["rationale", "S7 Viết lý do"]];
+async function renderProgress() {
+  let p;
+  if (STATIC) {
+    $("#tab-progress").innerHTML = `<div class="empty">Bản HTML tĩnh không có tiến độ trực tiếp.<br>
+      Muốn xem checkpoint chạy thật: <code>uv run koc serve</code> ở một cửa sổ và <code>uv run koc run --run-id demo</code> ở cửa sổ khác (cần API key).</div>`;
+    return;
+  }
+  try { p = await api("/api/progress?run=" + encodeURIComponent(RUN)); }
+  catch (e) { $("#tab-progress").innerHTML = `<div class="empty">${esc(e.message)}</div>`; return; }
+  if (!p.run) {
+    $("#tab-progress").innerHTML = `<div class="empty">Máy này chưa có trạng thái của run <b>${esc(RUN)}</b> (state/koc.db không nằm trong repo).<br>
+      Chạy <code>uv run koc run --run-id ${esc(RUN)}</code> ở terminal rồi mở lại tab này để xem tiến độ trực tiếp.</div>`;
+    return;
+  }
+  const running = p.run.status === "running";
+  const elapsed = ((p.run.finished_at || p.now) - p.run.started_at);
+  let html = `<h2>Run ${esc(RUN)} <span class="pill ${running ? "warn" : "ok"}">${running ? "đang chạy" : "xong"}</span></h2>
+    <div class="cards3">
+      <div class="panel"><div class="muted">Chi phí AI tới giờ</div><div class="big">${usd(p.cost_usd)}</div></div>
+      <div class="panel"><div class="muted">Lời gọi model</div><div class="big">${num(p.usage.reduce((s, u) => s + u.calls, 0))}</div>
+        <div class="muted">cache hit ${num(p.usage.reduce((s, u) => s + (u.cache_hits || 0), 0))}</div></div>
+      <div class="panel"><div class="muted">Từ lúc bắt đầu run</div><div class="big">${Math.round(elapsed)}s</div></div>
+    </div><h2>Checkpoint từng stage</h2><div class="panel">`;
+  for (const [key, label] of STAGES) {
+    const s = p.stages[key] || {};
+    const done = (s.done || 0) + (s.skipped || 0), failed = s.failed || 0, total = done + failed;
+    const w = total ? Math.round(done / total * 100) : 0;
+    html += `<div class="stage-row"><span>${label}</span><div class="bar"><i style="width:${w}%"></i></div>
+      <span class="muted">${done} xong${failed ? ` · <span style="color:var(--bad)">${failed} lỗi</span>` : ""}</span></div>`;
+  }
+  html += `</div><p class="muted" style="font-size:13px">Mỗi item xong được ghi ngay vào SQLite. Dừng giữa chừng (Ctrl+C hoặc <code>--crash-after N</code>)
+    rồi chạy lại cùng lệnh: các thanh trên không quay về 0 và không có lời gọi model lặp lại.</p>
+    <h2>Lời gọi model gần nhất</h2><div class="scroll"><table>
+    <tr><th>Stage</th><th>Model</th><th>Kết quả</th><th class="n">Token vào</th><th class="n">Token ra</th><th class="n">USD</th><th class="n">Độ trễ</th></tr>
+    ${p.recent_calls.map(c => `<tr><td>${esc(c.stage)}</td><td>${esc(c.model)}</td>
+      <td>${c.cache_hit ? '<span class="pill ok">cache</span>' : c.ok ? '<span class="pill ok">ok</span>' : '<span class="pill bad">lỗi</span>'}</td>
+      <td class="n">${num(c.input_tokens)}</td><td class="n">${num(c.output_tokens)}</td><td class="n">${usd(c.cost_usd, 5)}</td>
+      <td class="n">${c.latency_ms ? (c.latency_ms / 1000).toFixed(1) + "s" : "–"}</td></tr>`).join("")}</table></div>`;
+  $("#tab-progress").innerHTML = html;
+}
+function startPolling() { stopPolling(); renderProgress(); pollTimer = setInterval(renderProgress, 2000); }
+function stopPolling() { if (pollTimer) clearInterval(pollTimer); pollTimer = null; }
+
+// ---------- tab Chi phí ----------
+function renderCost(d) {
+  const n = Math.max(1, d.kocs.length);
+  const tot = d.cost_usd;
+  let html = `<h2>Chi phí AI của run ${esc(d.run_id)}</h2><div class="cards3">
+    <div class="panel"><div class="muted">Tổng</div><div class="big">${usd(tot)}</div><div class="muted">≈ ${num(Math.round(tot * 26000))} VNĐ</div></div>
+    <div class="panel"><div class="muted">Mỗi KOC được chọn</div><div class="big">${usd(tot / n)}</div></div>
+    <div class="panel"><div class="muted">Ước tính tuyến tính cho 500 KOC</div><div class="big">${usd(tot / n * 500, 2)}</div>
+      <div class="muted">đo bằng mô phỏng 500 KOC: tab Mở rộng; theo từng model: tab Benchmark</div></div></div>
+    <h2>Theo stage và model</h2><div class="scroll"><table>
+    <tr><th>Stage</th><th>Model</th><th class="n">Lần gọi</th><th class="n">Dùng lại kết quả cũ</th><th class="n">Token vào</th><th class="n">Token ra</th><th class="n">USD</th><th class="n">Tiết kiệm</th><th class="n">Độ trễ TB</th></tr>
+    ${d.usage.map(u => `<tr><td>${esc(u.stage)}</td><td>${esc(u.model)}</td><td class="n">${u.calls}</td><td class="n">${u.cache_hits}</td>
+      <td class="n">${num(u.input_tokens)}</td><td class="n">${num(u.output_tokens)}</td><td class="n">${usd(u.cost_usd)}</td>
+      <td class="n">${usd(u.saved_usd || 0)}</td>
+      <td class="n">${u.avg_latency_ms ? (u.avg_latency_ms / 1000).toFixed(1) + "s" : "–"}</td></tr>`).join("")}</table></div>
+    ${d.funnel.registry ? `<h2>So với lần quét trước</h2><div class="panel">
+      <div class="kv"><span>Mới <b>${d.funnel.registry.new}</b></span><span>Thay đổi <b>${d.funnel.registry.changed}</b></span>
+      <span>Không đổi <b>${d.funnel.registry.unchanged}</b></span><span>Quá hạn <b>${d.funnel.registry.stale}</b></span></div>
+      <p class="muted" style="font-size:13px;margin:0">Creator không đổi được dùng lại kết quả phân tích cũ; chỉ phần mới (video mới, hồ sơ đổi) mới gọi model.
+      Xem chi tiết: <code>uv run koc changes</code>.</p>
+      <ul class="ev">${(d.registry_changes || []).filter(c => c.status === "changed" || c.status === "stale").slice(0, 15)
+        .map(c => `<li>@${esc(c.handle)} <span class="pill warn">${esc(c.status)}</span> ${esc(c.changes.join(", "))}</li>`).join("")}</ul></div>` : ""}
+    <h2>Thời gian xử lý (cộng dồn qua các lần chạy/resume)</h2><div class="scroll"><table>
+    <tr><th>Stage</th><th class="n">Giây</th></tr>${d.timings.map(t => `<tr><td>${esc(t.stage)}</td><td class="n">${t.seconds.toFixed(1)}</td></tr>`).join("")}</table></div>
+    <p class="muted" style="font-size:13px">Các bước lọc, chấm điểm, chọn KOC trong ngân sách là code thuần (0 token). Chỉ 3 bước gọi model:
+    sàng lọc (gom 8 creator/lần), xem video (top-K), viết lý do (1 lần / 10 KOC).</p>`;
+  $("#tab-cost").innerHTML = html;
+}
+
+// ---------- tab Benchmark ----------
+function renderBench(b) {
+  if (!b) { $("#tab-bench").innerHTML = `<div class="empty">Chưa có results/benchmark_models.json – chạy <code>uv run koc bench --run-id final</code>.</div>`; return; }
+  const refModels = new Set((b.reference?.screen?.models || []).concat(b.reference?.video?.models || []));
+  let html = "";
+  const rec = b.recommendation;
+  if (rec) {
+    const names = {screen: "Sàng lọc (text)", video: "Xem video", rationale: "Viết lý do"};
+    html += `<h2>Đề xuất model cho từng bước</h2>
+      <p class="muted">Luật: (1) model <b>rẻ nhất</b> có độ khớp tham chiếu ≥ ${pct(rec.min_agreement)} và không lỗi;
+      (2) <b>nâng cấp</b> nếu model khác khớp cao hơn ≥ 5 điểm % mà chỉ tốn thêm ≤ $2 cho 500 KOC;
+      (3) viết lý do: rẻ nhất có 100% trích dẫn hợp lệ. Máy không có key Gemini thì tự dùng Claude Haiku (dự phòng).</p>
+      <div class="grid">${Object.entries(rec.stages).map(([st, v]) => `<div class="panel">
+        <div class="koc-head"><h3>${names[st] || st}</h3><span class="pill ok">${esc(v.model)}</span>
+          ${v.current !== v.model ? `<span class="muted" style="font-size:13px">đang dùng: ${esc(v.current)}</span>` : '<span class="muted" style="font-size:13px">(đang dùng)</span>'}</div>
+        <div class="kv"><span>Khớp tham chiếu <b>${pct(v.agreement)}</b></span><span>USD/item <b>${v.usd_per_item.toFixed(5)}</b></span>
+          <span>Cho 500 KOC <b>${usd(v.usd_500_koc, 2)}</b></span><span>Độ trễ TB <b>${v.avg_latency_s.toFixed(1)}s</b></span>
+          ${v.best_quality ? `<span>Khớp cao nhất: <b>${esc(v.best_quality.model)}</b> ${pct(v.best_quality.agreement)} · ${usd(v.best_quality.usd_500_koc, 2)}/500 KOC</span>` : ""}</div>
+        <p style="margin:0;font-size:14px">${esc(v.why)}</p></div>`).join("")}</div>
+      <h2>Chi phí AI dự phóng cho 500 KOC</h2><div class="scroll"><table>
+      <tr><th>Phương án</th><th>Sàng lọc</th><th>Xem video</th><th>Viết lý do</th><th class="n">USD / 500 KOC</th></tr>
+      ${rec.plans.map(p => `<tr><td>${esc(p.name)}</td><td>${esc(p.routing.screen || "–")}</td><td>${esc(p.routing.video || "–")}</td>
+        <td>${esc(p.routing.rationale || "–")}</td><td class="n">${p.usd_500_koc == null ? "–" : usd(p.usd_500_koc, 2)}</td></tr>`).join("")}
+      </table></div>`;
+    if (rec.providers?.length) {
+      const P = rec.providers, ST = {screen: "Sàng lọc", video: "Xem video", rationale: "Viết lý do"};
+      const FV = {account_kind: "Loại tài khoản", primary_niche: "Ngách", is_on_topic: "Đúng chủ đề", face_on_camera: "Lộ mặt",
+                  product_demo_on_skin: "Thử sản phẩm trên da", shows_texture_or_finish: "Kết cấu / độ hoàn thiện", presenter_gender: "Giới tính người dẫn"};
+      const planCost = (name) => (rec.plans.find(p => p.name === "Chỉ dùng " + name) || {}).usd_500_koc;
+      const cell = (st, c) => {
+        if (!c) return `<td class="muted">–</td>`;
+        const k = c.pick, chosen = c.why === "được chọn";
+        const agree = st === "rationale" ? `trích dẫn ${pct(k.agreement)}` : `khớp ${pct(k.agreement)}${c.passes ? "" : " (chưa đạt)"}`;
+        let more = k.input ? `<br><span class="muted">${esc(k.input)}</span>` : "";
+        if (st !== "rationale" && c.best.model !== k.model) more += `<br><span class="muted">khớp cao nhất: ${esc(c.best.model)} ${pct(c.best.agreement)}, ${usd(c.best.usd_500_koc, 2)}</span>`;
+        if (st !== "rationale" && c.cheapest && ![k.model, c.best.model].includes(c.cheapest.model))
+          more += `<br><span class="muted">rẻ nhất: ${esc(c.cheapest.model)} ${pct(c.cheapest.agreement)}, ${usd(c.cheapest.usd_500_koc, 2)}</span>`;
+        return `<td><b>${esc(k.model)}</b><br>${agree} · ${usd(k.usd_500_koc, 2)} · ${k.latency_s.toFixed(1)}s${more}<br>
+          ${chosen ? '<span class="pill ok">được chọn</span>' : `<i>${esc(c.why || "")}</i>`}</td>`;
+      };
+      html += `<h2>So sánh theo hãng: Anthropic, Google, DeepSeek</h2>
+        <p class="muted">Mỗi ô: model rẻ nhất đạt ngưỡng của hãng (không có thì model khớp cao nhất) · độ khớp tham chiếu · USD cho 500 KOC ·
+        độ trễ mỗi lần gọi; dòng cuối: vì sao không dùng hãng đó so với model đề xuất.</p>
+        <div class="scroll"><table><tr><th>Bước</th>${P.map(p => `<th>${esc(p.name)}</th>`).join("")}</tr>
+        ${["screen", "video", "rationale"].map(st => `<tr><td>${ST[st]}</td>${P.map(p => cell(st, p.stages[st])).join("")}</tr>`).join("")}
+        <tr><td><b>Chỉ dùng hãng này, 500 KOC</b></td>${P.map(p => `<td><b>${usd(planCost(p.name), 2)}</b></td>`).join("")}</tr></table></div>`;
+      for (const st of ["screen", "video"]) {
+        const rows = P.filter(p => p.stages[st]);
+        if (!rows.length) continue;
+        const f0 = rows[0].stages[st].pick;
+        html += `<h3 style="margin:14px 0 6px">${ST[st]}: độ khớp từng trường <span class="muted" style="font-weight:400;font-size:13px">
+          (${f0.n} ${st === "screen" ? "creator" : "video"}; 1 lần lệch ≈ ${Math.round(100 / (f0.n || 1))} điểm %)</span></h3>
+          <div class="scroll"><table><tr><th>Trường</th>${rows.map(p => `<th>${esc(p.name)}: ${esc(p.stages[st].pick.model)}</th>`).join("")}</tr>
+          ${Object.keys(f0.fields).map(f => `<tr><td>${FV[f] || esc(f)}</td>${rows.map(p => {
+            const v = p.stages[st].pick.fields[f];
+            return `<td class="n">${v == null ? "–" : `<span class="pill ${v >= .9 ? "ok" : v >= .75 ? "warn" : "bad"}">${pct(v)}</span>`}</td>`;
+          }).join("")}</tr>`).join("")}</table></div>`;
+      }
+      if (rec.provider_share?.length) html += `<p><b>Tỷ lệ chi phí theo hãng trong phương án đề xuất (500 KOC):</b>
+        ${rec.provider_share.map(s => `${esc(s.name)} ${pct(s.share)} (${usd(s.usd_500_koc, 2)})`).join(" · ")}.
+        ${P.filter(p => !rec.provider_share.some(s => s.name === p.name)).map(p => `${esc(p.name)} không được chọn ở bước nào.`).join(" ")}</p>`;
+    }
+    if (rec.stability?.length) {
+      html += `<h2>Độ ổn định của bộ KOC</h2>
+        <p class="muted">Mỗi KOC được bao nhiêu % biến thể chọn (1 model cho cả sàng lọc + xem video). ≥ 80% là lựa chọn chắc chắn;
+        thấp hơn là nhóm sát ngưỡng, kết quả phụ thuộc model.</p><div class="panel">${rec.stability.map(s => `
+        <div class="stage-row"><span>@${esc(s.handle)}</span><div class="bar"><i style="width:${Math.round(s.share * 100)}%"></i></div>
+        <span class="muted">${pct(s.share)}${s.in_pipeline ? ' · <span class="pill ok">trong đề xuất</span>' : ""}</span></div>`).join("")}</div>`;
+    }
+  }
+  html += `<h2>Số liệu chi tiết – input của run ${esc(b.run_id)}</h2>
+    <p class="muted">Tham chiếu = đồng thuận của ${esc([...refModels].join(", "))} (effort high). "Khớp" = tỷ lệ trường phân loại trùng tham chiếu.
+    ${Object.keys(b.skipped || {}).length ? "Bỏ qua: " + esc(Object.entries(b.skipped).map(([m, w]) => `${m} (${w})`).join(", ")) : ""}</p>`;
+  for (const [stage, runs] of Object.entries(b.stages)) {
+    const label = {screen: "Sàng lọc (text)", video: "Xem video", rationale: "Viết lý do"}[stage] || stage;
+    const rows = [...runs].sort((x, y) => x.cost_usd - y.cost_usd);
+    html += `<h2>${label}</h2><div class="scroll"><table><tr><th>Model</th><th>Effort</th><th class="n">USD</th><th class="n">Thời gian</th>
+      <th class="n">Token vào</th><th class="n">Token ra</th><th class="n">Lỗi</th>
+      ${stage === "rationale" ? '<th class="n">Trích dẫn hợp lệ</th>' : '<th class="n">Khớp tham chiếu</th><th>MAE điểm</th><th class="n">Khớp người</th>'}</tr>`;
+    for (const r of rows) {
+      const a = r.agreement_vs_ref || {};
+      const isRef = refModels.has(r.model) && r.effort === "high";
+      const agree = a.exact_avg;
+      const cls = agree == null ? "" : agree >= .9 ? "ok" : agree >= .75 ? "warn" : "bad";
+      const mae = Object.entries(a).filter(([k]) => k.endsWith("_mae")).map(([k, v]) => `${k.slice(0, -4)} ${v.toFixed(1)}`).join(", ");
+      html += `<tr><td>${esc(r.model)}${isRef ? ' <span class="pill warn">ref</span>' : ""}</td><td>${esc(r.effort)}</td>
+        <td class="n">${usd(r.cost_usd)}</td><td class="n">${r.seconds}s</td><td class="n">${num(r.input_tokens)}</td><td class="n">${num(r.output_tokens)}</td>
+        <td class="n">${r.errors?.length || 0}</td>
+        ${stage === "rationale" ? `<td class="n">${pct(r.citation_check?.valid_rate)}</td>`
+          : `<td class="n">${agree == null ? "–" : `<span class="pill ${cls}">${pct(agree)}</span>`}</td><td>${esc(mae || "–")}</td><td class="n">${pct(r.agreement_vs_human)}</td>`}</tr>`;
+    }
+    html += `</table></div>`;
+  }
+  if (b.picks?.length) {
+    html += `<h2>Bộ KOC có đổi theo model không?</h2><div class="scroll"><table><tr><th>Model (sàng lọc + video)</th><th>Effort</th><th>KOC được chọn</th><th class="n">Trùng pipeline (Jaccard)</th></tr>
+      ${b.picks.map(p => `<tr><td>${esc(p.model)}</td><td>${esc(p.effort)}</td><td>${esc(p.selected.join(", ") || "–")}</td><td class="n">${pct(p.jaccard_vs_pipeline)}</td></tr>`).join("")}</table></div>`;
+  }
+  $("#tab-bench").innerHTML = html;
+}
+
+// ---------- tab Mở rộng ----------
+function renderScale(o) {
+  if (!o) { $("#tab-scale").innerHTML = `<div class="empty">Chưa có results/scale_test.json – chạy <code>uv run koc scale-test</code> (0 đồng, không cần API key, ~30 giây).</div>`; return; }
+  const S = o.scenarios;
+  const secs = (x) => x < 90 ? `${Math.round(x)} giây` : x < 5400 ? `${Math.round(x / 60)} phút` : `${(x / 3600).toFixed(1)} giờ`;
+  const row = (label, fn, strong) => `<tr><td>${label}</td>${S.map(r => `<td class="n">${strong ? "<b>" + fn(r) + "</b>" : fn(r)}</td>`).join("")}</tr>`;
+  const rs = o.resume;
+  $("#tab-scale").innerHTML = `<h2>Đo khả năng mở rộng: ${S.map(r => r.n_koc).join(" → ")} KOC</h2>
+    <p class="muted">Chạy <b>nguyên pipeline thật</b> (đủ 7 stage, checkpoint SQLite, cache, phễu thích ứng, chọn trong ngân sách) trên dữ liệu Kalodata
+    <b>giả lập</b> với model <b>giả</b> (không gọi mạng, 0 đồng), lúc ${esc(o.generated_at)}. Số người qua phễu, số lần gọi model, thời gian code,
+    bài chọn, SQLite, phục hồi là <b>đo thật</b>. Token, USD, thời gian chờ model là <b>dự phóng</b> = số lần gọi × số đo thật mỗi item ở run
+    <code>final</code>. Mô phỏng không đo chất lượng (xem tab Benchmark).</p>
+    <div class="scroll"><table><tr><th></th>${S.map(r => `<th class="n">${r.n_koc} KOC</th>`).join("")}</tr>
+    ${row("Ngân sách booking", r => vnd(r.budget_vnd))}
+    ${row("Creator đầu vào (giả lập)", r => num(r.creators_in))}
+    ${row("S1 qua luật (0 đồng)", r => num(r.after_prefilter))}
+    ${row("S2 lấy chi tiết Kalodata (12 × n)", r => num(r.enriched))}
+    ${row("S3 qua chỉ số khán giả (0 đồng)", r => num(r.after_metrics))}
+    ${row("S4 LLM sàng lọc: người / lần gọi", r => `${num(r.screened)} / ${num(r.llm_calls.screen)}`)}
+    ${row("S5 AI xem video: người = lần gọi", r => num(r.video_analyzed))}
+    ${row("S7 viết lý do: lần gọi (10 KOC/lần)", r => num(r.llm_calls.rationale))}
+    ${row("Chọn được / chi phí booking", r => `${r.selected} / ${vnd(r.booking_vnd)}`, true)}
+    ${row("Tổng lần gọi model", r => `${num(r.llm_calls_total)} (${pct(r.llm_calls_total / r.creators_in)} số creator)`)}
+    ${row("Token vào / ra (dự phóng)", r => `${(r.input_tokens / 1e6).toFixed(2)}M / ${(r.output_tokens / 1e6).toFixed(2)}M`)}
+    ${row("Chi phí AI (dự phóng)", r => `${usd(r.usd, 2)} (${usd(r.usd / r.n_koc)}/KOC)`, true)}
+    ${row("Chờ model, song song 4 / 16 (dự phóng)", r => `${secs(r.model_wait_s["4"])} / ${secs(r.model_wait_s["16"])}`)}
+    ${row("Kalodata API: lần gọi / điểm / thời gian (1 req/s)", r => `${num(r.kalodata_calls)} / ${r.kalodata_points} / ${secs(r.kalodata_s)}`)}
+    ${row("Thời gian phần code (đo thật)", r => r.code_s >= 0.1 ? `${r.code_s} giây` : "< 0,1 giây")}
+    ${row("Giải bài chọn trong ngân sách (đo thật)", r => r.select_s >= 0.001 ? `${Math.round(r.select_s * 1000)} ms` : "< 1 ms")}
+    ${row("SQLite (checkpoint + cache)", r => `${r.db_mb} MB`)}
+    </table></div>
+    ${rs ? `<div class="panel" style="margin-top:12px"><b>Phục hồi ở quy mô ${rs.n_koc} KOC:</b> cho "sập" sau ${rs.crash_after} lần gọi model rồi chạy lại cùng run:
+      ${rs.llm_calls_total} lần gọi trả tiền (chạy liền: ${rs.clean_calls}), <b>${rs.duplicate_paid_items} item bị gọi lặp</b>, chọn ${rs.selected} KOC
+      (${rs.same_selection ? "trùng" : "khác"} bộ chọn của lần chạy liền).</div>` : ""}
+    <h2>Vì sao mở rộng được</h2><ul class="ev">
+      <li>Mọi tầng phễu <b>tỷ lệ với số KOC</b> (<code>*_per_koc</code> trong config): chi phí AI tăng tuyến tính theo số KOC (~$0.005/KOC), không theo số creator đầu vào.</li>
+      <li>Sàng lọc, xem video, viết lý do chạy <b>song song</b> (<code>concurrency</code>); viết lý do chia lô 10 KOC/lần gọi.</li>
+      <li>Bài chọn trong ngân sách: n ≤ 6 vét cạn; n lớn dùng nhân tử Lagrange + đổi chỗ (trùng đáp án vét cạn 99,4% bài thử, tệ nhất 97,5%).</li>
+      <li>SQLite chế độ WAL: mỗi checkpoint 0,2 ms thay vì 103 ms; checkpoint từng item nên sập ở đâu chạy tiếp ở đó.</li>
+      <li>Nút thắt còn lại ở 500 KOC: lấy chi tiết Kalodata (10 req/10 giây) và hạn mức RPM của model; xem README mục Khả năng mở rộng.</li></ul>`;
+}
+
+// ---------- tải dữ liệu ----------
+async function loadAll() {
+  await loadRuns();
+  let d = null;
+  try {
+    d = await api("/api/result?run=" + encodeURIComponent(RUN));
+    renderResult(d); renderCost(d);
+  } catch (e) {
+    $("#tab-result").innerHTML = `<div class="empty">${esc(e.message)}<br>Chạy <code>uv run koc run --run-id ${esc(RUN)}</code> trước.</div>`;
+    $("#tab-cost").innerHTML = "";
+  }
+  const b = await api("/api/benchmark").catch(() => null);
+  renderBench(b);
+  renderScale(await api("/api/scale").catch(() => null));
+  renderBanner(d, b);
+  if (TAB === "progress") startPolling();
+}
+loadAll();
+</script>
+</body>
+</html>

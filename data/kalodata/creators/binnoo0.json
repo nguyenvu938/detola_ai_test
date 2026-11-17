@@ -1,0 +1,286 @@
+{
+  "handle": "binnoo0",
+  "kalodata_id": "7030151942241174554",
+  "nickname": "BinNoo",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": null,
+  "bio": "Không9không66bảy9tám61",
+  "followers": 105100,
+  "debut_date": "2024-10-01",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": null,
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được. API trả followerAgeMax rỗng.",
+  "core_metrics": {
+    "revenue_vnd": 1680000000,
+    "live_revenue_vnd": 0,
+    "video_revenue_vnd": 1630000000,
+    "video_views": 6180000,
+    "live_views": 7120,
+    "follower_change": 5900
+  },
+  "videos": [
+    {
+      "video_id": "7689330269924461845",
+      "url": "https://www.tiktok.com/@binnoo0/video/7689330269924461845",
+      "description": "Kem chống nắng dưỡng da",
+      "duration_s": 40.82,
+      "views": 1470000,
+      "revenue_vnd": 349080000,
+      "items_sold": 3850,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "47.95%",
+      "publish_date": "2026-09-25"
+    },
+    {
+      "video_id": "7696733109072432404",
+      "url": "https://www.tiktok.com/@binnoo0/video/7696733109072432404",
+      "description": "Dưỡng da mặt",
+      "duration_s": 28.281,
+      "views": 582680,
+      "revenue_vnd": 158000000,
+      "items_sold": 1600,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.798,
+      "ad_view_ratio": "63.55%",
+      "publish_date": "2026-10-15"
+    },
+    {
+      "video_id": "7694635893511965972",
+      "url": "https://www.tiktok.com/@binnoo0/video/7694635893511965972",
+      "description": "Kem dưỡng da",
+      "duration_s": 54.38,
+      "views": 404460,
+      "revenue_vnd": 114740000,
+      "items_sold": 1160,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "69.95%",
+      "publish_date": "2026-10-09"
+    },
+    {
+      "video_id": "7702439094336605461",
+      "url": "https://www.tiktok.com/@binnoo0/video/7702439094336605461",
+      "description": "Sữa tắm",
+      "duration_s": 26.284,
+      "views": 285240,
+      "revenue_vnd": 52270000,
+      "items_sold": 458,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.752,
+      "ad_view_ratio": "34.63%",
+      "publish_date": "2026-10-30"
+    },
+    {
+      "video_id": "7670423905806355733",
+      "url": "https://www.tiktok.com/@binnoo0/video/7670423905806355733",
+      "description": "Kem chống nắng",
+      "duration_s": 51.037,
+      "views": 311860,
+      "revenue_vnd": 47260000,
+      "items_sold": 497,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.372,
+      "ad_view_ratio": "15.86%",
+      "publish_date": "2026-08-05"
+    },
+    {
+      "video_id": "7668241867707927828",
+      "url": "https://www.tiktok.com/@binnoo0/video/7668241867707927828",
+      "description": "Kem tẩy lông",
+      "duration_s": 35.409,
+      "views": 25480,
+      "revenue_vnd": 43200000,
+      "items_sold": 433,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.459,
+      "ad_view_ratio": "57.25%",
+      "publish_date": "2026-07-30"
+    },
+    {
+      "video_id": "7693422667856170260",
+      "url": "https://www.tiktok.com/@binnoo0/video/7693422667856170260",
+      "description": "Mặt nạ",
+      "duration_s": 18,
+      "views": 34840,
+      "revenue_vnd": 39730000,
+      "items_sold": 156,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": ">90%",
+      "publish_date": "2026-10-06"
+    },
+    {
+      "video_id": "7701974614339079445",
+      "url": "https://www.tiktok.com/@binnoo0/video/7701974614339079445",
+      "description": "Sữa tắm",
+      "duration_s": 47.3,
+      "views": 132140,
+      "revenue_vnd": 34310000,
+      "items_sold": 242,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.717,
+      "ad_view_ratio": "27.96%",
+      "publish_date": "2026-10-29"
+    },
+    {
+      "video_id": "7689077768239205638",
+      "url": "https://www.tiktok.com/@binnoo0/video/7689077768239205638",
+      "description": "Áo thun nam",
+      "duration_s": 21.567,
+      "views": 19510,
+      "revenue_vnd": 33620000,
+      "items_sold": 181,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.342,
+      "ad_view_ratio": "53.31%",
+      "publish_date": "2026-09-24"
+    },
+    {
+      "video_id": "7683062987455991061",
+      "url": "https://www.tiktok.com/@binnoo0/video/7683062987455991061",
+      "description": "Mặt nạ giấy",
+      "duration_s": 32.134,
+      "views": 23410,
+      "revenue_vnd": 31000000,
+      "items_sold": 122,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.662,
+      "ad_view_ratio": "82.90%",
+      "publish_date": "2026-09-08"
+    }
+  ],
+  "shops": [
+    {
+      "name": "Bzone Personal Care",
+      "revenue_vnd": 491810000,
+      "product_count": 9,
+      "items_sold": 5400
+    },
+    {
+      "name": "All-round skin care",
+      "revenue_vnd": 322770000,
+      "product_count": 1,
+      "items_sold": 3270
+    },
+    {
+      "name": "EKDO-Dailycare",
+      "revenue_vnd": 156590000,
+      "product_count": 9,
+      "items_sold": 1270
+    },
+    {
+      "name": "CHUNXI",
+      "revenue_vnd": 144340000,
+      "product_count": 7,
+      "items_sold": 1520
+    },
+    {
+      "name": "MaskFamily Vietnam",
+      "revenue_vnd": 65120000,
+      "product_count": 1,
+      "items_sold": 256
+    },
+    {
+      "name": "MTN Personal Care",
+      "revenue_vnd": 55190000,
+      "product_count": 14,
+      "items_sold": 590
+    },
+    {
+      "name": "SMK COSMETICS",
+      "revenue_vnd": 49640000,
+      "product_count": 4,
+      "items_sold": 401
+    },
+    {
+      "name": "EnnyCos",
+      "revenue_vnd": 41540000,
+      "product_count": 5,
+      "items_sold": 111
+    },
+    {
+      "name": "Mask Family Skincare Shop",
+      "revenue_vnd": 37110000,
+      "product_count": 1,
+      "items_sold": 146
+    },
+    {
+      "name": "IDOOME",
+      "revenue_vnd": 33620000,
+      "product_count": 1,
+      "items_sold": 181
+    }
+  ],
+  "products": [
+    {
+      "title": "Kem Chống Nắng Dưỡng Sáng Da ZkYo SPF50+ PA+++ 50g | Hỗ trợ Dưỡng Ẩm, Làm Sáng & Bảo Vệ Da | Kết Cấu Mỏng Nhẹ, Không Bết Dính | Phù Hợp Dùng Hàng Ngày",
+      "revenue_vnd": 439280000,
+      "items_sold": 4840,
+      "avg_price_vnd": 90800
+    },
+    {
+      "title": "Kem Dưỡng Trắng DR Dorria Tranexamic Acid 377 | Mờ Nám, Mờ Thâm Sắc Tố, Dưỡng Da Trắng Sáng Rạng Rỡ | Spa Tại Nhà",
+      "revenue_vnd": 322770000,
+      "items_sold": 3270,
+      "avg_price_vnd": 98650
+    },
+    {
+      "title": "Kem Tẩy Lông CHUNXI 60g | Chứa Thành Phần Dưỡng Ẩm - Hỗ trợ Tẩy Lông Nhẹ Nhàng, Sạch Mịn & Chăm Sóc Da | Dịu Nhẹ & Mềm Mại | 60g",
+      "revenue_vnd": 92490000,
+      "items_sold": 923,
+      "avg_price_vnd": 100200
+    },
+    {
+      "title": "Sữa Tắm EKDO 680ml | Axit Amin + Chiết xuất rễ cây Long Đởm | Giúp Làm Sạch Dịu Nhẹ, Dưỡng Ẩm & Lưu Hương Lâu Dài | Dung Tích Lớn, Dùng Hàng Ngày",
+      "revenue_vnd": 78690000,
+      "items_sold": 691,
+      "avg_price_vnd": 113870
+    },
+    {
+      "title": "Mặt Nạ Đen Bifida Mask Family 10% Bifida Ferment Lysate Cấp Ẩm Săn Chắc Da, Làm Mờ Nếp Nhăn, Dưỡng Sáng 30ml x 5 Miếng",
+      "revenue_vnd": 65120000,
+      "items_sold": 256,
+      "avg_price_vnd": 254390
+    },
+    {
+      "title": "Kem Chống Nắng YOQQ ️ - SPF50+ PA+++ | Kết Cấu Mỏng Nhẹ, Hỗ Trợ Dưỡng Trắng & Che Khuyết Điểm Tự Nhiên | Chứa 377+577, Niacinamide, Vitamin C (30ml)",
+      "revenue_vnd": 50300000,
+      "items_sold": 529,
+      "avg_price_vnd": 95080
+    },
+    {
+      "title": "Sữa Tắm EKDO 500ml | Chiết xuất Rau Má + Rễ Long Đởm + Ceramide | Hỗ trợ Làm Sạch Dịu Nhẹ, Dưỡng Ẩm & Làm Dịu Da | Bọt Mịn, Hương Thơm Lưu Lâu",
+      "revenue_vnd": 44680000,
+      "items_sold": 317,
+      "avg_price_vnd": 140960
+    },
+    {
+      "title": "Kem Dưỡng Cao Cấp YIRUOYI - Hỗ Trợ Làm Trắng Da, Mờ Nám & Tàn Nhang | Chứa 377, Giúp Da Săn Chắc, Chống Nếp Nhăn & Dưỡng Ẩm (200g)",
+      "revenue_vnd": 44050000,
+      "items_sold": 345,
+      "avg_price_vnd": 127670
+    },
+    {
+      "title": "Mặt Nạ Giấy Bifida Ferment Lysate Mask Family 5 Miếng/Hộp Làm Săn Chắc, Làm Săn Chắc Làm Săn Chắc Làm Sáng Dưỡng Ẩm Giảm Nếp Nhăn 30ml/miếng",
+      "revenue_vnd": 37110000,
+      "items_sold": 146,
+      "avg_price_vnd": 254180
+    },
+    {
+      "title": "Áo Thun Nam Cao Cấp, IDOOMEE, Cổ Đôi, In Chữ, Màu Trơn Cơ Bản, Phong Cách Đường Phố Thường Ngày Thoải Mái Và Thoáng Khí, Làm Bằng Bông 200G",
+      "revenue_vnd": 33620000,
+      "items_sold": 181,
+      "avg_price_vnd": 185750
+    }
+  ],
+  "contact_keys": []
+}

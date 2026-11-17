@@ -1,0 +1,286 @@
+{
+  "handle": "changaffiliate",
+  "kalodata_id": "7440289356625576976",
+  "nickname": "Chang Chăm Chỉ",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": null,
+  "bio": "F.w: 0398🌿700🌿919 (Không call)³",
+  "followers": 85200,
+  "debut_date": "2024-12-07",
+  "follower_gender": null,
+  "follower_age": null,
+  "core_metrics": {
+    "revenue_vnd": 15730000000,
+    "live_revenue_vnd": 0,
+    "video_revenue_vnd": 15640000000,
+    "video_views": 77450000,
+    "live_views": 0,
+    "follower_change": 7100
+  },
+  "videos": [
+    {
+      "video_id": "7702273755661225236",
+      "url": "https://www.tiktok.com/@changaffiliate/video/7702273755661225236",
+      "description": "dùng siu thích #kemnendangthoi #kemnenthoi #kemnenobge #obge",
+      "duration_s": 69.667,
+      "views": 8370000,
+      "revenue_vnd": 1820000000,
+      "items_sold": 4110,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.744,
+      "ad_view_ratio": "20.55%",
+      "publish_date": "2026-10-30"
+    },
+    {
+      "video_id": "7700961616283602197",
+      "url": "https://www.tiktok.com/@changaffiliate/video/7700961616283602197",
+      "description": "xịn lắm mấy bà #kemphanduonghoataytu #kemphanduongda #hoataytu",
+      "duration_s": 119.837,
+      "views": 534570,
+      "revenue_vnd": 479220000,
+      "items_sold": 301,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "89.13%",
+      "publish_date": "2026-10-26"
+    },
+    {
+      "video_id": "7661444923798949140",
+      "url": "https://www.tiktok.com/@changaffiliate/video/7661444923798949140",
+      "description": "mua hủ lớn dùng cho đã #kemutoc #kemutocsieumuot #kemutoccollagen #kemutochyamin",
+      "duration_s": 49.62,
+      "views": 1130000,
+      "revenue_vnd": 349690000,
+      "items_sold": 2050,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.638,
+      "ad_view_ratio": "42.34%",
+      "publish_date": "2026-07-12"
+    },
+    {
+      "video_id": "7645124658718641429",
+      "url": "https://www.tiktok.com/@changaffiliate/video/7645124658718641429",
+      "description": "#nhumat #butnhumat #nhumatkimtuyen #rocksweet",
+      "duration_s": 68.939,
+      "views": 1490000,
+      "revenue_vnd": 334330000,
+      "items_sold": 1840,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.727,
+      "ad_view_ratio": "58.06%",
+      "publish_date": "2026-05-29"
+    },
+    {
+      "video_id": "7684262284700486932",
+      "url": "https://www.tiktok.com/@changaffiliate/video/7684262284700486932",
+      "description": "săn nè mấy bà #mayduoitoc #mayduoitockemei",
+      "duration_s": 50.502,
+      "views": 919960,
+      "revenue_vnd": 209240000,
+      "items_sold": 1220,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "48.57%",
+      "publish_date": "2026-09-11"
+    },
+    {
+      "video_id": "7679994937965858069",
+      "url": "https://www.tiktok.com/@changaffiliate/video/7679994937965858069",
+      "description": "săn nè mấy bà #matnautoc #kemutoc #kemutocloreal #lorealparis #congtacvoilorealparis",
+      "duration_s": 66.367,
+      "views": 804710,
+      "revenue_vnd": 192910000,
+      "items_sold": 653,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "32.26%",
+      "publish_date": "2026-08-31"
+    },
+    {
+      "video_id": "7705238439108611329",
+      "url": "https://www.tiktok.com/@changaffiliate/video/7705238439108611329",
+      "description": "combo hời hơn #kemnendangthoi #kemnenobge #obge #phanphuobge",
+      "duration_s": 117.538,
+      "views": 506280,
+      "revenue_vnd": 185730000,
+      "items_sold": 229,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.273,
+      "ad_view_ratio": "25.59%",
+      "publish_date": "2026-11-07"
+    },
+    {
+      "video_id": "7697443396645915924",
+      "url": "https://www.tiktok.com/@changaffiliate/video/7697443396645915924",
+      "description": "săn nè mấy bà #chikemat #chikematdanggel #unny #chikematunny",
+      "duration_s": 71.238,
+      "views": 745050,
+      "revenue_vnd": 180350000,
+      "items_sold": 1170,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.754,
+      "ad_view_ratio": "25.01%",
+      "publish_date": "2026-10-17"
+    },
+    {
+      "video_id": "7661819111650888980",
+      "url": "https://www.tiktok.com/@changaffiliate/video/7661819111650888980",
+      "description": "đúng thơm lun #daugoiasamoka #asamoka #daugoinuochoa #daugoimuottoc",
+      "duration_s": 70.7,
+      "views": 906290,
+      "revenue_vnd": 179800000,
+      "items_sold": 1190,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.335,
+      "ad_view_ratio": "14.69%",
+      "publish_date": "2026-07-13"
+    },
+    {
+      "video_id": "7692998478372408597",
+      "url": "https://www.tiktok.com/@changaffiliate/video/7692998478372408597",
+      "description": "săn nè mấy bà #daugoiboket #daugoiboketthorakao #thorakao",
+      "duration_s": 78.32,
+      "views": 812180,
+      "revenue_vnd": 173270000,
+      "items_sold": 1430,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "45.72%",
+      "publish_date": "2026-10-05"
+    }
+  ],
+  "shops": [
+    {
+      "name": "OBgE Vietnam",
+      "revenue_vnd": 2490000000,
+      "product_count": 4,
+      "items_sold": 5660
+    },
+    {
+      "name": "Hyamin Việt Nam",
+      "revenue_vnd": 602610000,
+      "product_count": 3,
+      "items_sold": 3520
+    },
+    {
+      "name": "Unilever Beauty",
+      "revenue_vnd": 502380000,
+      "product_count": 31,
+      "items_sold": 1670
+    },
+    {
+      "name": "Florasis Hoa Tây Tử",
+      "revenue_vnd": 496840000,
+      "product_count": 3,
+      "items_sold": 313
+    },
+    {
+      "name": "L'oreal Paris Việt Nam",
+      "revenue_vnd": 463700000,
+      "product_count": 11,
+      "items_sold": 1550
+    },
+    {
+      "name": "ROCKSWEET-VN",
+      "revenue_vnd": 442930000,
+      "product_count": 2,
+      "items_sold": 2960
+    },
+    {
+      "name": "Unilever - Chăm Sóc Cá Nhân",
+      "revenue_vnd": 415640000,
+      "product_count": 14,
+      "items_sold": 1520
+    },
+    {
+      "name": "AZTK VN",
+      "revenue_vnd": 410590000,
+      "product_count": 5,
+      "items_sold": 3160
+    },
+    {
+      "name": "Kans Official Vietnam",
+      "revenue_vnd": 386530000,
+      "product_count": 9,
+      "items_sold": 2720
+    },
+    {
+      "name": "KAO VIETNAM",
+      "revenue_vnd": 374180000,
+      "product_count": 10,
+      "items_sold": 3530
+    }
+  ],
+  "products": [
+    {
+      "title": "[OBgE Chính Hãng] Kem Nền Thỏi Natural Cover Foundation 13g SPF50+ PA++++ 3 Trong 1 Che Phủ Lỗ Chân Lông, Kiềm Dầu, Kèm Cọ Tán",
+      "revenue_vnd": 2120000000,
+      "items_sold": 4790,
+      "avg_price_vnd": 441770
+    },
+    {
+      "title": "Hoa Tây Tử Kem Phấn Dưỡng Hoa Ánh Mật Florasis | Kỷ Nguyên Trang Điểm Dưỡng Da Từ Hoa | Che khuyết điểm, không cảm giác phấn, làn da căng mướt ánh mật",
+      "revenue_vnd": 491030000,
+      "items_sold": 308,
+      "avg_price_vnd": 1590000
+    },
+    {
+      "title": "[HYAMIN Yêu Bản Thân Mình Trước] Kem ủ tóc Hyamin Collagen DTH phục hồi tóc khô xơ hư tổn mềm mượt hương nước hoa 1000ml",
+      "revenue_vnd": 397780000,
+      "items_sold": 2330,
+      "avg_price_vnd": 170650
+    },
+    {
+      "title": "KANS - Hộp Tinh Chất Kiểm Soát Dầu Thừa, Hỗ Trợ Giảm Mụn, Kiểm Soát Bã Nhờn, Làm Dịu Da 1.5ml x 20 ống",
+      "revenue_vnd": 355070000,
+      "items_sold": 2610,
+      "avg_price_vnd": 136100
+    },
+    {
+      "title": "ROCKSWEET Bút Phấn Nhũ Mắt Lấp Lánh Đa Sắc Lâu Trôi Không Thấm Nước Phù Hợp Cho Người Mới Dễ Lên Màu Không Lớp Trang Điểm Bị Chảy Nhòe",
+      "revenue_vnd": 334330000,
+      "items_sold": 1840,
+      "avg_price_vnd": 181800
+    },
+    {
+      "title": "[VC 20% - ĐỘC QUYỀN] Make P:rem Kem chống nắng Make P:rem theo từng da 50ml SPF+ PA++++",
+      "revenue_vnd": 317830000,
+      "items_sold": 974,
+      "avg_price_vnd": 326310
+    },
+    {
+      "title": "Máy duỗi tóc điện 4 tốc độ kiểm soát nhiệt độ cho nam nữ trưởng thành tạo kiểu tóc may dap",
+      "revenue_vnd": 299570000,
+      "items_sold": 1740,
+      "avg_price_vnd": 172170
+    },
+    {
+      "title": "Combo 6 Kem đánh răng Closeup White Now - Trắng Bật Tông 3X từ Công nghệ Ánh Sáng Xanh - Tinh Thể Blue Sapphire 100g [v]",
+      "revenue_vnd": 281870000,
+      "items_sold": 780,
+      "avg_price_vnd": 361370
+    },
+    {
+      "title": "[SOMEBYMI] Kem Mắt Retinol Giảm Nhăn Retinol Intense Advanced Triple Action Eye Cream 30ml",
+      "revenue_vnd": 255990000,
+      "items_sold": 669,
+      "avg_price_vnd": 382650
+    },
+    {
+      "title": "Mặt nạ ủ tóc chuyên sâu gold peptide phục hồi hư tổn, suôn mượt tóc L’Oreal Paris Extraordinary Oil Mask 250ml",
+      "revenue_vnd": 229760000,
+      "items_sold": 778,
+      "avg_price_vnd": 295320
+    }
+  ],
+  "demographics_note": "Kalodata hiển thị biểu đồ giới tính/độ tuổi follower mặc định giống hệt nhau cho mọi creator (nữ 60/nam 40; 18-24 30.5, 25-34 39.5, 35-44 20, 45-54 7.5, 55+ 2.5), nút 'Detail' chỉ cuộn tới cùng khối, Top 5 Locations/Languages/Active Hours trống => placeholder, không phải số liệu thật. API chỉ trả nhãn: followerSex='Majority Female', followerAgeMax='25-34'.",
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": "25-34",
+  "contact_keys": []
+}

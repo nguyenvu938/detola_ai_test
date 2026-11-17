@@ -1,0 +1,288 @@
+{
+  "handle": "gao_say_hi",
+  "kalodata_id": "6996435278961886234",
+  "nickname": "Gạo say Hi",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": "UpBase Technology Joint Stock Company",
+  "bio": "Forwork: [phone]- Nhung\nChỉ bán hàng chính hãng, join đây để săn giá sốc nha",
+  "followers": 63100,
+  "debut_date": "2023-02-11",
+  "follower_gender": null,
+  "follower_age": null,
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...). API chỉ trả nhãn: followerSex='Majority Female', followerAgeMax='25-34'.",
+  "core_metrics": {
+    "revenue_vnd": 2910000000,
+    "live_revenue_vnd": 2500000000,
+    "video_revenue_vnd": 349210000,
+    "video_views": 1120000,
+    "live_views": 246150,
+    "follower_change": 1100
+  },
+  "videos": [
+    {
+      "video_id": "7680351806714678529",
+      "url": "https://www.tiktok.com/@gao_say_hi/video/7680351806714678529",
+      "description": "Mua liền #gaosayhi #phanmatsivanna",
+      "duration_s": 31.967,
+      "views": 110600,
+      "revenue_vnd": 29200000,
+      "items_sold": 169,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "77.62%",
+      "publish_date": "2026-09-01"
+    },
+    {
+      "video_id": "7700217729604898069",
+      "url": "https://www.tiktok.com/@gao_say_hi/video/7700217729604898069",
+      "description": "Mua lẹ không hết deal #tonerpadrepiel #tonerpad #repiel #gaosayhi",
+      "duration_s": 45.167,
+      "views": 23040,
+      "revenue_vnd": 14650000,
+      "items_sold": 59,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.175,
+      "ad_view_ratio": "32.21%",
+      "publish_date": "2026-10-24"
+    },
+    {
+      "video_id": "7679353743736851713",
+      "url": "https://www.tiktok.com/@gao_say_hi/video/7679353743736851713",
+      "description": "Mua liền #gaosayhi #chongnangmakeprem",
+      "duration_s": 24.543,
+      "views": 29660,
+      "revenue_vnd": 13030000,
+      "items_sold": 40,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": ">90%",
+      "publish_date": "2026-08-29"
+    },
+    {
+      "video_id": "7667085860977872144",
+      "url": "https://www.tiktok.com/@gao_say_hi/video/7667085860977872144",
+      "description": "Mua lẹ #gaosayhi #phanmatsivanna",
+      "duration_s": 47.5,
+      "views": 29510,
+      "revenue_vnd": 11030000,
+      "items_sold": 64,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "87.47%",
+      "publish_date": "2026-07-27"
+    },
+    {
+      "video_id": "7488943560557874487",
+      "url": "https://www.tiktok.com/@gao_say_hi/video/7488943560557874487",
+      "description": "So sánh nhanh 3 dòng kcn Dermablock- Make prem- Beplain dựa trên trải nghiệm cá nhân #gaosayhi #kemchongnang #dermablock #makeprem #beplain #kiemdau #nangtone",
+      "duration_s": 44.734,
+      "views": 20480,
+      "revenue_vnd": 10780000,
+      "items_sold": 32,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "65.47%",
+      "publish_date": "2025-04-03"
+    },
+    {
+      "video_id": "7655306800303967489",
+      "url": "https://www.tiktok.com/@gao_say_hi/video/7655306800303967489",
+      "description": "Lụm liền không hết deal nha #gaosayhi #kemchongnangdermablock",
+      "duration_s": 37.708,
+      "views": 38240,
+      "revenue_vnd": 10770000,
+      "items_sold": 53,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.785,
+      "ad_view_ratio": "67.02%",
+      "publish_date": "2026-06-25"
+    },
+    {
+      "video_id": "7663870018878262545",
+      "url": "https://www.tiktok.com/@gao_say_hi/video/7663870018878262545",
+      "description": "Phấn mắt Sivanna #gaosayhi #phanmatsivanna",
+      "duration_s": 24.148,
+      "views": 28300,
+      "revenue_vnd": 9150000,
+      "items_sold": 53,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "86.67%",
+      "publish_date": "2026-07-19"
+    },
+    {
+      "video_id": "7662196149431831824",
+      "url": "https://www.tiktok.com/@gao_say_hi/video/7662196149431831824",
+      "description": "Beplain sale giữa tháng 7 #gaosayhi #chongnangbeplain #salegiuathang",
+      "duration_s": 34.156,
+      "views": 33130,
+      "revenue_vnd": 8800000,
+      "items_sold": 26,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "74.62%",
+      "publish_date": "2026-07-14"
+    },
+    {
+      "video_id": "7666253565660237072",
+      "url": "https://www.tiktok.com/@gao_say_hi/video/7666253565660237072",
+      "description": "sale 1xx #gaosayhi #phanmatsivanna",
+      "duration_s": 48.867,
+      "views": 27630,
+      "revenue_vnd": 8280000,
+      "items_sold": 48,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "79.15%",
+      "publish_date": "2026-07-25"
+    },
+    {
+      "video_id": "7704921631965105429",
+      "url": "https://www.tiktok.com/@gao_say_hi/video/7704921631965105429",
+      "description": "Mua liềnn #gaosayhi #tonerpadrepiel #repiel",
+      "duration_s": 56.8,
+      "views": 15150,
+      "revenue_vnd": 6600000,
+      "items_sold": 24,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.718,
+      "ad_view_ratio": "82.67%",
+      "publish_date": "2026-11-06"
+    }
+  ],
+  "shops": [
+    {
+      "name": "SammiShop Offical",
+      "revenue_vnd": 511210000,
+      "product_count": 51,
+      "items_sold": 1310
+    },
+    {
+      "name": "d'Alba piedmont VN",
+      "revenue_vnd": 427550000,
+      "product_count": 11,
+      "items_sold": 725
+    },
+    {
+      "name": "Mỹ Phẩm Long Châu",
+      "revenue_vnd": 413710000,
+      "product_count": 11,
+      "items_sold": 1080
+    },
+    {
+      "name": "Long Châu Cosmetics",
+      "revenue_vnd": 148380000,
+      "product_count": 9,
+      "items_sold": 615
+    },
+    {
+      "name": "Maxclinic Vietnam",
+      "revenue_vnd": 118480000,
+      "product_count": 26,
+      "items_sold": 190
+    },
+    {
+      "name": "SIVANNA COLORS Vietnam",
+      "revenue_vnd": 94180000,
+      "product_count": 2,
+      "items_sold": 546
+    },
+    {
+      "name": "Arencia",
+      "revenue_vnd": 92660000,
+      "product_count": 5,
+      "items_sold": 198
+    },
+    {
+      "name": "CeraVe Việt Nam",
+      "revenue_vnd": 79380000,
+      "product_count": 8,
+      "items_sold": 180
+    },
+    {
+      "name": "Là Da Beauty",
+      "revenue_vnd": 78760000,
+      "product_count": 2,
+      "items_sold": 104
+    },
+    {
+      "name": "QUSTERE VN STORE",
+      "revenue_vnd": 73010000,
+      "product_count": 3,
+      "items_sold": 715
+    }
+  ],
+  "products": [
+    {
+      "title": "Arencia Vitamin C/Retinal Giảm Thâm Mờ Nám Se Khít Lỗ Chân Lông, Chống Lão Hoá 30ml",
+      "revenue_vnd": 204330000,
+      "items_sold": 634,
+      "avg_price_vnd": 322280
+    },
+    {
+      "title": "[Non_CFV] Gạo x Sammi Beplain Kem chống nắng Sunmuse 50ml (7 màu)",
+      "revenue_vnd": 96980000,
+      "items_sold": 237,
+      "avg_price_vnd": 409200
+    },
+    {
+      "title": "【KOC LIVE】SIVANNA COLORS Bảng phấn mắt 26.4g/PC 15 Ô Mắt ,Highlighter Tạo Khối , Má Hồng, Phấn Mịn Lên Màu Chuẩn, Bám Màu Lâu Lì Không Lem Kèm Gương Tiện Lợ Soft Blurring Makeup Palette HF620",
+      "revenue_vnd": 93420000,
+      "items_sold": 541,
+      "avg_price_vnd": 172670
+    },
+    {
+      "title": "[LIVE] Kem Dưỡng Hỗ Trợ Làm Sáng Và Cấp Ẩm Sâu d'Alba Vita Toning Capsule Cream 55g",
+      "revenue_vnd": 80150000,
+      "items_sold": 87,
+      "avg_price_vnd": 921210
+    },
+    {
+      "title": "Combo Retinal Celimax 15ml & Kem Dưỡng Dr.Althea 345 Relief Cream 50ml Chống Lão Hoá, Phục Hồi Da",
+      "revenue_vnd": 77650000,
+      "items_sold": 93,
+      "avg_price_vnd": 834900
+    },
+    {
+      "title": "Kem Dưỡng Ẩm, Phục Hồi Da Dr.Althea 345 Relief Cream 50ml",
+      "revenue_vnd": 77600000,
+      "items_sold": 183,
+      "avg_price_vnd": 424030
+    },
+    {
+      "title": "[LIVE] Toner Serum d'Alba Vita Toning Serum Hỗ Trợ Cải Thiện Lỗ Chân Lông Dưỡng Da Cấp Ẩm Sâu 180ml",
+      "revenue_vnd": 75510000,
+      "items_sold": 153,
+      "avg_price_vnd": 493510
+    },
+    {
+      "title": "Mặt nạ Hỗ trợ ủ trắng da bã r.ư.ợ.v Sake 170g - Nội địa Nhật mua full sz được tặng 1 gói sample PS.PRETTYSKIN",
+      "revenue_vnd": 69350000,
+      "items_sold": 454,
+      "avg_price_vnd": 152760
+    },
+    {
+      "title": "Arencia Vitamin C/Retinal Giảm Thâm Mờ Nám Se Khít Lỗ Chân Lông, Chống Lão Hoá 30ml",
+      "revenue_vnd": 69310000,
+      "items_sold": 201,
+      "avg_price_vnd": 344830
+    },
+    {
+      "title": "Xịt Mọc Tóc Minoxidil Bailleul 2%, 5% Giảm Rụng Tóc Và Kích Mọc Tóc Của Pháp 60ml",
+      "revenue_vnd": 68360000,
+      "items_sold": 352,
+      "avg_price_vnd": 194210
+    }
+  ],
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": "25-34",
+  "contact_keys": [
+    "lh-8"
+  ]
+}

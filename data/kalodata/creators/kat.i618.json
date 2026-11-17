@@ -1,0 +1,288 @@
+{
+  "handle": "kat.i618",
+  "kalodata_id": "7325094308088005639",
+  "nickname": "Kat ơi",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": "MIOTA NETWORK",
+  "bio": "KAT đã Fomo để các bạn không như thế 😌\nForwork: [phone]",
+  "followers": 102300,
+  "debut_date": "2025-04-12",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": null,
+  "follower_age_top": null,
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được. API không trả followerSex/followerAgeMax.",
+  "core_metrics": {
+    "revenue_vnd": 4990000000,
+    "live_revenue_vnd": 4670000000,
+    "video_revenue_vnd": 259320000,
+    "video_views": 1200000,
+    "live_views": 756690,
+    "follower_change": 1900
+  },
+  "videos": [
+    {
+      "video_id": "7686410871727295765",
+      "url": "https://www.tiktok.com/@kat.i618/video/7686410871727295765",
+      "description": "Son gì nà xuynh théeeee #livestream #dealhoi #makeup #timephoria #viral",
+      "duration_s": 12.306,
+      "views": 15490,
+      "revenue_vnd": 52210000,
+      "items_sold": 198,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.618,
+      "ad_view_ratio": "79.75%",
+      "publish_date": "2026-09-17"
+    },
+    {
+      "video_id": "7688626115950169364",
+      "url": "https://www.tiktok.com/@kat.i618/video/7688626115950169364",
+      "description": "Lụm liền nè mấy ní ơi #makeprem #kemchongnang #reviewmypham #livestream #viral",
+      "duration_s": 12.306,
+      "views": 37850,
+      "revenue_vnd": 25660000,
+      "items_sold": 79,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": ">90%",
+      "publish_date": "2026-09-23"
+    },
+    {
+      "video_id": "7684947068573568276",
+      "url": "https://www.tiktok.com/@kat.i618/video/7684947068573568276",
+      "description": "Lẹ tay săn liền em này cho tui #livestream #dealhoi #makeup #viral",
+      "duration_s": 12.004,
+      "views": 36300,
+      "revenue_vnd": 23080000,
+      "items_sold": 71,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.068,
+      "ad_view_ratio": "14.58%",
+      "publish_date": "2026-09-13"
+    },
+    {
+      "video_id": "7703630212260465972",
+      "url": "https://www.tiktok.com/@kat.i618/video/7703630212260465972",
+      "description": "Che khuyết điểm này quốc dân rồi, khỏi phải bàn #reviewlamdep #livestream #viral",
+      "duration_s": 13.908,
+      "views": 8680,
+      "revenue_vnd": 22710000,
+      "items_sold": 256,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.307,
+      "ad_view_ratio": "52.37%",
+      "publish_date": "2026-11-03"
+    },
+    {
+      "video_id": "7694607989256293653",
+      "url": "https://www.tiktok.com/@kat.i618/video/7694607989256293653",
+      "description": "Đẳng cấp quá các mom, brand iu chơi lớn dữ #makeprem #reviewlamdep #livestream #viral",
+      "duration_s": 11.9,
+      "views": 24880,
+      "revenue_vnd": 19300000,
+      "items_sold": 27,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.77,
+      "ad_view_ratio": "77.12%",
+      "publish_date": "2026-10-09"
+    },
+    {
+      "video_id": "7694941499284262165",
+      "url": "https://www.tiktok.com/@kat.i618/video/7694941499284262165",
+      "description": "Nào chị eim nào mê ẻm điểm danh lẹ #makeprem #livestream #viral",
+      "duration_s": 13.815,
+      "views": 37280,
+      "revenue_vnd": 16880000,
+      "items_sold": 52,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.754,
+      "ad_view_ratio": "86.52%",
+      "publish_date": "2026-10-10"
+    },
+    {
+      "video_id": "7693974328173448449",
+      "url": "https://www.tiktok.com/@kat.i618/video/7693974328173448449",
+      "description": "Giỏ hàng tui gắn cũng giá rất hời luôn nha #reviewlamdep #livestream #viral",
+      "duration_s": 19.109,
+      "views": 26280,
+      "revenue_vnd": 15610000,
+      "items_sold": 48,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.533,
+      "ad_view_ratio": "71.99%",
+      "publish_date": "2026-10-08"
+    },
+    {
+      "video_id": "7688908155643858228",
+      "url": "https://www.tiktok.com/@kat.i618/video/7688908155643858228",
+      "description": "Mí bà tranh thủ nào vì voucher hem có nhiều đâuuu #makeprem #skincare #reviewlamdep #livestream #viral",
+      "duration_s": 10.767,
+      "views": 17130,
+      "revenue_vnd": 12680000,
+      "items_sold": 39,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.697,
+      "ad_view_ratio": "64.19%",
+      "publish_date": "2026-09-24"
+    },
+    {
+      "video_id": "7698790477251874068",
+      "url": "https://www.tiktok.com/@kat.i618/video/7698790477251874068",
+      "description": "Brand Kat mãi iuuu #makeprem #reviewlamdep #skincare #livestream #viral",
+      "duration_s": 7.035,
+      "views": 22490,
+      "revenue_vnd": 9100000,
+      "items_sold": 28,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.514,
+      "ad_view_ratio": "66.70%",
+      "publish_date": "2026-10-21"
+    },
+    {
+      "video_id": "7689670623726996756",
+      "url": "https://www.tiktok.com/@kat.i618/video/7689670623726996756",
+      "description": "Quan trọng là đang sale rẻ + tặng nhiều quà #makeprem #reviewlamdep #livestream #viralllllll",
+      "duration_s": 12.12,
+      "views": 14350,
+      "revenue_vnd": 7470000,
+      "items_sold": 23,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.209,
+      "ad_view_ratio": "33.81%",
+      "publish_date": "2026-09-26"
+    }
+  ],
+  "shops": [
+    {
+      "name": "AZTK VN",
+      "revenue_vnd": 513780000,
+      "product_count": 17,
+      "items_sold": 4090
+    },
+    {
+      "name": "Make P:rem",
+      "revenue_vnd": 301160000,
+      "product_count": 6,
+      "items_sold": 811
+    },
+    {
+      "name": "Timephoria-VN",
+      "revenue_vnd": 263950000,
+      "product_count": 6,
+      "items_sold": 1010
+    },
+    {
+      "name": "Alucos Việt Nam",
+      "revenue_vnd": 216760000,
+      "product_count": 7,
+      "items_sold": 1540
+    },
+    {
+      "name": "Judydoll Vietnam",
+      "revenue_vnd": 210410000,
+      "product_count": 9,
+      "items_sold": 581
+    },
+    {
+      "name": "Mooekiss VN",
+      "revenue_vnd": 180590000,
+      "product_count": 11,
+      "items_sold": 627
+    },
+    {
+      "name": "Rohto Official by TNT",
+      "revenue_vnd": 179160000,
+      "product_count": 13,
+      "items_sold": 1610
+    },
+    {
+      "name": "Hasaki Vietnam Official",
+      "revenue_vnd": 167430000,
+      "product_count": 5,
+      "items_sold": 655
+    },
+    {
+      "name": "Cheeryep Vietnam",
+      "revenue_vnd": 146530000,
+      "product_count": 8,
+      "items_sold": 318
+    },
+    {
+      "name": "Maybelline New York",
+      "revenue_vnd": 134030000,
+      "product_count": 17,
+      "items_sold": 724
+    }
+  ],
+  "products": [
+    {
+      "title": "【AZTK× Kat.i618】Phấn má hồng dạng lỏng AZTK làm da trông trắng hơn và tăng độ rạng rỡ; phù hợp cho người mới bắt đầu, giữ màu lâu, finish lì tự nhiên, mịn mượt, tạo hiệu ứng căng phồng cho gò má. Mua má hồng tặng kèm bông mút hình trái tim.",
+      "revenue_vnd": 251600000,
+      "items_sold": 1890,
+      "avg_price_vnd": 133270
+    },
+    {
+      "title": "[B713] TIME PHORIA - Lunara Frost 3D Lip Gloss giữ ẩm tốt bóng mướt lên màu chuẩn tự nhiên",
+      "revenue_vnd": 213540000,
+      "items_sold": 812,
+      "avg_price_vnd": 262980
+    },
+    {
+      "title": "[KAT ƠI - QUÀ TẶNG SACHET] Make P:rem Kem Chống Nắng MAKE P:REM Phù Hợp Cho Mọi Loại Da SPF50+ PA++++ 50ML",
+      "revenue_vnd": 196030000,
+      "items_sold": 603,
+      "avg_price_vnd": 325090
+    },
+    {
+      "title": "[CFV20] JUDYDOLL Bảng phấn tạo khối bắt sáng 4 màu Highlight Contour Palette Mềm mịn Tự nhiên Lâu trôi 9g Trang Điểm",
+      "revenue_vnd": 132140000,
+      "items_sold": 346,
+      "avg_price_vnd": 381900
+    },
+    {
+      "title": "【AZTK × KOC】 Má hồng lỏng AZTK, Hiệu Ứng Làm Sáng Da, Kết Cấu Lì Màu Nude, Tạo Không Khí Thanh Lịch Và Tinh Tế，AZTK LIQUID BLUSH",
+      "revenue_vnd": 128790000,
+      "items_sold": 994,
+      "avg_price_vnd": 129570
+    },
+    {
+      "title": "[LIVE] Bảng Phấn Mắt CHEERYEP 16 Ô Đa Dạng Bảng Màu Chất Phấn Mịn Bền Màu Rõ Nét",
+      "revenue_vnd": 120270000,
+      "items_sold": 251,
+      "avg_price_vnd": 479170
+    },
+    {
+      "title": "【AZTK×KOC】Mua 2 Tặng 1 AZTK Son Kem Thỏi Thạch Hồng – son kem mây, Chất son mờ mịn mọng ẩm, dưỡng môi và cấp ẩm, không lộ vân môi, hợp cả mặt mộc, nhẹ môi dễ tán – 1.5g",
+      "revenue_vnd": 93970000,
+      "items_sold": 868,
+      "avg_price_vnd": 108260
+    },
+    {
+      "title": "Combo 2 Nước Tẩy Trang Bí Đao Cocoon Hỗ Trợ Làm Sạch & Giảm Dầu 500ml | HASAKI BEAUTY",
+      "revenue_vnd": 88120000,
+      "items_sold": 182,
+      "avg_price_vnd": 484160
+    },
+    {
+      "title": "Kem rửa mặt HADALABO Dưỡng ẩm/Dưỡng trắng/Ngừa mụn/Cải thiện lão hóa da 80g (Tùy chọn)",
+      "revenue_vnd": 78570000,
+      "items_sold": 965,
+      "avg_price_vnd": 81420
+    },
+    {
+      "title": "[LIVE] Combo 2 bảng khối + cọ khối Mooekiss chất phấn siêu mịn không bay phấn tệp da tự nhiên - Một bảng đa năng: contour + highlight + chân mày + sống mũi 9g + 3.5g",
+      "revenue_vnd": 75890000,
+      "items_sold": 255,
+      "avg_price_vnd": 297600
+    }
+  ],
+  "contact_keys": [
+    "lh-9"
+  ]
+}

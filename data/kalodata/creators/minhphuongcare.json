@@ -1,0 +1,286 @@
+{
+  "handle": "minhphuongcare",
+  "kalodata_id": "7126078169433818138",
+  "nickname": "Minh Phương Care",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": "TikCom",
+  "bio": "Săn deal mỹ phẩm hời trong live\nK0 ba nămm chín ko ko năm chínn chínnn haii",
+  "followers": 14700,
+  "debut_date": "2023-03-31",
+  "follower_gender": null,
+  "follower_age": null,
+  "core_metrics": {
+    "revenue_vnd": 1720000000,
+    "live_revenue_vnd": 1400000000,
+    "video_revenue_vnd": 311920000,
+    "video_views": 1010000,
+    "live_views": 208260,
+    "follower_change": 200
+  },
+  "videos": [
+    {
+      "video_id": "7697631174193106196",
+      "url": "https://www.tiktok.com/@minhphuongcare/video/7697631174193106196",
+      "description": "Kem chống nắng Make Prem #xuhuong #xuhuongtiktok #dealhot #minhphuongcare #makeprem",
+      "duration_s": 25,
+      "views": 276470,
+      "revenue_vnd": 99010000,
+      "items_sold": 304,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "78.67%",
+      "publish_date": "2026-10-17"
+    },
+    {
+      "video_id": "7702046662566464788",
+      "url": "https://www.tiktok.com/@minhphuongcare/video/7702046662566464788",
+      "description": "Đang ê hề quà tặng nè #kemchongnang #xuhuong1111 #kemchongnangkiemdau #kemchongnangnangtone #makeprem",
+      "duration_s": 30.167,
+      "views": 78050,
+      "revenue_vnd": 30390000,
+      "items_sold": 93,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.783,
+      "ad_view_ratio": ">90%",
+      "publish_date": "2026-10-29"
+    },
+    {
+      "video_id": "7700997578946596116",
+      "url": "https://www.tiktok.com/@minhphuongcare/video/7700997578946596116",
+      "description": "Arencia Vitamin C #xuhuong #xuhuongtiktok #dealhot #minhphuongcare #arencia",
+      "duration_s": 23.467,
+      "views": 57460,
+      "revenue_vnd": 22190000,
+      "items_sold": 57,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": ">90%",
+      "publish_date": "2026-10-26"
+    },
+    {
+      "video_id": "7680932860483702037",
+      "url": "https://www.tiktok.com/@minhphuongcare/video/7680932860483702037",
+      "description": "Kem chống nắng Make Prem #xuhuong #xuhuongtiktok #MinhPhuongCare #viral #makeprem",
+      "duration_s": 24.434,
+      "views": 31820,
+      "revenue_vnd": 16600000,
+      "items_sold": 51,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": ">90%",
+      "publish_date": "2026-09-02"
+    },
+    {
+      "video_id": "7691713566080126228",
+      "url": "https://www.tiktok.com/@minhphuongcare/video/7691713566080126228",
+      "description": "Kem chống nắng Make Prem #xuhuongtiktok #MinhPhuongCare #xuhuong #DealHot #makeprem",
+      "duration_s": 22.6,
+      "views": 29670,
+      "revenue_vnd": 15610000,
+      "items_sold": 48,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.783,
+      "ad_view_ratio": "89.52%",
+      "publish_date": "2026-10-01"
+    },
+    {
+      "video_id": "7703561654352629013",
+      "url": "https://www.tiktok.com/@minhphuongcare/video/7703561654352629013",
+      "description": "Mua 2 tặng 10 là có thiệt #kemchongnang #makeprem #tiktokshop1111 #xuhuong1111 #saletovodoi",
+      "duration_s": 32.467,
+      "views": 21090,
+      "revenue_vnd": 8660000,
+      "items_sold": 17,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.602,
+      "ad_view_ratio": "81.69%",
+      "publish_date": "2026-11-02"
+    },
+    {
+      "video_id": "7657912960899190037",
+      "url": "https://www.tiktok.com/@minhphuongcare/video/7657912960899190037",
+      "description": "Phấn phủ kiềm dầu Perfect Diary #tiktok #viral #xuhuongtiktok #perfectdiary",
+      "duration_s": 21.919,
+      "views": 19560,
+      "revenue_vnd": 6580000,
+      "items_sold": 32,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.575,
+      "ad_view_ratio": "59.80%",
+      "publish_date": "2026-07-02"
+    },
+    {
+      "video_id": "7696089996591140116",
+      "url": "https://www.tiktok.com/@minhphuongcare/video/7696089996591140116",
+      "description": "Combo 2 Kem chống nắng Make Prem #xuhuong #xuhuongtiktok #DealHot #MinhPhuongCare #makeprem",
+      "duration_s": 25.934,
+      "views": 10630,
+      "revenue_vnd": 6420000,
+      "items_sold": 9,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.177,
+      "ad_view_ratio": "26.14%",
+      "publish_date": "2026-10-13"
+    },
+    {
+      "video_id": "7616545771235642644",
+      "url": "https://www.tiktok.com/@minhphuongcare/video/7616545771235642644",
+      "description": "Cathy doll nay rẻ quáaa, có 30p thôi nên nhanh tay mấy bà ơi #cathydoll #kemnangtone #makeuptips #goclamdep #xuhuong",
+      "duration_s": 21.367,
+      "views": 13690,
+      "revenue_vnd": 5930000,
+      "items_sold": 30,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.507,
+      "ad_view_ratio": "47.15%",
+      "publish_date": "2026-03-13"
+    },
+    {
+      "video_id": "7704289764287057172",
+      "url": "https://www.tiktok.com/@minhphuongcare/video/7704289764287057172",
+      "description": "Xịt dưỡng tóc Dove #TikTokShop1111 #SaleToVoDoi #Xuhuong1111 #minhphuongcare #dove",
+      "duration_s": 30.534,
+      "views": 23540,
+      "revenue_vnd": 4670000,
+      "items_sold": 33,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "40.71%",
+      "publish_date": "2026-11-04"
+    }
+  ],
+  "shops": [
+    {
+      "name": "Make P:rem",
+      "revenue_vnd": 247120000,
+      "product_count": 4,
+      "items_sold": 707
+    },
+    {
+      "name": "Hasaki Vietnam Official",
+      "revenue_vnd": 150910000,
+      "product_count": 27,
+      "items_sold": 679
+    },
+    {
+      "name": "ROHTO SKINCARE",
+      "revenue_vnd": 83690000,
+      "product_count": 11,
+      "items_sold": 582
+    },
+    {
+      "name": "P&G Beauty Việt Nam - eMesa",
+      "revenue_vnd": 75750000,
+      "product_count": 21,
+      "items_sold": 223
+    },
+    {
+      "name": "Unilever Beauty",
+      "revenue_vnd": 68240000,
+      "product_count": 27,
+      "items_sold": 310
+    },
+    {
+      "name": "DrCeutics Official Store",
+      "revenue_vnd": 64970000,
+      "product_count": 18,
+      "items_sold": 367
+    },
+    {
+      "name": "d'Alba piedmont VN",
+      "revenue_vnd": 50750000,
+      "product_count": 5,
+      "items_sold": 95
+    },
+    {
+      "name": "Cocoon Vietnam",
+      "revenue_vnd": 50130000,
+      "product_count": 25,
+      "items_sold": 220
+    },
+    {
+      "name": "Torriden VN",
+      "revenue_vnd": 46590000,
+      "product_count": 6,
+      "items_sold": 160
+    },
+    {
+      "name": "Rohto Official by TNT",
+      "revenue_vnd": 45450000,
+      "product_count": 8,
+      "items_sold": 521
+    }
+  ],
+  "products": [
+    {
+      "title": "[VC 20% - ĐỘC QUYỀN] Make P:rem Kem chống nắng Make P:rem theo từng da 50ml SPF+ PA++++",
+      "revenue_vnd": 189940000,
+      "items_sold": 583,
+      "avg_price_vnd": 325790
+    },
+    {
+      "title": "[KOL] Kem Chống Nắng Beplain 50ml | HASAKI BEAUTY",
+      "revenue_vnd": 78330000,
+      "items_sold": 249,
+      "avg_price_vnd": 314570
+    },
+    {
+      "title": "[LIVE 2] Sữa dưỡng thể Olay trắng da 260g (Hàng nội địa Trung Quốc chính hãng)",
+      "revenue_vnd": 61140000,
+      "items_sold": 185,
+      "avg_price_vnd": 330500
+    },
+    {
+      "title": "[ĐỘC QUYỀN] Combo 2 Kem Chống Nắng Make P:rem Nâng Tone Dịu Nhẹ Phù Hợp Cho Mọi Loại Da SPF50+ PA++++ 50ML",
+      "revenue_vnd": 47160000,
+      "items_sold": 66,
+      "avg_price_vnd": 714470
+    },
+    {
+      "title": "[Mua 1 nhận 3] Dầu Gội Hyamin Hương Bưởi Xưa hỗ trợ làm sạch dịu nhẹ, dưỡng tóc mềm mượt, hỗ trợ giảm gãy rụng",
+      "revenue_vnd": 40790000,
+      "items_sold": 80,
+      "avg_price_vnd": 509930
+    },
+    {
+      "title": "[AFF] Combo 2 Kem rửa mặt Hada Labo (Advanced Nourish Hyaluronic Acid/Perfect White Tranexamic Acid/Pro-Aging Retinol B3/Acne Care Calming) - 80g",
+      "revenue_vnd": 37210000,
+      "items_sold": 211,
+      "avg_price_vnd": 176370
+    },
+    {
+      "title": "Arencia Vitamin C Booster shot Serum sáng da 30ml",
+      "revenue_vnd": 32280000,
+      "items_sold": 83,
+      "avg_price_vnd": 388960
+    },
+    {
+      "title": "[HOT LIVE] Gel Rửa Mặt LA ROCHE POSAY Effaclar Gel Moussant M+ Làm Sạch Sâu Cho Da Dầu Mụn 50ml",
+      "revenue_vnd": 32230000,
+      "items_sold": 534,
+      "avg_price_vnd": 60350
+    },
+    {
+      "title": "Sáp khử mùi Old Spice nhập khẩu từ Mỹ_HKT shop",
+      "revenue_vnd": 24830000,
+      "items_sold": 149,
+      "avg_price_vnd": 166680
+    },
+    {
+      "title": "Combo 2 Nước Tẩy Trang Bí Đao Cocoon Hỗ Trợ Làm Sạch & Giảm Dầu 500ml | HASAKI BEAUTY",
+      "revenue_vnd": 24630000,
+      "items_sold": 43,
+      "avg_price_vnd": 572760
+    }
+  ],
+  "demographics_note": "Kalodata hiển thị biểu đồ giới tính/độ tuổi follower mặc định giống hệt nhau cho mọi creator (nữ 60/nam 40; 18-24 30.5, 25-34 39.5, 35-44 20, 45-54 7.5, 55+ 2.5), nút 'Detail' chỉ cuộn tới cùng khối, Top 5 Locations/Languages/Active Hours trống => placeholder, không phải số liệu thật. API chỉ trả nhãn: followerSex='Majority Female', followerAgeMax='25-34'.",
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": "25-34",
+  "contact_keys": []
+}

@@ -1,0 +1,16 @@
+Bạn phân tích một video TikTok để đánh giá creator cho chiến dịch kem chống nắng (khách hàng nữ 18–30 tuổi, Việt Nam).
+
+Input có thể là: video gốc, HOẶC một số khung hình rút từ video (kèm mốc thời gian) và phụ đề/lời thoại nếu có, cùng mô tả video.
+Chỉ ghi nhận điều thực sự nhìn/nghe thấy. Không thấy rõ thì trả false / "unclear" và hạ confidence.
+
+Đánh giá:
+- is_sunscreen_content: video có nói về kem chống nắng/chống nắng không.
+- face_on_camera: người làm nội dung có lộ mặt không.
+- product_demo_on_skin: có thoa, test sản phẩm trên da thật không.
+- shows_texture_or_finish: có cho thấy kết cấu, độ nâng tông, vệt trắng, độ bóng...
+- hook_strength 1–5: 3 giây đầu có lý do khiến người xem ở lại không.
+- production_quality 1–5: ánh sáng, khung hình, âm thanh, dựng.
+- presenter_gender, presenter_age_band: ước lượng người xuất hiện chính.
+- risky_claims: câu nói/chữ trên màn hình có thể vi phạm quy định quảng cáo mỹ phẩm (trị bệnh, trị nám dứt điểm, cam kết tuyệt đối...).
+- evidence: 2–4 quan sát cụ thể kèm mốc thời gian hoặc số khung.
+- summary_vi: 2 câu tiếng Việt.

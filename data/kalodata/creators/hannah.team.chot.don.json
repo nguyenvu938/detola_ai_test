@@ -1,0 +1,286 @@
+{
+  "handle": "hannah.team.chot.don",
+  "kalodata_id": "7660188145493541889",
+  "nickname": "Hannah Team Chốt Đơn",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": null,
+  "bio": "Kênh chính thức từ team HannahOlala 💕\nNơi chia sẻ brand nổi bật trong Mega live và các deal hời, deal shock 🫶🏻",
+  "followers": 11700,
+  "debut_date": "2026-09-10",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": null,
+  "follower_age_top": null,
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được. API không trả followerSex/followerAgeMax.",
+  "core_metrics": {
+    "revenue_vnd": 2520000000,
+    "live_revenue_vnd": 1560000000,
+    "video_revenue_vnd": 898140000,
+    "video_views": 846850,
+    "live_views": 104310,
+    "follower_change": 1200
+  },
+  "videos": [
+    {
+      "video_id": "7699818580942130440",
+      "url": "https://www.tiktok.com/@hannah.team.chot.don/video/7699818580942130440",
+      "description": "Son dưỡng D’Abla #hannaholala #hannahteam #dalba",
+      "duration_s": 37.546,
+      "views": 139600,
+      "revenue_vnd": 183750000,
+      "items_sold": 493,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": ">90%",
+      "publish_date": "2026-10-23"
+    },
+    {
+      "video_id": "7694549384004128006",
+      "url": "https://www.tiktok.com/@hannah.team.chot.don/video/7694549384004128006",
+      "description": "3CE x Hannah - Son kem lì lâu trôi nhẹ môi Blur Water Tint-3CE Blur Water Tint",
+      "duration_s": 22,
+      "views": 62020,
+      "revenue_vnd": 158890000,
+      "items_sold": 497,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": ">90%",
+      "publish_date": "2026-10-09"
+    },
+    {
+      "video_id": "7700566730128542977",
+      "url": "https://www.tiktok.com/@hannah.team.chot.don/video/7700566730128542977",
+      "description": "Xịt mọc tóc L'Oréal Professionnel #hannaholala #hannahteam #lorealprofessionnel",
+      "duration_s": 46.207,
+      "views": 38090,
+      "revenue_vnd": 136290000,
+      "items_sold": 120,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": ">90%",
+      "publish_date": "2026-10-25"
+    },
+    {
+      "video_id": "7699458052755344647",
+      "url": "https://www.tiktok.com/@hannah.team.chot.don/video/7699458052755344647",
+      "description": "Kem tay L’occitane #hannaholala #hannahteam #loccitane",
+      "duration_s": 42.515,
+      "views": 59390,
+      "revenue_vnd": 44580000,
+      "items_sold": 44,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": ">90%",
+      "publish_date": "2026-10-22"
+    },
+    {
+      "video_id": "7694538899326110983",
+      "url": "https://www.tiktok.com/@hannah.team.chot.don/video/7694538899326110983",
+      "description": "Combo 2 Peel Da Powerbright Dark Spot Peel Hỗ Trợ Làm Sáng Các Vệt Đốm Nâu Trial Size 10ML",
+      "duration_s": 20.713,
+      "views": 7850,
+      "revenue_vnd": 44470000,
+      "items_sold": 12,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "71.45%",
+      "publish_date": "2026-10-09"
+    },
+    {
+      "video_id": "7699026435331099922",
+      "url": "https://www.tiktok.com/@hannah.team.chot.don/video/7699026435331099922",
+      "description": "KCN Nâng tone The Whoo #hannaholala #hannahteam #thewhoo",
+      "duration_s": 22.313,
+      "views": 5890,
+      "revenue_vnd": 38900000,
+      "items_sold": 18,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "66.19%",
+      "publish_date": "2026-10-21"
+    },
+    {
+      "video_id": "7700931872389582087",
+      "url": "https://www.tiktok.com/@hannah.team.chot.don/video/7700931872389582087",
+      "description": "Xịt mọc tóc l'oréal professionnel #hannaholala #hannahteam #lorealprofessionnel",
+      "duration_s": 37.337,
+      "views": 10250,
+      "revenue_vnd": 35710000,
+      "items_sold": 31,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.75,
+      "ad_view_ratio": "67.96%",
+      "publish_date": "2026-10-26"
+    },
+    {
+      "video_id": "7695417065229798674",
+      "url": "https://www.tiktok.com/@hannah.team.chot.don/video/7695417065229798674",
+      "description": "Kem dưỡng B5 La Roche Posay #hannaholala #hannahteam #larocheposay",
+      "duration_s": 41.749,
+      "views": 26850,
+      "revenue_vnd": 34640000,
+      "items_sold": 43,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": ">90%",
+      "publish_date": "2026-10-11"
+    },
+    {
+      "video_id": "7702085792168037639",
+      "url": "https://www.tiktok.com/@hannah.team.chot.don/video/7702085792168037639",
+      "description": "Bộ gội xả Kérastase Genesis #hannahteam #hannaholala #kerastase",
+      "duration_s": 17.1,
+      "views": 11080,
+      "revenue_vnd": 24910000,
+      "items_sold": 12,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "23.43%",
+      "publish_date": "2026-10-29"
+    },
+    {
+      "video_id": "7700238538322791687",
+      "url": "https://www.tiktok.com/@hannah.team.chot.don/video/7700238538322791687",
+      "description": "Tinh dầu hoa anh thảo David Health Evening Primrose Oil 200 viên hỗ trợ cân bằng nội tiết tố làm đẹp da tóc, móng #hannaholala #hannahteam #tinhdauhoaanhthao",
+      "duration_s": 61.9,
+      "views": 22940,
+      "revenue_vnd": 23580000,
+      "items_sold": 36,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "75.90%",
+      "publish_date": "2026-10-24"
+    }
+  ],
+  "shops": [
+    {
+      "name": "d'Alba piedmont VN",
+      "revenue_vnd": 373810000,
+      "product_count": 17,
+      "items_sold": 778
+    },
+    {
+      "name": "HannahOlala",
+      "revenue_vnd": 345320000,
+      "product_count": 23,
+      "items_sold": 259
+    },
+    {
+      "name": "L'Oréal Professionnel Việt Nam",
+      "revenue_vnd": 266520000,
+      "product_count": 6,
+      "items_sold": 244
+    },
+    {
+      "name": "3CE STYLENANDA VIETNAM",
+      "revenue_vnd": 195850000,
+      "product_count": 11,
+      "items_sold": 612
+    },
+    {
+      "name": "La Roche-Posay Việt Nam",
+      "revenue_vnd": 87330000,
+      "product_count": 10,
+      "items_sold": 124
+    },
+    {
+      "name": "GAABOR",
+      "revenue_vnd": 77610000,
+      "product_count": 10,
+      "items_sold": 79
+    },
+    {
+      "name": "Vichy Vietnam",
+      "revenue_vnd": 75630000,
+      "product_count": 10,
+      "items_sold": 152
+    },
+    {
+      "name": "Anessa Official Store",
+      "revenue_vnd": 73280000,
+      "product_count": 3,
+      "items_sold": 84
+    },
+    {
+      "name": "L'Occitane VN",
+      "revenue_vnd": 65870000,
+      "product_count": 7,
+      "items_sold": 63
+    },
+    {
+      "name": "LANEIGE Vietnam",
+      "revenue_vnd": 63580000,
+      "product_count": 9,
+      "items_sold": 108
+    }
+  ],
+  "products": [
+    {
+      "title": "[L'Oréal Professionnel x Hannah] - Tinh chất hỗ trợ mọc tóc L'Oréal Professionnel Serioxyl Advanced 90ml - dạng Xịt (Spray) [L'Oréal Professionnel] - Deal thường",
+      "revenue_vnd": 237410000,
+      "items_sold": 210,
+      "avg_price_vnd": 1130000
+    },
+    {
+      "title": "[d'Alba x HannahOlala] Son Bóng Làm Đầy Môi d'Alba Plumping Lip Glow Mood Volumizer 5ml",
+      "revenue_vnd": 217730000,
+      "items_sold": 586,
+      "avg_price_vnd": 371560
+    },
+    {
+      "title": "3CE x Hannah - Son bóng dưỡng môi 3CE GLAZY LIP GLOW",
+      "revenue_vnd": 171190000,
+      "items_sold": 540,
+      "avg_price_vnd": 317020
+    },
+    {
+      "title": "[HANNAH 11.11] CNP - JUMBO SIZE - BỘ TONER KEO ONG PHỤC HỒI LÀN DA CNP PROPOLIS TREATMENT AMPULE ESSENCE 300ML",
+      "revenue_vnd": 69640000,
+      "items_sold": 25,
+      "avg_price_vnd": 2790000
+    },
+    {
+      "title": "[HANNAH 11.11] THE WHOO - KEM CHỐNG NẮNG NÂNG TÔNG UV ULTIMATE BRIGHTENING TONE-UP SUNSCREEN 50ML",
+      "revenue_vnd": 56110000,
+      "items_sold": 26,
+      "avg_price_vnd": 2160000
+    },
+    {
+      "title": "Gaabor x Hannah Olala | Máy xay sinh tố đa năng Gaabor JM-16M01A 3 trong 1 dung tích 1,6L công suất 500w thân máy kèm 3 cối nhựa cao cấp xay thực phẩm xay gia vị xay sinh tố xay thịt food processor máy xay máy xay nhựa",
+      "revenue_vnd": 53750000,
+      "items_sold": 34,
+      "avg_price_vnd": 1580000
+    },
+    {
+      "title": "[d'Alba x HannahOlala] [COMBO] 3 Hỗ Trợ Làm Sáng Và Dưỡng Ẩm Dòng Vita Toning (Serum Toner 180ml, Capsure Serum Niacinamide 5% 50ml, Capsure Cream 55g)",
+      "revenue_vnd": 52150000,
+      "items_sold": 26,
+      "avg_price_vnd": 2010000
+    },
+    {
+      "title": "Anessa x Hannah - Combo Sữa chống nắng dưỡng da kiềm dầu bảo vệ hoàn hảo Anessa Gold Milk SPF50+ PA++++ 60mlx2",
+      "revenue_vnd": 45380000,
+      "items_sold": 48,
+      "avg_price_vnd": 945460
+    },
+    {
+      "title": "Kem Dưỡng Tay L'Occitane Hand Cream Giúp Dưỡng Ẩm, Mềm Mịn 150ml",
+      "revenue_vnd": 44580000,
+      "items_sold": 44,
+      "avg_price_vnd": 1010000
+    },
+    {
+      "title": "[HANNAH] THE WHOO - TINH CHẤT DƯỠNG DA CHUYÊN SÂU THE WHOO BICHUP ULTIMATE RECOVERY NAD POWER AMPOULE 30ML",
+      "revenue_vnd": 42740000,
+      "items_sold": 16,
+      "avg_price_vnd": 2670000
+    }
+  ],
+  "contact_keys": []
+}

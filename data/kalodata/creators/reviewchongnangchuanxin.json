@@ -1,0 +1,223 @@
+{
+  "handle": "reviewchongnangchuanxin",
+  "kalodata_id": "6818907673334563841",
+  "nickname": "SKINLAP SPF",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": "Zamabu MCN",
+  "bio": "zalo [phone]",
+  "followers": 58100,
+  "debut_date": "2020-07-28",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": "Majority Male",
+  "follower_age_top": "18-24",
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được.",
+  "core_metrics": {
+    "revenue_vnd": 625810000,
+    "live_revenue_vnd": 625810000,
+    "video_revenue_vnd": 0,
+    "video_views": 670,
+    "live_views": 135220,
+    "follower_change": 300
+  },
+  "videos": [
+    {
+      "video_id": "7659689934487407893",
+      "url": "https://www.tiktok.com/@reviewchongnangchuanxin/video/7659689934487407893",
+      "description": "934 Kem Chống Nắng Kiềm Dầu Suốt 8H Nâng Tone Nhẹ SPF50+ PA++++ Kháng Nước Mồ Hôi Chuyên Biệt Cho Da Dầu Mỏng Nhẹ Không Bết Dính",
+      "duration_s": 34,
+      "views": 100,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-07-07"
+    },
+    {
+      "video_id": "7659713178833554708",
+      "url": "https://www.tiktok.com/@reviewchongnangchuanxin/video/7659713178833554708",
+      "description": "[60ML] Sữa Chống Nắng Kiềm Dầu Anessa Perfect UV Sunscreen Skincare Milk SPF50+ PA++++",
+      "duration_s": 61,
+      "views": 100,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-07-07"
+    },
+    {
+      "video_id": "7659705434533530887",
+      "url": "https://www.tiktok.com/@reviewchongnangchuanxin/video/7659705434533530887",
+      "description": "[60ML] Sữa Chống Nắng Kiềm Dầu Anessa Perfect UV Sunscreen Skincare Milk SPF50+ PA++++",
+      "duration_s": 34,
+      "views": 125,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-07-07"
+    },
+    {
+      "video_id": "7659697660865170696",
+      "url": "https://www.tiktok.com/@reviewchongnangchuanxin/video/7659697660865170696",
+      "description": "[60ML] Sữa Chống Nắng Kiềm Dầu Anessa Perfect UV Sunscreen Skincare Milk SPF50+ PA++++",
+      "duration_s": 32,
+      "views": 100,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-07-07"
+    },
+    {
+      "video_id": "7659719158178860308",
+      "url": "https://www.tiktok.com/@reviewchongnangchuanxin/video/7659719158178860308",
+      "description": "[Phiên Bản Nâng Tone] Kem chống nắng La Roche-Posay nâng tone cho da dầu giúp bảo vệ da toàn diện và kiềm dầu đến 12 giờ Anthelios XL SPF 50+, PA++++",
+      "duration_s": 31,
+      "views": 191,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-07-07"
+    }
+  ],
+  "shops": [
+    {
+      "name": "Cỏ Mềm",
+      "revenue_vnd": 69100000,
+      "product_count": 3,
+      "items_sold": 204
+    },
+    {
+      "name": "Hasaki Vietnam Official",
+      "revenue_vnd": 50160000,
+      "product_count": 4,
+      "items_sold": 412
+    },
+    {
+      "name": "KAO VIETNAM",
+      "revenue_vnd": 39780000,
+      "product_count": 5,
+      "items_sold": 275
+    },
+    {
+      "name": "Meiking Việt Nam",
+      "revenue_vnd": 36460000,
+      "product_count": 3,
+      "items_sold": 182
+    },
+    {
+      "name": "Make P:rem",
+      "revenue_vnd": 30370000,
+      "product_count": 4,
+      "items_sold": 89
+    },
+    {
+      "name": "Hoài Vân Beauty Shop",
+      "revenue_vnd": 28360000,
+      "product_count": 1,
+      "items_sold": 89
+    },
+    {
+      "name": "yesummer-vn",
+      "revenue_vnd": 28290000,
+      "product_count": 2,
+      "items_sold": 88
+    },
+    {
+      "name": "Anessa Official Store",
+      "revenue_vnd": 28130000,
+      "product_count": 4,
+      "items_sold": 48
+    },
+    {
+      "name": "L'oreal Paris Việt Nam",
+      "revenue_vnd": 27440000,
+      "product_count": 2,
+      "items_sold": 91
+    },
+    {
+      "name": "934.Vietnam",
+      "revenue_vnd": 25980000,
+      "product_count": 6,
+      "items_sold": 87
+    }
+  ],
+  "products": [
+    {
+      "title": "KEM CHỐNG NẮNG HALAVI MULTI-LAYER SUNSCREEN",
+      "revenue_vnd": 28360000,
+      "items_sold": 89,
+      "avg_price_vnd": 318700
+    },
+    {
+      "title": "Mua 1 Tặng 1 • Kem Chống Nắng YESUMMER SPF50 PA++++ 50g x 2 • Chống Nước & Chống Mồ Hôi • Dành Cho Lặn Biển, Lướt Sóng, Thể Thao Ngoài Trời • Không Nhờn Rít • Không Trắng Bệt",
+      "revenue_vnd": 28290000,
+      "items_sold": 88,
+      "avg_price_vnd": 321520
+    },
+    {
+      "title": "Kem Chống Nắng Nâng Tone Mịn Đẹp Thấm Nhanh Cho Mọi Loại Da Hây Hây SPF 40, PA ++ Cỏ Mềm 60g",
+      "revenue_vnd": 26370000,
+      "items_sold": 98,
+      "avg_price_vnd": 269050
+    },
+    {
+      "title": "Sữa Chống Nắng Sunplay Skin Aqua Clear White SPF50+ PA++++ | HASAKI BEAUTY",
+      "revenue_vnd": 25050000,
+      "items_sold": 257,
+      "avg_price_vnd": 97470
+    },
+    {
+      "title": "[BÁN CHẠY] CHỐNG NẮNG PHỔ RỘNG THOÁNG DA UV DEFENDER L'OREAL PARIS 50ML (4 phân loại)",
+      "revenue_vnd": 21810000,
+      "items_sold": 74,
+      "avg_price_vnd": 294720
+    },
+    {
+      "title": "Kem Chống Nắng Vật Lý Nâng Tông Tone Up SPF50 PA+++ Cho Da Nhạy Cảm Cỏ Mềm 60g Sunscreen",
+      "revenue_vnd": 21800000,
+      "items_sold": 58,
+      "avg_price_vnd": 375780
+    },
+    {
+      "title": "Kem Chống Nắng Che Khuyết Điểm Chiết Xuất Sâm 1700 SPF50 PA++++ Ngừa Lão Hoá Bảo Vệ Dưỡng Ẩm Da Cỏ Mềm 60g",
+      "revenue_vnd": 20930000,
+      "items_sold": 48,
+      "avg_price_vnd": 436120
+    },
+    {
+      "title": "934 Kem Chống Nắng Kiềm Dầu Suốt 8H Nâng Tone Nhẹ SPF50+ PA++++ Kháng Nước Mồ Hôi Chuyên Biệt Cho Da Dầu Mỏng Nhẹ Không Bết Dính",
+      "revenue_vnd": 20330000,
+      "items_sold": 54,
+      "avg_price_vnd": 376560
+    },
+    {
+      "title": "[LIVEIN] [QUÀ TẶNG CÓ HẠN] Make P:rem Kem Chống Nắng Vật Lý No Sebum Sun Cream Kiềm Dầu Suốt 6H SPF 50+ PA++++ 50ml",
+      "revenue_vnd": 19740000,
+      "items_sold": 57,
+      "avg_price_vnd": 346390
+    },
+    {
+      "title": "KEM CHỐNG NẮNG PHỔ RỘNG \"SMOOTH & TONING SUNSCREEN\" SPF 50+ PA+++ - 32g - Thương Hiệu: Beskin - Skincare Sun Cream",
+      "revenue_vnd": 18080000,
+      "items_sold": 118,
+      "avg_price_vnd": 153210
+    }
+  ],
+  "contact_keys": [
+    "lh-22"
+  ]
+}

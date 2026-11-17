@@ -1,0 +1,288 @@
+{
+  "handle": "_huongdaily",
+  "kalodata_id": "7167563836517254145",
+  "nickname": "_huongdaily",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": null,
+  "bio": "Beauty - Lifestyle ✨\nCall/ zalo: [phone] ( Quản lý Mẫn Nhi )",
+  "followers": 164800,
+  "debut_date": "2024-02-01",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": "18-24",
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được.",
+  "core_metrics": {
+    "revenue_vnd": 7460000,
+    "live_revenue_vnd": 0,
+    "video_revenue_vnd": 7460000,
+    "video_views": 190280,
+    "live_views": 0,
+    "follower_change": -900
+  },
+  "videos": [
+    {
+      "video_id": "7699780907787373844",
+      "url": "https://www.tiktok.com/@_huongdaily/video/7699780907787373844",
+      "description": "Mấy b kiên trì sử dụng em này là thấy da căng bóng thấy rõ lun đó    #serumpdrnloreal #skincare #hoptaccunglorealparis #cangbongda #3BrothersMedia",
+      "duration_s": 73.7,
+      "views": 20480,
+      "revenue_vnd": 4320000,
+      "items_sold": 11,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-23"
+    },
+    {
+      "video_id": "7699166043834567942",
+      "url": "https://www.tiktok.com/@_huongdaily/video/7699166043834567942",
+      "description": "Da dầu chắc sẽ thích 3 em này lắm nè  #supra #effaclar #anthelios #XL #HợpTácCùngLarocheposay",
+      "duration_s": 84.845,
+      "views": 122080,
+      "revenue_vnd": 1750000,
+      "items_sold": 4,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-21"
+    },
+    {
+      "video_id": "7690558390661106965",
+      "url": "https://www.tiktok.com/@_huongdaily/video/7690558390661106965",
+      "description": "săn lẹ mấy b oii. Lâu rồi tui mới thấy deal hời z lun đó  #HoptacCungUnilever #DoveVietnam #DoveNganMui #DoveCaiDa #DoveMondayBloom",
+      "duration_s": 57.434,
+      "views": 7000,
+      "revenue_vnd": 719440,
+      "items_sold": 4,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "33.90%",
+      "publish_date": "2026-09-28"
+    },
+    {
+      "video_id": "7621934878489120020",
+      "url": "https://www.tiktok.com/@_huongdaily/video/7621934878489120020",
+      "description": "Tui hóng da tốt nghiêp Thực Tập Xinh để gặp idol Phùng Khánh Linh lắm rồi nè #Eucerin #DermoPureClinical #Thuctapxinh #PhungKhanhLinh",
+      "duration_s": 56,
+      "views": 578,
+      "revenue_vnd": 250420,
+      "items_sold": 1,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-03-27"
+    },
+    {
+      "video_id": "7633773781890174228",
+      "url": "https://www.tiktok.com/@_huongdaily/video/7633773781890174228",
+      "description": "Chăm tóc trong mùa hè là tui k thể thiếu ẻm 🥰  #Thecafune #daugoicafune #daugoibuoiboket",
+      "duration_s": 62,
+      "views": 335,
+      "revenue_vnd": 192390,
+      "items_sold": 1,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "80.00%",
+      "publish_date": "2026-04-28"
+    },
+    {
+      "video_id": "7646452300135189780",
+      "url": "https://www.tiktok.com/@_huongdaily/video/7646452300135189780",
+      "description": "#HợptáccùngUnilever Sữa tắm dưỡng sáng da, thơm thiệt thơmm #SữatắmHazelineToneUp #3Xnângtôngda",
+      "duration_s": 59,
+      "views": 215,
+      "revenue_vnd": 113840,
+      "items_sold": 1,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "80.00%",
+      "publish_date": "2026-06-01"
+    },
+    {
+      "video_id": "7639358384789130517",
+      "url": "https://www.tiktok.com/@_huongdaily/video/7639358384789130517",
+      "description": "Có bộ ba này nên skincare đều hơn hẳn ✨ #HeXinhThaiDaXinhSenka #HeXinhThaiDaXinh #SenkaConfession",
+      "duration_s": 118,
+      "views": 404,
+      "revenue_vnd": 104660,
+      "items_sold": 1,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "79.95%",
+      "publish_date": "2026-05-13"
+    },
+    {
+      "video_id": "7622227445298515220",
+      "url": "https://www.tiktok.com/@_huongdaily/video/7622227445298515220",
+      "description": "Ai mê da căng mướt chuẩn Hàn giống tui hem  #chongnangAHC #AHC #AHCVietnam #HoptaccungUnilever",
+      "duration_s": 32,
+      "views": 411,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-03-28"
+    },
+    {
+      "video_id": "7693938530099285268",
+      "url": "https://www.tiktok.com/@_huongdaily/video/7693938530099285268",
+      "description": "Chuẩn bị rủ nhỏ bạn ghé qua Hasaki săn nha mấy bà ❤️ toàn deal xịn không đó  #kissmybodyvn #hasaki #myphamchinhhang #sale10.10",
+      "duration_s": 59,
+      "views": 112,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-07"
+    },
+    {
+      "video_id": "7670168309714799893",
+      "url": "https://www.tiktok.com/@_huongdaily/video/7670168309714799893",
+      "description": "7/8 này nhớ săn deal trong phiên live của c Lucie Nguyễn nha mấy b iu  #LucieNguyen #LucieTuanDuong #Megalive",
+      "duration_s": 58,
+      "views": 71,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-08-04"
+    }
+  ],
+  "shops": [
+    {
+      "name": "L'oreal Paris Việt Nam",
+      "revenue_vnd": 4320000,
+      "product_count": 3,
+      "items_sold": 11
+    },
+    {
+      "name": "La Roche-Posay Việt Nam",
+      "revenue_vnd": 1750000,
+      "product_count": 3,
+      "items_sold": 4
+    },
+    {
+      "name": "Unilever - Chăm Sóc Cá Nhân",
+      "revenue_vnd": 833280,
+      "product_count": 2,
+      "items_sold": 5
+    },
+    {
+      "name": "Eucerin Việt Nam",
+      "revenue_vnd": 250420,
+      "product_count": 1,
+      "items_sold": 1
+    },
+    {
+      "name": "The Cafuné",
+      "revenue_vnd": 192390,
+      "product_count": 1,
+      "items_sold": 1
+    },
+    {
+      "name": "Senka Official Store",
+      "revenue_vnd": 104660,
+      "product_count": 4,
+      "items_sold": 1
+    },
+    {
+      "name": "Judydoll Vietnam",
+      "revenue_vnd": 0,
+      "product_count": 1,
+      "items_sold": 0
+    },
+    {
+      "name": "Huawei Mobile VN",
+      "revenue_vnd": 0,
+      "product_count": 1,
+      "items_sold": 1
+    },
+    {
+      "name": "FULLY VN",
+      "revenue_vnd": 0,
+      "product_count": 1,
+      "items_sold": 0
+    },
+    {
+      "name": "KAO VIETNAM",
+      "revenue_vnd": 0,
+      "product_count": 1,
+      "items_sold": 0
+    }
+  ],
+  "products": [
+    {
+      "title": "[MỚI] Dưỡng chất serum PDRN sinh học cảm nhận da Glass skin căng mọng, rạng rỡ tức thì L’Oréal Paris 30ml",
+      "revenue_vnd": 4320000,
+      "items_sold": 11,
+      "avg_price_vnd": 393110
+    },
+    {
+      "title": "[Phiên Bản Nâng Tone] Kem chống nắng La Roche-Posay nâng tone cho da dầu giúp bảo vệ da Anthelios XL SPF 50+, PA++++",
+      "revenue_vnd": 1250000,
+      "items_sold": 3,
+      "avg_price_vnd": 416220
+    },
+    {
+      "title": "Combo 2 Kem Ngăn Mùi Vùng Cánh Tinh Chất Serum Dove Dành Cho Nữ Với 3% Niacinamide Hỗ Trợ Da Cánh Sáng Mịn Đều Màu 40mlx2 [v]",
+      "revenue_vnd": 719440,
+      "items_sold": 4,
+      "avg_price_vnd": 179860
+    },
+    {
+      "title": "[MỚI] Kem dưỡng giúp giảm dầu và thông thoáng lỗ chân lông La Roche-Posay Effaclar Supra Molecular 40ML",
+      "revenue_vnd": 504910,
+      "items_sold": 1,
+      "avg_price_vnd": 504910
+    },
+    {
+      "title": "Gel rửa mặt cho da mụn Eucerin DermoPure Clinical Correcting Gel To Foam 75ml",
+      "revenue_vnd": 250420,
+      "items_sold": 1,
+      "avg_price_vnd": 250420
+    },
+    {
+      "title": "Combo Dầu Gội Bưởi, Bồ Kết, Dầu Xả The Cafuné 450ml Dưỡng Tóc Dầu Gội & Dầu Xả Không Chứa Paraben và Silicone",
+      "revenue_vnd": 192390,
+      "items_sold": 1,
+      "avg_price_vnd": 192390
+    },
+    {
+      "title": "Sữa tắm Hazeline Tone Up Sữa Chua Hương Đào 670G [v]",
+      "revenue_vnd": 113840,
+      "items_sold": 1,
+      "avg_price_vnd": 113840
+    },
+    {
+      "title": "[SENKA] Sữa rửa mặt sạch sâu mướt mịn SENKA PERFECT WHIP 120G",
+      "revenue_vnd": 104660,
+      "items_sold": 1,
+      "avg_price_vnd": 104660
+    },
+    {
+      "title": "[Voucher 20%] Tai Nghe Chống Ồn ANC HUAWEI FreeBuds SE 5 MAX | Pin Đến 80 Giờ | Chống Ồn Chủ Động 52dB | Âm Thanh Hi-Res",
+      "revenue_vnd": 0,
+      "items_sold": 1,
+      "avg_price_vnd": 0
+    },
+    {
+      "title": "[MỚI] Gel rửa mặt giúp giảm dầu và thông thoáng lỗ chân lông La Roche-Posay Effaclar Supra Molecular 400ML",
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "avg_price_vnd": 597290
+    }
+  ],
+  "contact_keys": [
+    "lh-1"
+  ]
+}

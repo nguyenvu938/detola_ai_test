@@ -1,0 +1,288 @@
+{
+  "handle": "kieu_oanh_cosmetic",
+  "kalodata_id": "6998503162315981825",
+  "nickname": "Kiều Oanh Mê Làm Đẹp",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": "DCF",
+  "bio": "Sỉ, ctv: 0967...4.9.15.38\nFor Work: 0866...907..997 \nTư vấn da: [phone]",
+  "followers": 118900,
+  "debut_date": "2022-03-26",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": "25-34",
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được.",
+  "core_metrics": {
+    "revenue_vnd": 3850000000,
+    "live_revenue_vnd": 3800000000,
+    "video_revenue_vnd": 2970000,
+    "video_views": 398320,
+    "live_views": 658600,
+    "follower_change": 1000
+  },
+  "videos": [
+    {
+      "video_id": "7702692838294768917",
+      "url": "https://www.tiktok.com/@kieu_oanh_cosmetic/video/7702692838294768917",
+      "description": "Sang ngủ dậy thoa 1 lớp là xong luôn  #xuhuong  #viral  #cellluxe  #kcn  #kem_chống_nắng",
+      "duration_s": 94.767,
+      "views": 3060,
+      "revenue_vnd": 2550000,
+      "items_sold": 5,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-31"
+    },
+    {
+      "video_id": "7703064854617361684",
+      "url": "https://www.tiktok.com/@kieu_oanh_cosmetic/video/7703064854617361684",
+      "description": "Ruee kem nám   #ruee  #nám  #tàn_nhang  #skincare",
+      "duration_s": 121.567,
+      "views": 3230,
+      "revenue_vnd": 418380,
+      "items_sold": 1,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-11-01"
+    },
+    {
+      "video_id": "7692303763859885333",
+      "url": "https://www.tiktok.com/@kieu_oanh_cosmetic/video/7692303763859885333",
+      "description": "Câu chuyện mỗi ngày  #xuhuong  #viral  #repida  #body",
+      "duration_s": 81,
+      "views": 259,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-03"
+    },
+    {
+      "video_id": "7697873290869656852",
+      "url": "https://www.tiktok.com/@kieu_oanh_cosmetic/video/7697873290869656852",
+      "description": "Kí sự Tam Đảo  #xuhuong  #viral  #PDRN  #Serummist  #prettyskin",
+      "duration_s": 90,
+      "views": 1520,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-18"
+    },
+    {
+      "video_id": "7691566901809499412",
+      "url": "https://www.tiktok.com/@kieu_oanh_cosmetic/video/7691566901809499412",
+      "description": "Kem mắt retinol prettyskin  #xuhuong  #viral  #kem_mắt  #prettyskin @Kiều Oanh Cosmetics @Kiều Oanh Dùng Gì ???",
+      "duration_s": 94,
+      "views": 198,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-01"
+    },
+    {
+      "video_id": "7417403663133592840",
+      "url": "https://www.tiktok.com/@kieu_oanh_cosmetic/video/7417403663133592840",
+      "description": "Dưỡng thể ban đêm Whisis, tin em dùng mê nha",
+      "duration_s": 110,
+      "views": 100,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2024-09-22"
+    },
+    {
+      "video_id": "7699120594582785301",
+      "url": "https://www.tiktok.com/@kieu_oanh_cosmetic/video/7699120594582785301",
+      "description": "Cuối ngày sinh nhật rồi, da vẫn cực kỳ căng bóng  #xuhuong  #viral  #prettyskin  #pdrn  #serummist",
+      "duration_s": 99,
+      "views": 4600,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-21"
+    },
+    {
+      "video_id": "7694533089028132116",
+      "url": "https://www.tiktok.com/@kieu_oanh_cosmetic/video/7694533089028132116",
+      "description": "Da căng bóng không khó  #xuhuong  #viral  #pdrn  #prettyskin  #serummist",
+      "duration_s": 108,
+      "views": 541,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-09"
+    },
+    {
+      "video_id": "7704926291224481045",
+      "url": "https://www.tiktok.com/@kieu_oanh_cosmetic/video/7704926291224481045",
+      "description": "Tiệc mừng Phương Trần trúng ô tô vf9 kkk",
+      "duration_s": 111.434,
+      "views": 2690,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-11-06"
+    },
+    {
+      "video_id": "7696388262876695809",
+      "url": "https://www.tiktok.com/@kieu_oanh_cosmetic/video/7696388262876695809",
+      "description": "Chống nắng nhanh gọn  #xuhuong  #viral  #medb  #xịt_chống_nắng  #kcn @Kiều Oanh Cosmetics @Kiều Oanh Dùng Gì ???",
+      "duration_s": 96.8,
+      "views": 5250,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-14"
+    }
+  ],
+  "shops": [
+    {
+      "name": "Kiều Oanh Cosmetics",
+      "revenue_vnd": 2350000000,
+      "product_count": 194,
+      "items_sold": 6320
+    },
+    {
+      "name": "Kiều Oanh Cosmetic 03",
+      "revenue_vnd": 312140000,
+      "product_count": 3,
+      "items_sold": 1340
+    },
+    {
+      "name": "Là Da Beauty",
+      "revenue_vnd": 259420000,
+      "product_count": 1,
+      "items_sold": 325
+    },
+    {
+      "name": "La Roche-Posay Việt Nam",
+      "revenue_vnd": 180850000,
+      "product_count": 3,
+      "items_sold": 235
+    },
+    {
+      "name": "Hasaki Vietnam Official",
+      "revenue_vnd": 158840000,
+      "product_count": 3,
+      "items_sold": 509
+    },
+    {
+      "name": "CeraVe Việt Nam",
+      "revenue_vnd": 111250000,
+      "product_count": 4,
+      "items_sold": 260
+    },
+    {
+      "name": "Obagi Vietnam",
+      "revenue_vnd": 86540000,
+      "product_count": 2,
+      "items_sold": 64
+    },
+    {
+      "name": "d'Alba piedmont VN",
+      "revenue_vnd": 71890000,
+      "product_count": 2,
+      "items_sold": 122
+    },
+    {
+      "name": "Anessa Official Store",
+      "revenue_vnd": 43910000,
+      "product_count": 1,
+      "items_sold": 41
+    },
+    {
+      "name": "Ekseption VN",
+      "revenue_vnd": 38390000,
+      "product_count": 3,
+      "items_sold": 30
+    }
+  ],
+  "products": [
+    {
+      "title": "[Mở Bán] Kem Chống Nắng CellLuxe PDRN Tone-up UV Shield Sunscreen 50ml",
+      "revenue_vnd": 304400000,
+      "items_sold": 515,
+      "avg_price_vnd": 591060
+    },
+    {
+      "title": "[CÔNG TY] Kem chống nắng Hyaestic Skin Fusion SF64 (50ml) - Cho mọi loại da",
+      "revenue_vnd": 259420000,
+      "items_sold": 325,
+      "avg_price_vnd": 798210
+    },
+    {
+      "title": "Hộp quà Live Stream Ngẫu Nhiên",
+      "revenue_vnd": 257180000,
+      "items_sold": 1260,
+      "avg_price_vnd": 204270
+    },
+    {
+      "title": "Combo 3 Hộp Nước Uống Collagen Girl Hàn Quốc (30 chai)",
+      "revenue_vnd": 186620000,
+      "items_sold": 210,
+      "avg_price_vnd": 888650
+    },
+    {
+      "title": "Kem Giúp Phục Hồi Đa Năng & Dưỡng Ẩm La Roche-Posay Cicaplast Baume B5+ (100ml) giúp phục hồi da sau 1 lần sử dụng",
+      "revenue_vnd": 166160000,
+      "items_sold": 207,
+      "avg_price_vnd": 802720
+    },
+    {
+      "title": "[Mở bán] Mặt nạ COK’LEAR KOMBUCHA REPAIR HA+B5 ( hộp 5 miếng)",
+      "revenue_vnd": 162580000,
+      "items_sold": 537,
+      "avg_price_vnd": 302750
+    },
+    {
+      "title": "[Mở bán] Serum Dạng Xịt PS. PRETTYSKIN. PEPTIDE PDRN GLOW SERUM MIST 150ml",
+      "revenue_vnd": 155000000,
+      "items_sold": 230,
+      "avg_price_vnd": 673910
+    },
+    {
+      "title": "[Mở bán] Dầu Gội Xả SORINI Hỗ Trợ Phục Hồi Giảm Gãy Rụng 500ml",
+      "revenue_vnd": 147110000,
+      "items_sold": 267,
+      "avg_price_vnd": 550990
+    },
+    {
+      "title": "[Mở bán] Sữa rửa mặt dịu nhẹ cho da nhạy cảm và da mụn nhạy cảm PH 5.5 LABONITA VITAL PANTHENOL GEL CLEANSER 50g",
+      "revenue_vnd": 97490000,
+      "items_sold": 457,
+      "avg_price_vnd": 213320
+    },
+    {
+      "title": "[Mở bán] Viên Uống Vitamin E 400IU Nature’s Bounty của Mỹ hộp 30viên",
+      "revenue_vnd": 91670000,
+      "items_sold": 249,
+      "avg_price_vnd": 368140
+    }
+  ],
+  "contact_keys": [
+    "lh-10"
+  ]
+}

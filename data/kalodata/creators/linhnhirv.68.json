@@ -1,0 +1,288 @@
+{
+  "handle": "linhnhirv.68",
+  "kalodata_id": "6952484137920037890",
+  "nickname": "Linh Nhi daily",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": "PHS GROUP",
+  "bio": "Beauty | Lifestyle | Fashion\nFor work: [email]\n\n\"One day, you'll leave this world behind\nSo live a life you will remember\"",
+  "followers": 107800,
+  "debut_date": "2022-06-16",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": "18-24",
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được.",
+  "core_metrics": {
+    "revenue_vnd": 16780000000,
+    "live_revenue_vnd": 0,
+    "video_revenue_vnd": 16750000000,
+    "video_views": 81080000,
+    "live_views": 0,
+    "follower_change": 6300
+  },
+  "videos": [
+    {
+      "video_id": "7701029282662878485",
+      "url": "https://www.tiktok.com/@linhnhirv.68/video/7701029282662878485",
+      "description": "#tiktokshop #cuocduanhasangtao #quangcao",
+      "duration_s": 24.775,
+      "views": 14520000,
+      "revenue_vnd": 1380000000,
+      "items_sold": 16280,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "13.45%",
+      "publish_date": "2026-10-27"
+    },
+    {
+      "video_id": "7693966810022006036",
+      "url": "https://www.tiktok.com/@linhnhirv.68/video/7693966810022006036",
+      "description": "#quangcao #tiktokshop1010 #cuocduanhasangtao",
+      "duration_s": 35.934,
+      "views": 2460000,
+      "revenue_vnd": 517170000,
+      "items_sold": 2260,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "30.00%",
+      "publish_date": "2026-10-07"
+    },
+    {
+      "video_id": "7691771762652056884",
+      "url": "https://www.tiktok.com/@linhnhirv.68/video/7691771762652056884",
+      "description": "#quangcao #tiktokshop #cuocduanhasangtao #goclamdep",
+      "duration_s": 35.267,
+      "views": 1980000,
+      "revenue_vnd": 476850000,
+      "items_sold": 2580,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "39.49%",
+      "publish_date": "2026-10-02"
+    },
+    {
+      "video_id": "7657618687775493397",
+      "url": "https://www.tiktok.com/@linhnhirv.68/video/7657618687775493397",
+      "description": "#quangcao #tiktokshop #cuocduanhasangtao #chamsocda",
+      "duration_s": 23.08,
+      "views": 1130000,
+      "revenue_vnd": 373590000,
+      "items_sold": 3350,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.768,
+      "ad_view_ratio": "63.85%",
+      "publish_date": "2026-07-02"
+    },
+    {
+      "video_id": "7694371373325552902",
+      "url": "https://www.tiktok.com/@linhnhirv.68/video/7694371373325552902",
+      "description": "#quangcao #cuocduanhasangtao #tiktokshop #tuixach",
+      "duration_s": 31.903,
+      "views": 928330,
+      "revenue_vnd": 338510000,
+      "items_sold": 877,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "80.17%",
+      "publish_date": "2026-10-09"
+    },
+    {
+      "video_id": "7670562343989841172",
+      "url": "https://www.tiktok.com/@linhnhirv.68/video/7670562343989841172",
+      "description": "#quangcao #tiktokshop #cuocduanhasangtaoxunilever #hợptáccùngunilever #chamsocda",
+      "duration_s": 39.8,
+      "views": 1100000,
+      "revenue_vnd": 277580000,
+      "items_sold": 1910,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.394,
+      "ad_view_ratio": "39.42%",
+      "publish_date": "2026-08-05"
+    },
+    {
+      "video_id": "7612289298338991378",
+      "url": "https://www.tiktok.com/@linhnhirv.68/video/7612289298338991378",
+      "description": "#duongtoc @Linh Nhi daily",
+      "duration_s": 35.851,
+      "views": 1040000,
+      "revenue_vnd": 275190000,
+      "items_sold": 1710,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "35.87%",
+      "publish_date": "2026-03-01"
+    },
+    {
+      "video_id": "7679142417399860498",
+      "url": "https://www.tiktok.com/@linhnhirv.68/video/7679142417399860498",
+      "description": "#quangcao #tiktokshop #cuocduanhasangtao #goclamdep",
+      "duration_s": 34.109,
+      "views": 440380,
+      "revenue_vnd": 273000000,
+      "items_sold": 544,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.762,
+      "ad_view_ratio": "85.81%",
+      "publish_date": "2026-08-29"
+    },
+    {
+      "video_id": "7701029500364000532",
+      "url": "https://www.tiktok.com/@linhnhirv.68/video/7701029500364000532",
+      "description": "#tiktokshop #cuocduanhasangtao #quangcao",
+      "duration_s": 22.234,
+      "views": 2560000,
+      "revenue_vnd": 243870000,
+      "items_sold": 2870,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.54,
+      "ad_view_ratio": "10.92%",
+      "publish_date": "2026-10-27"
+    },
+    {
+      "video_id": "7631647126178549013",
+      "url": "https://www.tiktok.com/@linhnhirv.68/video/7631647126178549013",
+      "description": "Trả lời @ˇHimawari`꒳´ #snailgold #goclamdep #tiktokshop #thuhaifreeship #thu4livefest",
+      "duration_s": 31.671,
+      "views": 473260,
+      "revenue_vnd": 225590000,
+      "items_sold": 1450,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "89.56%",
+      "publish_date": "2026-04-23"
+    }
+  ],
+  "shops": [
+    {
+      "name": "Unilever - Chăm Sóc Cá Nhân",
+      "revenue_vnd": 2850000000,
+      "product_count": 15,
+      "items_sold": 29940
+    },
+    {
+      "name": "Unilever Beauty",
+      "revenue_vnd": 1520000000,
+      "product_count": 31,
+      "items_sold": 9700
+    },
+    {
+      "name": "CeraVe Việt Nam",
+      "revenue_vnd": 928710000,
+      "product_count": 11,
+      "items_sold": 2240
+    },
+    {
+      "name": "KAO VIETNAM",
+      "revenue_vnd": 814780000,
+      "product_count": 8,
+      "items_sold": 9400
+    },
+    {
+      "name": "NIVEA Việt Nam",
+      "revenue_vnd": 666930000,
+      "product_count": 6,
+      "items_sold": 4230
+    },
+    {
+      "name": "BNBG VN STORE",
+      "revenue_vnd": 591040000,
+      "product_count": 2,
+      "items_sold": 2480
+    },
+    {
+      "name": "KATO-KATO Vietnam",
+      "revenue_vnd": 531660000,
+      "product_count": 1,
+      "items_sold": 2330
+    },
+    {
+      "name": "Flower Knows V N",
+      "revenue_vnd": 450190000,
+      "product_count": 15,
+      "items_sold": 591
+    },
+    {
+      "name": "Lab On Hair Việt Nam",
+      "revenue_vnd": 406070000,
+      "product_count": 1,
+      "items_sold": 2520
+    },
+    {
+      "name": "Cocoon Vietnam",
+      "revenue_vnd": 404570000,
+      "product_count": 24,
+      "items_sold": 1640
+    }
+  ],
+  "products": [
+    {
+      "title": "[MỚI] Kem Đánh Răng P/S Ultra White Trắng Bật 5 Tông trong 1 tuần 100g - Với bộ Đôi công nghệ độc quyền Blue HAP & Microwhitening C [v]",
+      "revenue_vnd": 1740000000,
+      "items_sold": 20440,
+      "avg_price_vnd": 84910
+    },
+    {
+      "title": "[Tặng chai 350G] Sữa tắm Lux Botanicals Hương Nước Hoa Cao Cấp Sáng Mịn Rạng Ngời 570G [v]",
+      "revenue_vnd": 637100000,
+      "items_sold": 4390,
+      "avg_price_vnd": 145190
+    },
+    {
+      "title": "[1] Kem Dưỡng Ban Đêm Pond's Bright Miracle Với 50X Niasorcinol Hỗ Trợ Chăm Sóc Da Giảm Thâm Sạm Nữ 45G",
+      "revenue_vnd": 621690000,
+      "items_sold": 3710,
+      "avg_price_vnd": 167660
+    },
+    {
+      "title": "(TẶNG 5 MẶT NẠ MIẾNG) Combo 10 Mặt Nạ BNBG Mix Hỗ Trợ Phục Hồi Da BNBG Vita Genic Jelly Mask 30mlx10 (Live)",
+      "revenue_vnd": 560600000,
+      "items_sold": 2390,
+      "avg_price_vnd": 234170
+    },
+    {
+      "title": "[TẶNG CỌ PHỦ PHẤN ĐH TỪ 349K] KATO-KATO Phấn Phủ Kiềm Dầu Cố Định Nền Mỏng Nhẹ, Lâu Trôi, Kiềm Dầu, Chống Nước, Chống Mồ Hôi Che Phủ Bóng Dầu hiệu quả",
+      "revenue_vnd": 531660000,
+      "items_sold": 2330,
+      "avg_price_vnd": 228470
+    },
+    {
+      "title": "Tinh Chất Dưỡng Thể NIVEA Vitamin Serum - Dưỡng Sáng Da Sau 7 Ngày 300ml - 93824/99197/99195/99190/99192",
+      "revenue_vnd": 520930000,
+      "items_sold": 2820,
+      "avg_price_vnd": 184860
+    },
+    {
+      "title": "(Chọn loại) Biore UV Smooth Velvet Sữa Chống Nắng Màng Nhung Mịn Lì SPF50+/PA++++ 30ml",
+      "revenue_vnd": 513820000,
+      "items_sold": 4610,
+      "avg_price_vnd": 111550
+    },
+    {
+      "title": "Sữa rửa mặt giúp làm sạch sâu dành cho da dầu Cerave Foaming Facial Cleans 473ML, tạo bọt làm sạch sâu dịu nhẹ và cung cấp độ ẩm cho da. Chăm sóc da_Sữa rửa mặt_Skincare cho Nam và Nữ_Cleansing",
+      "revenue_vnd": 465490000,
+      "items_sold": 928,
+      "avg_price_vnd": 501610
+    },
+    {
+      "title": "[NGÀY SALE 50%] Xịt mọc tóc Lab on Hair 160ml xịt dưỡng tóc với giấm táo Củng cố chân tóc Rụng Tóc Tóc mọc chậm Kích thích mọc tóc",
+      "revenue_vnd": 406070000,
+      "items_sold": 2520,
+      "avg_price_vnd": 161270
+    },
+    {
+      "title": "【BAGIN】Túi Xách Nữ Chính Hãng Thời Trang Cao Cấp Da PU Chống Nước Chống Trầy Kèm Charm Sang Trọng, Phù Hợp Làm Quà Tặng[gy-1088]",
+      "revenue_vnd": 386050000,
+      "items_sold": 1000,
+      "avg_price_vnd": 386050
+    }
+  ],
+  "contact_keys": [
+    "lh-14"
+  ]
+}

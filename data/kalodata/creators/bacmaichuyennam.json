@@ -1,0 +1,232 @@
+{
+  "handle": "bacmaichuyennam",
+  "kalodata_id": "7369772808506115092",
+  "nickname": "BÁC MAI CHUYÊN NÁM",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "BELONGED_TO_SELLER",
+  "mcn_name": null,
+  "bio": "Bsck 1 Da Liễu\nTư vấn - Điều Trị - Đào tạo Nám Da",
+  "followers": 60500,
+  "debut_date": "2024-09-18",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": null,
+  "follower_age_top": null,
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được. API không trả followerSex/followerAgeMax.",
+  "core_metrics": {
+    "revenue_vnd": 3980000000,
+    "live_revenue_vnd": 3680000000,
+    "video_revenue_vnd": 27000000,
+    "video_views": 1040000,
+    "live_views": 295870,
+    "follower_change": 3100
+  },
+  "videos": [
+    {
+      "video_id": "7705008168396442887",
+      "url": "https://www.tiktok.com/@bacmaichuyennam/video/7705008168396442887",
+      "description": "Kem chống nắng chất lượng cao giá bình dân cho da nám, nâng tone đẹp . #bmcnskin #bacmaichuyennam #kemchongnang #kemchongnangnangtone #kemchongnangkiemdau",
+      "duration_s": 74.373,
+      "views": 24340,
+      "revenue_vnd": 13620000,
+      "items_sold": 25,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.288,
+      "ad_view_ratio": "42.01%",
+      "publish_date": "2026-11-07"
+    },
+    {
+      "video_id": "7706366828561321223",
+      "url": "https://www.tiktok.com/@bacmaichuyennam/video/7706366828561321223",
+      "description": "Chống nắng tốt cho da nám . #bacmaichuyennam #kemchongnangchodadaumun #kemchongnang #kemchongnangnangtone #kemchongnangkiemdau",
+      "duration_s": 72,
+      "views": 20110,
+      "revenue_vnd": 7810000,
+      "items_sold": 16,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.487,
+      "ad_view_ratio": "61.01%",
+      "publish_date": "2026-11-10"
+    },
+    {
+      "video_id": "7707133775968242951",
+      "url": "https://www.tiktok.com/@bacmaichuyennam/video/7707133775968242951",
+      "description": "Kem chống nắng thật tốt cho da nám . #bacmaichuyennam #kemchongnangchodadaumun #kemchongnang #kemchongnangnangtone #kemchongnangkiemdau",
+      "duration_s": 72.267,
+      "views": 16770,
+      "revenue_vnd": 4250000,
+      "items_sold": 12,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.311,
+      "ad_view_ratio": "25.72%",
+      "publish_date": "2026-11-12"
+    },
+    {
+      "video_id": "7708325744329444626",
+      "url": "https://www.tiktok.com/@bacmaichuyennam/video/7708325744329444626",
+      "description": "Kem chống về nắng chất lượng cao mà đang được trợ giá nhiều , có chỉ số chống nắng tối ưu dành cho da nám. #bacmaichuyennam #kemchongnangchodadaumun #kemchongnangkiemdau #kemchongnang #kemchongnangnangtone",
+      "duration_s": 88,
+      "views": 3170,
+      "revenue_vnd": 1320000,
+      "items_sold": 4,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-11-16"
+    },
+    {
+      "video_id": "7707207839508614408",
+      "url": "https://www.tiktok.com/@bacmaichuyennam/video/7707207839508614408",
+      "description": "Serum nám thật bình dân cho nám mảng , nám nội tiết, thâm sau mụn giá bình dân của nhãn hàng BMCN SKIN.   Trong quá trình thoa không sợ da bị bào mòn , bong tróc hay gây bắt nắng . #bacmaichuyennam #TikTokShopFUNFEST #bmcnskin #serumtrangda #serumtrinam",
+      "duration_s": 70,
+      "views": 47,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-11-12"
+    },
+    {
+      "video_id": "7704999454008528135",
+      "url": "https://www.tiktok.com/@bacmaichuyennam/video/7704999454008528135",
+      "description": "Kem chống nắng dành cho da nám ##bmcnskin #bacmaichuyennam #kemchongnang #kemchongnangnangtone #kemchongnangkiemdau",
+      "duration_s": 63,
+      "views": 62770,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-11-06"
+    },
+    {
+      "video_id": "7702290998025571591",
+      "url": "https://www.tiktok.com/@bacmaichuyennam/video/7702290998025571591",
+      "description": "Serum này giúp giảm nám nhanh chóng an toàn và hiệu quả cao, chi phí rất vừa phải . #bmcnskin #bacmaichuyennam #serumtrinam #trinam #serumtrangda",
+      "duration_s": 68,
+      "views": 6340,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-30"
+    },
+    {
+      "video_id": "7690894798886079762",
+      "url": "https://www.tiktok.com/@bacmaichuyennam/video/7690894798886079762",
+      "description": "Serum mờ nám trắng da hiệu quả# #sảnphẩmtrắngda #bmcnskin #bacmaichuyennam #serumnam #serumtrangda",
+      "duration_s": 77,
+      "views": 1350,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-09-29"
+    },
+    {
+      "video_id": "7698315538371464466",
+      "url": "https://www.tiktok.com/@bacmaichuyennam/video/7698315538371464466",
+      "description": "Bộ sản phẩm giảm nám BMCN SKIN giúp mờ nám mảng nám lâu nảm nám nội tiết mà không gây bong tróc bào mòn da , giá bình dân . #bmcnskin #bacmaichuyennam #trinam #kemtrinam #serumtrinam",
+      "duration_s": 76,
+      "views": 14960,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-19"
+    },
+    {
+      "video_id": "7697569433241275656",
+      "url": "https://www.tiktok.com/@bacmaichuyennam/video/7697569433241275656",
+      "description": "Kem mờ nám mảng , nám nội tiết , nám lâu năm, thâm mụn BMCN SKIN. #bmcnskin #bacmaichuyennam #trinam #kemtrinam #kemnam",
+      "duration_s": 89,
+      "views": 85,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-17"
+    }
+  ],
+  "shops": [
+    {
+      "name": "BÁC MAI CHUYÊN NÁM",
+      "revenue_vnd": 3980000000,
+      "product_count": 52,
+      "items_sold": 6360
+    }
+  ],
+  "products": [
+    {
+      "title": "BMCN SKIN Serum Giảm Nám Spot Brightening Serum Hỗ Trợ Giảm Nám Thâm Sạm Cải Thiện Đốm Nâu Dưỡng Sáng Đều Màu Da",
+      "revenue_vnd": 585870000,
+      "items_sold": 1070,
+      "avg_price_vnd": 545510
+    },
+    {
+      "title": "BMCN Skin - Serum Derma Calming Serum Giúp Da Mềm Mại Mịn Màng + (BMCN SKIN DERMA CALMING CREAM 20g)",
+      "revenue_vnd": 344870000,
+      "items_sold": 519,
+      "avg_price_vnd": 664480
+    },
+    {
+      "title": "BMCN SKIN Kem Dưỡng Derma Calming Cream 50g Làm Dịu Da Cấp Ẩm Chuyên Sâu Hỗ Trợ Khỏe Da",
+      "revenue_vnd": 294710000,
+      "items_sold": 431,
+      "avg_price_vnd": 683790
+    },
+    {
+      "title": "Kem chống nắng nâng tone INVU Niacinamide SPF50+ PA++++ - Tăng cường hàng rào bảo vệ da, làm sáng da, giảm thâm sạm, chống oxy hóa và lão hóa",
+      "revenue_vnd": 292460000,
+      "items_sold": 465,
+      "avg_price_vnd": 628940
+    },
+    {
+      "title": "BMCN SKIN Kem Hỗ Trợ Giảm Nám Spot Brightening Cream 25g - Giúp Giảm Nám Thâm Sạm Cải Thiện Đốm Nâu Dưỡng Sáng Đều Mầu Da + (BMCN SKIN SPOT BRIGHTENING SERUM) + ( BMCN SKIN DERMA CALMING CREAM 20g)",
+      "revenue_vnd": 269630000,
+      "items_sold": 262,
+      "avg_price_vnd": 1030000
+    },
+    {
+      "title": "BMCN SKIN Kem Hỗ Trợ Giảm Nám Spot Brightening Cream 25g - Giúp Giảm Nám Thâm Sạm Cải Thiện Đốm Nâu Dưỡng Sáng Đều Mầu Da + (BMCN SKIN SPOT BRIGHTENING SERUM)",
+      "revenue_vnd": 260930000,
+      "items_sold": 252,
+      "avg_price_vnd": 1040000
+    },
+    {
+      "title": "BMCN SKIN Serum Giảm Nám Spot Brightening Serum Hỗ Trợ Giảm Nám Thâm Sạm Cải Thiện Đốm Nâu Dưỡng Sáng Đều Da + (BMCN derma calming cream 20g )",
+      "revenue_vnd": 233430000,
+      "items_sold": 495,
+      "avg_price_vnd": 471570
+    },
+    {
+      "title": "Kem chống nắng nâng tone INVU Niacinamide SPF50+ PA++++ - Tăng cường hàng rào bảo vệ da, làm sáng da, giảm thâm sạm, chống oxy hóa và lão hóa",
+      "revenue_vnd": 171950000,
+      "items_sold": 265,
+      "avg_price_vnd": 648860
+    },
+    {
+      "title": "BMCN SKIN Kem Dưỡng Derma Calming Cream 20g Làm Dịu Da Cấp Ẩm Chuyên Sâu Hỗ Trợ Khỏe Da",
+      "revenue_vnd": 141990000,
+      "items_sold": 405,
+      "avg_price_vnd": 350590
+    },
+    {
+      "title": "BMCN Skin - Serum Derma Calming Serum Giúp Da Mềm Mại Mịn Màng Hơn",
+      "revenue_vnd": 135140000,
+      "items_sold": 211,
+      "avg_price_vnd": 640480
+    }
+  ],
+  "contact_keys": []
+}

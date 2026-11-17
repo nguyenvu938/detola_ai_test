@@ -1,0 +1,74 @@
+# Brief chiến dịch + các ngưỡng của phễu. Đổi file này = đổi chiến dịch, không cần sửa code.
+
+[campaign]
+name = "kem-chong-nang-nu-18-30"
+market = "Việt Nam"
+product = "kem chống nắng"                       # chèn vào prompt: "thương hiệu {product}"
+product_scope = "kem chống nắng, chống nắng da mặt và cơ thể"   # LLM chấm độ liên quan theo phạm vi này
+niche = "chăm sóc da / làm đẹp"                   # ngách gần: creator chuyên ngách này vẫn hợp dù chưa làm {product}
+target_gender = "female"                         # female | male | all
+target_age_min = 18
+target_age_max = 30
+budget_vnd = 30_000_000
+n_koc = 5
+# Danh mục Kalodata dùng khi lấy danh sách ứng viên (bước thu thập dữ liệu)
+kalodata_categories = ["Beauty & Personal Care > Skincare > Facial Sunscreen & Sun Care",
+                       "Beauty & Personal Care > Bath & Body Care > Body Sunscreen"]
+# Từ khóa nhận diện bài đúng chủ đề trong mô tả video (chọn video nào để AI xem)
+topic_keywords = ["chống nắng", "chong nang", "kcn", "sunscreen", "suncream", "sun cream", "spf", "tia uv", "sunstick", "sun stick"]
+
+[prefilter]               # Stage 1 – luật cứng, 0 đồng
+min_followers = 10_000
+max_followers = 500_000
+# Tài khoản thương hiệu / shop / sàn: loại sớm bằng tên (LLM ở bước screen sẽ bắt nốt ca khó)
+exclude_name_patterns = ["official", "vietnam", "việt nam", ".vn", "store", "mall", "chính hãng", "hasaki", "watsons", "guardian"]
+# Lấy chi tiết Kalodata cho (enrich_per_koc × n_koc) ứng viên: 5 KOC -> 60, 500 KOC -> 6000
+# (API: 0,1 điểm/lần, rẻ hơn nhiều so với LLM). Các tầng phễu đều TỶ LỆ với số KOC cần tìm -> mở rộng 50–500 KOC.
+enrich_per_koc = 12
+# Hạn mức theo nguồn ứng viên (mỗi nguồn xếp theo thứ hạng riêng của nó), chỗ trống lấy theo pre_score.
+# Là TỶ LỆ giữa các nguồn (tổng 60 ứng với 5 KOC), tự nhân theo số suất lấy chi tiết.
+enrich_quota = { creators_list = 20, creators_list_video = 10, creators_list_content = 20, creators_list_research = 10 }
+# Nguồn không có thứ hạng riêng có ý nghĩa (bảng doanh thu đã có pre_score; danh sách web chỉ là thứ tự tìm thấy)
+rank_by_pre_score = ["creators_list", "creators_list_research"]
+# Điểm sơ bộ để chọn ai được lấy chi tiết (tổng = 1)
+pre_score_weights = { gmv = 0.35, gmv_per_follower = 0.25, engagement = 0.25, bonus_source = 0.15 }
+# Nguồn ứng viên ưu tiên: bán qua video / làm video kem chống nắng nhiều view (không chỉ bảng doanh thu)
+bonus_sources = ["creators_list_video", "creators_list_content", "creators_list_research"]
+
+[audience]                # Stage 3 – sau khi có nhân khẩu học follower
+# Loại kênh có tỷ lệ follower đúng giới mục tiêu thấp hơn ngưỡng (khi có số liệu), hoặc nhãn "đa số giới kia".
+min_target_gender_share = 0.55
+# Tuổi: Kalodata chia nhóm 18-24 / 25-34 ... Phần nằm trong khoảng mục tiêu được tính theo tỷ lệ trùng
+# (vd mục tiêu 18-30: nhóm 25-34 trùng 6/10 năm -> tính 0.6), giả định tuổi phân bố đều trong nhóm.
+
+[funnel]
+# Stage 4 sàng lọc theo từng batch, DỪNG SỚM khi đã có đủ (video_per_koc × n_koc) ứng viên đạt cổng;
+# chưa đủ thì đi tiếp xuống danh sách, tối đa (screen_per_koc × n_koc) người.
+screen_per_koc = 8        # sàng lọc tối đa 8 × n_koc người (5 KOC -> 40)
+video_per_koc = 2         # Stage 5 – phân tích video, đắt nhất nên ít nhất: 2 × n_koc (5 KOC -> 10)
+# Cổng vào bước video
+eligible_kinds = ["individual_creator", "unknown"]   # unknown bị trừ điểm ở bước chọn
+min_relevance = 4         # topic_relevance tối thiểu (0-10): 4 = chuyên ngách gần, chưa thấy sản phẩm
+# Ngưỡng đề xuất: dưới mức này thì không đề xuất (thà thiếu còn hơn chọn sai)
+min_final_score = 0.5
+
+[weights.metric]          # điểm định lượng (tổng = 1)
+audience = 0.30
+category_gmv = 0.20
+conversion = 0.15
+views_per_follower = 0.15
+engagement = 0.10
+organic = 0.10            # 1 - mức phụ thuộc quảng cáo trả tiền
+
+[weights.final]           # gộp 3 nguồn bằng chứng (tổng = 1)
+metric = 0.45
+screen = 0.20
+video = 0.35
+
+[refresh]
+# Creator không thay đổi quá N ngày -> đánh dấu "quá hạn": nên lấy lại dữ liệu nguồn (Kalodata) để kiểm tra
+max_age_days = 14
+
+[video]
+# Bài không xem được hình (chỉ có ảnh bìa + âm thanh) -> bằng chứng yếu hơn -> điểm video nhân hệ số này
+photo_post_factor = 0.7

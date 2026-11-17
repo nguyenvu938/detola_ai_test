@@ -1,0 +1,286 @@
+{
+  "handle": "ngoc.matcha.review",
+  "kalodata_id": "7068033841454154754",
+  "nickname": "Ngọc Matcha ☘️",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": null,
+  "bio": "Hàng mall chính hãng 🇻🇳\n\nLive acc chính : @Ngọc Matcha ☘️",
+  "followers": 145800,
+  "debut_date": "2023-05-22",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": "18-24",
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được.",
+  "core_metrics": {
+    "revenue_vnd": 9570000000,
+    "live_revenue_vnd": 0,
+    "video_revenue_vnd": 9490000000,
+    "video_views": 38270000,
+    "live_views": 0,
+    "follower_change": 3000
+  },
+  "videos": [
+    {
+      "video_id": "7698669235244895496",
+      "url": "https://www.tiktok.com/@ngoc.matcha.review/video/7698669235244895496",
+      "description": "Kem dưỡng da tay #ngocmatcha #ngocmatchareview",
+      "duration_s": 63.3,
+      "views": 543320,
+      "revenue_vnd": 280760000,
+      "items_sold": 277,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "69.12%",
+      "publish_date": "2026-10-20"
+    },
+    {
+      "video_id": "7700502003423677702",
+      "url": "https://www.tiktok.com/@ngoc.matcha.review/video/7700502003423677702",
+      "description": "Chấm mụn và chấm thâm mụn #ngocmatcha #ngocmatchareview",
+      "duration_s": 80.549,
+      "views": 650520,
+      "revenue_vnd": 259480000,
+      "items_sold": 590,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.792,
+      "ad_view_ratio": ">90%",
+      "publish_date": "2026-10-25"
+    },
+    {
+      "video_id": "7699089843313184008",
+      "url": "https://www.tiktok.com/@ngoc.matcha.review/video/7699089843313184008",
+      "description": "Son 2 đầu , son dưỡng và son có màu #ngocmatcha #ngocmatchareview",
+      "duration_s": 50.834,
+      "views": 962280,
+      "revenue_vnd": 184480000,
+      "items_sold": 1080,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "31.63%",
+      "publish_date": "2026-10-21"
+    },
+    {
+      "video_id": "7684618119993822485",
+      "url": "https://www.tiktok.com/@ngoc.matcha.review/video/7684618119993822485",
+      "description": "Máy sấy siêu nhanh khô tóc đây #ngocmatcha #ngocmatchareview",
+      "duration_s": 45.967,
+      "views": 417100,
+      "revenue_vnd": 176460000,
+      "items_sold": 566,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.3,
+      "ad_view_ratio": "7.17%",
+      "publish_date": "2026-09-12"
+    },
+    {
+      "video_id": "7647499756570266901",
+      "url": "https://www.tiktok.com/@ngoc.matcha.review/video/7647499756570266901",
+      "description": "Em Ngọc đang dùng này #ngocmatcha #ngocmatchareview",
+      "duration_s": 58.002,
+      "views": 166500,
+      "revenue_vnd": 162480000,
+      "items_sold": 178,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": ">90%",
+      "publish_date": "2026-06-04"
+    },
+    {
+      "video_id": "7681194912825625876",
+      "url": "https://www.tiktok.com/@ngoc.matcha.review/video/7681194912825625876",
+      "description": "Tẩy tế bào ngủm làm sạch #ngocmatcha #ngocmatchareview",
+      "duration_s": 63.575,
+      "views": 915970,
+      "revenue_vnd": 142940000,
+      "items_sold": 1010,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "20.93%",
+      "publish_date": "2026-09-03"
+    },
+    {
+      "video_id": "7660941530651266324",
+      "url": "https://www.tiktok.com/@ngoc.matcha.review/video/7660941530651266324",
+      "description": "Có hàm răng trắng nên tâm huyết lắm các chị em ơi 🥰 #ngocmatcha #ngocmatchareview",
+      "duration_s": 75.6,
+      "views": 418050,
+      "revenue_vnd": 135480000,
+      "items_sold": 142,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.783,
+      "ad_view_ratio": "50.32%",
+      "publish_date": "2026-07-10"
+    },
+    {
+      "video_id": "7673859557424155924",
+      "url": "https://www.tiktok.com/@ngoc.matcha.review/video/7673859557424155924",
+      "description": "Kem lót cấp ẩm trước khi make up ✨ #ngocmatcha #ngocmatchareview",
+      "duration_s": 41.841,
+      "views": 606460,
+      "revenue_vnd": 128470000,
+      "items_sold": 624,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.667,
+      "ad_view_ratio": "7.59%",
+      "publish_date": "2026-08-14"
+    },
+    {
+      "video_id": "7665318815655415058",
+      "url": "https://www.tiktok.com/@ngoc.matcha.review/video/7665318815655415058",
+      "description": "Nước hoa thơm lắm nha#ngocmatcha #ngocmatchareview",
+      "duration_s": 39.218,
+      "views": 337100,
+      "revenue_vnd": 122980000,
+      "items_sold": 472,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "63.29%",
+      "publish_date": "2026-07-22"
+    },
+    {
+      "video_id": "7704628502707932434",
+      "url": "https://www.tiktok.com/@ngoc.matcha.review/video/7704628502707932434",
+      "description": "Ngon lắm lunnn #ngocmatcha #ngocmatchareview",
+      "duration_s": 115.3,
+      "views": 692750,
+      "revenue_vnd": 122220000,
+      "items_sold": 648,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.799,
+      "ad_view_ratio": "54.53%",
+      "publish_date": "2026-11-05"
+    }
+  ],
+  "shops": [
+    {
+      "name": "SmileeExtra & Flossie",
+      "revenue_vnd": 1080000000,
+      "product_count": 4,
+      "items_sold": 1400
+    },
+    {
+      "name": "L'Occitane VN",
+      "revenue_vnd": 647880000,
+      "product_count": 11,
+      "items_sold": 755
+    },
+    {
+      "name": "Bye Bye Blemish Vietnam",
+      "revenue_vnd": 438870000,
+      "product_count": 2,
+      "items_sold": 998
+    },
+    {
+      "name": "Camera Bảo An 268",
+      "revenue_vnd": 358010000,
+      "product_count": 1,
+      "items_sold": 1150
+    },
+    {
+      "name": "Q.P Cosmétique",
+      "revenue_vnd": 318160000,
+      "product_count": 2,
+      "items_sold": 2410
+    },
+    {
+      "name": "COLORKEY ROSÉ VIỆT NAM",
+      "revenue_vnd": 306770000,
+      "product_count": 4,
+      "items_sold": 2160
+    },
+    {
+      "name": "d'Alba piedmont VN",
+      "revenue_vnd": 291680000,
+      "product_count": 11,
+      "items_sold": 448
+    },
+    {
+      "name": "COLORKEY LUMINOUS VIỆT NAM",
+      "revenue_vnd": 239910000,
+      "product_count": 5,
+      "items_sold": 2880
+    },
+    {
+      "name": "LASHE SUPERFOOD",
+      "revenue_vnd": 228810000,
+      "product_count": 7,
+      "items_sold": 2320
+    },
+    {
+      "name": "SammiShop Offical",
+      "revenue_vnd": 220440000,
+      "product_count": 14,
+      "items_sold": 665
+    }
+  ],
+  "products": [
+    {
+      "title": "[QUÀ TẶNG 19.11] Kit trắng răng Smilee - Bộ kit hỗ trợ làm trắng răng tại nhà tặng bạn trai, tặng chồng - Răng trắng sau 1 đến 2 tuần sử dụng",
+      "revenue_vnd": 700000000,
+      "items_sold": 767,
+      "avg_price_vnd": 912640
+    },
+    {
+      "title": "DEAL SỐC | Combo Giảm Mụn Viêm và Thâm Mụn Nhanh - Chấm mụn Tràm Trà và Chấm Vitamin C 30ml Bye Bye Blemish",
+      "revenue_vnd": 435790000,
+      "items_sold": 991,
+      "avg_price_vnd": 439750
+    },
+    {
+      "title": "[Flash Sale]Máy sấy tóc Hair Dryer ion âm tốc độ cao 2 chiều nóng lạnh | sấy nhanh | bảo vệ tóc | Tặng kèm móc treo và đầu sấy tạo kiểu",
+      "revenue_vnd": 358010000,
+      "items_sold": 1150,
+      "avg_price_vnd": 311850
+    },
+    {
+      "title": "Kem Dưỡng Tay L'Occitane Hand Cream Giúp Dưỡng Ẩm, Mềm Mịn 150ml",
+      "revenue_vnd": 334380000,
+      "items_sold": 330,
+      "avg_price_vnd": 1010000
+    },
+    {
+      "title": "[COMBO HOT GIẢM ĐẾN 40%] Tẩy Tế Bào Chết BODY - COLORKEY ROSÉ Hỗ Trợ Dưỡng Sáng Da Mềm Mịn, Lưu Hương Trên Da 200g",
+      "revenue_vnd": 303610000,
+      "items_sold": 2140,
+      "avg_price_vnd": 142070
+    },
+    {
+      "title": "[QUÀ TẶNG 19.11] Bộ kit trắng răng Smilee Extra Pro - Đầy đủ phụ kiện làm trắng răng tại nhà an toàn, hiệu quả - Kịp giao trước 19.11",
+      "revenue_vnd": 255240000,
+      "items_sold": 269,
+      "avg_price_vnd": 948850
+    },
+    {
+      "title": "500gr | Cơm cháy Siêu ĐẠI chà bông giòn rụm - túi 500g Đại | Đồ ăn vặt Bếp cô Như | Snack Food",
+      "revenue_vnd": 218500000,
+      "items_sold": 1160,
+      "avg_price_vnd": 188360
+    },
+    {
+      "title": "[50ml] [COVER UP] Kem Chống Nắng Nâng Tone Cover Beige White Truffle Cover Beige Tone Up Suncream 50ml SPF50+ PA++++ Sunscreen Skincare",
+      "revenue_vnd": 207930000,
+      "items_sold": 322,
+      "avg_price_vnd": 645740
+    },
+    {
+      "title": "[KOL LIVE] Combo 4 Gói | 600 Miếng Bông Tẩy Trang Q.P Cosmétique Không Xơ Không Rách, Hạt Massage Sạch Sâu",
+      "revenue_vnd": 202470000,
+      "items_sold": 1540,
+      "avg_price_vnd": 131900
+    },
+    {
+      "title": "【COD】BẢN NÂNG CẤP MISTINE PRIVATE LIP DUO SON KEM BÓNG HAI ĐẦU 3.0+ [QUÀ] 1 Son Mini",
+      "revenue_vnd": 190610000,
+      "items_sold": 1120,
+      "avg_price_vnd": 170800
+    }
+  ],
+  "contact_keys": []
+}

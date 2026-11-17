@@ -1,0 +1,190 @@
+{
+  "handle": "emlylynguyen",
+  "kalodata_id": "7078611622751405058",
+  "nickname": "LyLy",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": null,
+  "bio": "Contact for work: [phone]\n💌[email]",
+  "followers": 87900,
+  "debut_date": "2022-05-27",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": "18-24",
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được.",
+  "core_metrics": {
+    "revenue_vnd": 5040000,
+    "live_revenue_vnd": 0,
+    "video_revenue_vnd": 5040000,
+    "video_views": 422360,
+    "live_views": 0,
+    "follower_change": -300
+  },
+  "videos": [
+    {
+      "video_id": "7699827573987020039",
+      "url": "https://www.tiktok.com/@emlylynguyen/video/7699827573987020039",
+      "description": "Lần đầu sử dụng serum PDRN lên men sinh học mà ưng quá mấy bà ơiii, cấp ẩm vừa phải nhưng da vẫn căng bóng, sáng mịn. Thêm vào chu trình dưỡng da hằng ngày là chuẩn lun👏🏻 #serumpdrnloreal #skincare #hoptaccunglorealparis #cangbongda #3BrothersMedia",
+      "duration_s": 66.037,
+      "views": 11580,
+      "revenue_vnd": 3130000,
+      "items_sold": 8,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-23"
+    },
+    {
+      "video_id": "7699146996120112402",
+      "url": "https://www.tiktok.com/@emlylynguyen/video/7699146996120112402",
+      "description": "Team da dầu giống tui chắc chắn sẽ thích bộ đôi này💙  Makeup che mờ lỗ chân lông okla lắmmm #supra #effaclar #anthelios #XL #HợpTácCùngLarocheposay",
+      "duration_s": 87.979,
+      "views": 124900,
+      "revenue_vnd": 1750000,
+      "items_sold": 4,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-21"
+    },
+    {
+      "video_id": "7519128858033933586",
+      "url": "https://www.tiktok.com/@emlylynguyen/video/7519128858033933586",
+      "description": "Lần đầu tắm gội mùi hương này luôn áaa🍷🍇 #natufres #daugoi #suatam",
+      "duration_s": 52,
+      "views": 82,
+      "revenue_vnd": 156740,
+      "items_sold": 1,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2025-06-23"
+    },
+    {
+      "video_id": "7678630423777250568",
+      "url": "https://www.tiktok.com/@emlylynguyen/video/7678630423777250568",
+      "description": "Chơi thể thao nhất định phải có một em quần này #Shopee #noidungduoctaitro",
+      "duration_s": 60,
+      "views": 600,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-08-28"
+    },
+    {
+      "video_id": "7678484659075927304",
+      "url": "https://www.tiktok.com/@emlylynguyen/video/7678484659075927304",
+      "description": "Mang từ mùa hè sang mùa thu đều hợp✨ #Shopee #noidungduoctaitro",
+      "duration_s": 32,
+      "views": 198,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-08-28"
+    },
+    {
+      "video_id": "7678487127562194184",
+      "url": "https://www.tiktok.com/@emlylynguyen/video/7678487127562194184",
+      "description": "Kiểu áo đơn giản lại dễ phối đồ nhất ha🤍 #Shopee #noidungduoctaitro",
+      "duration_s": 61,
+      "views": 100,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-08-28"
+    },
+    {
+      "video_id": "7701307939755232530",
+      "url": "https://www.tiktok.com/@emlylynguyen/video/7701307939755232530",
+      "description": "Hazeline da sáng thơm mịn cùng cơ hội rinh nhẫn kim cương nha mấy bà  #Hazeline #DaSángNgátHương #RướcNhẫnKimCương #HợpTácCùngUnilever",
+      "duration_s": 71,
+      "views": 284880,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-27"
+    }
+  ],
+  "shops": [
+    {
+      "name": "L'oreal Paris Việt Nam",
+      "revenue_vnd": 3130000,
+      "product_count": 1,
+      "items_sold": 8
+    },
+    {
+      "name": "La Roche-Posay Việt Nam",
+      "revenue_vnd": 1750000,
+      "product_count": 3,
+      "items_sold": 4
+    },
+    {
+      "name": "Francia Beauty",
+      "revenue_vnd": 156740,
+      "product_count": 3,
+      "items_sold": 1
+    }
+  ],
+  "products": [
+    {
+      "title": "[MỚI] Dưỡng chất serum PDRN sinh học cảm nhận da Glass skin căng mọng, rạng rỡ tức thì L’Oréal Paris 30ml",
+      "revenue_vnd": 3130000,
+      "items_sold": 8,
+      "avg_price_vnd": 391030
+    },
+    {
+      "title": "[Phiên Bản Nâng Tone] Kem chống nắng La Roche-Posay nâng tone cho da dầu giúp bảo vệ da Anthelios XL SPF 50+, PA++++",
+      "revenue_vnd": 1250000,
+      "items_sold": 3,
+      "avg_price_vnd": 416220
+    },
+    {
+      "title": "[MỚI] Kem dưỡng giúp giảm dầu và thông thoáng lỗ chân lông La Roche-Posay Effaclar Supra Molecular 40ML",
+      "revenue_vnd": 504910,
+      "items_sold": 1,
+      "avg_price_vnd": 504910
+    },
+    {
+      "title": "Dầu Gội Phục Hồi Tóc Hư Tổn, Ngăn Gãy Rụng Natufres French Chic Chiết Xuất Rượu Vang Đỏ Pháp - 250ml / 450ml",
+      "revenue_vnd": 156740,
+      "items_sold": 1,
+      "avg_price_vnd": 156740
+    },
+    {
+      "title": "[MỚI] Gel rửa mặt giúp giảm dầu và thông thoáng lỗ chân lông La Roche-Posay Effaclar Supra Molecular 400ML",
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "avg_price_vnd": 597290
+    },
+    {
+      "title": "Dầu Gội Natufres Shampoo Belgian Favorite / French Chic / Moroccan Secret / Hawaiian Breeze 250ml",
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "avg_price_vnd": 279870
+    },
+    {
+      "title": "Sữa Tắm Dưỡng Da Tươi Trẻ, Hương Vang Đỏ Thanh Lịch Natufres French Chic Chiết Xuất Rượu Vang Đỏ Pháp – 250ml / 450ml",
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "avg_price_vnd": 147080
+    }
+  ],
+  "contact_keys": [
+    "lh-6",
+    "lh-7"
+  ]
+}

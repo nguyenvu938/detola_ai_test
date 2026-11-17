@@ -1,0 +1,147 @@
+{
+  "handle": "neon.beauty",
+  "kalodata_id": "7023957946883752961",
+  "nickname": "Neon Beauty",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "BELONGED_TO_SELLER",
+  "mcn_name": null,
+  "bio": "Chuyên sỉ lẻ Mỹ Phẩm - hàng full VAT",
+  "followers": 16800,
+  "debut_date": "2022-10-01",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": null,
+  "follower_age_top": null,
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được. API không trả followerSex/followerAgeMax.",
+  "core_metrics": {
+    "revenue_vnd": 1280000000,
+    "live_revenue_vnd": 1220000000,
+    "video_revenue_vnd": 66380000,
+    "video_views": 47840,
+    "live_views": 86560,
+    "follower_change": 400
+  },
+  "videos": [
+    {
+      "video_id": "7701983299727756564",
+      "url": "https://www.tiktok.com/@neon.beauty/video/7701983299727756564",
+      "description": "2026  rồi, rửa mặt cần gì đánh bọt rồi massage này nọ nữa. Để cho sữa rửa mặt tự sủi thôi. #suaruamatdiunhe #phuchoi #ohoh #neonbeauty",
+      "duration_s": 101.867,
+      "views": 17040,
+      "revenue_vnd": 46320000,
+      "items_sold": 99,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-29"
+    },
+    {
+      "video_id": "7706371334330158344",
+      "url": "https://www.tiktok.com/@neon.beauty/video/7706371334330158344",
+      "description": "Cách sử dụng Mặt nạ hỗ trợ sắc tố Martiderm. #nám_tàn_nhang_mụn_thâm #martiderm #neonbeauty",
+      "duration_s": 151.934,
+      "views": 5780,
+      "revenue_vnd": 20060000,
+      "items_sold": 19,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-11-10"
+    },
+    {
+      "video_id": "7693728129210174740",
+      "url": "https://www.tiktok.com/@neon.beauty/video/7693728129210174740",
+      "description": "#depigment #babe #neonbeauty",
+      "duration_s": 27.236,
+      "views": 771,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-07"
+    }
+  ],
+  "shops": [
+    {
+      "name": "Công Ty Cổ Phần Neon Beauty",
+      "revenue_vnd": 1280000000,
+      "product_count": 86,
+      "items_sold": 1640
+    },
+    {
+      "name": "Martiderm Viet Nam",
+      "revenue_vnd": 0,
+      "product_count": 1,
+      "items_sold": 0
+    }
+  ],
+  "products": [
+    {
+      "title": "[HÀNG CÔNG TY] Kem Chống Nắng MartiDerm The Originals Proteos Screen SPF50+",
+      "revenue_vnd": 254300000,
+      "items_sold": 208,
+      "avg_price_vnd": 1220000
+    },
+    {
+      "title": "[DEAL NEON] Mặt nạ hỗ trợ sắc tố da MartiDerm DSP-Intense Booster",
+      "revenue_vnd": 233300000,
+      "items_sold": 204,
+      "avg_price_vnd": 1140000
+    },
+    {
+      "title": "[DATE 6/2027] Sữa rửa mặt oh!oh! Microx Cleanser làm sạch bụi bẩn, tế bào da chết, giúp da được sạch sẽ, mịn màng, (150g/chai)",
+      "revenue_vnd": 178770000,
+      "items_sold": 382,
+      "avg_price_vnd": 467990
+    },
+    {
+      "title": "[HÀNG CTY] Serum dưỡng ẩm, chống nhăn da oh! oh! OATMERE SERUM 25ml",
+      "revenue_vnd": 145510000,
+      "items_sold": 167,
+      "avg_price_vnd": 871320
+    },
+    {
+      "title": "[HÀNG CTY] Tinh chất Ampoule Dưỡng Sáng Đều Màu Da, Giảm Đốm Sắc Tố - MartiDerm Pigment Zero DSP Bright",
+      "revenue_vnd": 102710000,
+      "items_sold": 204,
+      "avg_price_vnd": 503480
+    },
+    {
+      "title": "[HÀNG CTY] Kem chống nắng MartiDerm Proteos Screen SPF50+ Color Fluid Cream 40ml",
+      "revenue_vnd": 68610000,
+      "items_sold": 85,
+      "avg_price_vnd": 807220
+    },
+    {
+      "title": "[HÀNG CÔNG TY] Kem Chống Nắng MartiDerm The Originals Proteos Screen SPF50+ Fluid Cream",
+      "revenue_vnd": 37320000,
+      "items_sold": 49,
+      "avg_price_vnd": 761580
+    },
+    {
+      "title": "COMBO Mặt nạ hỗ trợ sắc tố da MartiDerm DSP-Intense Booster & Tinh Chất Phục Hồi Oh!oh! Oatmere Serum",
+      "revenue_vnd": 34060000,
+      "items_sold": 15,
+      "avg_price_vnd": 2270000
+    },
+    {
+      "title": "Tinh chất trẻ hóa làn da, giảm mụn sáng da Hyaestic 0.5% Pure Retinol",
+      "revenue_vnd": 16500000,
+      "items_sold": 27,
+      "avg_price_vnd": 611160
+    },
+    {
+      "title": "Kem dưỡng phục hồi da sau thủ thuật da liễu Sensilis Skin Rescue [Barrier]",
+      "revenue_vnd": 14730000,
+      "items_sold": 18,
+      "avg_price_vnd": 818090
+    }
+  ],
+  "contact_keys": []
+}

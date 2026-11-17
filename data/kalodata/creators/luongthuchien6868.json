@@ -1,0 +1,288 @@
+{
+  "handle": "luongthuchien6868",
+  "kalodata_id": "7337220703240045569",
+  "nickname": "Lương Thục Hiền",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": null,
+  "bio": "Nick phụ duy nhất của tui: \n@Thục Hiền \n📬 Contact for work:\n[email]",
+  "followers": 221400,
+  "debut_date": "2024-06-05",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": null,
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được. API trả followerAgeMax rỗng.",
+  "core_metrics": {
+    "revenue_vnd": 986350000,
+    "live_revenue_vnd": 0,
+    "video_revenue_vnd": 975970000,
+    "video_views": 7810000,
+    "live_views": 0,
+    "follower_change": 10000
+  },
+  "videos": [
+    {
+      "video_id": "7703811823853669640",
+      "url": "https://www.tiktok.com/@luongthuchien6868/video/7703811823853669640",
+      "description": "Trả lời @0% nếu để rcm bộ cọ cho người mới tui sẽ rcm cọ nào..#thuchienne #makeup  #glorie #cotrangdiemglorie #bongmutvocuc",
+      "duration_s": 218.267,
+      "views": 248600,
+      "revenue_vnd": 104210000,
+      "items_sold": 114,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.681,
+      "ad_view_ratio": "82.64%",
+      "publish_date": "2026-11-03"
+    },
+    {
+      "video_id": "7670779417676860690",
+      "url": "https://www.tiktok.com/@luongthuchien6868/video/7670779417676860690",
+      "description": "Trả lời @Chanh Không Chua xem hết clip để biết tui cắt tóc kiểu gì nha kk 🥹 #thuchienne #reviewlamdep #jptmedia #tockepphim #tocgia",
+      "duration_s": 106.207,
+      "views": 196380,
+      "revenue_vnd": 76170000,
+      "items_sold": 249,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.791,
+      "ad_view_ratio": "81.79%",
+      "publish_date": "2026-08-06"
+    },
+    {
+      "video_id": "7668175615266131207",
+      "url": "https://www.tiktok.com/@luongthuchien6868/video/7668175615266131207",
+      "description": "Bí kíp makeup phủ phấn vẫn căng bóng 🧏🏻‍♀️ #thuchienne #makeup #reviewlamdep #seamakeup  #HợptáccùngSeaMakeup",
+      "duration_s": 83.3,
+      "views": 330590,
+      "revenue_vnd": 56160000,
+      "items_sold": 425,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.725,
+      "ad_view_ratio": "14.63%",
+      "publish_date": "2026-07-30"
+    },
+    {
+      "video_id": "7695684590295420178",
+      "url": "https://www.tiktok.com/@luongthuchien6868/video/7695684590295420178",
+      "description": "Tutorial tạo khối kiểu Hàn nét nhưng vẫn tự nhiên 🧏🏻‍♀️ #thuchienne #makeup #judydollvn #liquidhighlightcontour #kemtaokhoi",
+      "duration_s": 117.515,
+      "views": 252800,
+      "revenue_vnd": 54910000,
+      "items_sold": 269,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.58,
+      "ad_view_ratio": "19.40%",
+      "publish_date": "2026-10-12"
+    },
+    {
+      "video_id": "7683150133730561288",
+      "url": "https://www.tiktok.com/@luongthuchien6868/video/7683150133730561288",
+      "description": "Không muốn sợi bã nhờn thì thử dùng dầu tẩy trang ik mí bà #thuchienne #skincare #zhubenvietnam  #dautaytrangzhuben #cleansingoil",
+      "duration_s": 83.4,
+      "views": 412550,
+      "revenue_vnd": 43420000,
+      "items_sold": 410,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.143,
+      "ad_view_ratio": "2.89%",
+      "publish_date": "2026-09-08"
+    },
+    {
+      "video_id": "7681671662156270855",
+      "url": "https://www.tiktok.com/@luongthuchien6868/video/7681671662156270855",
+      "description": "Tạo khối không còn khó nếu mí bà có ẻm nàyyy siu rcm mí bà newbie nhoaa #thuchienne  #SHEGLAM #SHEGLAMvn #taokhoifinelineSHEGLAM #buttaokhoiSHEGLAM @SHEGLAM Store VN",
+      "duration_s": 72.352,
+      "views": 232540,
+      "revenue_vnd": 34620000,
+      "items_sold": 236,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.051,
+      "ad_view_ratio": "1.12%",
+      "publish_date": "2026-09-04"
+    },
+    {
+      "video_id": "7706457518351977735",
+      "url": "https://www.tiktok.com/@luongthuchien6868/video/7706457518351977735",
+      "description": "Mỗi nàng nên có một ẻm trong cốp makeup nhaa chân ái lun áaa #thuchienne #makeup #reviewlamdep #CathyDoll",
+      "duration_s": 86.377,
+      "views": 232420,
+      "revenue_vnd": 33200000,
+      "items_sold": 167,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.35,
+      "ad_view_ratio": "9.71%",
+      "publish_date": "2026-11-10"
+    },
+    {
+      "video_id": "7699340212937264391",
+      "url": "https://www.tiktok.com/@luongthuchien6868/video/7699340212937264391",
+      "description": "Ẻm peak cỡ này mấy bà nhớ săn sale vào ngày BFD từ 22-24 này nhaaa!! #thuchienne #makeup  #BrandFanDay #ExclusiveFanPerks #Seamakeup",
+      "duration_s": 84.367,
+      "views": 183060,
+      "revenue_vnd": 31360000,
+      "items_sold": 238,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.716,
+      "ad_view_ratio": "16.49%",
+      "publish_date": "2026-10-22"
+    },
+    {
+      "video_id": "7706398010120359175",
+      "url": "https://www.tiktok.com/@luongthuchien6868/video/7706398010120359175",
+      "description": "Ôi :’))) da khuyết điểm có thể là cứi lun ẻm nay cho tui #thuchienne #makeup #katokato #chekhuyetdiemkatokato #bangnenkatokato",
+      "duration_s": 80.015,
+      "views": 244380,
+      "revenue_vnd": 27900000,
+      "items_sold": 137,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "18.04%",
+      "publish_date": "2026-11-10"
+    },
+    {
+      "video_id": "7675354051319581970",
+      "url": "https://www.tiktok.com/@luongthuchien6868/video/7675354051319581970",
+      "description": "Tutorial kẻ mắt dáng mảnh vibe Hàn siu đơn giảnn #thuchienne #makeup #cathydoll #ultraslimgel #gelkemat",
+      "duration_s": 95.2,
+      "views": 187580,
+      "revenue_vnd": 25160000,
+      "items_sold": 293,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.445,
+      "ad_view_ratio": "10.37%",
+      "publish_date": "2026-08-18"
+    }
+  ],
+  "shops": [
+    {
+      "name": "Sea Makeup Việt Nam",
+      "revenue_vnd": 114450000,
+      "product_count": 2,
+      "items_sold": 867
+    },
+    {
+      "name": "Glorie Việt Nam",
+      "revenue_vnd": 104210000,
+      "product_count": 1,
+      "items_sold": 114
+    },
+    {
+      "name": "MYA Hair",
+      "revenue_vnd": 103110000,
+      "product_count": 2,
+      "items_sold": 364
+    },
+    {
+      "name": "Judydoll Vietnam",
+      "revenue_vnd": 84920000,
+      "product_count": 11,
+      "items_sold": 420
+    },
+    {
+      "name": "CathyDoll Vietnam",
+      "revenue_vnd": 58580000,
+      "product_count": 3,
+      "items_sold": 461
+    },
+    {
+      "name": "SHEGLAM Store VN",
+      "revenue_vnd": 49360000,
+      "product_count": 4,
+      "items_sold": 325
+    },
+    {
+      "name": "ZHUBEN Vietnam",
+      "revenue_vnd": 43420000,
+      "product_count": 1,
+      "items_sold": 410
+    },
+    {
+      "name": "KATO-KATO Vietnam",
+      "revenue_vnd": 27900000,
+      "product_count": 1,
+      "items_sold": 137
+    },
+    {
+      "name": "Timephoria-VN",
+      "revenue_vnd": 21060000,
+      "product_count": 2,
+      "items_sold": 76
+    },
+    {
+      "name": "d'Alba piedmont VN",
+      "revenue_vnd": 20000000,
+      "product_count": 1,
+      "items_sold": 35
+    }
+  ],
+  "products": [
+    {
+      "title": "[TẶNG TÚI DA ĐEN] [KHÔNG NHẬN KHẮC TÊN TẠI SÀN] Bộ Cọ Trang Điểm Glorie 15 Cây The Velvet Noir Collection",
+      "revenue_vnd": 104210000,
+      "items_sold": 114,
+      "avg_price_vnd": 914090
+    },
+    {
+      "title": "Tóc Kẹp Phím Dải Chữ V MYA Layer Xoăn Wavy Phiên Bản Premium 50CM, Tăng Độ Dày Tóc",
+      "revenue_vnd": 96080000,
+      "items_sold": 314,
+      "avg_price_vnd": 305990
+    },
+    {
+      "title": "[Bán Chạy] Xịt khoá nền Sea Makeup Stayput Glow Fix 2in1 lót & khoá lớp trang điểm tạo hiệu ứng căng bóng Korean Glass Skin Sương mịn liên tục được MUA khuyên dùng 100ml",
+      "revenue_vnd": 75170000,
+      "items_sold": 569,
+      "avg_price_vnd": 132120
+    },
+    {
+      "title": "[NEW] JUDYDOLL Kem Tạo Khối & Highlight 2 Đầu Tiện Lợi Dễ Dùng Lâu Trôi 12H Liquid Highlighter & Contour Duo 4,8g",
+      "revenue_vnd": 54910000,
+      "items_sold": 269,
+      "avg_price_vnd": 204130
+    },
+    {
+      "title": "[MUA 1 TẶNG 4] ZHUBEN Dầu Tẩy Trang Thanh Mát sạch sâu, mỏng nhẹ như nước, nhũ hóa tức thì, lành tính cho mọi loại da",
+      "revenue_vnd": 43420000,
+      "items_sold": 410,
+      "avg_price_vnd": 105890
+    },
+    {
+      "title": "Xịt khoá nền Sea Makeup Hỗ trợ cố định lớp trang điểm dưỡng ẩm lâu trôi và hiệu quả lì mịn 100ml",
+      "revenue_vnd": 39270000,
+      "items_sold": 298,
+      "avg_price_vnd": 131790
+    },
+    {
+      "title": "Bút Tạo Khối SHEGLAM 2 in 1 Nose Contour & Highlight Pen Tạo Sống Mũi 3D Điêu Khắc Gương Mặt Dễ Dàng Chất Kem Mềm Mịn Dễ Tán",
+      "revenue_vnd": 38430000,
+      "items_sold": 262,
+      "avg_price_vnd": 146690
+    },
+    {
+      "title": "Sữa Dưỡng Thể Giúp Làm Sáng Da Cathy Doll Ready 2 White Whitener Body Lotion 150 ml",
+      "revenue_vnd": 33200000,
+      "items_sold": 167,
+      "avg_price_vnd": 198800
+    },
+    {
+      "title": "[TẶNG CỌ PHẤN PHỦ ĐH 349K] KATO-KATO – Bảng nền che khuyết điểm 4 trong 1 màu be tự nhiên dạng kem, che quầng thâm mắt, đốm nâu, thâm mụn",
+      "revenue_vnd": 27900000,
+      "items_sold": 137,
+      "avg_price_vnd": 203670
+    },
+    {
+      "title": "Kẻ Viền Mắt Dạng Gel Siêu Mảnh Ultra Slim Gel Liner Chống Nước Và Không Lem Trôi Hiệu Quả 0.07 g",
+      "revenue_vnd": 25160000,
+      "items_sold": 293,
+      "avg_price_vnd": 85870
+    }
+  ],
+  "contact_keys": [
+    "lh-15"
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "handle": "thanhhuyen.boutique",
+  "kalodata_id": "73518464614",
+  "nickname": "Thanh Huyền",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": null,
+  "bio": "Mua quần áo ib👇🏻 \nPage:THANH HUYỀN BOUTIQUE(vợ Chú Tư)\n(Có 140k người theo dõi) \n@Huyền Mắt To",
+  "followers": 447400,
+  "debut_date": "2022-11-13",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": "25-34",
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được.",
+  "core_metrics": {
+    "revenue_vnd": 2710000000,
+    "live_revenue_vnd": 1210000,
+    "video_revenue_vnd": 2650000000,
+    "video_views": 30900000,
+    "live_views": 367420,
+    "follower_change": 6700
+  },
+  "videos": [
+    {
+      "video_id": "7636629755432930567",
+      "url": "https://www.tiktok.com/@thanhhuyen.boutique/video/7636629755432930567",
+      "description": "Em fomo thành công rồi chị em ơi 🫶🏻 @Huyền Mắt To #sachmun #chuankhoahoc #exospotless #chammunretolab #retolab",
+      "duration_s": 58.188,
+      "views": 711460,
+      "revenue_vnd": 279430000,
+      "items_sold": 1540,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.213,
+      "ad_view_ratio": "33.56%",
+      "publish_date": "2026-05-06"
+    },
+    {
+      "video_id": "7560921994708012296",
+      "url": "https://www.tiktok.com/@thanhhuyen.boutique/video/7560921994708012296",
+      "description": "Sáng dậy chỉ cần 1 lớp kcn là tự tin xinh luôn nhá mấy bà 😜  #kemchongnangnangtone #korcosmetics #nangtone #kemchongnang #spf50",
+      "duration_s": 40.3,
+      "views": 803010,
+      "revenue_vnd": 204590000,
+      "items_sold": 1030,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "57.60%",
+      "publish_date": "2025-10-14"
+    },
+    {
+      "video_id": "7593337782878113032",
+      "url": "https://www.tiktok.com/@thanhhuyen.boutique/video/7593337782878113032",
+      "description": "Fomo thành công quá mấy bà ơi 🫶🏻  #sahemul #kemchongnang #kiemdau #thanhhuyenboutique #xuhuong",
+      "duration_s": 57.585,
+      "views": 589150,
+      "revenue_vnd": 129570000,
+      "items_sold": 409,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.793,
+      "ad_view_ratio": "50.96%",
+      "publish_date": "2026-01-09"
+    },
+    {
+      "video_id": "7699830427124583700",
+      "url": "https://www.tiktok.com/@thanhhuyen.boutique/video/7699830427124583700",
+      "description": "Ghen tị là bình thường luôn 😒#labonhair #thanhhuyenboutique #xuhuong",
+      "duration_s": 51.919,
+      "views": 453220,
+      "revenue_vnd": 104430000,
+      "items_sold": 639,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.52,
+      "ad_view_ratio": "19.08%",
+      "publish_date": "2026-10-23"
+    },
+    {
+      "video_id": "7667542316944526599",
+      "url": "https://www.tiktok.com/@thanhhuyen.boutique/video/7667542316944526599",
+      "description": "Chịu khó bôi mỗi ngày mấy phút thôi là da nó khác ngayy nhá 🫶🏻 #Vaseline #Ecomobi #hoptaccungunilever #duongthe #thanhhuyenboutique",
+      "duration_s": 62.252,
+      "views": 640090,
+      "revenue_vnd": 97520000,
+      "items_sold": 667,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.594,
+      "ad_view_ratio": "20.46%",
+      "publish_date": "2026-07-28"
+    },
+    {
+      "video_id": "7651609173012040967",
+      "url": "https://www.tiktok.com/@thanhhuyen.boutique/video/7651609173012040967",
+      "description": "Chăm \"em gái\" xinh còn tự tin chứ 😝#empura #sham #chuanduoc #salegiuathang #thanhhuyenboutique",
+      "duration_s": 70.309,
+      "views": 308500,
+      "revenue_vnd": 87080000,
+      "items_sold": 142,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.755,
+      "ad_view_ratio": "68.60%",
+      "publish_date": "2026-06-15"
+    },
+    {
+      "video_id": "7695017903560789268",
+      "url": "https://www.tiktok.com/@thanhhuyen.boutique/video/7695017903560789268",
+      "description": "Chăm con từ những điều nhỏ nhất 🫶🏻  #BioHorus #HaiPhatPharma #menvisinhchobe #menvisinhbiohorus #mevabe",
+      "duration_s": 96.849,
+      "views": 199510,
+      "revenue_vnd": 61030000,
+      "items_sold": 501,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.045,
+      "ad_view_ratio": "5.15%",
+      "publish_date": "2026-10-10"
+    },
+    {
+      "video_id": "7697876623583939861",
+      "url": "https://www.tiktok.com/@thanhhuyen.boutique/video/7697876623583939861",
+      "description": "Vật bất li thân của tôi mỗi khi đi chơi xa 😙 #XSOMMAirFlex #maysaytoc #saytocnhanh #maysaytocgonnhe #fyp",
+      "duration_s": 76.137,
+      "views": 141070,
+      "revenue_vnd": 59790000,
+      "items_sold": 43,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.13,
+      "ad_view_ratio": "29.19%",
+      "publish_date": "2026-10-18"
+    },
+    {
+      "video_id": "7700195092799196436",
+      "url": "https://www.tiktok.com/@thanhhuyen.boutique/video/7700195092799196436",
+      "description": "Chân ái của em đấy, tự xử tại nhà cho yên tâm và đỡ ngại í 😜 #kemtaylong #ollie",
+      "duration_s": 66.767,
+      "views": 171040,
+      "revenue_vnd": 57040000,
+      "items_sold": 355,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.354,
+      "ad_view_ratio": "48.60%",
+      "publish_date": "2026-10-24"
+    },
+    {
+      "video_id": "7704286487386311956",
+      "url": "https://www.tiktok.com/@thanhhuyen.boutique/video/7704286487386311956",
+      "description": "Siêu hiệu quả, mấy bà ngại ra nhà thuốc mua thì cứ mua ngay giỏ hàng chính hãng góc trái nhé 😉  #vienuongmun #giammun #kiemdau #vienuongesunvy #duoctinphong",
+      "duration_s": 58.367,
+      "views": 316690,
+      "revenue_vnd": 45200000,
+      "items_sold": 226,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.69,
+      "ad_view_ratio": "50.87%",
+      "publish_date": "2026-11-04"
+    }
+  ],
+  "shops": [
+    {
+      "name": "RETOLAB",
+      "revenue_vnd": 286210000,
+      "product_count": 3,
+      "items_sold": 1560
+    },
+    {
+      "name": "KOR - Mỹ phẩm Hàn Quốc",
+      "revenue_vnd": 239530000,
+      "product_count": 2,
+      "items_sold": 1210
+    },
+    {
+      "name": "Lab On Hair Việt Nam",
+      "revenue_vnd": 224150000,
+      "product_count": 1,
+      "items_sold": 1380
+    },
+    {
+      "name": "Sahemul",
+      "revenue_vnd": 161560000,
+      "product_count": 1,
+      "items_sold": 508
+    },
+    {
+      "name": "Unilever Beauty",
+      "revenue_vnd": 129720000,
+      "product_count": 3,
+      "items_sold": 873
+    },
+    {
+      "name": "Ollie Việt Nam",
+      "revenue_vnd": 122800000,
+      "product_count": 2,
+      "items_sold": 804
+    },
+    {
+      "name": "Grace and Glow Việt Nam",
+      "revenue_vnd": 107680000,
+      "product_count": 4,
+      "items_sold": 1680
+    },
+    {
+      "name": "EmPura by Medzavy",
+      "revenue_vnd": 87660000,
+      "product_count": 2,
+      "items_sold": 143
+    },
+    {
+      "name": "COLORKEY COSMETICS VIỆT NAM",
+      "revenue_vnd": 82780000,
+      "product_count": 8,
+      "items_sold": 420
+    },
+    {
+      "name": "Tiệm Trà My health",
+      "revenue_vnd": 69170000,
+      "product_count": 2,
+      "items_sold": 647
+    }
+  ],
+  "products": [
+    {
+      "title": "Kem Chấm Mụn Mờ Thâm Retolab Exo-Spotless 15ml Giúp Gom Cồi, Dịu Mụn Viêm Đỏ Cho Da Nhạy Cảm - TMR101",
+      "revenue_vnd": 279430000,
+      "items_sold": 1540,
+      "avg_price_vnd": 181920
+    },
+    {
+      "title": "[NGÀY SALE 50%] Xịt mọc tóc Lab on Hair 160ml xịt dưỡng tóc với giấm táo Củng cố chân tóc Rụng Tóc Tóc mọc chậm Kích thích mọc tóc",
+      "revenue_vnd": 224150000,
+      "items_sold": 1380,
+      "avg_price_vnd": 163020
+    },
+    {
+      "title": "Kem Chống Nắng KOR Trang Điểm Nâng Tone Phổ Rộng SPF 50+ Ngừa Tia UVA UVB Ngăn Ngừa Nám Xuất Xứ Hàn Quốc 50ml",
+      "revenue_vnd": 204590000,
+      "items_sold": 1030,
+      "avg_price_vnd": 199020
+    },
+    {
+      "title": "Kem Chống Nắng Phổ Rộng SPF50+ Đã Kiểm Nghiệm chỉ số chống nắng Sahemul 50g",
+      "revenue_vnd": 161560000,
+      "items_sold": 508,
+      "avg_price_vnd": 318040
+    },
+    {
+      "title": "[1] Serum Vaseline Gluta-Hya Dưỡng Da Sáng Mịn Sau 5 Ngày 300ML (bao bì tùy lô nhập hàng)",
+      "revenue_vnd": 125520000,
+      "items_sold": 858,
+      "avg_price_vnd": 146290
+    },
+    {
+      "title": "EMPURA Quy trình Sáng Hồng Ẩm Mượt Kem Dưỡng Ẩm Vùng Riêng Tư 50ml & Serum Mờ Thâm Sáng Da Vungkin 30ml Dưỡng Ẩm Mịn Màng Giúp Da Hồng Hào Tươi Trẻ & An Toàn Cho Mẹ Bầu Sau Sinh",
+      "revenue_vnd": 87080000,
+      "items_sold": 142,
+      "avg_price_vnd": 613260
+    },
+    {
+      "title": "[TẶNG QUE GẠT] Kem Tẩy Lông Toàn Thân Ollie 70g Dịu Nhẹ, Không Đau, Tay Chân Nách, Viền Bikini, Nam Nữ, Hương Đào Không Kích Ứng - KT001",
+      "revenue_vnd": 84320000,
+      "items_sold": 525,
+      "avg_price_vnd": 160620
+    },
+    {
+      "title": "[20 Ống Tặng Bọt Tắm ] Men vi sinh cho bé BioHorus hỗ trợ hệ tiêu hóa, biếng ăn, bé khó tiêu táo bón",
+      "revenue_vnd": 61030000,
+      "items_sold": 501,
+      "avg_price_vnd": 121810
+    },
+    {
+      "title": "Máy Sấy Tóc Ion Âm XSOMM AirFlex – Máy Sấy Tóc Siêu Nhẹ 270g, Thiết Kế Micro-Curves Chống Trượt, Sấy Khô Thần Tốc",
+      "revenue_vnd": 59790000,
+      "items_sold": 43,
+      "avg_price_vnd": 1390000
+    },
+    {
+      "title": "[MUA 1 TẶNG 1 GIẢM 50%] Lăn khử mùi Sáng Da Grace and Glow 50ml Black Opium / English Pear / AHA BHA Serum Lăn Nách Sáng Da Ngăn Mồ Hôi",
+      "revenue_vnd": 53260000,
+      "items_sold": 1060,
+      "avg_price_vnd": 50110
+    }
+  ],
+  "contact_keys": []
+}

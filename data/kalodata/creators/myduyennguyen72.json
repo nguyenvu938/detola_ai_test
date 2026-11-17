@@ -1,0 +1,286 @@
+{
+  "handle": "myduyennguyen72",
+  "kalodata_id": "6584693714945523713",
+  "nickname": "Em Duyên",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": null,
+  "bio": "Mỹ duyên Nguyễn 😁😁",
+  "followers": 344900,
+  "debut_date": "2023-05-26",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": "35-44",
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được.",
+  "core_metrics": {
+    "revenue_vnd": 2130000000,
+    "live_revenue_vnd": 0,
+    "video_revenue_vnd": 2080000000,
+    "video_views": 7970000,
+    "live_views": 0,
+    "follower_change": 3100
+  },
+  "videos": [
+    {
+      "video_id": "7690433389299551495",
+      "url": "https://www.tiktok.com/@myduyennguyen72/video/7690433389299551495",
+      "description": "Kem hỗ trợ trắng răng #tiktok #suhuong #emduyen",
+      "duration_s": 210.093,
+      "views": 631210,
+      "revenue_vnd": 133290000,
+      "items_sold": 772,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "35.87%",
+      "publish_date": "2026-09-28"
+    },
+    {
+      "video_id": "7685608540601437458",
+      "url": "https://www.tiktok.com/@myduyennguyen72/video/7685608540601437458",
+      "description": "Dầu gội hà thủ ô #tiktok #suhuong #emduyen",
+      "duration_s": 107.67,
+      "views": 372380,
+      "revenue_vnd": 99250000,
+      "items_sold": 555,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "66.22%",
+      "publish_date": "2026-09-15"
+    },
+    {
+      "video_id": "7614330135650602260",
+      "url": "https://www.tiktok.com/@myduyennguyen72/video/7614330135650602260",
+      "description": "Trả lời @BẦU TRỜI BÌNH YÊN💃♥️♥️bolero kem dưỡng ẩm sáng da và thăm nám#tiktok #suhuong #emduyen",
+      "duration_s": 243.46,
+      "views": 225360,
+      "revenue_vnd": 90930000,
+      "items_sold": 380,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.704,
+      "ad_view_ratio": "82.45%",
+      "publish_date": "2026-03-07"
+    },
+    {
+      "video_id": "7695298054190140690",
+      "url": "https://www.tiktok.com/@myduyennguyen72/video/7695298054190140690",
+      "description": "Nước hoa Hồng coco #tiktok #suhuong #emduyen",
+      "duration_s": 138.767,
+      "views": 162640,
+      "revenue_vnd": 51210000,
+      "items_sold": 266,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.797,
+      "ad_view_ratio": ">90%",
+      "publish_date": "2026-10-11"
+    },
+    {
+      "video_id": "7629198771032919314",
+      "url": "https://www.tiktok.com/@myduyennguyen72/video/7629198771032919314",
+      "description": "Trả lời @Nguyễn Thị Ngọc 30 gói kèm 10 gói trà mâm xôi #tiktok #suhuong #emduyen",
+      "duration_s": 215.666,
+      "views": 272940,
+      "revenue_vnd": 49050000,
+      "items_sold": 485,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "65.88%",
+      "publish_date": "2026-04-16"
+    },
+    {
+      "video_id": "7629508154841189639",
+      "url": "https://www.tiktok.com/@myduyennguyen72/video/7629508154841189639",
+      "description": "Trả lời @Camtu 30 gói kèm 10 gói trà mâm xôi #tiktok #suhuong #emduyen",
+      "duration_s": 208.034,
+      "views": 243430,
+      "revenue_vnd": 43600000,
+      "items_sold": 431,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "66.37%",
+      "publish_date": "2026-04-17"
+    },
+    {
+      "video_id": "7614299246933576980",
+      "url": "https://www.tiktok.com/@myduyennguyen72/video/7614299246933576980",
+      "description": "Trả lời @Nguyễn Thị Hoà kem dưỡng ẩm sáng da thăm nám#tiktok #suhuong #emduyen",
+      "duration_s": 206.982,
+      "views": 93580,
+      "revenue_vnd": 36450000,
+      "items_sold": 152,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.574,
+      "ad_view_ratio": "71.42%",
+      "publish_date": "2026-03-07"
+    },
+    {
+      "video_id": "7706135738752027924",
+      "url": "https://www.tiktok.com/@myduyennguyen72/video/7706135738752027924",
+      "description": "Băng vệ sinh nữ dạng quần #tiktok #suhuong #emduyen",
+      "duration_s": 108.534,
+      "views": 125720,
+      "revenue_vnd": 35600000,
+      "items_sold": 250,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.781,
+      "ad_view_ratio": "19.28%",
+      "publish_date": "2026-11-09"
+    },
+    {
+      "video_id": "7626917291468410130",
+      "url": "https://www.tiktok.com/@myduyennguyen72/video/7626917291468410130",
+      "description": "Trả lời @Nguyễn Thùy 30 gói kèm 10 gói trà mâm xôi #tiktok #suhuong #emduyen",
+      "duration_s": 200.828,
+      "views": 178970,
+      "revenue_vnd": 32360000,
+      "items_sold": 320,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "70.03%",
+      "publish_date": "2026-04-10"
+    },
+    {
+      "video_id": "7641759142075501831",
+      "url": "https://www.tiktok.com/@myduyennguyen72/video/7641759142075501831",
+      "description": "Trả lời @thanh xuan nước hoa #tiktok #suhuong #emduyen",
+      "duration_s": 90.2,
+      "views": 62490,
+      "revenue_vnd": 29600000,
+      "items_sold": 139,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.789,
+      "ad_view_ratio": "80.45%",
+      "publish_date": "2026-05-20"
+    }
+  ],
+  "shops": [
+    {
+      "name": "Thanh To Cosmetic",
+      "revenue_vnd": 460810000,
+      "product_count": 5,
+      "items_sold": 1710
+    },
+    {
+      "name": "Tiệm Trà Chân Quê",
+      "revenue_vnd": 226680000,
+      "product_count": 1,
+      "items_sold": 2240
+    },
+    {
+      "name": "ELVIE STORE",
+      "revenue_vnd": 194240000,
+      "product_count": 1,
+      "items_sold": 1130
+    },
+    {
+      "name": "The High Mall",
+      "revenue_vnd": 164990000,
+      "product_count": 1,
+      "items_sold": 384
+    },
+    {
+      "name": "Hương Mcare",
+      "revenue_vnd": 131230000,
+      "product_count": 1,
+      "items_sold": 734
+    },
+    {
+      "name": "Jasmeen.VN",
+      "revenue_vnd": 94000000,
+      "product_count": 1,
+      "items_sold": 1230
+    },
+    {
+      "name": "Nguyen Dat Cosmetics",
+      "revenue_vnd": 88420000,
+      "product_count": 1,
+      "items_sold": 577
+    },
+    {
+      "name": "NƯỚC HOA PHẠM NHI",
+      "revenue_vnd": 73160000,
+      "product_count": 1,
+      "items_sold": 380
+    },
+    {
+      "name": "Nông Sản Giọt Nắng",
+      "revenue_vnd": 63490000,
+      "product_count": 1,
+      "items_sold": 390
+    },
+    {
+      "name": "XuXu Cosmeticss",
+      "revenue_vnd": 60250000,
+      "product_count": 1,
+      "items_sold": 283
+    }
+  ],
+  "products": [
+    {
+      "title": "Lumina Glow Kem Face Kim Cương - Kem Dưỡng Ẩm Và Làm Sáng Da Mờ Thâm Nám 20 Gram",
+      "revenue_vnd": 290400000,
+      "items_sold": 1210,
+      "avg_price_vnd": 240800
+    },
+    {
+      "title": "[30 gói tặng 10 gói] Trà Mâm Xôi tốt cho chị em phụ nữ. 1 Gói pha 1.5-2 lít nước, HSD 6 tháng",
+      "revenue_vnd": 226680000,
+      "items_sold": 2240,
+      "avg_price_vnd": 101110
+    },
+    {
+      "title": "[P1]Tinh Chất Hỗ Trợ Trắng Răng Daily Tooth (55g) Tặng Thước Đo Răng Nhựa, Hỗ Trợ Khử Vàng Làm Trắng, Loại Bỏ Mảng Bám, Cao Răng Ố Vàng và Ngăn Mùi Hôi, Hơi Thở Thơm Mát.",
+      "revenue_vnd": 194240000,
+      "items_sold": 1130,
+      "avg_price_vnd": 172650
+    },
+    {
+      "title": "[DEAL HOT] Kem Chống Nắng Trang Điểm The High Dưỡng Trắng, Giữ Tone Tới 16h, Hỗ Trợ Kiềm Dầu, Hỗ Trợ Hạn Chế Bắt Nắng Hàn Quốc THE HIGH Airfit Sun Cream 40ml Dạng Sữa Skincare Sunscreen",
+      "revenue_vnd": 164990000,
+      "items_sold": 384,
+      "avg_price_vnd": 429660
+    },
+    {
+      "title": "Dầu Gội Thảo Mộc Hà Thủ Ô – Dưỡng Tóc & Giảm Gãy Rụng (500ml)",
+      "revenue_vnd": 131230000,
+      "items_sold": 734,
+      "avg_price_vnd": 178780
+    },
+    {
+      "title": "BỘ KEM LUMINA và SERUM PDRN DNA PDƯỠNG DA SÁNG DA CĂNG BÓNG ngày và đêm",
+      "revenue_vnd": 102280000,
+      "items_sold": 218,
+      "avg_price_vnd": 469170
+    },
+    {
+      "title": "[HƯƠNG THƠM CAO CẤP] Jasmeen Kem Đánh Răng Hoa Nhài Làm Trắng Răng - Răng Trắng Sáng - Kem Đánh Răng Tẩy Cao Răng Ố Vàng - Hỗ Trợ Vệ Sinh Vết Bẩn Mảng Bám - Combo Kem Đánh Răng - Kem Đánh Răng Trị Hôi Miệng - Làm Thơm Miệng - Phù Hợp Cho Cả Gia Đình",
+      "revenue_vnd": 94000000,
+      "items_sold": 1230,
+      "avg_price_vnd": 76670
+    },
+    {
+      "title": "[D5] Lotion Kem Nám Nhân Sâm (20g) - Ginseng Essential Cream - Hỗ Trợ Xử Lí Nám, Sạm, Da Không Đều Màu. Hỗ Trợ làm Trắng, Làm Sáng Da Chuyên Sâu.",
+      "revenue_vnd": 88420000,
+      "items_sold": 577,
+      "avg_price_vnd": 153240
+    },
+    {
+      "title": "Nước hoa Charme COCO 50ML (hồng) dành cho Nữ",
+      "revenue_vnd": 73160000,
+      "items_sold": 380,
+      "avg_price_vnd": 192520
+    },
+    {
+      "title": "Granola Giọt Nắng Mới Không Chiên Giòn Ngon Với Viên Yến Mạch Gạo Lứt Trái Cây Đóng Gói Từ Nông Sản Giọt Nắng",
+      "revenue_vnd": 63490000,
+      "items_sold": 390,
+      "avg_price_vnd": 162790
+    }
+  ],
+  "contact_keys": []
+}

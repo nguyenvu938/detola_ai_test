@@ -1,0 +1,223 @@
+{
+  "handle": "_huyenthichskincare",
+  "kalodata_id": "6610232447337086978",
+  "nickname": "_huyenthichskincare",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": null,
+  "bio": "Dùng gì review đó \nContact for work: [phone] ( Mẫn Nhi )",
+  "followers": 115700,
+  "debut_date": "2020-08-11",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": null,
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được. API trả followerAgeMax rỗng.",
+  "core_metrics": {
+    "revenue_vnd": 4170000,
+    "live_revenue_vnd": 0,
+    "video_revenue_vnd": 3880000,
+    "video_views": 166910,
+    "live_views": 0,
+    "follower_change": -300
+  },
+  "videos": [
+    {
+      "video_id": "7699139957746797845",
+      "url": "https://www.tiktok.com/@_huyenthichskincare/video/7699139957746797845",
+      "description": "Team da dầu đừng bỏ qua 3 em này nhen.  #supra #effaclar #anthelios #XL #HợpTácCùngLarocheposay",
+      "duration_s": 103.467,
+      "views": 124890,
+      "revenue_vnd": 1750000,
+      "items_sold": 4,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-21"
+    },
+    {
+      "video_id": "7699783471757102356",
+      "url": "https://www.tiktok.com/@_huyenthichskincare/video/7699783471757102356",
+      "description": "Muốn có làn da căng bóng ko hề khó đâu nhen, mấy b thử thêm e này vô routine đi nè. Kiên trì dùng nha 🥰 #serumpdrnloreal #skincare #hoptaccunglorealparis #cangbongda #3BrothersMedia",
+      "duration_s": 101.215,
+      "views": 20380,
+      "revenue_vnd": 1570000,
+      "items_sold": 4,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-23"
+    },
+    {
+      "video_id": "7698037755519225108",
+      "url": "https://www.tiktok.com/@_huyenthichskincare/video/7698037755519225108",
+      "description": "Mấy b thử liền cho tuii 🥳 #HợptáccùngUnilever #Lux #Sữatắmbọthươngnướchoa #LuxSparkling",
+      "duration_s": 43.002,
+      "views": 14620,
+      "revenue_vnd": 554950,
+      "items_sold": 3,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-18"
+    },
+    {
+      "video_id": "7683829641353694484",
+      "url": "https://www.tiktok.com/@_huyenthichskincare/video/7683829641353694484",
+      "description": "Đầu tư xứng đáng với em một em máy triệt lông vừa xinhh vừa tiện nè mấy bà ơi . Đợt này có quà tặng rất là xinh mấy bà tranh thủ nhenn #maytrietlong #maytrietlongulike #ulikeair2max #UlikeVietnam",
+      "duration_s": 65.642,
+      "views": 37,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-09-10"
+    },
+    {
+      "video_id": "7695199708163230997",
+      "url": "https://www.tiktok.com/@_huyenthichskincare/video/7695199708163230997",
+      "description": "Cùng mình unboxing siêu phẩm Tsubaki Dòng Đỏ nhé! Bí quyết cho mái tóc chắc khỏe rạng ngời ❤️✨ #Tsubaki #Phuchoihuton #HoptaccungTsubaki",
+      "duration_s": 56,
+      "views": 6750,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-11"
+    }
+  ],
+  "shops": [
+    {
+      "name": "La Roche-Posay Việt Nam",
+      "revenue_vnd": 1750000,
+      "product_count": 3,
+      "items_sold": 4
+    },
+    {
+      "name": "L'oreal Paris Việt Nam",
+      "revenue_vnd": 1570000,
+      "product_count": 1,
+      "items_sold": 4
+    },
+    {
+      "name": "Unilever - Chăm Sóc Cá Nhân",
+      "revenue_vnd": 554950,
+      "product_count": 2,
+      "items_sold": 3
+    },
+    {
+      "name": "Sanimide Store",
+      "revenue_vnd": 295890,
+      "product_count": 1,
+      "items_sold": 1
+    },
+    {
+      "name": "Việt Nữ Trading",
+      "revenue_vnd": 0,
+      "product_count": 1,
+      "items_sold": 0
+    },
+    {
+      "name": "Pura Dor Viet Nam",
+      "revenue_vnd": 0,
+      "product_count": 1,
+      "items_sold": 0
+    },
+    {
+      "name": "KAO VIETNAM",
+      "revenue_vnd": 0,
+      "product_count": 1,
+      "items_sold": 0
+    },
+    {
+      "name": "Seyoul - Việt Nam",
+      "revenue_vnd": 0,
+      "product_count": 2,
+      "items_sold": 0
+    },
+    {
+      "name": "Attenir Vietnam",
+      "revenue_vnd": 0,
+      "product_count": 1,
+      "items_sold": 0
+    },
+    {
+      "name": "Nhất Nhất Pharma",
+      "revenue_vnd": 0,
+      "product_count": 3,
+      "items_sold": 0
+    }
+  ],
+  "products": [
+    {
+      "title": "[MỚI] Dưỡng chất serum PDRN sinh học cảm nhận da Glass skin căng mọng, rạng rỡ tức thì L’Oréal Paris 30ml",
+      "revenue_vnd": 1570000,
+      "items_sold": 4,
+      "avg_price_vnd": 391650
+    },
+    {
+      "title": "[Phiên Bản Nâng Tone] Kem chống nắng La Roche-Posay nâng tone cho da dầu giúp bảo vệ da Anthelios XL SPF 50+, PA++++",
+      "revenue_vnd": 1250000,
+      "items_sold": 3,
+      "avg_price_vnd": 416220
+    },
+    {
+      "title": "LUX Sparkling Sữa Tắm Bọt Hương Nước Hoa Tươi Mát 700g",
+      "revenue_vnd": 554950,
+      "items_sold": 3,
+      "avg_price_vnd": 184980
+    },
+    {
+      "title": "[MỚI] Kem dưỡng giúp giảm dầu và thông thoáng lỗ chân lông La Roche-Posay Effaclar Supra Molecular 40ML",
+      "revenue_vnd": 504910,
+      "items_sold": 1,
+      "avg_price_vnd": 504910
+    },
+    {
+      "title": "COMBO Giảm Mụn Sưng Viêm Cho Da Dầu Mụn SANIMIDE, GEL Giảm Mụn 15G - GEL Rửa Mặt 50ML",
+      "revenue_vnd": 295890,
+      "items_sold": 1,
+      "avg_price_vnd": 295890
+    },
+    {
+      "title": "[MỚI] Gel rửa mặt giúp giảm dầu và thông thoáng lỗ chân lông La Roche-Posay Effaclar Supra Molecular 400ML",
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "avg_price_vnd": 597290
+    },
+    {
+      "title": "Combo 3 Tuýp Sữa Rửa Mặt Dịu Nhẹ Lenka Dành Cho Mọi Loại Da Tuýp 50ml - 180ml",
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "avg_price_vnd": 141980
+    },
+    {
+      "title": "Combo 2 Tuýp Sữa Rửa Mặt Dịu Nhẹ Lenka Dành Cho Mọi Loại Da Tuýp 50ml - 180ml",
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "avg_price_vnd": 97030
+    },
+    {
+      "title": "Sữa Rửa Mặt Dịu Nhẹ Lenka Dành Cho Mọi Loại Da Tuýp 50ml - 180ml",
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "avg_price_vnd": 51070
+    },
+    {
+      "title": "(KOL)Máy Triệt Lông Ulike Air 2 Max Tím Aurora-Công Nghệ IPL triệt lạnh bằng đá Sapphire,siêu xung độc quyền USHR",
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "avg_price_vnd": 4790000
+    }
+  ],
+  "contact_keys": [
+    "lh-1"
+  ]
+}

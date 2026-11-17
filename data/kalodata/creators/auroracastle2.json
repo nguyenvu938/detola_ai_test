@@ -1,0 +1,151 @@
+{
+  "handle": "auroracastle2",
+  "kalodata_id": "6714546307556623362",
+  "nickname": "Nguyễn Quỳnh Anh",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": null,
+  "bio": "Tất tần tật về chị em chúng mình ❤️",
+  "followers": 145300,
+  "debut_date": "2022-11-03",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": "25-34",
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được.",
+  "core_metrics": {
+    "revenue_vnd": 10100000000,
+    "live_revenue_vnd": 10090000000,
+    "video_revenue_vnd": 0,
+    "video_views": 92750,
+    "live_views": 1960000,
+    "follower_change": 6200
+  },
+  "videos": [
+    {
+      "video_id": "7639732895409622293",
+      "url": "https://www.tiktok.com/@auroracastle2/video/7639732895409622293",
+      "description": "Mukbang matcha với Cony ❤️❤️❤️",
+      "duration_s": 38,
+      "views": 1700,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-05-14"
+    }
+  ],
+  "shops": [
+    {
+      "name": "Huyền Mi Aurora",
+      "revenue_vnd": 9150000000,
+      "product_count": 153,
+      "items_sold": 25060
+    },
+    {
+      "name": "Nguyễn Huyền Mi",
+      "revenue_vnd": 549770000,
+      "product_count": 23,
+      "items_sold": 3780
+    },
+    {
+      "name": "SammiShop Offical",
+      "revenue_vnd": 174310000,
+      "product_count": 6,
+      "items_sold": 495
+    },
+    {
+      "name": "Soins Clinic VN",
+      "revenue_vnd": 164420000,
+      "product_count": 4,
+      "items_sold": 787
+    },
+    {
+      "name": "Unilever - Chăm Sóc Cá Nhân",
+      "revenue_vnd": 37600000,
+      "product_count": 6,
+      "items_sold": 321
+    },
+    {
+      "name": "Mediheal VN",
+      "revenue_vnd": 23800000,
+      "product_count": 1,
+      "items_sold": 244
+    },
+    {
+      "name": "CNP Laboratory VN",
+      "revenue_vnd": 0,
+      "product_count": 1,
+      "items_sold": 0
+    }
+  ],
+  "products": [
+    {
+      "title": "(COMBO 30 MIẾNG VÀNG) Mặt Nạ Dưỡng Sáng SENADEMAR Mela Shining Mask",
+      "revenue_vnd": 839390000,
+      "items_sold": 2350,
+      "avg_price_vnd": 357490
+    },
+    {
+      "title": "TPBS Tinh Nghệ Curcumin 365 PLUS B + Medi Seoul 32 Tép",
+      "revenue_vnd": 638720000,
+      "items_sold": 603,
+      "avg_price_vnd": 1060000
+    },
+    {
+      "title": "TPBS( Nghệ 60 Gói) Tinh Nghệ Nano Curcumin Power Arinous 365",
+      "revenue_vnd": 524490000,
+      "items_sold": 513,
+      "avg_price_vnd": 1020000
+    },
+    {
+      "title": "(COMBO 2 GIẤM LỚN 970MLx2) TPBS - Nước uống Giấm Hàn Quốc Kwangya",
+      "revenue_vnd": 524370000,
+      "items_sold": 1410,
+      "avg_price_vnd": 372950
+    },
+    {
+      "title": "(FULL SIZE) - Toner Klairs cấp ẩm, làm dịu da 180ml",
+      "revenue_vnd": 478040000,
+      "items_sold": 2060,
+      "avg_price_vnd": 231610
+    },
+    {
+      "title": "(combo 30 miếng XANH) - Mặt nạ B5 DNA Sena Demar",
+      "revenue_vnd": 396690000,
+      "items_sold": 1120,
+      "avg_price_vnd": 352930
+    },
+    {
+      "title": "(TPBVSK) Viên Uống Dầu Cá Omega-3 Fish Oil PHARMEKAL 1000mg, (100 Viên)",
+      "revenue_vnd": 323680000,
+      "items_sold": 1590,
+      "avg_price_vnd": 204220
+    },
+    {
+      "title": "(COMBO 3 CHAI) 1 Serum B3 Re:lab 50ML + 1 Serum B5 SenaDemar 50ML + 1 Serum Đêm HA Water Shine Senademar 50ML",
+      "revenue_vnd": 320340000,
+      "items_sold": 240,
+      "avg_price_vnd": 1330000
+    },
+    {
+      "title": "Bộ - Toner Klairs 180ml + 1 Serum B3 Re:lab 50ML + 1 Serum B5 SenaDemar 50ML",
+      "revenue_vnd": 309640000,
+      "items_sold": 286,
+      "avg_price_vnd": 1080000
+    },
+    {
+      "title": "(ĐỒNG SIZE - 50ML)Combo TRẮNG-KHOẺ (1 Serum B3 Re:lab 50ML + 1 Serum B5 SenaDemar 50ML)",
+      "revenue_vnd": 297980000,
+      "items_sold": 387,
+      "avg_price_vnd": 769990
+    }
+  ],
+  "contact_keys": []
+}

@@ -1,0 +1,232 @@
+{
+  "handle": "cayrom02",
+  "kalodata_id": "7087520222281892866",
+  "nickname": "Cây Rơm",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "BELONGED_TO_SELLER",
+  "mcn_name": null,
+  "bio": "Nick 2 của Cây Rơm nhá cả nhà\n👇👇👇 Liên hệ với shop qua link bên dưới nhé",
+  "followers": 42100,
+  "debut_date": "2022-10-11",
+  "follower_gender": null,
+  "follower_age": null,
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được.",
+  "core_metrics": {
+    "revenue_vnd": 6910000000,
+    "live_revenue_vnd": 5130000000,
+    "video_revenue_vnd": 1020000000,
+    "video_views": 910920,
+    "live_views": 450470,
+    "follower_change": 4600
+  },
+  "videos": [
+    {
+      "video_id": "7704270399885856020",
+      "url": "https://www.tiktok.com/@cayrom02/video/7704270399885856020",
+      "description": "Bà nào da dày sừng, xỉn màu tham khảo liền peel Toskani nha #cayromcosmetic #toskani #peelda",
+      "duration_s": 22.9,
+      "views": 39450,
+      "revenue_vnd": 80780000,
+      "items_sold": 164,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.196,
+      "ad_view_ratio": "40.34%",
+      "publish_date": "2026-11-04"
+    },
+    {
+      "video_id": "7704646931389222165",
+      "url": "https://www.tiktok.com/@cayrom02/video/7704646931389222165",
+      "description": "Muốn dưỡng sáng chống lão hoá da mà thiếu Vital C Image thì thật sự thiếu sót lớn cho làm da nha 🍊 #cayromcosmetic #image #xuhuongtiktok #tiktokshop1111 #xuhuong1111",
+      "duration_s": 28.049,
+      "views": 23720,
+      "revenue_vnd": 69900000,
+      "items_sold": 36,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.356,
+      "ad_view_ratio": "58.52%",
+      "publish_date": "2026-11-05"
+    },
+    {
+      "video_id": "7704271961798544660",
+      "url": "https://www.tiktok.com/@cayrom02/video/7704271961798544660",
+      "description": "Vitamin C Image siêu xịn và chất lượng nha các bà ơi #cayromcosmetic #image #vitaminc #xuhuongtiktok",
+      "duration_s": 32.034,
+      "views": 27910,
+      "revenue_vnd": 69850000,
+      "items_sold": 36,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.356,
+      "ad_view_ratio": "43.38%",
+      "publish_date": "2026-11-04"
+    },
+    {
+      "video_id": "7704899673772870933",
+      "url": "https://www.tiktok.com/@cayrom02/video/7704899673772870933",
+      "description": "Retinol Casmara bên e đã về siêu phẩm nồng độ 0,5% sau khi cháy hàng 6 tháng trời ạ 🔥 #cayromcosmetic #tiktokshop1111 #casmara #retinol #xuhuongtiktok",
+      "duration_s": 28.606,
+      "views": 162180,
+      "revenue_vnd": 69310000,
+      "items_sold": 39,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.759,
+      "ad_view_ratio": "59.96%",
+      "publish_date": "2026-11-06"
+    },
+    {
+      "video_id": "7704610449668574484",
+      "url": "https://www.tiktok.com/@cayrom02/video/7704610449668574484",
+      "description": "Peel không bong, không nghỉ dưỡng mà vẫn mang lại hiệu ứng căng bóng mướt da lắm luôn #cayromcosmetic #xuhuongtiktok #peeling",
+      "duration_s": 31.346,
+      "views": 35670,
+      "revenue_vnd": 64060000,
+      "items_sold": 130,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.253,
+      "ad_view_ratio": "47.77%",
+      "publish_date": "2026-11-05"
+    },
+    {
+      "video_id": "7699814714280381717",
+      "url": "https://www.tiktok.com/@cayrom02/video/7699814714280381717",
+      "description": "Peel Thông Minh Căng Bóng Thế Hệ Mới Glycosome Duo - Sáng Da Đều Màu Mandesome #MadeWithDola #peelda #toskani #tiktokviral #xuhuongtiktok #goclamdep",
+      "duration_s": 10.101,
+      "views": 24320,
+      "revenue_vnd": 53190000,
+      "items_sold": 110,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.082,
+      "ad_view_ratio": "20.23%",
+      "publish_date": "2026-10-23"
+    },
+    {
+      "video_id": "7706069243200015637",
+      "url": "https://www.tiktok.com/@cayrom02/video/7706069243200015637",
+      "description": "Muốn da căng bóng, mướt nhanh không có gì ngoài peel nha #cayromcosmetic #tiktokshop1111 #toskani #peelda #xuhuong1111",
+      "duration_s": 60.48,
+      "views": 14490,
+      "revenue_vnd": 34470000,
+      "items_sold": 70,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.435,
+      "ad_view_ratio": "72.45%",
+      "publish_date": "2026-11-09"
+    },
+    {
+      "video_id": "7705262244329819412",
+      "url": "https://www.tiktok.com/@cayrom02/video/7705262244329819412",
+      "description": "Peel thông minh căng bóng siêu bóng mướt và không cần nghỉ dưỡng nha #cayromcosmetic #tiktokshop1111 #toskani #xuhuongtiktok #xuhuong1111",
+      "duration_s": 57.84,
+      "views": 18400,
+      "revenue_vnd": 31040000,
+      "items_sold": 63,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.255,
+      "ad_view_ratio": "59.30%",
+      "publish_date": "2026-11-07"
+    },
+    {
+      "video_id": "7696000538831293716",
+      "url": "https://www.tiktok.com/@cayrom02/video/7696000538831293716",
+      "description": "Serum vitamin C siêu mềm mướt da phải dùng càng sớm càng tốt nếu muốn chống lão hoá nha các chị #MadeWithDola #xuhuongtiktok #cayromcosmetic #serumvitaminc",
+      "duration_s": 10.101,
+      "views": 10570,
+      "revenue_vnd": 30950000,
+      "items_sold": 16,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.201,
+      "ad_view_ratio": "24.68%",
+      "publish_date": "2026-10-13"
+    },
+    {
+      "video_id": "7655540279801416968",
+      "url": "https://www.tiktok.com/@cayrom02/video/7655540279801416968",
+      "description": "Em Vitamin C mà em siêu tâm đắc vừa dưỡng ẩm, vừa dưỡng sáng chống oxy hoá 🍊 #image #vitaminc #sangdamotham #xuhuongtiktok #tiktokviral",
+      "duration_s": 56.867,
+      "views": 8280,
+      "revenue_vnd": 28990000,
+      "items_sold": 15,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.427,
+      "ad_view_ratio": "44.03%",
+      "publish_date": "2026-06-26"
+    }
+  ],
+  "shops": [
+    {
+      "name": "Cây Rơm",
+      "revenue_vnd": 6910000000,
+      "product_count": 249,
+      "items_sold": 7130
+    }
+  ],
+  "products": [
+    {
+      "title": "[Date 12/2027] [COMBO 2 HỘP] [Công ty] Doppelherz Beauty Collagen 30 ống bổ sung Collagen peptides, Vitamin E và Kẽm cho sức khỏe làn da của phụ nữ trên 18 tuổi",
+      "revenue_vnd": 1010000000,
+      "items_sold": 191,
+      "avg_price_vnd": 5310000
+    },
+    {
+      "title": "[IMAGE] Serum cấp ẩm, hỗ trợ sáng da & mờ nếp nhăn IMAGE Vital C Hydrating Anti - Aging Serum 50ml",
+      "revenue_vnd": 744550000,
+      "items_sold": 385,
+      "avg_price_vnd": 1930000
+    },
+    {
+      "title": "[Toskani] Peel Thông Minh Căng Bóng Thế Hệ Mới Glycosome Duo - Sáng Da Đều Màu Mandesome",
+      "revenue_vnd": 679310000,
+      "items_sold": 1390,
+      "avg_price_vnd": 488360
+    },
+    {
+      "title": "[COMBO DƯỠNG TRẮNG MỜ NÁM] Serum dưỡng trắng mờ nám ban đêm Casmara Clarifying (30ml) + Kem dưỡng ẩm siêu phục hồi Q10 Rescue Intensive (50ml)",
+      "revenue_vnd": 661280000,
+      "items_sold": 166,
+      "avg_price_vnd": 3980000
+    },
+    {
+      "title": "[BIONNEX] Serum PDRN Cá Hồi Căng Bóng Phục Hồi Da Săn Chắc Bionnex Salmon DNA Nordea 30ml",
+      "revenue_vnd": 271330000,
+      "items_sold": 343,
+      "avg_price_vnd": 791050
+    },
+    {
+      "title": "[CASMARA 30ml] Serum Dưỡng Trắng Mờ Nám Ban Đêm CASMARA Clarifying Concentrate",
+      "revenue_vnd": 240690000,
+      "items_sold": 120,
+      "avg_price_vnd": 2010000
+    },
+    {
+      "title": "[SOS Mask Fullbox 10 miếng] Mặt Nạ Cấp Ẩm Siêu Phục Hồi Glam Skin Sos Mask Hộp 10 Miếng/ 28g",
+      "revenue_vnd": 205840000,
+      "items_sold": 954,
+      "avg_price_vnd": 215760
+    },
+    {
+      "title": "[CASMARA 30ml] Kem Trẻ Hóa Retinol Casmara Tinh Khiết 0.15%, 0.3% và 0.5%",
+      "revenue_vnd": 177460000,
+      "items_sold": 100,
+      "avg_price_vnd": 1770000
+    },
+    {
+      "title": "(CR)[COMBO DƯỠNG TRẮNG MỜ NÁM] Serum dưỡng trắng mờ nám ban đêm Casmara Clarifying (30ml) + Kem dưỡng ẩm siêu phục hồi Q10 Rescue Intensive (50ml)",
+      "revenue_vnd": 162090000,
+      "items_sold": 41,
+      "avg_price_vnd": 3950000
+    },
+    {
+      "title": "[Bản cũ] [Decorté] Kem chống nắng nâng tone DECORTÉ Sun Shelter Tone Up CC Cream UV Primer SPF50+/PA ++++ (32ml)",
+      "revenue_vnd": 147350000,
+      "items_sold": 186,
+      "avg_price_vnd": 792220
+    }
+  ],
+  "follower_sex_label": null,
+  "follower_age_top": null,
+  "contact_keys": []
+}

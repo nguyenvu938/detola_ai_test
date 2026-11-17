@@ -1,0 +1,286 @@
+{
+  "handle": "anhdangxinh",
+  "kalodata_id": "6669507469939851266",
+  "nickname": "anhdangxinh",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": null,
+  "bio": "Kênh chính chủ của Thị Anh",
+  "followers": 366800,
+  "debut_date": "2019-05-31",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": null,
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được. API trả followerAgeMax rỗng.",
+  "core_metrics": {
+    "revenue_vnd": 1140000000,
+    "live_revenue_vnd": 0,
+    "video_revenue_vnd": 1120000000,
+    "video_views": 6590000,
+    "live_views": 0,
+    "follower_change": -600
+  },
+  "videos": [
+    {
+      "video_id": "7699265924712467733",
+      "url": "https://www.tiktok.com/@anhdangxinh/video/7699265924712467733",
+      "description": "#anhdangxinh #kemchongnang #beplain",
+      "duration_s": 30.334,
+      "views": 1200000,
+      "revenue_vnd": 188950000,
+      "items_sold": 557,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.799,
+      "ad_view_ratio": "30.02%",
+      "publish_date": "2026-10-22"
+    },
+    {
+      "video_id": "7662672133599857941",
+      "url": "https://www.tiktok.com/@anhdangxinh/video/7662672133599857941",
+      "description": "Mua 1 giá còn đắt hơn mua 2 luôn#taydachet #colorkey",
+      "duration_s": 39.534,
+      "views": 992710,
+      "revenue_vnd": 153480000,
+      "items_sold": 1080,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.062,
+      "ad_view_ratio": "1.44%",
+      "publish_date": "2026-07-15"
+    },
+    {
+      "video_id": "7702762986443722004",
+      "url": "https://www.tiktok.com/@anhdangxinh/video/7702762986443722004",
+      "description": "#anhdangxinh #kemchongnang #beplain",
+      "duration_s": 44.906,
+      "views": 613080,
+      "revenue_vnd": 117610000,
+      "items_sold": 346,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "35.22%",
+      "publish_date": "2026-10-31"
+    },
+    {
+      "video_id": "7703200578616233236",
+      "url": "https://www.tiktok.com/@anhdangxinh/video/7703200578616233236",
+      "description": "#anhdangxinh #kemchongnang #beplain",
+      "duration_s": 54.102,
+      "views": 689790,
+      "revenue_vnd": 88490000,
+      "items_sold": 260,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.779,
+      "ad_view_ratio": "22.80%",
+      "publish_date": "2026-11-01"
+    },
+    {
+      "video_id": "7703412696342859029",
+      "url": "https://www.tiktok.com/@anhdangxinh/video/7703412696342859029",
+      "description": "#anhdangxinh #batsang #sutu",
+      "duration_s": 43.281,
+      "views": 187050,
+      "revenue_vnd": 35220000,
+      "items_sold": 520,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.046,
+      "ad_view_ratio": "1.27%",
+      "publish_date": "2026-11-02"
+    },
+    {
+      "video_id": "7646930999212805397",
+      "url": "https://www.tiktok.com/@anhdangxinh/video/7646930999212805397",
+      "description": "Quá chay luôn các bà ơi#kemchongnangbeplain #kemchongnang",
+      "duration_s": 37.569,
+      "views": 111010,
+      "revenue_vnd": 23020000,
+      "items_sold": 68,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "61.08%",
+      "publish_date": "2026-06-03"
+    },
+    {
+      "video_id": "7697952244397968661",
+      "url": "https://www.tiktok.com/@anhdangxinh/video/7697952244397968661",
+      "description": "#anhdangxinh #beplainvietnam #kemchongnang",
+      "duration_s": 43.281,
+      "views": 111400,
+      "revenue_vnd": 23020000,
+      "items_sold": 68,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "59.30%",
+      "publish_date": "2026-10-18"
+    },
+    {
+      "video_id": "7702990804427607317",
+      "url": "https://www.tiktok.com/@anhdangxinh/video/7702990804427607317",
+      "description": "#anhdangxinh #viendat #capam #novofemi",
+      "duration_s": 36.734,
+      "views": 121920,
+      "revenue_vnd": 22720000,
+      "items_sold": 150,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.512,
+      "ad_view_ratio": "27.43%",
+      "publish_date": "2026-11-01"
+    },
+    {
+      "video_id": "7705048709691657493",
+      "url": "https://www.tiktok.com/@anhdangxinh/video/7705048709691657493",
+      "description": "#anhdangxinh#kemchongnang#beplain",
+      "duration_s": 54.734,
+      "views": 89320,
+      "revenue_vnd": 17630000,
+      "items_sold": 52,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.785,
+      "ad_view_ratio": "39.68%",
+      "publish_date": "2026-11-07"
+    },
+    {
+      "video_id": "7707233690589367604",
+      "url": "https://www.tiktok.com/@anhdangxinh/video/7707233690589367604",
+      "description": "#anhdangxinh #kemchongnang #beplain",
+      "duration_s": 34.767,
+      "views": 73760,
+      "revenue_vnd": 17620000,
+      "items_sold": 52,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "47.60%",
+      "publish_date": "2026-11-12"
+    }
+  ],
+  "shops": [
+    {
+      "name": "SammiShop Offical",
+      "revenue_vnd": 550980000,
+      "product_count": 7,
+      "items_sold": 1640
+    },
+    {
+      "name": "COLORKEY ROSÉ VIỆT NAM",
+      "revenue_vnd": 165280000,
+      "product_count": 3,
+      "items_sold": 1160
+    },
+    {
+      "name": "KOR - Mỹ phẩm Hàn Quốc",
+      "revenue_vnd": 58150000,
+      "product_count": 2,
+      "items_sold": 294
+    },
+    {
+      "name": "Jonbos Cửa Hàng Mỹ Phẩm",
+      "revenue_vnd": 53250000,
+      "product_count": 1,
+      "items_sold": 787
+    },
+    {
+      "name": "NovofemiStore",
+      "revenue_vnd": 48790000,
+      "product_count": 1,
+      "items_sold": 322
+    },
+    {
+      "name": "LumineeBeauty VN",
+      "revenue_vnd": 40910000,
+      "product_count": 1,
+      "items_sold": 448
+    },
+    {
+      "name": "Hana Femme VN",
+      "revenue_vnd": 20240000,
+      "product_count": 2,
+      "items_sold": 221
+    },
+    {
+      "name": "d'Alba piedmont VN",
+      "revenue_vnd": 18790000,
+      "product_count": 7,
+      "items_sold": 38
+    },
+    {
+      "name": "COLORKEY COSMETICS VIỆT NAM",
+      "revenue_vnd": 18440000,
+      "product_count": 5,
+      "items_sold": 130
+    },
+    {
+      "name": "Socus Sea VN",
+      "revenue_vnd": 15350000,
+      "product_count": 2,
+      "items_sold": 84
+    }
+  ],
+  "products": [
+    {
+      "title": "[DEAL ĐỘC QUYỀN] Beplain Kem chống nắng Sunmuse 50ml (7 màu)",
+      "revenue_vnd": 515710000,
+      "items_sold": 1520,
+      "avg_price_vnd": 339510
+    },
+    {
+      "title": "[COMBO HOT GIẢM ĐẾN 40%] Tẩy Tế Bào Chết BODY - COLORKEY ROSÉ Hỗ Trợ Dưỡng Sáng Da Mềm Mịn, Lưu Hương Trên Da 200g",
+      "revenue_vnd": 165130000,
+      "items_sold": 1160,
+      "avg_price_vnd": 142110
+    },
+    {
+      "title": "Phấn Bắt Sáng KAKASHOW, 14g, Họa Tiết Sư Tử, Lâu Trôi, Không Thấm Nước, Ngọc Trai, Hiệu Ứng 3D, Phấn Bắt Sáng Khuôn Mặt Làm Sáng, Phấn Tạo Đường Viền, C546",
+      "revenue_vnd": 53250000,
+      "items_sold": 787,
+      "avg_price_vnd": 67660
+    },
+    {
+      "title": "Novofemi Cấp ẩm chuyên sâu & duy trì màng ẩm tự nhiên hỗ trợ phục hồi vùng da nhạy cảm khoa học Femi Xanh",
+      "revenue_vnd": 48790000,
+      "items_sold": 322,
+      "avg_price_vnd": 151510
+    },
+    {
+      "title": "Kem Chống Nắng KOR Trang Điểm Nâng Tone Phổ Rộng SPF 50+ Ngừa Tia UVA UVB Ngăn Ngừa Nám Xuất Xứ Hàn Quốc 50ml",
+      "revenue_vnd": 47380000,
+      "items_sold": 238,
+      "avg_price_vnd": 199060
+    },
+    {
+      "title": "Phấn Nước Cushion 2IN1 & Phấn Phủ (8g+12g) - Đệm Khí Hai Lớp, Kiềm Dầu 12h, Lâu Trôi | 1 Giá = 2 Sản Phẩm, E06",
+      "revenue_vnd": 40910000,
+      "items_sold": 448,
+      "avg_price_vnd": 91320
+    },
+    {
+      "title": "[DEAL ĐỘC QUYỀN] Dear, Klairs nước hoa hồng Supple Preparation Unscented Toner 180mL",
+      "revenue_vnd": 28140000,
+      "items_sold": 101,
+      "avg_price_vnd": 278640
+    },
+    {
+      "title": "Kem dưỡng ẩm Vitamin B5 550g – Dùng cho mặt và toàn thân, giúp làm dịu da khô, ngứa, kích ứng và chàm.",
+      "revenue_vnd": 15130000,
+      "items_sold": 82,
+      "avg_price_vnd": 184530
+    },
+    {
+      "title": "Son Kem Velvet COLORKEY Phiên Bản Nâng Cấp Mịn lì, Bền Màu Mềm Mượt Trên Môi 2.5g",
+      "revenue_vnd": 13920000,
+      "items_sold": 98,
+      "avg_price_vnd": 142020
+    },
+    {
+      "title": "Bọt rửa vệ sinh vùng kín HANNA FEMME Có chứa Niacinamide, Axit Lactic và Chiết xuất Cranberry tự nhiên Độ pH cân bằng 4–5 làm sạch nhẹ nhàng Hương thơm lưu hương lâu Giảm kích ứng giảm mùi khó chịu",
+      "revenue_vnd": 10970000,
+      "items_sold": 119,
+      "avg_price_vnd": 92160
+    }
+  ],
+  "contact_keys": []
+}

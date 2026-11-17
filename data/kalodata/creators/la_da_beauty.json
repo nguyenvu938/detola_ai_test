@@ -1,0 +1,117 @@
+{
+  "handle": "la_da_beauty",
+  "kalodata_id": "7312364215611737089",
+  "nickname": "Là Da Beauty",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "BELONGED_TO_SELLER",
+  "mcn_name": null,
+  "bio": "[phone]\nLive: 11:30-13:00 (T.2 - T.7)",
+  "followers": 10500,
+  "debut_date": "2024-03-12",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": null,
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được. API trả followerAgeMax rỗng.",
+  "core_metrics": {
+    "revenue_vnd": 1050000000,
+    "live_revenue_vnd": 1050000000,
+    "video_revenue_vnd": 0,
+    "video_views": 77770,
+    "live_views": 77470,
+    "follower_change": 400
+  },
+  "videos": [
+    {
+      "video_id": "7345752069191585032",
+      "url": "https://www.tiktok.com/@la_da_beauty/video/7345752069191585032",
+      "description": "Ai còn sầu với kcn Martiderm fa.ke thì lội vào đây =)) #mypham #skincare #beautytok",
+      "duration_s": 0,
+      "views": 600,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2024-03-13"
+    }
+  ],
+  "shops": [
+    {
+      "name": "Là Da Beauty",
+      "revenue_vnd": 1050000000,
+      "product_count": 37,
+      "items_sold": 1390
+    }
+  ],
+  "products": [
+    {
+      "title": "[CÔNG TY] Kem chống nắng Hyaestic Skin Fusion SF64 (50ml) - Cho mọi loại da",
+      "revenue_vnd": 374680000,
+      "items_sold": 468,
+      "avg_price_vnd": 800610
+    },
+    {
+      "title": "[CÔNG TY] Tinh Chất Tế Bào Gốc, Tái Tạo Da oh!oh! Oatmere Serum (with 4.5% Oat Extract & 9,9ppm EGF) (25ml)",
+      "revenue_vnd": 190930000,
+      "items_sold": 239,
+      "avg_price_vnd": 798860
+    },
+    {
+      "title": "[Công Ty] Tinh chất oh!oh! Daily Nia23 Advanced Correcting Serum 30ml",
+      "revenue_vnd": 185270000,
+      "items_sold": 236,
+      "avg_price_vnd": 785050
+    },
+    {
+      "title": "Serum Niacinamide 20% - ohoh Skin Health Serum (30ml)",
+      "revenue_vnd": 122960000,
+      "items_sold": 176,
+      "avg_price_vnd": 698640
+    },
+    {
+      "title": "Serum dưỡng ẩm HA oh!oh! (30ml) phục hồi da có nguồn gốc tự nhiên",
+      "revenue_vnd": 41500000,
+      "items_sold": 83,
+      "avg_price_vnd": 500010
+    },
+    {
+      "title": "[CÔNG TY] Tinh Chất Kiểm Soát Sắc Tố Toàn Diện & Chống Lão Hóa Từ Tự Nhiên oh!oh! Dark Spot Fading Serum 30ml",
+      "revenue_vnd": 23570000,
+      "items_sold": 31,
+      "avg_price_vnd": 760170
+    },
+    {
+      "title": "[Công ty] Nước Cân Bằng Tẩy Tế Bào Chết, Làm Sạch Sâu Da oh!oh! BHA 2% (75ml)",
+      "revenue_vnd": 16420000,
+      "items_sold": 25,
+      "avg_price_vnd": 656670
+    },
+    {
+      "title": "[CÔNG TY] Sáp tẩy trang (oh!oh! Divine Blue Cleansing) giúp làm sạch bụi bẩn, bã nhờn, tế bào da chết (150ml/chai)",
+      "revenue_vnd": 15710000,
+      "items_sold": 35,
+      "avg_price_vnd": 448970
+    },
+    {
+      "title": "Serum Chống Lão Hoá Đồng - Peptide oh!oh! (15g) tất cả các loại da dưỡng ẩm",
+      "revenue_vnd": 15420000,
+      "items_sold": 18,
+      "avg_price_vnd": 856650
+    },
+    {
+      "title": "Kem Retinol nguyên chất 1% Hyaestic 30ml (Bao bì mới)",
+      "revenue_vnd": 13250000,
+      "items_sold": 9,
+      "avg_price_vnd": 1470000
+    }
+  ],
+  "contact_keys": [
+    "lh-11"
+  ]
+}

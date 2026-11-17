@@ -1,0 +1,286 @@
+{
+  "handle": "phuongmet57",
+  "kalodata_id": "7396278586032784405",
+  "nickname": "Phương mét 57",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": null,
+  "bio": "Lhcv . 08năm8 hai ba 1994 ( không call )",
+  "followers": 14900,
+  "debut_date": "2024-08-25",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": "25-34",
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được.",
+  "core_metrics": {
+    "revenue_vnd": 6210000000,
+    "live_revenue_vnd": 0,
+    "video_revenue_vnd": 6200000000,
+    "video_views": 38810000,
+    "live_views": 0,
+    "follower_change": 1300
+  },
+  "videos": [
+    {
+      "video_id": "7702670970728828181",
+      "url": "https://www.tiktok.com/@phuongmet57/video/7702670970728828181",
+      "description": "Mua 1 được 7 luôn#garnier",
+      "duration_s": 33.434,
+      "views": 3440000,
+      "revenue_vnd": 455930000,
+      "items_sold": 1720,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.773,
+      "ad_view_ratio": "21.40%",
+      "publish_date": "2026-10-31"
+    },
+    {
+      "video_id": "7682991939750219028",
+      "url": "https://www.tiktok.com/@phuongmet57/video/7682991939750219028",
+      "description": "#nuoctaytrang #lorealparisskincare",
+      "duration_s": 26.238,
+      "views": 2030000,
+      "revenue_vnd": 391330000,
+      "items_sold": 1800,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "32.05%",
+      "publish_date": "2026-09-08"
+    },
+    {
+      "video_id": "7697827813738499329",
+      "url": "https://www.tiktok.com/@phuongmet57/video/7697827813738499329",
+      "description": "Mua 1 tặng 2 luôn ạ😱#joocyee",
+      "duration_s": 36.567,
+      "views": 1200000,
+      "revenue_vnd": 212050000,
+      "items_sold": 342,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "55.59%",
+      "publish_date": "2026-10-18"
+    },
+    {
+      "video_id": "7700468634140839188",
+      "url": "https://www.tiktok.com/@phuongmet57/video/7700468634140839188",
+      "description": "#nuocgiatquanchip #topgia",
+      "duration_s": 32.534,
+      "views": 2270000,
+      "revenue_vnd": 185880000,
+      "items_sold": 4510,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.662,
+      "ad_view_ratio": "6.35%",
+      "publish_date": "2026-10-25"
+    },
+    {
+      "video_id": "7696011132917632277",
+      "url": "https://www.tiktok.com/@phuongmet57/video/7696011132917632277",
+      "description": "Như xả luôn #cocoon",
+      "duration_s": 30.167,
+      "views": 456260,
+      "revenue_vnd": 101280000,
+      "items_sold": 673,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.225,
+      "ad_view_ratio": "20.51%",
+      "publish_date": "2026-10-13"
+    },
+    {
+      "video_id": "7698949095209159956",
+      "url": "https://www.tiktok.com/@phuongmet57/video/7698949095209159956",
+      "description": "#dauduongtoc #tresemme",
+      "duration_s": 30.3,
+      "views": 426630,
+      "revenue_vnd": 100870000,
+      "items_sold": 540,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.758,
+      "ad_view_ratio": "50.30%",
+      "publish_date": "2026-10-21"
+    },
+    {
+      "video_id": "7698698187283991829",
+      "url": "https://www.tiktok.com/@phuongmet57/video/7698698187283991829",
+      "description": "",
+      "duration_s": 29.267,
+      "views": 590890,
+      "revenue_vnd": 88780000,
+      "items_sold": 756,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.761,
+      "ad_view_ratio": "20.47%",
+      "publish_date": "2026-10-20"
+    },
+    {
+      "video_id": "7650807323958480148",
+      "url": "https://www.tiktok.com/@phuongmet57/video/7650807323958480148",
+      "description": "#xitkhoanen #jmcy",
+      "duration_s": 31.934,
+      "views": 918020,
+      "revenue_vnd": 87160000,
+      "items_sold": 1440,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.736,
+      "ad_view_ratio": "6.38%",
+      "publish_date": "2026-06-13"
+    },
+    {
+      "video_id": "7694579128242162964",
+      "url": "https://www.tiktok.com/@phuongmet57/video/7694579128242162964",
+      "description": "Mua 1 tặng 2🎁 nha#phanphukiemdau #carslan",
+      "duration_s": 46.267,
+      "views": 158260,
+      "revenue_vnd": 86960000,
+      "items_sold": 284,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.446,
+      "ad_view_ratio": "50.07%",
+      "publish_date": "2026-10-09"
+    },
+    {
+      "video_id": "7694856635067550997",
+      "url": "https://www.tiktok.com/@phuongmet57/video/7694856635067550997",
+      "description": "Sữa rửa mặt kiêm mặt nạ đất sét#fully",
+      "duration_s": 37,
+      "views": 578660,
+      "revenue_vnd": 85390000,
+      "items_sold": 227,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.699,
+      "ad_view_ratio": "28.84%",
+      "publish_date": "2026-10-10"
+    }
+  ],
+  "shops": [
+    {
+      "name": "Garnier Vietnam",
+      "revenue_vnd": 755060000,
+      "product_count": 7,
+      "items_sold": 3030
+    },
+    {
+      "name": "L'oreal Paris Việt Nam",
+      "revenue_vnd": 607480000,
+      "product_count": 9,
+      "items_sold": 2560
+    },
+    {
+      "name": "Judydoll Vietnam",
+      "revenue_vnd": 303940000,
+      "product_count": 14,
+      "items_sold": 1830
+    },
+    {
+      "name": "JOOCYEE VIETNAM",
+      "revenue_vnd": 266880000,
+      "product_count": 2,
+      "items_sold": 430
+    },
+    {
+      "name": "COLORKEY LUMINOUS VIỆT NAM",
+      "revenue_vnd": 257340000,
+      "product_count": 10,
+      "items_sold": 1550
+    },
+    {
+      "name": "FOCALLURE SHOP",
+      "revenue_vnd": 233310000,
+      "product_count": 4,
+      "items_sold": 675
+    },
+    {
+      "name": "Cocoon Vietnam",
+      "revenue_vnd": 212540000,
+      "product_count": 7,
+      "items_sold": 1240
+    },
+    {
+      "name": "Camioré",
+      "revenue_vnd": 193110000,
+      "product_count": 3,
+      "items_sold": 557
+    },
+    {
+      "name": "TRESemmé Vietnam",
+      "revenue_vnd": 192090000,
+      "product_count": 4,
+      "items_sold": 1020
+    },
+    {
+      "name": "TOPGIAHN",
+      "revenue_vnd": 189930000,
+      "product_count": 1,
+      "items_sold": 4610
+    }
+  ],
+  "products": [
+    {
+      "title": "[MUA 1 ĐƯỢC 7] Bộ 1 Lít Nước Tẩy Trang làm sạch sâu dịu nhẹ cho mọi loại da - Garnier Micellar Cleansing Water (700ml + 50mlx6)",
+      "revenue_vnd": 563270000,
+      "items_sold": 2120,
+      "avg_price_vnd": 265440
+    },
+    {
+      "title": "[COMBO 2 TẨY TRANG] Bộ đôi nước tẩy trang làm sạch sâu, loại bỏ bụi bẩn L'Oreal Paris Micellar Water 400ML & 95ML",
+      "revenue_vnd": 479900000,
+      "items_sold": 2210,
+      "avg_price_vnd": 217150
+    },
+    {
+      "title": "[OFFICIAL] Bảng phấn mắt Joocyee 12 ô đa năng",
+      "revenue_vnd": 266260000,
+      "items_sold": 429,
+      "avg_price_vnd": 620660
+    },
+    {
+      "title": "【NEW】Focallure Bộ Trang Điểm Má hồng+Bảng mắt màu 2 Món Spring Glow",
+      "revenue_vnd": 203610000,
+      "items_sold": 555,
+      "avg_price_vnd": 366860
+    },
+    {
+      "title": "Nước Giặt Nội Y Topgia 200ml – Dịu Nhẹ, Không Kích Ứng, Thơm Mềm Tự Nhiên kháng khuẩn 99.9% npd",
+      "revenue_vnd": 189930000,
+      "items_sold": 4610,
+      "avg_price_vnd": 41200
+    },
+    {
+      "title": "[1] [Bán Chạy] Serum TRESemmé Lamellar Gloss LamellarBond+ Phủ Bóng 8X Chuẩn Salon 100ml",
+      "revenue_vnd": 187900000,
+      "items_sold": 1000,
+      "avg_price_vnd": 187150
+    },
+    {
+      "title": "Son Bóng Lifter Gloss cho Đôi Môi Đầy Căng Mọng Kẹo cùng Hyaluronic Acid Maybelline New York 5.4ML",
+      "revenue_vnd": 166070000,
+      "items_sold": 964,
+      "avg_price_vnd": 172270
+    },
+    {
+      "title": "Combo 3 Hộp Mặt Nạ Giấy Vitamin B5 Colorkey Luminous Cho Mọi Loại Da Hỗ Trợ Cấp Ẩm Làm Dịu & Phục Hồi Da (10 Miếng/Hộp)",
+      "revenue_vnd": 147060000,
+      "items_sold": 541,
+      "avg_price_vnd": 271830
+    },
+    {
+      "title": "[TẶNG 1 KEM BODY 5% NIA 200ML & 1 HỦ NIACINAMIDE 10G] Combo full body : Bột Tắm Thảo Mộc, Body Oil, Kem Ủ 312, Camioré, Dưỡng Da Cải Thiện Mờ Thâm Sạm, trắng da nữ",
+      "revenue_vnd": 142200000,
+      "items_sold": 339,
+      "avg_price_vnd": 419460
+    },
+    {
+      "title": "Sữa rửa mặt kiêm mặt nạ đất sét cà chua xanh Fully Green Tomato Clay Pack Cleanser 120ml cải thiện bã nhờn",
+      "revenue_vnd": 125900000,
+      "items_sold": 334,
+      "avg_price_vnd": 376960
+    }
+  ],
+  "contact_keys": []
+}

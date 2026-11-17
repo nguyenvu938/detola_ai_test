@@ -1,0 +1,286 @@
+{
+  "handle": "phuongsena",
+  "kalodata_id": "7088240910156923905",
+  "nickname": "Phương Sena",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": null,
+  "bio": "Nick chính thức của em Phương Sena",
+  "followers": 261200,
+  "debut_date": "2022-07-04",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": "25-34",
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được.",
+  "core_metrics": {
+    "revenue_vnd": 35360000000,
+    "live_revenue_vnd": 33790000000,
+    "video_revenue_vnd": 90450000,
+    "video_views": 873830,
+    "live_views": 3100000,
+    "follower_change": 8400
+  },
+  "videos": [
+    {
+      "video_id": "7693480710002199828",
+      "url": "https://www.tiktok.com/@phuongsena/video/7693480710002199828",
+      "description": "✨ Da xỉn màu, thiếu sức sống thì thử ngay Bút Bột Dưỡng Sáng Da Lubylab 💖 Thiết kế dạng bút tiện lợi, dễ mang theo, giúp chăm sóc vùng da cần được nâng niu mỗi ngày 🌷#myphamhanquoc #skincareroutine #xuhuong #lubylab",
+      "duration_s": 65.969,
+      "views": 28880,
+      "revenue_vnd": 26230000,
+      "items_sold": 55,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "47.20%",
+      "publish_date": "2026-10-06"
+    },
+    {
+      "video_id": "7691599799333719348",
+      "url": "https://www.tiktok.com/@phuongsena/video/7691599799333719348",
+      "description": "Không cần skincare 7749 bước, quan trọng là tìm được “chân ái” cho làn da 🫧 Tinh chất đông khô Lubylab — nhỏ thôi nhưng có võ ✨#myphamhanquoc #skincareroutine #xuhuong #lubylab",
+      "duration_s": 63.716,
+      "views": 6080,
+      "revenue_vnd": 17560000,
+      "items_sold": 23,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.487,
+      "ad_view_ratio": "33.96%",
+      "publish_date": "2026-10-01"
+    },
+    {
+      "video_id": "7699778837151812871",
+      "url": "https://www.tiktok.com/@phuongsena/video/7699778837151812871",
+      "description": "✨ Da xinh, tự tin rạng rỡ cùng kem NAD Lubylab 💖 Chăm da mỗi ngày, yêu chiều bản thân mỗi chút 🫶🏻 Một em kem nhỏ xinh cho nàng thêm tự tin trong routine skincare của mình 🌷#myphamhanquoc #skincareroutine #xuhuong #lubylab",
+      "duration_s": 64.087,
+      "views": 10050,
+      "revenue_vnd": 12010000,
+      "items_sold": 13,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-23"
+    },
+    {
+      "video_id": "7691979426153762055",
+      "url": "https://www.tiktok.com/@phuongsena/video/7691979426153762055",
+      "description": "Kem chống nắng Lubylab Elixir – bước cuối không thể bỏ qua trong routine skincare mỗi ngày 💗 Thoa một lớp trước khi ra ngoài, vừa chăm da vừa yên tâm hơn khi hoạt động dưới nắng ✨#myphamhanquoc #skincareroutine #xuhuong #lubylab",
+      "duration_s": 54.823,
+      "views": 40640,
+      "revenue_vnd": 6980000,
+      "items_sold": 14,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.114,
+      "ad_view_ratio": "8.39%",
+      "publish_date": "2026-10-02"
+    },
+    {
+      "video_id": "7696075706580667668",
+      "url": "https://www.tiktok.com/@phuongsena/video/7696075706580667668",
+      "description": "Em kem chống nắng Lubylab Elixir chính là item không thể thiếu trong routine chăm sóc da mỗi ngày 🧴💖 Nhớ chống nắng đầy đủ để làn da luôn được chăm sóc và bảo vệ nhé!#myphamhanquoc #skincareroutine #xuhuong #lubylab",
+      "duration_s": 45.651,
+      "views": 29370,
+      "revenue_vnd": 4980000,
+      "items_sold": 10,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.72,
+      "ad_view_ratio": "42.05%",
+      "publish_date": "2026-10-13"
+    },
+    {
+      "video_id": "7703571335481478407",
+      "url": "https://www.tiktok.com/@phuongsena/video/7703571335481478407",
+      "description": "Nắng có thể gắt, nhưng làn da thì phải luôn được yêu chiều ☀️💖 Bảo vệ da mỗi ngày cùng kem chống nắng Lubylab Elixir – item không thể thiếu trong chu trình skincare của nàng! Chăm da từ hôm nay để da luôn rạng rỡ nhé ✨#myphamhanquoc #skincareroutine #xuhuong #lubylab",
+      "duration_s": 51.642,
+      "views": 42600,
+      "revenue_vnd": 3500000,
+      "items_sold": 7,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.458,
+      "ad_view_ratio": "12.83%",
+      "publish_date": "2026-11-02"
+    },
+    {
+      "video_id": "7668997470248111380",
+      "url": "https://www.tiktok.com/@phuongsena/video/7668997470248111380",
+      "description": "☀️ Đừng để tia UV làm làn da xuống sắc mỗi ngày! Kem chống nắng Lubylab Elixir giúp bảo vệ da trước tác động của ánh nắng, đồng thời mang lại cảm giác mỏng nhẹ, dễ chịu khi sử dụng. Phù hợp để đồng hành cùng bạn mỗi ngày, dù đi làm hay đi chơi. ✨ Thoa đều trước khi ra ngoài để tăng hiệu quả bảo vệ da nhé! 💛#myphamchinhhang #lubylab #skincare #xuhuong",
+      "duration_s": 28.445,
+      "views": 10220,
+      "revenue_vnd": 2990000,
+      "items_sold": 6,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "56.24%",
+      "publish_date": "2026-08-01"
+    },
+    {
+      "video_id": "7705330292013157652",
+      "url": "https://www.tiktok.com/@phuongsena/video/7705330292013157652",
+      "description": "Da sần sùi, bí bách, skincare mãi chưa thấy ưng? 👀 Đừng quên bước chăm sóc da với BHA Pad Lubylab nhé! Một bước nhỏ trong routine, thêm yêu chiều cho làn da mỗi ngày. 🌿#myphamhanquoc #skincareroutine #xuhuong #lubylab",
+      "duration_s": 51.804,
+      "views": 33360,
+      "revenue_vnd": 2830000,
+      "items_sold": 6,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.546,
+      "ad_view_ratio": "8.34%",
+      "publish_date": "2026-11-07"
+    },
+    {
+      "video_id": "7706106079565942023",
+      "url": "https://www.tiktok.com/@phuongsena/video/7706106079565942023",
+      "description": "Chiếc pad nhỏ nhưng có võ! 😍 BHA Pad Lubylab dành cho nàng muốn nâng cấp routine skincare, chăm sóc làn da sạch thoáng, mịn màng hơn mỗi ngày.#myphamhanquoc #skincareroutine #xuhuong #lubylab",
+      "duration_s": 38.848,
+      "views": 28240,
+      "revenue_vnd": 2730000,
+      "items_sold": 6,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.395,
+      "ad_view_ratio": "7.78%",
+      "publish_date": "2026-11-09"
+    },
+    {
+      "video_id": "7700873491855232277",
+      "url": "https://www.tiktok.com/@phuongsena/video/7700873491855232277",
+      "description": "💚 DA SẦN SÙI, LỖ CHÂN LÔNG BÍT TẮC? ĐÃ CÓ BHA PAD LUBYLAB! ✨ 🌿 Miếng pad tiện lợi cho routine skincare mỗi ngày 🫧 Hỗ trợ tẩy tế bào chết, giúp da thông thoáng hơn 💖 Chăm da đơn giản, nâng niu làn da mỗi ngày! Muốn skincare gọn nhẹ mà vẫn chỉn chu? Thử tìm hiểu ngay em BHA Pad Lubylab nhé 🥰#myphamhanquoc #skincareroutine #xuhuong #lubylab",
+      "duration_s": 29.908,
+      "views": 27820,
+      "revenue_vnd": 1430000,
+      "items_sold": 3,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "9.07%",
+      "publish_date": "2026-10-26"
+    }
+  ],
+  "shops": [
+    {
+      "name": "Lubylab Official Mall",
+      "revenue_vnd": 34890000000,
+      "product_count": 157,
+      "items_sold": 21100
+    },
+    {
+      "name": "Unilever - Chăm Sóc Cá Nhân",
+      "revenue_vnd": 456740000,
+      "product_count": 11,
+      "items_sold": 2370
+    },
+    {
+      "name": "Yumilee",
+      "revenue_vnd": 4100000,
+      "product_count": 3,
+      "items_sold": 6
+    },
+    {
+      "name": "KEYSHU VIỆT NAM",
+      "revenue_vnd": 904650,
+      "product_count": 3,
+      "items_sold": 4
+    },
+    {
+      "name": "THẾ GIỚI YẾN SÀO-Nguyễn Thuý",
+      "revenue_vnd": 627210,
+      "product_count": 1,
+      "items_sold": 1
+    },
+    {
+      "name": "BIOCLEAN VIETNAM",
+      "revenue_vnd": 538290,
+      "product_count": 5,
+      "items_sold": 2
+    },
+    {
+      "name": "Marvis Vietnam",
+      "revenue_vnd": 512570,
+      "product_count": 1,
+      "items_sold": 1
+    },
+    {
+      "name": "Doctor Spine",
+      "revenue_vnd": 345090,
+      "product_count": 1,
+      "items_sold": 1
+    },
+    {
+      "name": "LITTLE DREAM GARDEN VN",
+      "revenue_vnd": 243030,
+      "product_count": 2,
+      "items_sold": 1
+    },
+    {
+      "name": "CHANDO HIMALAYA VIETNAM",
+      "revenue_vnd": 0,
+      "product_count": 1,
+      "items_sold": 0
+    }
+  ],
+  "products": [
+    {
+      "title": "[CH] SN2194 - Tổng 7 sản phẩm: 5 kem chống nắng Lubylab Elixir waterfull tone-up essence sunblock( Opsin, NAD+, Stella-nergytm) 40ml + 2 miếng nạ cica Declare",
+      "revenue_vnd": 5810000000,
+      "items_sold": 1950,
+      "avg_price_vnd": 2980000
+    },
+    {
+      "title": "SN1417 - (2+3) Tổng 5 hộp Nghệ Nano Curcumin Your Balance 2800 tổng 100 gói",
+      "revenue_vnd": 1690000000,
+      "items_sold": 464,
+      "avg_price_vnd": 3650000
+    },
+    {
+      "title": "SN2219 - Tổng 4 sản phẩm: 2 hộp cushion Eclat BB Lubylab + 1 Son Dưỡng Bóng BAE BEAUTY Heartstealer Oil Tint ( màu xanh ) + 1 Bảng Phấn Mắt 10 Ô Gogo Tales",
+      "revenue_vnd": 1690000000,
+      "items_sold": 678,
+      "avg_price_vnd": 2490000
+    },
+    {
+      "title": "SN2058 - (3+3) Tổng 6 Sữa Rửa Mặt Lubylab artemisia forest (U-Oliosome, TECA 0.5) 50ml",
+      "revenue_vnd": 1470000000,
+      "items_sold": 843,
+      "avg_price_vnd": 1740000
+    },
+    {
+      "title": "SN2113 - Tổng 4 túi Refill Ampoule cica Dual PGA Hydro cica Lubylab 50ml",
+      "revenue_vnd": 1230000000,
+      "items_sold": 656,
+      "avg_price_vnd": 1870000
+    },
+    {
+      "title": "SN2016 - Tổng 3 Kem điêu khắc Lubylab M.A.V Firming complex cream 40ml",
+      "revenue_vnd": 1080000000,
+      "items_sold": 406,
+      "avg_price_vnd": 2670000
+    },
+    {
+      "title": "SN0865 - Tổng 240 miếng BHA Pads: 1 Hộp BHA PAD Lubylab Pore Peeling Pad PLGA 60 Miếng + 3 túi tổng 180 miếng Refill BHA PAD Lubylab Pore Peeling Pad PLGA",
+      "revenue_vnd": 1030000000,
+      "items_sold": 525,
+      "avg_price_vnd": 1970000
+    },
+    {
+      "title": "SN2184 - Tổng 6 món: 3 tuýp kem retinal dual active spot cream 15ml + 3 Sachet Kem dưỡng da cấp ẩm LUBYLAB Liposome Cica PDRN Cream 1ml/ gói",
+      "revenue_vnd": 1020000000,
+      "items_sold": 643,
+      "avg_price_vnd": 1590000
+    },
+    {
+      "title": "[CH] SN2182 - Tổng 6 món: 3 Tuýp Kem Liposome cica PDRN cream 50ml + 3 Sachet Tinh chất dưỡng da cấp ẩm Lubylab Dual PGA Hydro Cica Ampoule (1ml / gói)",
+      "revenue_vnd": 931300000,
+      "items_sold": 458,
+      "avg_price_vnd": 2030000
+    },
+    {
+      "title": "[CH] SN2190 - Full set clinic 3 sản phẩm: 1 Kem dưỡng Lubylab NAD+ GF 15ML + 1 Set 2 Ống Tinh chất ma trận Sculpt Matrix + 1 Set 4 Ống Hyper LUBYSPISHOT",
+      "revenue_vnd": 875330000,
+      "items_sold": 202,
+      "avg_price_vnd": 4330000
+    }
+  ],
+  "contact_keys": []
+}

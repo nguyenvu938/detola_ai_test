@@ -1,0 +1,2936 @@
+{
+  "run_id": "final-haiku",
+  "campaign": {
+    "name": "kem-chong-nang-nu-18-30",
+    "market": "Việt Nam",
+    "product": "kem chống nắng",
+    "product_scope": "kem chống nắng, chống nắng da mặt và cơ thể",
+    "niche": "chăm sóc da / làm đẹp",
+    "target_gender": "female",
+    "target_age_min": 18,
+    "target_age_max": 30,
+    "budget_vnd": 30000000,
+    "n_koc": 5,
+    "kalodata_categories": [
+      "Beauty & Personal Care > Skincare > Facial Sunscreen & Sun Care",
+      "Beauty & Personal Care > Bath & Body Care > Body Sunscreen"
+    ],
+    "topic_keywords": [
+      "chống nắng",
+      "chong nang",
+      "kcn",
+      "sunscreen",
+      "suncream",
+      "sun cream",
+      "spf",
+      "tia uv",
+      "sunstick",
+      "sun stick"
+    ]
+  },
+  "generated_at": "2026-11-17 20:32",
+  "routing": {
+    "screen": "claude-haiku-5-5",
+    "video": "claude-haiku-5-5",
+    "rationale": "claude-sonnet-5-5"
+  },
+  "llm_calls": 12,
+  "funnel": {
+    "ingested": 272,
+    "after_prefilter": 161,
+    "enriched_target": 60,
+    "contact_groups": 1,
+    "after_metrics": 36,
+    "screened": 16,
+    "passed_screen_gate": 13,
+    "video_analyzed": 9,
+    "above_min_score": 5,
+    "selected": 4
+  },
+  "dropped": {
+    "prefilter": [
+      {
+        "handle": "anessa.vietnam",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "hannaholala",
+        "reason": "followers 2,100,000 ngoài khoảng KOC"
+      },
+      {
+        "handle": "longchunchun",
+        "reason": "followers 7,700,000 ngoài khoảng KOC"
+      },
+      {
+        "handle": "beplain_vn",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "thehighvietnam",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "trangtrankoc",
+        "reason": "followers 785,700 ngoài khoảng KOC"
+      },
+      {
+        "handle": "cocoon.vietnam",
+        "reason": "followers 753,000 ngoài khoảng KOC"
+      },
+      {
+        "handle": "makeprem.vietnam",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "lucienguyenlove",
+        "reason": "followers 1,400,000 ngoài khoảng KOC"
+      },
+      {
+        "handle": "larocheposayvn",
+        "reason": "followers 747,100 ngoài khoảng KOC"
+      },
+      {
+        "handle": "totuyettram",
+        "reason": "followers 764,500 ngoài khoảng KOC"
+      },
+      {
+        "handle": "hasaki.vn",
+        "reason": "followers 928,800 ngoài khoảng KOC"
+      },
+      {
+        "handle": "ahc.vietnam",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "dalba.vn",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "dinsee.vn",
+        "reason": "followers 6,820 ngoài khoảng KOC"
+      },
+      {
+        "handle": "long66744",
+        "reason": "followers 7,060 ngoài khoảng KOC"
+      },
+      {
+        "handle": "comemofficial",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "lorealparis_vn",
+        "reason": "followers 768,200 ngoài khoảng KOC"
+      },
+      {
+        "handle": "tunpham97",
+        "reason": "followers 4,900,000 ngoài khoảng KOC"
+      },
+      {
+        "handle": "thanhlucnaocungdoi",
+        "reason": "followers 6,870 ngoài khoảng KOC"
+      },
+      {
+        "handle": "elixirvietnam",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "innisfreevietnam",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "tomskincare",
+        "reason": "followers 624,700 ngoài khoảng KOC"
+      },
+      {
+        "handle": "purebysuri",
+        "reason": "followers 681,900 ngoài khoảng KOC"
+      },
+      {
+        "handle": "kao.vietnam",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "quynhanh_23291702",
+        "reason": "followers 911,100 ngoài khoảng KOC"
+      },
+      {
+        "handle": "sumspace.vn",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "meowmuagi",
+        "reason": "followers 2,970 ngoài khoảng KOC"
+      },
+      {
+        "handle": "chuthanhhuyen.official",
+        "reason": "followers 2,300,000 ngoài khoảng KOC"
+      },
+      {
+        "handle": "eucerinvn",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "senabeauty",
+        "reason": "followers 685,600 ngoài khoảng KOC"
+      },
+      {
+        "handle": "chanhbeauty93",
+        "reason": "followers 2,400,000 ngoài khoảng KOC"
+      },
+      {
+        "handle": "phungthichreview99",
+        "reason": "followers 7,220 ngoài khoảng KOC"
+      },
+      {
+        "handle": "ngoc.matcha",
+        "reason": "followers 4,300,000 ngoài khoảng KOC"
+      },
+      {
+        "handle": "olayvietnam",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "landangdung",
+        "reason": "followers 2,890 ngoài khoảng KOC"
+      },
+      {
+        "handle": "cocayhoala_vietnam",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "ngokhong.ugc",
+        "reason": "followers 4,200 ngoài khoảng KOC"
+      },
+      {
+        "handle": "thewhoo.vietnam",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "lamdepcungquynh",
+        "reason": "followers 9,200 ngoài khoảng KOC"
+      },
+      {
+        "handle": "hana.mynhan",
+        "reason": "followers 590,600 ngoài khoảng KOC"
+      },
+      {
+        "handle": "emxinh978",
+        "reason": "followers 2,680 ngoài khoảng KOC"
+      },
+      {
+        "handle": "sammishop_official",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "mailystyle",
+        "reason": "followers 1,600,000 ngoài khoảng KOC"
+      },
+      {
+        "handle": "bbskincare1",
+        "reason": "followers 1,200,000 ngoài khoảng KOC"
+      },
+      {
+        "handle": "shiseido.vietnam",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "quynhluong.office",
+        "reason": "followers 1,100,000 ngoài khoảng KOC"
+      },
+      {
+        "handle": "dermablock_vn",
+        "reason": "followers 9,840 ngoài khoảng KOC"
+      },
+      {
+        "handle": "skincarecunganh2",
+        "reason": "followers 9,260 ngoài khoảng KOC"
+      },
+      {
+        "handle": "cellic.vn",
+        "reason": "followers 5,540 ngoài khoảng KOC"
+      },
+      {
+        "handle": "skin1004_vietnam",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "kannsansale",
+        "reason": "followers 2,510 ngoài khoảng KOC"
+      },
+      {
+        "handle": "tyniosaka",
+        "reason": "followers 1,300,000 ngoài khoảng KOC"
+      },
+      {
+        "handle": "guardianvietnam",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "vichy.vn",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "angelaphuongtrinh1995",
+        "reason": "followers 935,500 ngoài khoảng KOC"
+      },
+      {
+        "handle": "ngdiuthen",
+        "reason": "followers 910,500 ngoài khoảng KOC"
+      },
+      {
+        "handle": "miu.miu_review",
+        "reason": "followers 1,010 ngoài khoảng KOC"
+      },
+      {
+        "handle": "decumar",
+        "reason": "followers 514,100 ngoài khoảng KOC"
+      },
+      {
+        "handle": "vibrant_glamour_",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "maivyrv.97",
+        "reason": "followers 1,130 ngoài khoảng KOC"
+      },
+      {
+        "handle": "duyendaidadu01",
+        "reason": "followers 9,810 ngoài khoảng KOC"
+      },
+      {
+        "handle": "myphamtanxuong",
+        "reason": "followers 4,270 ngoài khoảng KOC"
+      },
+      {
+        "handle": "trangkimnguyen98",
+        "reason": "followers 1,380 ngoài khoảng KOC"
+      },
+      {
+        "handle": "colocbanhang_",
+        "reason": "followers 68 ngoài khoảng KOC"
+      },
+      {
+        "handle": "huynhthohung.official",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "anhocmeda35",
+        "reason": "followers 659,700 ngoài khoảng KOC"
+      },
+      {
+        "handle": "debeaute.shop",
+        "reason": "followers 9,670 ngoài khoảng KOC"
+      },
+      {
+        "handle": "tuanduowng",
+        "reason": "followers 1,600,000 ngoài khoảng KOC"
+      },
+      {
+        "handle": "simplevietnam",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "cam._.oops",
+        "reason": "followers 797,000 ngoài khoảng KOC"
+      },
+      {
+        "handle": "physiogelvietnamofficial",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "huongbietnoi",
+        "reason": "followers 2,480 ngoài khoảng KOC"
+      },
+      {
+        "handle": "unofficiallykyky",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "tienoiriviu",
+        "reason": "followers 3,350 ngoài khoảng KOC"
+      },
+      {
+        "handle": "clinxyvietnamstore",
+        "reason": "followers 2,090 ngoài khoảng KOC"
+      },
+      {
+        "handle": "wellage.vn",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "dokhanhvan",
+        "reason": "followers 1,500,000 ngoài khoảng KOC"
+      },
+      {
+        "handle": "riviuer233",
+        "reason": "followers 5,960 ngoài khoảng KOC"
+      },
+      {
+        "handle": "huong091283",
+        "reason": "followers 1,000,000 ngoài khoảng KOC"
+      },
+      {
+        "handle": "lazybvietnam2026",
+        "reason": "followers 1,440 ngoài khoảng KOC"
+      },
+      {
+        "handle": "tranghuyen_206",
+        "reason": "followers 1,440 ngoài khoảng KOC"
+      },
+      {
+        "handle": "lyo.vn",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "muka45670",
+        "reason": "followers 1,930 ngoài khoảng KOC"
+      },
+      {
+        "handle": "cerave.vietnam_official",
+        "reason": "followers 531,100 ngoài khoảng KOC"
+      },
+      {
+        "handle": "lhdieu",
+        "reason": "followers 2,900,000 ngoài khoảng KOC"
+      },
+      {
+        "handle": "innisfreetoneup",
+        "reason": "followers 3,660 ngoài khoảng KOC"
+      },
+      {
+        "handle": "poppinkeevietnam",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "alo.akin",
+        "reason": "followers 2,890 ngoài khoảng KOC"
+      },
+      {
+        "handle": "thanhthuy.rv68",
+        "reason": "followers 1,530 ngoài khoảng KOC"
+      },
+      {
+        "handle": "cxi1894",
+        "reason": "followers 1,540 ngoài khoảng KOC"
+      },
+      {
+        "handle": "linareview24",
+        "reason": "followers 6,280 ngoài khoảng KOC"
+      },
+      {
+        "handle": "imu.vietnam",
+        "reason": "followers 5,680 ngoài khoảng KOC"
+      },
+      {
+        "handle": "mylinh.trainghiem",
+        "reason": "followers 9,850 ngoài khoảng KOC"
+      },
+      {
+        "handle": "trinhmeow.vlogger",
+        "reason": "followers 551,400 ngoài khoảng KOC"
+      },
+      {
+        "handle": "yuldaily",
+        "reason": "followers 569,700 ngoài khoảng KOC"
+      },
+      {
+        "handle": "sithanh",
+        "reason": "followers 1,300,000 ngoài khoảng KOC"
+      },
+      {
+        "handle": "bacsihuy.official",
+        "reason": "followers 1,400,000 ngoài khoảng KOC"
+      },
+      {
+        "handle": "duongbeauty688",
+        "reason": "followers 2,900 ngoài khoảng KOC"
+      },
+      {
+        "handle": "nguoilylom",
+        "reason": "followers 1,100 ngoài khoảng KOC"
+      },
+      {
+        "handle": "bide_10_",
+        "reason": "followers 956 ngoài khoảng KOC"
+      },
+      {
+        "handle": "teetamofficial",
+        "reason": "tên giống tài khoản thương hiệu/shop"
+      },
+      {
+        "handle": "binhbonnie",
+        "reason": "followers 993 ngoài khoảng KOC"
+      },
+      {
+        "handle": "siuchamchi08",
+        "reason": "followers 1,050 ngoài khoảng KOC"
+      },
+      {
+        "handle": "_wnos2",
+        "reason": "followers 3,040 ngoài khoảng KOC"
+      },
+      {
+        "handle": "kimchungphan20",
+        "reason": "followers 2,200,000 ngoài khoảng KOC"
+      },
+      {
+        "handle": "user8173657478517",
+        "reason": "followers 2,840 ngoài khoảng KOC"
+      },
+      {
+        "handle": "mphuongg_review",
+        "reason": "followers 2,610 ngoài khoảng KOC"
+      },
+      {
+        "handle": "embehappy.ne",
+        "reason": "followers 4,900 ngoài khoảng KOC"
+      },
+      {
+        "handle": "nnga_.0702",
+        "reason": "followers 1,230 ngoài khoảng KOC"
+      },
+      {
+        "handle": "medohay1",
+        "reason": "followers 1,340 ngoài khoảng KOC"
+      }
+    ],
+    "metrics": [
+      {
+        "handle": "hagiangreview1",
+        "reason": "Kalodata: Majority Male (lệch giới mục tiêu)"
+      },
+      {
+        "handle": "hoaivan6868",
+        "reason": "creator_type=BELONGED_TO_SELLER"
+      },
+      {
+        "handle": "truonghienthehigh",
+        "reason": "creator_type=BELONGED_TO_SELLER"
+      },
+      {
+        "handle": "tuyentanuytin2",
+        "reason": "chưa có dữ liệu chi tiết"
+      },
+      {
+        "handle": "thuongtone",
+        "reason": "Kalodata: Majority Male (lệch giới mục tiêu)"
+      },
+      {
+        "handle": "linhsan1029",
+        "reason": "chưa có dữ liệu chi tiết"
+      },
+      {
+        "handle": "quenhii.pham",
+        "reason": "chưa có dữ liệu chi tiết"
+      },
+      {
+        "handle": "chunhungne",
+        "reason": "chưa có dữ liệu chi tiết"
+      },
+      {
+        "handle": "phuong_phuong999",
+        "reason": "chưa có dữ liệu chi tiết"
+      },
+      {
+        "handle": "danquynh.daily",
+        "reason": "Kalodata: Majority Male (lệch giới mục tiêu)"
+      },
+      {
+        "handle": "nguyenluyen1541",
+        "reason": "Kalodata: Majority Male (lệch giới mục tiêu)"
+      },
+      {
+        "handle": "t.anh731",
+        "reason": "Kalodata: Majority Male (lệch giới mục tiêu)"
+      },
+      {
+        "handle": "hanbiejin11",
+        "reason": "chưa có dữ liệu chi tiết"
+      },
+      {
+        "handle": "naniosaka",
+        "reason": "chưa có dữ liệu chi tiết"
+      },
+      {
+        "handle": "caammxuynhh",
+        "reason": "chưa có dữ liệu chi tiết"
+      },
+      {
+        "handle": "nhamday04",
+        "reason": "chưa có dữ liệu chi tiết"
+      },
+      {
+        "handle": "ron_tran_",
+        "reason": "chưa có dữ liệu chi tiết"
+      },
+      {
+        "handle": "chauminhthuy01",
+        "reason": "chưa có dữ liệu chi tiết"
+      },
+      {
+        "handle": "khanhh.phb",
+        "reason": "chưa có dữ liệu chi tiết"
+      },
+      {
+        "handle": "dieuduongthuy",
+        "reason": "chưa có dữ liệu chi tiết"
+      },
+      {
+        "handle": "minchimoah",
+        "reason": "chưa có dữ liệu chi tiết"
+      },
+      {
+        "handle": "sora201094",
+        "reason": "chưa có dữ liệu chi tiết"
+      },
+      {
+        "handle": "ringo.mln",
+        "reason": "chưa có dữ liệu chi tiết"
+      },
+      {
+        "handle": "rosyahhhh",
+        "reason": "chưa có dữ liệu chi tiết"
+      }
+    ]
+  },
+  "metrics": [
+    {
+      "reach_flag": null,
+      "handle": "trangriviuuu_01",
+      "nickname": null,
+      "followers": 22200,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 1.0,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 18-24)",
+      "category_gmv_vnd": 57630000,
+      "gmv_basis": "creators_list_content",
+      "gmv_per_1k_views": 93708.84079415926,
+      "views_per_follower": 19.64954954954955,
+      "engagement_rate": null,
+      "ad_share": 0.8086434086594092,
+      "est_cost_vnd": 3250000,
+      "metric_parts": {
+        "audience": 1.0,
+        "category_gmv": 0.5,
+        "conversion": 0.5,
+        "views_per_follower": 0.871,
+        "engagement": 0.5,
+        "organic": 0.191
+      },
+      "metric_score": 0.6748,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "beobeo.21",
+      "nickname": "Peo beo",
+      "followers": 10900,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 1.0,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 18-24)",
+      "category_gmv_vnd": 255020000,
+      "gmv_basis": "creators_list_research",
+      "gmv_per_1k_views": 119168.22429906542,
+      "views_per_follower": 4.024770642201835,
+      "engagement_rate": 0.0289,
+      "ad_share": 0.9916069816783692,
+      "est_cost_vnd": 3250000,
+      "metric_parts": {
+        "audience": 1.0,
+        "category_gmv": 0.5,
+        "conversion": 0.5,
+        "views_per_follower": 0.643,
+        "engagement": 0.881,
+        "organic": 0.008
+      },
+      "metric_score": 0.6604,
+      "contact_group": null
+    },
+    {
+      "reach_flag": "view/follower 1% < chuẩn 10%",
+      "handle": "auroracastle2",
+      "nickname": "Nguyễn Quỳnh Anh",
+      "followers": 145300,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 0.6,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 25-34)",
+      "category_gmv_vnd": 607350000,
+      "gmv_basis": "creators_list",
+      "gmv_per_1k_views": 296268.2926829268,
+      "views_per_follower": 0.01169993117687543,
+      "engagement_rate": 0.0282,
+      "ad_share": 0.0,
+      "est_cost_vnd": 8000000,
+      "metric_parts": {
+        "audience": 0.6,
+        "category_gmv": 0.738,
+        "conversion": 0.833,
+        "views_per_follower": 0.129,
+        "engagement": 0.833,
+        "organic": 1.0
+      },
+      "metric_score": 0.6552,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "soikcnduoitiauv",
+      "nickname": "SOI KCN DUOI TIA UV",
+      "followers": 10600,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": null,
+      "audience_source": null,
+      "category_gmv_vnd": 902040000,
+      "gmv_basis": "creators_list",
+      "gmv_per_1k_views": 5393685.721119349,
+      "views_per_follower": null,
+      "engagement_rate": null,
+      "ad_share": null,
+      "est_cost_vnd": 3250000,
+      "metric_parts": {
+        "audience": 0.5,
+        "category_gmv": 0.881,
+        "conversion": 0.976,
+        "views_per_follower": 0.5,
+        "engagement": 0.5,
+        "organic": 0.5
+      },
+      "metric_score": 0.6476,
+      "contact_group": null
+    },
+    {
+      "reach_flag": "view/follower 1% < chuẩn 20%",
+      "handle": "emlylynguyen",
+      "nickname": null,
+      "followers": 87900,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 1.0,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 18-24)",
+      "category_gmv_vnd": 1750000,
+      "gmv_basis": "creators_list_content",
+      "gmv_per_1k_views": 14026.931708881051,
+      "views_per_follower": 0.006825938566552901,
+      "engagement_rate": null,
+      "ad_share": 0.0,
+      "est_cost_vnd": 3750000,
+      "metric_parts": {
+        "audience": 1.0,
+        "category_gmv": 0.5,
+        "conversion": 0.5,
+        "views_per_follower": 0.1,
+        "engagement": 0.5,
+        "organic": 1.0
+      },
+      "metric_score": 0.64,
+      "contact_group": null
+    },
+    {
+      "reach_flag": "view/follower 2% < chuẩn 20%",
+      "handle": "reviewkemchongnang",
+      "nickname": "SPF Skncare Hub",
+      "followers": 37800,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": null,
+      "audience_source": null,
+      "category_gmv_vnd": 714270000,
+      "gmv_basis": "creators_list",
+      "gmv_per_1k_views": 2216921.692169217,
+      "views_per_follower": 0.022433862433862434,
+      "engagement_rate": null,
+      "ad_share": 0.0,
+      "est_cost_vnd": 3250000,
+      "metric_parts": {
+        "audience": 0.5,
+        "category_gmv": 0.833,
+        "conversion": 0.929,
+        "views_per_follower": 0.157,
+        "engagement": 0.5,
+        "organic": 1.0
+      },
+      "metric_score": 0.6295,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "lapiszuzu",
+      "nickname": "Lapiszuzu🤎",
+      "followers": 102600,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 1.0,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 18-24)",
+      "category_gmv_vnd": 224640000,
+      "gmv_basis": "creators_list_research",
+      "gmv_per_1k_views": 69333.33333333333,
+      "views_per_follower": 0.6144736842105263,
+      "engagement_rate": 0.038,
+      "ad_share": 0.997249014509771,
+      "est_cost_vnd": 8000000,
+      "metric_parts": {
+        "audience": 1.0,
+        "category_gmv": 0.5,
+        "conversion": 0.5,
+        "views_per_follower": 0.357,
+        "engagement": 0.976,
+        "organic": 0.003
+      },
+      "metric_score": 0.6265,
+      "contact_group": null
+    },
+    {
+      "reach_flag": "view/follower 0% < chuẩn 10%",
+      "handle": "_huongdaily",
+      "nickname": null,
+      "followers": 164800,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 1.0,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 18-24)",
+      "category_gmv_vnd": 1750000,
+      "gmv_basis": "creators_list_content",
+      "gmv_per_1k_views": 14337.211207602819,
+      "views_per_follower": 0.0024726941747572817,
+      "engagement_rate": null,
+      "ad_share": 0.052437271732394555,
+      "est_cost_vnd": 8000000,
+      "metric_parts": {
+        "audience": 1.0,
+        "category_gmv": 0.5,
+        "conversion": 0.5,
+        "views_per_follower": 0.043,
+        "engagement": 0.5,
+        "organic": 0.948
+      },
+      "metric_score": 0.6262,
+      "contact_group": "_huongdaily"
+    },
+    {
+      "reach_flag": null,
+      "handle": "mai.trinh.h",
+      "nickname": "Mai Trinh Hồ",
+      "followers": 283300,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 1.0,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 18-24)",
+      "category_gmv_vnd": 1230000000,
+      "gmv_basis": "creators_list_research",
+      "gmv_per_1k_views": 112431.44424131628,
+      "views_per_follower": 0.7412460289445817,
+      "engagement_rate": 0.0197,
+      "ad_share": 1.0,
+      "est_cost_vnd": 8000000,
+      "metric_parts": {
+        "audience": 1.0,
+        "category_gmv": 0.5,
+        "conversion": 0.5,
+        "views_per_follower": 0.386,
+        "engagement": 0.69,
+        "organic": 0.0
+      },
+      "metric_score": 0.6019,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "linhnhirv.68",
+      "nickname": "Linh Nhi daily",
+      "followers": 107800,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 1.0,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 18-24)",
+      "category_gmv_vnd": 539970000,
+      "gmv_basis": "creators_list",
+      "gmv_per_1k_views": 6659.718796250616,
+      "views_per_follower": 10.343228200371058,
+      "engagement_rate": 0.0038,
+      "ad_share": 1.0,
+      "est_cost_vnd": 8000000,
+      "metric_parts": {
+        "audience": 1.0,
+        "category_gmv": 0.643,
+        "conversion": 0.119,
+        "views_per_follower": 0.843,
+        "engagement": 0.167,
+        "organic": 0.0
+      },
+      "metric_score": 0.5895,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "hannahteam.review",
+      "nickname": "hannahteam.review",
+      "followers": 64200,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": null,
+      "audience_source": null,
+      "category_gmv_vnd": 2230000000,
+      "gmv_basis": "creators_list",
+      "gmv_per_1k_views": 234984.19388830347,
+      "views_per_follower": 1.8116043613707165,
+      "engagement_rate": null,
+      "ad_share": 1.0,
+      "est_cost_vnd": 3750000,
+      "metric_parts": {
+        "audience": 0.5,
+        "category_gmv": 0.976,
+        "conversion": 0.738,
+        "views_per_follower": 0.529,
+        "engagement": 0.5,
+        "organic": 0.0
+      },
+      "metric_score": 0.5852,
+      "contact_group": null
+    },
+    {
+      "reach_flag": "view/follower 0% < chuẩn 10%",
+      "handle": "milohongg",
+      "nickname": null,
+      "followers": 260800,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 1.0,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 18-24)",
+      "category_gmv_vnd": 1220000,
+      "gmv_basis": "creators_list_content",
+      "gmv_per_1k_views": 9017.66575504472,
+      "views_per_follower": 0.0008052147239263804,
+      "engagement_rate": null,
+      "ad_share": 0.4576244108954389,
+      "est_cost_vnd": 8000000,
+      "metric_parts": {
+        "audience": 1.0,
+        "category_gmv": 0.5,
+        "conversion": 0.5,
+        "views_per_follower": 0.014,
+        "engagement": 0.5,
+        "organic": 0.542
+      },
+      "metric_score": 0.5814,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "ngoc.matcha.review",
+      "nickname": "Ngọc Matcha ☘️",
+      "followers": 145800,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 1.0,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 18-24)",
+      "category_gmv_vnd": 524440000,
+      "gmv_basis": "creators_list",
+      "gmv_per_1k_views": 13703.684348053306,
+      "views_per_follower": 3.9430041152263375,
+      "engagement_rate": 0.006,
+      "ad_share": 1.0,
+      "est_cost_vnd": 8000000,
+      "metric_parts": {
+        "audience": 1.0,
+        "category_gmv": 0.548,
+        "conversion": 0.31,
+        "views_per_follower": 0.614,
+        "engagement": 0.31,
+        "organic": 0.0
+      },
+      "metric_score": 0.579,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "anhonanngon",
+      "nickname": "À nhon ăn ngon",
+      "followers": 33500,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 1.0,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 18-24)",
+      "category_gmv_vnd": 280200000,
+      "gmv_basis": "creators_list",
+      "gmv_per_1k_views": 14080.402010050251,
+      "views_per_follower": 24.911641791044776,
+      "engagement_rate": 0.0091,
+      "ad_share": 1.0,
+      "est_cost_vnd": 3250000,
+      "metric_parts": {
+        "audience": 1.0,
+        "category_gmv": 0.214,
+        "conversion": 0.357,
+        "views_per_follower": 0.9,
+        "engagement": 0.452,
+        "organic": 0.0
+      },
+      "metric_score": 0.5767,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "vutruai321",
+      "nickname": null,
+      "followers": 88300,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": null,
+      "audience_source": null,
+      "category_gmv_vnd": 57970000,
+      "gmv_basis": "creators_list_content",
+      "gmv_per_1k_views": 161633.90492123237,
+      "views_per_follower": 4.1430917327293315,
+      "engagement_rate": null,
+      "ad_share": 0.08360484596496529,
+      "est_cost_vnd": 3750000,
+      "metric_parts": {
+        "audience": 0.5,
+        "category_gmv": 0.5,
+        "conversion": 0.5,
+        "views_per_follower": 0.671,
+        "engagement": 0.5,
+        "organic": 0.916
+      },
+      "metric_score": 0.5674,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "minhphuongcare",
+      "nickname": "Minh Phương Care",
+      "followers": 14700,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 0.6,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 25-34)",
+      "category_gmv_vnd": 565620000,
+      "gmv_basis": "creators_list",
+      "gmv_per_1k_views": 463622.95081967214,
+      "views_per_follower": 1.8098639455782313,
+      "engagement_rate": 0.0027,
+      "ad_share": 1.0,
+      "est_cost_vnd": 3250000,
+      "metric_parts": {
+        "audience": 0.6,
+        "category_gmv": 0.69,
+        "conversion": 0.881,
+        "views_per_follower": 0.5,
+        "engagement": 0.071,
+        "organic": 0.0
+      },
+      "metric_score": 0.5324,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "changaffiliate",
+      "nickname": "Chang Chăm Chỉ",
+      "followers": 85200,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 0.6,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 25-34)",
+      "category_gmv_vnd": 940270000,
+      "gmv_basis": "creators_list",
+      "gmv_per_1k_views": 12140.348612007747,
+      "views_per_follower": 10.084917840375587,
+      "engagement_rate": 0.0033,
+      "ad_share": 1.0,
+      "est_cost_vnd": 3750000,
+      "metric_parts": {
+        "audience": 0.6,
+        "category_gmv": 0.929,
+        "conversion": 0.214,
+        "views_per_follower": 0.814,
+        "engagement": 0.119,
+        "organic": 0.0
+      },
+      "metric_score": 0.5319,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "kimthichnhacua",
+      "nickname": "Kim thích ở nhà",
+      "followers": 29000,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 1.0,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 18-24)",
+      "category_gmv_vnd": 231340000,
+      "gmv_basis": "creators_list",
+      "gmv_per_1k_views": 5197.4837115254995,
+      "views_per_follower": 46.55172413793103,
+      "engagement_rate": 0.0088,
+      "ad_share": 0.9964793899290605,
+      "est_cost_vnd": 3250000,
+      "metric_parts": {
+        "audience": 1.0,
+        "category_gmv": 0.071,
+        "conversion": 0.071,
+        "views_per_follower": 0.986,
+        "engagement": 0.405,
+        "organic": 0.004
+      },
+      "metric_score": 0.5137,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "binnoo0",
+      "nickname": "BinNoo",
+      "followers": 105100,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 0.5,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi None)",
+      "category_gmv_vnd": 527840000,
+      "gmv_basis": "creators_list",
+      "gmv_per_1k_views": 85273.0210016155,
+      "views_per_follower": 1.9856327307326356,
+      "engagement_rate": 0.011,
+      "ad_share": 1.0,
+      "est_cost_vnd": 8000000,
+      "metric_parts": {
+        "audience": 0.5,
+        "category_gmv": 0.595,
+        "conversion": 0.643,
+        "views_per_follower": 0.557,
+        "engagement": 0.595,
+        "organic": 0.0
+      },
+      "metric_score": 0.5086,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "ceotuoinabi",
+      "nickname": null,
+      "followers": 56900,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": null,
+      "audience_source": null,
+      "category_gmv_vnd": 1698250,
+      "gmv_basis": "creators_list_content",
+      "gmv_per_1k_views": 4898.60966885889,
+      "views_per_follower": 1.2321616871704746,
+      "engagement_rate": null,
+      "ad_share": 0.4273624318980864,
+      "est_cost_vnd": 3750000,
+      "metric_parts": {
+        "audience": 0.5,
+        "category_gmv": 0.5,
+        "conversion": 0.5,
+        "views_per_follower": 0.471,
+        "engagement": 0.5,
+        "organic": 0.573
+      },
+      "metric_score": 0.503,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "_huyenthichskincare",
+      "nickname": null,
+      "followers": 115700,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 0.5,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi None)",
+      "category_gmv_vnd": 1750000,
+      "gmv_basis": "creators_list_content",
+      "gmv_per_1k_views": 14025.807485773823,
+      "views_per_follower": 0.12636127917026793,
+      "engagement_rate": null,
+      "ad_share": 0.0,
+      "est_cost_vnd": 8000000,
+      "metric_parts": {
+        "audience": 0.5,
+        "category_gmv": 0.5,
+        "conversion": 0.5,
+        "views_per_follower": 0.186,
+        "engagement": 0.5,
+        "organic": 1.0
+      },
+      "metric_score": 0.5029,
+      "contact_group": "_huongdaily"
+    },
+    {
+      "reach_flag": null,
+      "handle": "lita.living",
+      "nickname": "Lita living",
+      "followers": 34400,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": null,
+      "audience_source": null,
+      "category_gmv_vnd": 696520000,
+      "gmv_basis": "creators_list_research",
+      "gmv_per_1k_views": 66973.07692307692,
+      "views_per_follower": 8.896220930232559,
+      "engagement_rate": null,
+      "ad_share": 0.9437678347099735,
+      "est_cost_vnd": 3250000,
+      "metric_parts": {
+        "audience": 0.5,
+        "category_gmv": 0.5,
+        "conversion": 0.5,
+        "views_per_follower": 0.786,
+        "engagement": 0.5,
+        "organic": 0.056
+      },
+      "metric_score": 0.4985,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "hoabenho199x",
+      "nickname": "🌼 Hoa Bé Nhỏ 🍓",
+      "followers": 396900,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 0.6,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 25-34)",
+      "category_gmv_vnd": 433050000,
+      "gmv_basis": "creators_list",
+      "gmv_per_1k_views": 57509.96015936255,
+      "views_per_follower": 0.5078231292517007,
+      "engagement_rate": 0.0221,
+      "ad_share": 0.8260686959316935,
+      "est_cost_vnd": 11000000,
+      "metric_parts": {
+        "audience": 0.6,
+        "category_gmv": 0.405,
+        "conversion": 0.595,
+        "views_per_follower": 0.3,
+        "engagement": 0.738,
+        "organic": 0.174
+      },
+      "metric_score": 0.4864,
+      "contact_group": null
+    },
+    {
+      "reach_flag": "view/follower 0% < chuẩn 10%",
+      "handle": "levananh.skincare",
+      "nickname": null,
+      "followers": 119300,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 0.5,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi None)",
+      "category_gmv_vnd": 0,
+      "gmv_basis": "creators_list_content",
+      "gmv_per_1k_views": 0.0,
+      "views_per_follower": 0.0049874266554903604,
+      "engagement_rate": null,
+      "ad_share": 0.027082928094404463,
+      "est_cost_vnd": 8000000,
+      "metric_parts": {
+        "audience": 0.5,
+        "category_gmv": 0.5,
+        "conversion": 0.5,
+        "views_per_follower": 0.071,
+        "engagement": 0.5,
+        "organic": 0.973
+      },
+      "metric_score": 0.483,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "quanganan9995",
+      "nickname": "Quàng An Cosmetics Shop 1",
+      "followers": 82000,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 0.6,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 25-34)",
+      "category_gmv_vnd": 432430000,
+      "gmv_basis": "creators_list",
+      "gmv_per_1k_views": 31703.07917888563,
+      "views_per_follower": 4.156951219512195,
+      "engagement_rate": 0.0093,
+      "ad_share": 0.9705464526538404,
+      "est_cost_vnd": 3750000,
+      "metric_parts": {
+        "audience": 0.6,
+        "category_gmv": 0.357,
+        "conversion": 0.452,
+        "views_per_follower": 0.7,
+        "engagement": 0.5,
+        "organic": 0.029
+      },
+      "metric_score": 0.4772,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "luongthuchien6868",
+      "nickname": "Lương Thục Hiền",
+      "followers": 221400,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 0.5,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi None)",
+      "category_gmv_vnd": 986350000,
+      "gmv_basis": "creators_list_research",
+      "gmv_per_1k_views": 126293.2138284251,
+      "views_per_follower": 1.077055103884372,
+      "engagement_rate": 0.0256,
+      "ad_share": 1.0,
+      "est_cost_vnd": 8000000,
+      "metric_parts": {
+        "audience": 0.5,
+        "category_gmv": 0.5,
+        "conversion": 0.5,
+        "views_per_follower": 0.443,
+        "engagement": 0.786,
+        "organic": 0.0
+      },
+      "metric_score": 0.47,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "khankhongg96",
+      "nickname": "KHAN KHÔNG G96",
+      "followers": 297900,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": null,
+      "audience_source": null,
+      "category_gmv_vnd": 91490000,
+      "gmv_basis": "creators_list_content",
+      "gmv_per_1k_views": 459264.0931680136,
+      "views_per_follower": 3.041658274588788,
+      "engagement_rate": null,
+      "ad_share": 0.9385777888991308,
+      "est_cost_vnd": 8000000,
+      "metric_parts": {
+        "audience": 0.5,
+        "category_gmv": 0.5,
+        "conversion": 0.5,
+        "views_per_follower": 0.586,
+        "engagement": 0.5,
+        "organic": 0.061
+      },
+      "metric_score": 0.469,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "anhdangxinh",
+      "nickname": "anhdangxinh",
+      "followers": 366800,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 0.5,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi None)",
+      "category_gmv_vnd": 612430000,
+      "gmv_basis": "creators_list",
+      "gmv_per_1k_views": 92933.23216995448,
+      "views_per_follower": 0.4211695747001091,
+      "engagement_rate": 0.0041,
+      "ad_share": 1.0,
+      "est_cost_vnd": 11000000,
+      "metric_parts": {
+        "audience": 0.5,
+        "category_gmv": 0.786,
+        "conversion": 0.69,
+        "views_per_follower": 0.243,
+        "engagement": 0.214,
+        "organic": 0.0
+      },
+      "metric_score": 0.4686,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "ngoctam.tran",
+      "nickname": "𝑵𝒈𝒐̣𝒄 𝑻𝒂̂𝒎",
+      "followers": 19000,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 0.6,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 25-34)",
+      "category_gmv_vnd": 459850000,
+      "gmv_basis": "creators_list",
+      "gmv_per_1k_views": 36583.134447096265,
+      "views_per_follower": 5.104210526315789,
+      "engagement_rate": 0.0021,
+      "ad_share": 0.9772362656810962,
+      "est_cost_vnd": 3250000,
+      "metric_parts": {
+        "audience": 0.6,
+        "category_gmv": 0.452,
+        "conversion": 0.548,
+        "views_per_follower": 0.729,
+        "engagement": 0.024,
+        "organic": 0.023
+      },
+      "metric_score": 0.4666,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "kat.i618",
+      "nickname": "Kat ơi",
+      "followers": 102300,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": null,
+      "audience_source": null,
+      "category_gmv_vnd": 508990000,
+      "gmv_basis": "creators_list",
+      "gmv_per_1k_views": 261020.5128205128,
+      "views_per_follower": 0.23152492668621702,
+      "engagement_rate": null,
+      "ad_share": 1.0,
+      "est_cost_vnd": 8000000,
+      "metric_parts": {
+        "audience": 0.5,
+        "category_gmv": 0.5,
+        "conversion": 0.786,
+        "views_per_follower": 0.214,
+        "engagement": 0.5,
+        "organic": 0.0
+      },
+      "metric_score": 0.45,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "meixiuriviu",
+      "nickname": "✮ ⋆ Mei xíu rì viu ˙⋆✮",
+      "followers": 12200,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 0.6,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 25-34)",
+      "category_gmv_vnd": 194320000,
+      "gmv_basis": "creators_list",
+      "gmv_per_1k_views": 35266.78765880218,
+      "views_per_follower": 8.327459016393442,
+      "engagement_rate": 0.0126,
+      "ad_share": 0.98951703481842,
+      "est_cost_vnd": 3250000,
+      "metric_parts": {
+        "audience": 0.6,
+        "category_gmv": 0.024,
+        "conversion": 0.5,
+        "views_per_follower": 0.757,
+        "engagement": 0.643,
+        "organic": 0.01
+      },
+      "metric_score": 0.4387,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "thanhhuyen.boutique",
+      "nickname": "Thanh Huyền",
+      "followers": 447400,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 0.6,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 25-34)",
+      "category_gmv_vnd": 380440000,
+      "gmv_basis": "creators_list",
+      "gmv_per_1k_views": 12170.185540626999,
+      "views_per_follower": 0.8604269110415735,
+      "engagement_rate": 0.0337,
+      "ad_share": 1.0,
+      "est_cost_vnd": 11000000,
+      "metric_parts": {
+        "audience": 0.6,
+        "category_gmv": 0.31,
+        "conversion": 0.262,
+        "views_per_follower": 0.414,
+        "engagement": 0.929,
+        "organic": 0.0
+      },
+      "metric_score": 0.4362,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "drquangho",
+      "nickname": "Ngô Quang Hồ",
+      "followers": 151200,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 0.6,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 25-34)",
+      "category_gmv_vnd": 407520000,
+      "gmv_basis": "creators_list_research",
+      "gmv_per_1k_views": 119507.33137829912,
+      "views_per_follower": 0.4628968253968254,
+      "engagement_rate": 0.0086,
+      "ad_share": 0.9865309121132739,
+      "est_cost_vnd": 8000000,
+      "metric_parts": {
+        "audience": 0.6,
+        "category_gmv": 0.5,
+        "conversion": 0.5,
+        "views_per_follower": 0.271,
+        "engagement": 0.357,
+        "organic": 0.013
+      },
+      "metric_score": 0.4328,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "phuongmet57",
+      "nickname": "Phương mét 57",
+      "followers": 14900,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 0.6,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 25-34)",
+      "category_gmv_vnd": 266950000,
+      "gmv_basis": "creators_list",
+      "gmv_per_1k_views": 6878.381860345272,
+      "views_per_follower": 39.65704697986577,
+      "engagement_rate": 0.0045,
+      "ad_share": 0.9953542459618723,
+      "est_cost_vnd": 3250000,
+      "metric_parts": {
+        "audience": 0.6,
+        "category_gmv": 0.167,
+        "conversion": 0.167,
+        "views_per_follower": 0.957,
+        "engagement": 0.262,
+        "organic": 0.005
+      },
+      "metric_score": 0.4086,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "lethiloan2001",
+      "nickname": "LeThiLoan (Mẹ Voi - Chíp)",
+      "followers": 76700,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": null,
+      "audience_source": null,
+      "category_gmv_vnd": 373370000,
+      "gmv_basis": "creators_list",
+      "gmv_per_1k_views": 5097.8973238667395,
+      "views_per_follower": 34.41981747066493,
+      "engagement_rate": null,
+      "ad_share": 0.9984450249791091,
+      "est_cost_vnd": 3750000,
+      "metric_parts": {
+        "audience": 0.5,
+        "category_gmv": 0.262,
+        "conversion": 0.024,
+        "views_per_follower": 0.929,
+        "engagement": 0.5,
+        "organic": 0.002
+      },
+      "metric_score": 0.3954,
+      "contact_group": null
+    },
+    {
+      "reach_flag": null,
+      "handle": "myduyennguyen72",
+      "nickname": "Em Duyên",
+      "followers": 344900,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 0.2,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 35-44)",
+      "category_gmv_vnd": 240790000,
+      "gmv_basis": "creators_list",
+      "gmv_per_1k_views": 30212.045169385194,
+      "views_per_follower": 0.5861554073644535,
+      "engagement_rate": 0.0104,
+      "ad_share": 1.0,
+      "est_cost_vnd": 11000000,
+      "metric_parts": {
+        "audience": 0.2,
+        "category_gmv": 0.119,
+        "conversion": 0.405,
+        "views_per_follower": 0.329,
+        "engagement": 0.548,
+        "organic": 0.0
+      },
+      "metric_score": 0.2486,
+      "contact_group": null
+    }
+  ],
+  "screens": {
+    "_huongdaily": {
+      "handle": "_huongdaily",
+      "account_kind": "individual_creator",
+      "primary_niche": "skincare_review",
+      "topic_relevance": 7,
+      "content_signals": [
+        "review_skincare",
+        "deal_affiliate",
+        "hợp_tác_thương_hiệu",
+        "chống_nắng_nâng_tone"
+      ],
+      "competitor_brands": [
+        "La Roche-Posay Anthelios",
+        "AHC"
+      ],
+      "brand_safety_flags": [],
+      "fit_note": "Creator beauty có nội dung chống nắng La Roche-Posay và AHC, phù hợp để làm KOC."
+    },
+    "anhonanngon": {
+      "handle": "anhonanngon",
+      "account_kind": "individual_creator",
+      "primary_niche": "lifestyle",
+      "topic_relevance": 4,
+      "content_signals": [
+        "đời thường hài hước",
+        "xu hướng viral",
+        "ăn uống và mỹ phẩm"
+      ],
+      "competitor_brands": [
+        "YOQQ"
+      ],
+      "brand_safety_flags": [],
+      "fit_note": "Người thật làm nội dung đời sống, có vài video kem chống nắng ống đôi nhưng ngách chính không liên quan."
+    },
+    "auroracastle2": {
+      "handle": "auroracastle2",
+      "account_kind": "individual_creator",
+      "primary_niche": "lifestyle",
+      "topic_relevance": 2,
+      "content_signals": [
+        "mukbang",
+        "thực_phẩm_chức_năng",
+        "mặt_nạ",
+        "bán_hàng_live"
+      ],
+      "competitor_brands": [],
+      "brand_safety_flags": [
+        "Bán thực phẩm chức năng dễ nói quá công dụng"
+      ],
+      "fit_note": "Nội dung đa ngành, chủ yếu thực phẩm chức năng và mặt nạ, ít liên quan đến kem chống nắng."
+    },
+    "beobeo.21": {
+      "handle": "beobeo.21",
+      "account_kind": "individual_creator",
+      "primary_niche": "beauty_makeup",
+      "topic_relevance": 4,
+      "content_signals": [
+        "review_makeup",
+        "son_môi",
+        "cọ_trang_điểm",
+        "kẻ_mắt"
+      ],
+      "competitor_brands": [],
+      "brand_safety_flags": [],
+      "fit_note": "Creator makeup cá nhân, chưa thấy nội dung kem chống nắng nào."
+    },
+    "emlylynguyen": {
+      "handle": "emlylynguyen",
+      "account_kind": "individual_creator",
+      "primary_niche": "lifestyle",
+      "topic_relevance": 5,
+      "content_signals": [
+        "đa_ngành",
+        "quảng_cáo_shopee",
+        "serum_pdrn",
+        "thời_trang"
+      ],
+      "competitor_brands": [
+        "La Roche-Posay"
+      ],
+      "brand_safety_flags": [],
+      "fit_note": "Creator đa ngành có quảng cáo mỹ phẩm và từng bán kem chống nắng nâng tone La Roche-Posay."
+    },
+    "hannahteam.review": {
+      "handle": "hannahteam.review",
+      "account_kind": "agency_team",
+      "primary_niche": "skincare_review",
+      "topic_relevance": 7,
+      "content_signals": [
+        "review mỹ phẩm chính hãng",
+        "hướng dẫn skincare",
+        "video hợp tác thương hiệu"
+      ],
+      "competitor_brands": [
+        "d'Alba",
+        "L'Oréal Paris",
+        "AHC"
+      ],
+      "brand_safety_flags": [],
+      "fit_note": "Là team vận hành kênh nhiều nhãn, có nội dung và shop kem chống nắng nhưng không phải một người thật."
+    },
+    "lapiszuzu": {
+      "handle": "lapiszuzu",
+      "account_kind": "individual_creator",
+      "primary_niche": "beauty_makeup",
+      "topic_relevance": 7,
+      "content_signals": [
+        "review_makeup",
+        "review_kem_chống_nắng",
+        "mỹ_phẩm_giá_rẻ",
+        "live_makeup"
+      ],
+      "competitor_brands": [],
+      "brand_safety_flags": [
+        "Review chai xịt makeup nhập từ Trung Quốc, nguồn gốc không rõ"
+      ],
+      "fit_note": "Creator makeup có vài video kem chống nắng nâng tone, phù hợp để mở rộng sang chống nắng."
+    },
+    "linhnhirv.68": {
+      "handle": "linhnhirv.68",
+      "account_kind": "individual_creator",
+      "primary_niche": "beauty_makeup",
+      "topic_relevance": 4,
+      "content_signals": [
+        "nội dung quảng cáo nhiều",
+        "chăm sóc da",
+        "phong cách beauty lifestyle"
+      ],
+      "competitor_brands": [],
+      "brand_safety_flags": [],
+      "fit_note": "Người thật làm nội dung làm đẹp, phần lớn là video quảng cáo hợp tác, chưa thấy kem chống nắng."
+    },
+    "mai.trinh.h": {
+      "handle": "mai.trinh.h",
+      "account_kind": "individual_creator",
+      "primary_niche": "skincare_review",
+      "topic_relevance": 4,
+      "content_signals": [
+        "review serum",
+        "trải nghiệm chăm sóc da",
+        "live bán hàng"
+      ],
+      "competitor_brands": [],
+      "brand_safety_flags": [],
+      "fit_note": "Người thật review skincare nhiều serum, chưa thấy nội dung kem chống nắng nên mức phù hợp trung bình."
+    },
+    "milohongg": {
+      "handle": "milohongg",
+      "account_kind": "individual_creator",
+      "primary_niche": "beauty_makeup",
+      "topic_relevance": 6,
+      "content_signals": [
+        "review chăm sóc tóc",
+        "nội dung chăm sóc da",
+        "video kem chống nắng"
+      ],
+      "competitor_brands": [
+        "D'ZePa",
+        "Skinia"
+      ],
+      "brand_safety_flags": [],
+      "fit_note": "Người thật làm đẹp chủ yếu về tóc, đã có nhiều video kem chống nắng nên khá phù hợp."
+    },
+    "minhphuongcare": {
+      "handle": "minhphuongcare",
+      "account_kind": "individual_creator",
+      "primary_niche": "deal_affiliate",
+      "topic_relevance": 5,
+      "content_signals": [
+        "săn deal trong live",
+        "video xu hướng viral",
+        "nhiều video kem chống nắng"
+      ],
+      "competitor_brands": [
+        "Make P:rem",
+        "Beplain"
+      ],
+      "brand_safety_flags": [
+        "tiêu đề giảm giá cường điệu kiểu mua 2 tặng 10"
+      ],
+      "fit_note": "Người thật chuyên săn deal, nhiều video kem chống nắng của đối thủ nhưng ngách chính là deal đa ngành."
+    },
+    "ngoc.matcha.review": {
+      "handle": "ngoc.matcha.review",
+      "account_kind": "individual_creator",
+      "primary_niche": "beauty_makeup",
+      "topic_relevance": 5,
+      "content_signals": [
+        "review làm đẹp đa dạng",
+        "chăm sóc da",
+        "trắng răng"
+      ],
+      "competitor_brands": [],
+      "brand_safety_flags": [],
+      "fit_note": "Người thật review làm đẹp đa ngành, chưa thấy video kem chống nắng nên mức phù hợp trung bình."
+    },
+    "reviewkemchongnang": {
+      "handle": "reviewkemchongnang",
+      "account_kind": "individual_creator",
+      "primary_niche": "skincare_review",
+      "topic_relevance": 9,
+      "content_signals": [
+        "review_kem_chống_nắng",
+        "so_sánh_sản_phẩm",
+        "bán_hàng_live",
+        "deal_affiliate"
+      ],
+      "competitor_brands": [
+        "Meiking",
+        "L'Oreal Paris UV Defender",
+        "Sunplay",
+        "Skin1004",
+        "Make P:rem",
+        "Halavi",
+        "Yesummer",
+        "Anessa"
+      ],
+      "brand_safety_flags": [
+        "Claim dưỡng trắng và bảo vệ da khỏi tác động quá mức trong tiêu đề"
+      ],
+      "fit_note": "Chuyên kem chống nắng với nhiều video review, rất phù hợp cho chiến dịch này."
+    },
+    "soikcnduoitiauv": {
+      "handle": "soikcnduoitiauv",
+      "account_kind": "individual_creator",
+      "primary_niche": "skincare_review",
+      "topic_relevance": 9,
+      "content_signals": [
+        "kem_chống_nắng",
+        "soi_thành_phần",
+        "bán_live",
+        "chống_nắng_nâng_tone"
+      ],
+      "competitor_brands": [
+        "Sunplay",
+        "Anessa",
+        "Halavi",
+        "Meiking",
+        "Yesummer"
+      ],
+      "brand_safety_flags": [],
+      "fit_note": "Tài khoản tập trung kem chống nắng qua shop bán hàng, nhưng chưa có video mẫu để kiểm chứng."
+    },
+    "trangriviuuu_01": {
+      "handle": "trangriviuuu_01",
+      "account_kind": "individual_creator",
+      "primary_niche": "skincare_review",
+      "topic_relevance": 7,
+      "content_signals": [
+        "review_skincare",
+        "dưỡng_trắng",
+        "deal_affiliate",
+        "serum_mask"
+      ],
+      "competitor_brands": [
+        "YOQQ"
+      ],
+      "brand_safety_flags": [
+        "Claim hút mụn, mọc tóc vượt công dụng mỹ phẩm",
+        "Claim dưỡng trắng, trị thâm mạnh"
+      ],
+      "fit_note": "Creator chăm sóc da, có video kem chống nắng nâng tone phù hợp để thử sản phẩm."
+    },
+    "vutruai321": {
+      "handle": "vutruai321",
+      "account_kind": "individual_creator",
+      "primary_niche": "other",
+      "topic_relevance": 0,
+      "content_signals": [
+        "kể chuyện drama dạng series",
+        "nội dung giải trí",
+        "video kịch bản"
+      ],
+      "competitor_brands": [],
+      "brand_safety_flags": [
+        "không xác minh được là người thật, nội dung kịch bản có thể do AI tạo"
+      ],
+      "fit_note": "Kênh kể chuyện giải trí, không liên quan đến chăm sóc da hay kem chống nắng nên không phù hợp."
+    }
+  },
+  "videos": {
+    "_huongdaily": {
+      "video_id": "7693938530099285268",
+      "url": "https://www.tiktok.com/@_huongdaily/video/7693938530099285268",
+      "kind": "video",
+      "description": "Chuẩn bị rủ nhỏ bạn ghé qua Hasaki săn nha mấy bà ❤️ toàn deal xịn không đó  #kissmybodyvn #hasaki #myphamchinhhang #sale10.10",
+      "views": 112,
+      "stats": {
+        "view_count": 19600,
+        "like_count": 19,
+        "comment_count": 4,
+        "save_count": 10,
+        "repost_count": 5
+      },
+      "input": {
+        "mode": "keyframes",
+        "frames": 6,
+        "has_transcript": true,
+        "skipped_posts": [
+          "7699166043834567942: không có luồng video",
+          "7699780907787373844: không có luồng video",
+          "7621934878489120020: không có luồng video",
+          "7622227445298515220: không có luồng video"
+        ]
+      },
+      "analysis": {
+        "is_on_topic": false,
+        "face_on_camera": true,
+        "product_demo_on_skin": false,
+        "shows_texture_or_finish": false,
+        "hook_strength": 3,
+        "production_quality": 3,
+        "presenter_gender": "female",
+        "presenter_age_band": "18_24",
+        "risky_claims": [],
+        "style_tags": [
+          "review sản phẩm",
+          "quảng cáo sale",
+          "vlog cửa hàng",
+          "trend 10.10"
+        ],
+        "summary_vi": "Bài đăng là video quảng bá deal 10.10 tại Hasaki, nhấn mạnh các sản phẩm Kiss My Body và giá sale, không phải nội dung về kem chống nắng. Creator lộ mặt, cầm và xem sản phẩm trong cửa hàng nhưng không thoa thử lên da và không cho thấy kết cấu hay hiệu ứng.",
+        "evidence": [
+          {
+            "at": "0:00",
+            "observation": "Khung hình đầu có tiêu đề 'Săn gì ở Hasaki?' và creator đứng trước cửa hàng, giơ tay chỉ lên, tạo hook bằng câu hỏi về deal."
+          },
+          {
+            "at": "frame 4",
+            "observation": "Creator cầm một chai sản phẩm trước kệ hàng Kiss My Body, quan sát nhãn nhưng không thoa lên da."
+          },
+          {
+            "at": "frame 5",
+            "observation": "Creator xoa tay có sản phẩm trắng nhưng khung hình không rõ kết cấu, đang hiển thị nhãn giá 89K."
+          },
+          {
+            "at": "frame 6",
+            "observation": "Creator quay bằng camera cầm tay trước gương trong cửa hàng, không có cảnh thử sản phẩm trên da."
+          }
+        ],
+        "confidence": 0.6
+      },
+      "on_topic_by_title": false,
+      "format_mix": {
+        "checked": 5,
+        "no_stream_posts": 4
+      }
+    },
+    "beobeo.21": {
+      "video_id": "7619927601360030997",
+      "url": "https://www.tiktok.com/@beobeo.21/video/7619927601360030997",
+      "kind": "video",
+      "description": "2 bộ cọ rẻ cho mấy bà nha #goclamdep #makeup #comakeup",
+      "views": 7160,
+      "stats": {
+        "view_count": 198500,
+        "like_count": 4877,
+        "comment_count": 52,
+        "save_count": 1650,
+        "repost_count": 401
+      },
+      "input": {
+        "mode": "keyframes",
+        "frames": 6,
+        "has_transcript": false,
+        "skipped_posts": []
+      },
+      "analysis": {
+        "is_on_topic": false,
+        "face_on_camera": true,
+        "product_demo_on_skin": false,
+        "shows_texture_or_finish": false,
+        "hook_strength": 3,
+        "production_quality": 3,
+        "presenter_gender": "female",
+        "presenter_age_band": "18_24",
+        "risky_claims": [],
+        "style_tags": [
+          "review",
+          "makeup brush",
+          "tiếng Việt",
+          "ngắn gọn"
+        ],
+        "summary_vi": "Video review hai bộ cọ trang điểm giá rẻ, không liên quan trực tiếp đến kem chống nắng. Người làm nội dung lộ mặt và chỉ thử cọ trên mặt, không có demo kem chống nắng trên da.",
+        "evidence": [
+          {
+            "at": "frame 1 @ 0.5s",
+            "observation": "Chữ trên màn hình '2 bộ cọ bình dân chất lượng ổn tới tốt' và người nói đang cầm nhiều cọ trang điểm, lộ mặt."
+          },
+          {
+            "at": "frame 3 @ 12.0s",
+            "observation": "Hiển thị 'cọ Tapting Brush 188ka/13 cọ', nội dung tập trung vào giới thiệu cọ."
+          },
+          {
+            "at": "frame 6 @ 48.0s",
+            "observation": "Chữ 'cả bộ ko đồng nhất 1 loại lông, có cọ mềm có cọ hơi cứng hơn chút', đánh giá chất lượng cọ."
+          },
+          {
+            "at": "frame 5 @ 36.0s",
+            "observation": "Cọ được quét lên vùng má, không thấy sản phẩm chống nắng hay kết cấu kem được thoa."
+          }
+        ],
+        "confidence": 0.85
+      },
+      "on_topic_by_title": false,
+      "format_mix": {
+        "checked": 1,
+        "no_stream_posts": 0
+      }
+    },
+    "emlylynguyen": {
+      "video_id": "7701307939755232530",
+      "url": "https://www.tiktok.com/@emlylynguyen/video/7701307939755232530",
+      "kind": "video",
+      "description": "Hazeline da sáng thơm mịn cùng cơ hội rinh nhẫn kim cương nha mấy bà  #Hazeline #DaSángNgátHương #RướcNhẫnKimCương #HợpTácCùngUnilever",
+      "views": 284880,
+      "stats": {
+        "view_count": 288600,
+        "like_count": 202,
+        "comment_count": 4,
+        "save_count": 12,
+        "repost_count": 2
+      },
+      "input": {
+        "mode": "keyframes",
+        "frames": 6,
+        "has_transcript": true,
+        "skipped_posts": []
+      },
+      "analysis": {
+        "is_on_topic": false,
+        "face_on_camera": true,
+        "product_demo_on_skin": false,
+        "shows_texture_or_finish": false,
+        "hook_strength": 3,
+        "production_quality": 4,
+        "presenter_gender": "female",
+        "presenter_age_band": "18_24",
+        "risky_claims": [
+          "da sáng ngát hương (quảng cáo sữa tắm, không phải kem chống nắng nhưng mang tính cam kết hiệu quả làm sáng da)",
+          "sau 2 tuần da sáng mướt mịn (cam kết hiệu quả làm sáng da)",
+          "tăng 15% tinh dầu, lưu hương 24 giờ (so sánh/cam kết số liệu chưa kiểm chứng)"
+        ],
+        "style_tags": [
+          "quảng cáo lồng ghép",
+          "kể chuyện về quê",
+          "sữa tắm",
+          "thi đua nhẫn kim cương"
+        ],
+        "summary_vi": "Bài đăng là quảng cáo sữa tắm Hazeline (hợp tác Unilever) chứ không phải kem chống nắng, nội dung chủ yếu về da sáng và hương thơm nhờ sữa tắm. Creator lộ mặt nhưng không thoa sản phẩm lên da, không cho thấy kết cấu hay hiệu ứng sản phẩm trên da, và có nhiều cam kết làm sáng da cần kiểm soát.",
+        "evidence": [
+          {
+            "at": "00:00-00:02",
+            "observation": "Khung đầu là ảnh chai sữa tắm Hazeline Sữa Gạo Hương Hoa Hồng với banner nhẫn kim cương, người nói chỉ tay vào chai."
+          },
+          {
+            "at": "frame 3 @ 12.0s",
+            "observation": "Creator đi ngoài vườn đội nón lá, lưng quay về phía camera, không lộ mặt rõ."
+          },
+          {
+            "at": "frame 5 @ 36.0s",
+            "observation": "Creator lộ mặt, đứng cạnh chai sữa tắm, không có cảnh thoa sản phẩm lên da."
+          },
+          {
+            "at": "frame 6 @ 48.0s",
+            "observation": "Creator giơ chai sữa tắm kèm chữ 10/9 -> 30/11, không có thử sản phẩm trên da."
+          }
+        ],
+        "confidence": 0.6
+      },
+      "on_topic_by_title": false,
+      "format_mix": {
+        "checked": 1,
+        "no_stream_posts": 0
+      }
+    },
+    "lapiszuzu": {
+      "video_id": "7694655061888224564",
+      "url": "https://www.tiktok.com/@lapiszuzu/video/7694655061888224564",
+      "kind": "video",
+      "description": "Lựa chọn kem chống nắng nâng tone làm sao để có thể dùng như kem lót không làm trượt nền, kiềm dầu cho lớp nền? #fyp #beautytok #xuhuong #kemchongnangnangtone #peacholic",
+      "views": 1640,
+      "stats": {
+        "view_count": 5151,
+        "like_count": 86,
+        "comment_count": 14,
+        "save_count": 18,
+        "repost_count": 11
+      },
+      "input": {
+        "mode": "keyframes",
+        "frames": 6,
+        "has_transcript": false,
+        "skipped_posts": []
+      },
+      "analysis": {
+        "is_on_topic": true,
+        "face_on_camera": true,
+        "product_demo_on_skin": true,
+        "shows_texture_or_finish": true,
+        "hook_strength": 4,
+        "production_quality": 4,
+        "presenter_gender": "female",
+        "presenter_age_band": "18_24",
+        "risky_claims": [
+          "Giúp lớp nền trông đẹp hơn á chó",
+          "Kem chống nắng nâng tone thay kem lót \"không trôi\""
+        ],
+        "style_tags": [
+          "tutorial",
+          "so sánh sản phẩm",
+          "beauty tips",
+          "hài hước"
+        ],
+        "summary_vi": "Creator nữ trẻ giới thiệu cách dùng kem chống nắng nâng tone thay kem lót để nền không trôi và kiềm dầu, có thoa thử sản phẩm lên da và cho thấy hiệu ứng bóng/lì trên mặt. Nội dung liên quan trực tiếp đến kem chống nắng, nhưng có vài câu quảng cáo \"không trôi\" và so sánh cần kiểm soát.",
+        "evidence": [
+          {
+            "at": "00:00",
+            "observation": "Tiêu đề chữ trên màn hình \"1 tuýp kem chống nắng nâng tone = kem lót + nền mịn ráo\" với người nói cầm hai tuýp sản phẩm, lộ mặt rõ."
+          },
+          {
+            "at": "00:02",
+            "observation": "Thoa sản phẩm màu trắng lên da mặt, kết cấu sữa tạo lớp mỏng trên má."
+          },
+          {
+            "at": "00:24",
+            "observation": "Cận cảnh da mặt sau khi thoa cho thấy độ bóng/ẩm và chữ \"Giúp lớp nền trông đẹp hơn á chó\"."
+          },
+          {
+            "at": "00:36",
+            "observation": "Thẻ thử UV hiển thị trên màn hình khi bóp tuýp kem chống nắng ghi SPF 50+ PA++++, minh họa thử nghiệm sản phẩm."
+          },
+          {
+            "at": "00:48",
+            "observation": "Thoa tay lên mặt người mẫu thứ hai, lớp nền hiển thị với chữ \"chính là do dùng kem chống nắng nâng tone chưa phù hợp\"."
+          }
+        ],
+        "confidence": 0.75
+      },
+      "on_topic_by_title": true,
+      "format_mix": {
+        "checked": 1,
+        "no_stream_posts": 0
+      }
+    },
+    "mai.trinh.h": {
+      "video_id": "7698734905911479573",
+      "url": "https://www.tiktok.com/@mai.trinh.h/video/7698734905911479573",
+      "kind": "video",
+      "description": "Ai thì k biết còn tui là ko sống thiếu được rồi đó !",
+      "views": 711220,
+      "stats": {
+        "view_count": 753400,
+        "like_count": 699,
+        "comment_count": 21,
+        "save_count": 199,
+        "repost_count": 40
+      },
+      "input": {
+        "mode": "keyframes",
+        "frames": 6,
+        "has_transcript": false,
+        "skipped_posts": []
+      },
+      "analysis": {
+        "is_on_topic": false,
+        "face_on_camera": true,
+        "product_demo_on_skin": false,
+        "shows_texture_or_finish": false,
+        "hook_strength": 3,
+        "production_quality": 3,
+        "presenter_gender": "female",
+        "presenter_age_band": "18_24",
+        "risky_claims": [
+          "Nội dung video là tr... Hiệu quả phụ thuộc v... (chữ trên màn hình bị cắt, có thể là cảnh báo/tuyên bố về hiệu quả)"
+        ],
+        "style_tags": [
+          "skincare routine",
+          "chia sẻ kiến thức",
+          "review serum retinol"
+        ],
+        "summary_vi": "Bài đăng chủ yếu nói về quy trình chăm sóc da (toner, serum, kem dưỡng, retinol) và hiển thị chai retinol 0.3%, không đề cập rõ kem chống nắng nên không đúng chủ đề chiến dịch. Người làm nội dung lộ mặt rõ, nhưng không có cảnh thoa sản phẩm lên da hay cho thấy kết cấu, hiệu ứng sau dùng.",
+        "evidence": [
+          {
+            "at": "frame 1 @ 0.5s",
+            "observation": "Người trong video lộ mặt, tay chạm vào mũi và má, cận cảnh da, có khung ảnh nhỏ người mẫu ở góc phải."
+          },
+          {
+            "at": "frame 4 @ 24.0s",
+            "observation": "Chữ trên màn hình ghi 'Toner - Serum - Kem dưỡng - Retinol', chủ đề là quy trình skincare, không phải kem chống nắng."
+          },
+          {
+            "at": "frame 6 @ 48.0s",
+            "observation": "Người trình bày cầm chai retinol 0.3% giới thiệu, nhưng không thoa lên da và không có cảnh kết cấu sản phẩm."
+          }
+        ],
+        "confidence": 0.6
+      },
+      "on_topic_by_title": false,
+      "format_mix": {
+        "checked": 1,
+        "no_stream_posts": 0
+      }
+    },
+    "milohongg": {
+      "video_id": "7702742011308182804",
+      "url": "https://www.tiktok.com/@milohongg/video/7702742011308182804",
+      "kind": "photo",
+      "description": "Đừng đợi da sạm màu mới nhớ đến kem chống nắng nha! 💕 #DZEPA #KemChongNang #SkincareTips #BeautyTips",
+      "views": 135290,
+      "stats": {
+        "view_count": 135500,
+        "like_count": 1045,
+        "comment_count": 107,
+        "save_count": 38,
+        "repost_count": 652
+      },
+      "input": {
+        "mode": "cover_only",
+        "audio": false,
+        "skipped_posts": [
+          "7702742011308182804: không có luồng video",
+          "7691987689180073236: không có luồng video",
+          "7693830687677320468: không có luồng video",
+          "7689017668384476437: không có luồng video",
+          "7701618306662370581: không có luồng video"
+        ]
+      },
+      "analysis": {
+        "is_on_topic": true,
+        "face_on_camera": true,
+        "product_demo_on_skin": false,
+        "shows_texture_or_finish": false,
+        "hook_strength": 3,
+        "production_quality": 3,
+        "presenter_gender": "female",
+        "presenter_age_band": "18_24",
+        "risky_claims": [
+          "Phù hợp với mọi loại da",
+          "Bảo vệ da mỗi ngày"
+        ],
+        "style_tags": [
+          "poster quảng cáo",
+          "tông đỏ vàng sang trọng",
+          "người mẫu trước máy"
+        ],
+        "summary_vi": "Ảnh bìa là poster quảng cáo kem chống nắng D'ZePa SPF 50+ PA++++ với người phụ nữ trẻ mặc áo đỏ, tay chạm má, cùng chai sản phẩm nổi bật. Không thấy thoa thử trên da hay kết cấu, hiệu ứng sản phẩm; claim 'phù hợp mọi loại da' cần kiểm chứng.",
+        "evidence": [
+          {
+            "at": "ảnh bìa",
+            "observation": "Người phụ nữ lộ mặt, tay chạm má, nhìn thẳng vào máy."
+          },
+          {
+            "at": "ảnh bìa",
+            "observation": "Chai và hộp kem chống nắng D'ZePa SPF 50+ PA++++ được đặt nổi bật ở phía dưới."
+          },
+          {
+            "at": "ảnh bìa",
+            "observation": "Chữ trên ảnh ghi 'Phù hợp với mọi loại da' và 'Bảo vệ da mỗi ngày', là claim quảng cáo."
+          }
+        ],
+        "confidence": 0.45
+      },
+      "on_topic_by_title": true,
+      "format_mix": {
+        "checked": 5,
+        "no_stream_posts": 5
+      }
+    },
+    "ngoc.matcha.review": {
+      "video_id": "7699089843313184008",
+      "url": "https://www.tiktok.com/@ngoc.matcha.review/video/7699089843313184008",
+      "kind": "video",
+      "description": "Son 2 đầu , son dưỡng và son có màu #ngocmatcha #ngocmatchareview",
+      "views": 962280,
+      "stats": {
+        "view_count": 992000,
+        "like_count": 1387,
+        "comment_count": 9,
+        "save_count": 300,
+        "repost_count": 121
+      },
+      "input": {
+        "mode": "keyframes",
+        "frames": 6,
+        "has_transcript": false,
+        "skipped_posts": []
+      },
+      "analysis": {
+        "is_on_topic": false,
+        "face_on_camera": true,
+        "product_demo_on_skin": true,
+        "shows_texture_or_finish": true,
+        "hook_strength": 3,
+        "production_quality": 3,
+        "presenter_gender": "female",
+        "presenter_age_band": "18_24",
+        "risky_claims": [],
+        "style_tags": [
+          "review son",
+          "swatch trên tay",
+          "ngồi trước kệ mỹ phẩm",
+          "giọng nói trực tiếp"
+        ],
+        "summary_vi": "Bài đăng review son 2 đầu (son dưỡng và son màu) chứ không phải kem chống nắng nên không đúng chủ đề chiến dịch. Creator lộ mặt, swatch son lên da tay và cho thấy độ bám màu đỏ hồng, nhưng ánh sáng và khung hình ở mức trung bình.",
+        "evidence": [
+          {
+            "at": "frame 1 @ 0.5s",
+            "observation": "Creator lộ mặt, cầm một cây son màu đỏ hồng hướng về camera, có chữ hoặc sản phẩm trên kệ phía sau."
+          },
+          {
+            "at": "frame 4 @ 20.3s",
+            "observation": "Cầm đầu son hai đầu đưa lên, có vệt swatch màu đỏ hồng trên mu bàn tay."
+          },
+          {
+            "at": "frame 6 @ 40.7s",
+            "observation": "Swatch màu đỏ san hô đậm trên mu bàn tay, bóng nước, cho thấy kết cấu sau khi thoa."
+          }
+        ],
+        "confidence": 0.8
+      },
+      "on_topic_by_title": false,
+      "format_mix": {
+        "checked": 1,
+        "no_stream_posts": 0
+      }
+    },
+    "reviewkemchongnang": {
+      "video_id": "7697843645805858056",
+      "url": "https://www.tiktok.com/@reviewkemchongnang/video/7697843645805858056",
+      "kind": "video",
+      "description": "[BÁN CHẠY] CHỐNG NẮNG PHỔ RỘNG THOÁNG DA UV DEFENDER L'OREAL PARIS 50ML (4 phân loại)",
+      "views": 10300,
+      "stats": {
+        "view_count": 12700,
+        "like_count": 10,
+        "comment_count": 1,
+        "save_count": 1,
+        "repost_count": 1
+      },
+      "input": {
+        "mode": "keyframes",
+        "frames": 6,
+        "has_transcript": false,
+        "skipped_posts": []
+      },
+      "analysis": {
+        "is_on_topic": true,
+        "face_on_camera": true,
+        "product_demo_on_skin": true,
+        "shows_texture_or_finish": true,
+        "hook_strength": 4,
+        "production_quality": 3,
+        "presenter_gender": "female",
+        "presenter_age_band": "18_24",
+        "risky_claims": [
+          "sợi UV camera soi rõ lớp kem bảo vệ da, gợi ý kem chống nắng hiệu quả hơn qua so sánh hình ảnh",
+          "tiêu đề gắn 'BÁN CHẠY' không kiểm chứng được"
+        ],
+        "style_tags": [
+          "review",
+          "UV camera",
+          "so sánh sản phẩm",
+          "giáo dục"
+        ],
+        "summary_vi": "Creator nữ trẻ dùng UV camera và đối chiếu 11 sản phẩm kem chống nắng, có thoa thử sản phẩm lên cánh tay và mặt. Hook dựa vào hình ảnh soi UV gây tò mò, nhưng chưa có phụ đề và phần so sánh còn mơ hồ.",
+        "evidence": [
+          {
+            "at": "frame 1 @ 0.5s",
+            "observation": "Hình ảnh UV camera đen trắng soi khuôn mặt kèm nhãn 'SOI RÕ LỚP KEM BẢO VỆ DA' và dãy 11 sản phẩm đánh số"
+          },
+          {
+            "at": "frame 2 @ 2.5s",
+            "observation": "Creator lộ mặt cầm chai kem chống nắng L'Oréal trước camera"
+          },
+          {
+            "at": "frame 5 @ 20.5s",
+            "observation": "Thoa kem thử lên cánh tay, kết cấu kem trắng hiện rõ trên da"
+          },
+          {
+            "at": "frame 6 @ 27.3s",
+            "observation": "Tiếp tục thoa kem lên cánh tay và đưa tuýp kem về phía camera"
+          }
+        ],
+        "confidence": 0.6
+      },
+      "on_topic_by_title": true,
+      "format_mix": {
+        "checked": 1,
+        "no_stream_posts": 0
+      }
+    },
+    "trangriviuuu_01": {
+      "video_id": "7691676006473534740",
+      "url": "https://www.tiktok.com/@trangriviuuu_01/video/7691676006473534740",
+      "kind": "video",
+      "description": "Vừa chống nắng vừa dưỡng trắng lại còn nâng tone cho da nữa neee #kemchongnang #kemchongnangduongda #chongnangduongtrang #kemchongnangnangtone #lamdep",
+      "views": 614990,
+      "stats": {
+        "view_count": 1500000,
+        "like_count": 21900,
+        "comment_count": 257,
+        "save_count": 7969,
+        "repost_count": 3284
+      },
+      "input": {
+        "mode": "keyframes",
+        "frames": 6,
+        "has_transcript": false,
+        "skipped_posts": []
+      },
+      "analysis": {
+        "is_on_topic": true,
+        "face_on_camera": false,
+        "product_demo_on_skin": true,
+        "shows_texture_or_finish": true,
+        "hook_strength": 4,
+        "production_quality": 3,
+        "presenter_gender": "female",
+        "presenter_age_band": "unclear",
+        "risky_claims": [
+          "Vừa chống nắng vừa dưỡng trắng, nâng tone da",
+          "Toàn các hoạt chất dưỡng trắng đỉnh cao",
+          "Bôi lên là thấy da mềm mịn, ẩm mượt, nâng tone cũng siêu tự nhiên"
+        ],
+        "style_tags": [
+          "review nhanh",
+          "tay làm demo",
+          "tông hồng pastel",
+          "chữ overlay"
+        ],
+        "summary_vi": "Bài đăng giới thiệu kem chống nắng SPF50+ PA++++ hồng pastel, người làm nội dung chỉ lộ tay và thoa sản phẩm lên cổ tay. Bài có nhiều cách nói về dưỡng trắng và nâng tone chưa có căn cứ, dễ vi phạm quy định quảng cáo mỹ phẩm.",
+        "evidence": [
+          {
+            "at": "00:00",
+            "observation": "Chữ overlay 'Kem chống nắng mà không chỉ mỗi chống nắngggg' xuất hiện ngay khung đầu, tạo câu hook rõ ràng."
+          },
+          {
+            "at": "00:05",
+            "observation": "Người làm nội dung thoa sản phẩm trực tiếp lên cổ tay, kết cấu trắng sữa được đưa cận cảnh."
+          },
+          {
+            "at": "00:11",
+            "observation": "Cẳng tay được đưa ra cho thấy độ phủ và tông da sau khi thoa, nhưng chưa có so sánh trước sau."
+          },
+          {
+            "at": "00:22",
+            "observation": "Chữ overlay ghi 'Toàn các hoạt chất dưỡng trắng đỉnh cao' và 'Bôi lên là thấy da mềm mịn... nâng tone', là các claim chưa có bằng chứng."
+          }
+        ],
+        "confidence": 0.7
+      },
+      "on_topic_by_title": true,
+      "format_mix": {
+        "checked": 1,
+        "no_stream_posts": 0
+      }
+    }
+  },
+  "pool": [
+    {
+      "reach_flag": "view/follower 2% < chuẩn 20%",
+      "handle": "reviewkemchongnang",
+      "nickname": "SPF Skncare Hub",
+      "followers": 37800,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": null,
+      "audience_source": "suy từ video (1.00)",
+      "category_gmv_vnd": 714270000,
+      "gmv_basis": "creators_list",
+      "gmv_per_1k_views": 2216921.692169217,
+      "views_per_follower": 0.022433862433862434,
+      "engagement_rate": null,
+      "ad_share": 0.0,
+      "est_cost_vnd": 3250000,
+      "metric_parts": {
+        "audience": 0.5,
+        "category_gmv": 0.833,
+        "conversion": 0.929,
+        "views_per_follower": 0.157,
+        "engagement": 0.5,
+        "organic": 1.0
+      },
+      "metric_score": 0.7795,
+      "contact_group": null,
+      "screen_score": 0.75,
+      "video_score": 0.58,
+      "final_score": 0.7038
+    },
+    {
+      "reach_flag": null,
+      "handle": "lapiszuzu",
+      "nickname": "Lapiszuzu🤎",
+      "followers": 102600,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 1.0,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 18-24)",
+      "category_gmv_vnd": 224640000,
+      "gmv_basis": "creators_list_research",
+      "gmv_per_1k_views": 69333.33333333333,
+      "views_per_follower": 0.6144736842105263,
+      "engagement_rate": 0.038,
+      "ad_share": 0.997249014509771,
+      "est_cost_vnd": 8000000,
+      "metric_parts": {
+        "audience": 1.0,
+        "category_gmv": 0.5,
+        "conversion": 0.5,
+        "views_per_follower": 0.357,
+        "engagement": 0.976,
+        "organic": 0.003
+      },
+      "metric_score": 0.6265,
+      "contact_group": null,
+      "screen_score": 0.55,
+      "video_score": 0.62,
+      "final_score": 0.6089
+    },
+    {
+      "reach_flag": null,
+      "handle": "ngoc.matcha.review",
+      "nickname": "Ngọc Matcha ☘️",
+      "followers": 145800,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 1.0,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 18-24)",
+      "category_gmv_vnd": 524440000,
+      "gmv_basis": "creators_list",
+      "gmv_per_1k_views": 13703.684348053306,
+      "views_per_follower": 3.9430041152263375,
+      "engagement_rate": 0.006,
+      "ad_share": 1.0,
+      "est_cost_vnd": 8000000,
+      "metric_parts": {
+        "audience": 1.0,
+        "category_gmv": 0.548,
+        "conversion": 0.31,
+        "views_per_follower": 0.614,
+        "engagement": 0.31,
+        "organic": 0.0
+      },
+      "metric_score": 0.579,
+      "contact_group": null,
+      "screen_score": 0.5,
+      "video_score": 0.69,
+      "final_score": 0.602
+    },
+    {
+      "reach_flag": "view/follower 0% < chuẩn 10%",
+      "handle": "_huongdaily",
+      "nickname": null,
+      "followers": 164800,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 1.0,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 18-24)",
+      "category_gmv_vnd": 1750000,
+      "gmv_basis": "creators_list_content",
+      "gmv_per_1k_views": 14337.211207602819,
+      "views_per_follower": 0.0024726941747572817,
+      "engagement_rate": null,
+      "ad_share": 0.052437271732394555,
+      "est_cost_vnd": 8000000,
+      "metric_parts": {
+        "audience": 1.0,
+        "category_gmv": 0.5,
+        "conversion": 0.5,
+        "views_per_follower": 0.043,
+        "engagement": 0.5,
+        "organic": 0.948
+      },
+      "metric_score": 0.6262,
+      "contact_group": "_huongdaily",
+      "screen_score": 0.7,
+      "video_score": 0.39,
+      "final_score": 0.5583
+    },
+    {
+      "reach_flag": null,
+      "handle": "beobeo.21",
+      "nickname": "Peo beo",
+      "followers": 10900,
+      "target_gender_share": null,
+      "target_share": null,
+      "audience_score": 1.0,
+      "audience_source": "kalodata: nhãn (Majority Female, tuổi 18-24)",
+      "category_gmv_vnd": 255020000,
+      "gmv_basis": "creators_list_research",
+      "gmv_per_1k_views": 119168.22429906542,
+      "views_per_follower": 4.024770642201835,
+      "engagement_rate": 0.0289,
+      "ad_share": 0.9916069816783692,
+      "est_cost_vnd": 3250000,
+      "metric_parts": {
+        "audience": 1.0,
+        "category_gmv": 0.5,
+        "conversion": 0.5,
+        "views_per_follower": 0.643,
+        "engagement": 0.881,
+        "organic": 0.008
+      },
+      "metric_score": 0.6604,
+      "contact_group": null,
+      "screen_score": 0.4,
+      "video_score": 0.39,
+      "final_score": 0.5137
+    }
+  ],
+  "choice": {
+    "selected": [
+      {
+        "reach_flag": "view/follower 2% < chuẩn 20%",
+        "handle": "reviewkemchongnang",
+        "nickname": "SPF Skncare Hub",
+        "followers": 37800,
+        "target_gender_share": null,
+        "target_share": null,
+        "audience_score": null,
+        "audience_source": "suy từ video (1.00)",
+        "category_gmv_vnd": 714270000,
+        "gmv_basis": "creators_list",
+        "gmv_per_1k_views": 2216921.692169217,
+        "views_per_follower": 0.022433862433862434,
+        "engagement_rate": null,
+        "ad_share": 0.0,
+        "est_cost_vnd": 3250000,
+        "metric_parts": {
+          "audience": 0.5,
+          "category_gmv": 0.833,
+          "conversion": 0.929,
+          "views_per_follower": 0.157,
+          "engagement": 0.5,
+          "organic": 1.0
+        },
+        "metric_score": 0.7795,
+        "contact_group": null,
+        "screen_score": 0.75,
+        "video_score": 0.58,
+        "final_score": 0.7038
+      },
+      {
+        "reach_flag": null,
+        "handle": "lapiszuzu",
+        "nickname": "Lapiszuzu🤎",
+        "followers": 102600,
+        "target_gender_share": null,
+        "target_share": null,
+        "audience_score": 1.0,
+        "audience_source": "kalodata: nhãn (Majority Female, tuổi 18-24)",
+        "category_gmv_vnd": 224640000,
+        "gmv_basis": "creators_list_research",
+        "gmv_per_1k_views": 69333.33333333333,
+        "views_per_follower": 0.6144736842105263,
+        "engagement_rate": 0.038,
+        "ad_share": 0.997249014509771,
+        "est_cost_vnd": 8000000,
+        "metric_parts": {
+          "audience": 1.0,
+          "category_gmv": 0.5,
+          "conversion": 0.5,
+          "views_per_follower": 0.357,
+          "engagement": 0.976,
+          "organic": 0.003
+        },
+        "metric_score": 0.6265,
+        "contact_group": null,
+        "screen_score": 0.55,
+        "video_score": 0.62,
+        "final_score": 0.6089
+      },
+      {
+        "reach_flag": null,
+        "handle": "ngoc.matcha.review",
+        "nickname": "Ngọc Matcha ☘️",
+        "followers": 145800,
+        "target_gender_share": null,
+        "target_share": null,
+        "audience_score": 1.0,
+        "audience_source": "kalodata: nhãn (Majority Female, tuổi 18-24)",
+        "category_gmv_vnd": 524440000,
+        "gmv_basis": "creators_list",
+        "gmv_per_1k_views": 13703.684348053306,
+        "views_per_follower": 3.9430041152263375,
+        "engagement_rate": 0.006,
+        "ad_share": 1.0,
+        "est_cost_vnd": 8000000,
+        "metric_parts": {
+          "audience": 1.0,
+          "category_gmv": 0.548,
+          "conversion": 0.31,
+          "views_per_follower": 0.614,
+          "engagement": 0.31,
+          "organic": 0.0
+        },
+        "metric_score": 0.579,
+        "contact_group": null,
+        "screen_score": 0.5,
+        "video_score": 0.69,
+        "final_score": 0.602
+      },
+      {
+        "reach_flag": "view/follower 0% < chuẩn 10%",
+        "handle": "_huongdaily",
+        "nickname": null,
+        "followers": 164800,
+        "target_gender_share": null,
+        "target_share": null,
+        "audience_score": 1.0,
+        "audience_source": "kalodata: nhãn (Majority Female, tuổi 18-24)",
+        "category_gmv_vnd": 1750000,
+        "gmv_basis": "creators_list_content",
+        "gmv_per_1k_views": 14337.211207602819,
+        "views_per_follower": 0.0024726941747572817,
+        "engagement_rate": null,
+        "ad_share": 0.052437271732394555,
+        "est_cost_vnd": 8000000,
+        "metric_parts": {
+          "audience": 1.0,
+          "category_gmv": 0.5,
+          "conversion": 0.5,
+          "views_per_follower": 0.043,
+          "engagement": 0.5,
+          "organic": 0.948
+        },
+        "metric_score": 0.6262,
+        "contact_group": "_huongdaily",
+        "screen_score": 0.7,
+        "video_score": 0.39,
+        "final_score": 0.5583
+      }
+    ],
+    "total_cost_vnd": 27250000,
+    "reserve_vnd": 0,
+    "note": "5 KOC đạt ngưỡng nhưng không bộ 5 người nào vừa 30 tr (bộ 5 tốt nhất tốn 30.50 tr, vượt 0.50 tr). Đề xuất 4 KOC; muốn đủ 5 thì thêm @beobeo.21 và đàm phán giảm 0.50 tr (vd bỏ phí cấp mã Spark Ads của 1 KOC, hoặc trả theo hoa hồng).",
+    "ads_reserve_vnd": 2750000,
+    "recommended_ads_vnd": 7500000,
+    "ads_note": "Còn 2.75 tr cho Spark Ads, thấp hơn mức khuyến nghị 7.5 tr: có thể đàm phán phí theo hoa hồng (12–18%) để giữ ngân sách boost.",
+    "alternative": {
+      "handles": [
+        "reviewkemchongnang",
+        "lapiszuzu",
+        "ngoc.matcha.review",
+        "_huongdaily",
+        "beobeo.21"
+      ],
+      "total_cost_vnd": 30500000,
+      "over_budget_vnd": 500000
+    },
+    "below_threshold": [
+      {
+        "handle": "trangriviuuu_01",
+        "final_score": 0.4817
+      },
+      {
+        "handle": "milohongg",
+        "final_score": 0.4404
+      },
+      {
+        "handle": "mai.trinh.h",
+        "final_score": 0.4349
+      },
+      {
+        "handle": "emlylynguyen",
+        "final_score": 0.388
+      }
+    ]
+  },
+  "final": {
+    "packs": [
+      {
+        "handle": "reviewkemchongnang",
+        "followers": 37800,
+        "est_cost_vnd": 3250000,
+        "final_score": 0.7038,
+        "evidence": {
+          "M:audience": "khán giả (nữ 18–30 tuổi): suy từ video (1.00)",
+          "M:gmv": "doanh thu 30 ngày (Kalodata, danh mục kem chống nắng, mọi kênh bán) ≈ 714 triệu VNĐ",
+          "M:engagement": "chưa có engagement rate",
+          "M:organic": "100% lượt xem không đến từ quảng cáo",
+          "S:screen": "individual_creator, ngách skincare_review, liên quan kem chống nắng 9/10; Chuyên kem chống nắng với nhiều video review, rất phù hợp cho chiến dịch này.",
+          "M:reach": "cảnh báo: view/follower 2% < chuẩn 20%",
+          "S:competitors": "đã quảng bá: Meiking, L'Oreal Paris UV Defender, Sunplay, Skin1004, Make P:rem, Halavi, Yesummer, Anessa",
+          "V:format": "0/1 bài đã kiểm không xem được hình (video gắn giỏ/quảng cáo hoặc bài ảnh); bài được phân tích: video đầy đủ",
+          "V:7697843645805858056": "Creator nữ trẻ dùng UV camera và đối chiếu 11 sản phẩm kem chống nắng, có thoa thử sản phẩm lên cánh tay và mặt. Hook dựa vào hình ảnh soi UV gây tò mò, nhưng chưa có phụ đề và phần so sánh còn mơ hồ. | frame 1 @ 0.5s: Hình ảnh UV camera đen trắng soi khuôn mặt kèm nhãn 'SOI RÕ LỚP KEM BẢO VỆ DA' và dãy 11 sản phẩm đánh số; frame 2 @ 2.5s: Creator lộ mặt cầm chai kem chống nắng L'Oréal trước camera; frame 5 @ 20.5s: Thoa kem thử lên cánh tay, kết cấu kem trắng hiện rõ trên da; frame 6 @ 27.3s: Tiếp tục thoa kem lên cánh tay và đưa tuýp kem về phía camera"
+        }
+      },
+      {
+        "handle": "lapiszuzu",
+        "followers": 102600,
+        "est_cost_vnd": 8000000,
+        "final_score": 0.6089,
+        "evidence": {
+          "M:audience": "khán giả (nữ 18–30 tuổi): kalodata: nhãn (Majority Female, tuổi 18-24)",
+          "M:gmv": "doanh thu 30 ngày (Kalodata, mọi ngành hàng) ≈ 225 triệu VNĐ",
+          "M:engagement": "engagement rate 3.80%",
+          "M:organic": "0% lượt xem không đến từ quảng cáo",
+          "S:screen": "individual_creator, ngách beauty_makeup, liên quan kem chống nắng 7/10; Creator makeup có vài video kem chống nắng nâng tone, phù hợp để mở rộng sang chống nắng.",
+          "V:format": "0/1 bài đã kiểm không xem được hình (video gắn giỏ/quảng cáo hoặc bài ảnh); bài được phân tích: video đầy đủ",
+          "V:7694655061888224564": "Creator nữ trẻ giới thiệu cách dùng kem chống nắng nâng tone thay kem lót để nền không trôi và kiềm dầu, có thoa thử sản phẩm lên da và cho thấy hiệu ứng bóng/lì trên mặt. Nội dung liên quan trực tiếp đến kem chống nắng, nhưng có vài câu quảng cáo \"không trôi\" và so sánh cần kiểm soát. | 00:00: Tiêu đề chữ trên màn hình \"1 tuýp kem chống nắng nâng tone = kem lót + nền mịn ráo\" với người nói cầm hai tuýp sản phẩm, lộ mặt rõ.; 00:02: Thoa sản phẩm màu trắng lên da mặt, kết cấu sữa tạo lớp mỏng trên má.; 00:24: Cận cảnh da mặt sau khi thoa cho thấy độ bóng/ẩm và chữ \"Giúp lớp nền trông đẹp hơn á chó\".; 00:36: Thẻ thử UV hiển thị trên màn hình khi bóp tuýp kem chống nắng ghi SPF 50+ PA++++, minh họa thử nghiệm sản phẩm.; 00:48: Thoa tay lên mặt người mẫu thứ hai, lớp nền hiển thị với chữ \"chính là do dùng kem chống nắng nâng tone chưa phù hợp\"."
+        }
+      },
+      {
+        "handle": "ngoc.matcha.review",
+        "followers": 145800,
+        "est_cost_vnd": 8000000,
+        "final_score": 0.602,
+        "evidence": {
+          "M:audience": "khán giả (nữ 18–30 tuổi): kalodata: nhãn (Majority Female, tuổi 18-24)",
+          "M:gmv": "doanh thu 30 ngày (Kalodata, danh mục kem chống nắng, mọi kênh bán) ≈ 524 triệu VNĐ",
+          "M:engagement": "engagement rate 0.60%",
+          "M:organic": "0% lượt xem không đến từ quảng cáo",
+          "S:screen": "individual_creator, ngách beauty_makeup, liên quan kem chống nắng 5/10; Người thật review làm đẹp đa ngành, chưa thấy video kem chống nắng nên mức phù hợp trung bình.",
+          "V:format": "0/1 bài đã kiểm không xem được hình (video gắn giỏ/quảng cáo hoặc bài ảnh); bài được phân tích: video đầy đủ",
+          "V:7699089843313184008": "Bài đăng review son 2 đầu (son dưỡng và son màu) chứ không phải kem chống nắng nên không đúng chủ đề chiến dịch. Creator lộ mặt, swatch son lên da tay và cho thấy độ bám màu đỏ hồng, nhưng ánh sáng và khung hình ở mức trung bình. | frame 1 @ 0.5s: Creator lộ mặt, cầm một cây son màu đỏ hồng hướng về camera, có chữ hoặc sản phẩm trên kệ phía sau.; frame 4 @ 20.3s: Cầm đầu son hai đầu đưa lên, có vệt swatch màu đỏ hồng trên mu bàn tay.; frame 6 @ 40.7s: Swatch màu đỏ san hô đậm trên mu bàn tay, bóng nước, cho thấy kết cấu sau khi thoa."
+        }
+      },
+      {
+        "handle": "_huongdaily",
+        "followers": 164800,
+        "est_cost_vnd": 8000000,
+        "final_score": 0.5583,
+        "evidence": {
+          "M:audience": "khán giả (nữ 18–30 tuổi): kalodata: nhãn (Majority Female, tuổi 18-24)",
+          "M:gmv": "doanh thu 30 ngày (Kalodata, từ các video kem chống nắng organic trong bảng xếp hạng) ≈ 2 triệu VNĐ",
+          "M:engagement": "chưa có engagement rate",
+          "M:organic": "95% lượt xem không đến từ quảng cáo",
+          "S:screen": "individual_creator, ngách skincare_review, liên quan kem chống nắng 7/10; Creator beauty có nội dung chống nắng La Roche-Posay và AHC, phù hợp để làm KOC.",
+          "M:reach": "cảnh báo: view/follower 0% < chuẩn 10%",
+          "S:competitors": "đã quảng bá: La Roche-Posay Anthelios, AHC",
+          "V:format": "4/5 bài đã kiểm không xem được hình (video gắn giỏ/quảng cáo hoặc bài ảnh); bài được phân tích: video đầy đủ",
+          "V:7693938530099285268": "Bài đăng là video quảng bá deal 10.10 tại Hasaki, nhấn mạnh các sản phẩm Kiss My Body và giá sale, không phải nội dung về kem chống nắng. Creator lộ mặt, cầm và xem sản phẩm trong cửa hàng nhưng không thoa thử lên da và không cho thấy kết cấu hay hiệu ứng. | 0:00: Khung hình đầu có tiêu đề 'Săn gì ở Hasaki?' và creator đứng trước cửa hàng, giơ tay chỉ lên, tạo hook bằng câu hỏi về deal.; frame 4: Creator cầm một chai sản phẩm trước kệ hàng Kiss My Body, quan sát nhãn nhưng không thoa lên da.; frame 5: Creator xoa tay có sản phẩm trắng nhưng khung hình không rõ kết cấu, đang hiển thị nhãn giá 89K.; frame 6: Creator quay bằng camera cầm tay trước gương trong cửa hàng, không có cảnh thử sản phẩm trên da."
+        }
+      }
+    ],
+    "rationale": {
+      "summary_vi": "Đầu vào chỉ có 4 KOC (không đủ bộ 5): nhóm này phủ khán giả nữ 18–30 tuổi qua các ngách skincare review và beauty makeup, trong đó reviewkemchongnang có độ liên quan kem chống nắng cao nhất (9/10). Tổng chi phí ước tính của 4 KOC là 27,25 triệu VNĐ, còn khoảng 2,75 triệu VNĐ trong ngân sách 30 triệu cho vị trí thứ 5, và ngân sách dồn vào 3 KOC mức 8 triệu cùng 1 KOC mức 3,25 triệu.",
+      "kocs": [
+        {
+          "handle": "reviewkemchongnang",
+          "reason_vi": "Đây là KOC chuyên kem chống nắng, được chấm liên quan 9/10, khán giả suy ra từ video khớp nữ 18–30 tuổi (1.00). Doanh thu 30 ngày của danh mục kem chống nắng ≈ 714 triệu VNĐ và 100% lượt xem không đến từ quảng cáo, cho thấy tăng trưởng tự nhiên. Chi phí 3,25 triệu VNĐ là thấp nhất bộ.",
+          "evidence_refs": [
+            "M:audience",
+            "M:gmv",
+            "M:organic",
+            "S:screen",
+            "V:7697843645805858056"
+          ],
+          "risks_vi": "View/follower chỉ 2%, thấp hơn chuẩn 20%, và chưa có engagement rate. KOC đã quảng bá nhiều nhãn đối thủ (Meiking, Sunplay, Anessa, L'Oreal Paris UV Defender...) nên cần điều khoản độc quyền hoặc giãn thời gian. Video mẫu chưa có phụ đề và phần so sánh còn mơ hồ.",
+          "brief_suggestion_vi": "Dùng format soi UV camera và thoa thử lên da để cho thấy độ phủ của sản phẩm, bổ sung phụ đề và kết luận so sánh rõ ràng."
+        },
+        {
+          "handle": "lapiszuzu",
+          "reason_vi": "Khán giả theo Kalodata nghiêng về nữ, tuổi 18–24, đúng tệp mục tiêu, và engagement rate đạt 3,80%. Ngách makeup có video dùng kem chống nắng nâng tone thay kem lót, liên quan 7/10, thoa thử trực tiếp lên da và có thẻ thử UV SPF 50+ PA++++.",
+          "evidence_refs": [
+            "M:audience",
+            "M:engagement",
+            "S:screen",
+            "V:7694655061888224564"
+          ],
+          "risks_vi": "0% lượt xem không đến từ quảng cáo, nghĩa là phụ thuộc nhiều vào quảng cáo trả phí. Doanh thu 225 triệu VNĐ tính mọi ngành hàng chứ không riêng kem chống nắng. Video mẫu có câu như \"không trôi\" và so sánh cần kiểm soát claim.",
+          "brief_suggestion_vi": "Làm video kem chống nắng như bước lót nền: thoa thử, so sánh lớp nền trước và sau, nhấn mạnh hiệu ứng lì và mịn nhưng tránh claim tuyệt đối."
+        },
+        {
+          "handle": "ngoc.matcha.review",
+          "reason_vi": "Khán giả theo Kalodata nghiêng về nữ, tuổi 18–24, và doanh thu 30 ngày của danh mục kem chống nắng ≈ 524 triệu VNĐ, cho thấy tiềm năng chuyển đổi. KOC có quy mô lớn (145.800 follower) và lộ mặt, swatch sản phẩm trên da rõ ràng.",
+          "evidence_refs": [
+            "M:audience",
+            "M:gmv",
+            "M:engagement",
+            "S:screen",
+            "V:7699089843313184008"
+          ],
+          "risks_vi": "Độ liên quan kem chống nắng chỉ 5/10 và chưa thấy video kem chống nắng nào. Engagement rate chỉ 0,60%, 0% lượt xem không đến từ quảng cáo nên phụ thuộc quảng cáo. Video mẫu là review son, ánh sáng và khung hình ở mức trung bình.",
+          "brief_suggestion_vi": "Đặt kem chống nắng vào routine makeup hằng ngày, tận dụng kỹ năng swatch và thoa thử lên da để thể hiện kết cấu."
+        },
+        {
+          "handle": "_huongdaily",
+          "reason_vi": "Khán giả theo Kalodata nghiêng về nữ, tuổi 18–24, ngách skincare review liên quan 7/10 và đã có nội dung chống nắng La Roche-Posay, AHC. 95% lượt xem không đến từ quảng cáo, cho thấy nội dung được xem tự nhiên.",
+          "evidence_refs": [
+            "M:audience",
+            "M:organic",
+            "S:screen",
+            "V:7693938530099285268"
+          ],
+          "risks_vi": "View/follower 0% (chuẩn 10%), chưa có engagement rate và doanh thu kem chống nắng organic chỉ ≈ 2 triệu VNĐ. Đã quảng bá La Roche-Posay Anthelios và AHC, và 4/5 bài đã kiểm không xem được hình. Video mẫu là deal Hasaki, không thoa thử hay cho thấy kết cấu.",
+          "brief_suggestion_vi": "Làm video review kem chống nắng thật tại nhà hoặc tại cửa hàng, có thoa thử lên da, mô tả kết cấu và cảm giác sau thoa, thay vì dạng săn sale."
+        }
+      ]
+    },
+    "citation_check": {
+      "refs_total": 18,
+      "refs_invalid": [],
+      "valid_rate": 1.0,
+      "handles_match": true
+    },
+    "selected": [
+      "reviewkemchongnang",
+      "lapiszuzu",
+      "ngoc.matcha.review",
+      "_huongdaily"
+    ]
+  },
+  "usage": [
+    {
+      "stage": "screen",
+      "model": "claude-haiku-5-5",
+      "calls": 2,
+      "cache_hits": 0,
+      "input_tokens": 21074,
+      "output_tokens": 8679,
+      "cost_usd": 0.006272,
+      "avg_latency_ms": 18751.0
+    },
+    {
+      "stage": "video",
+      "model": "claude-haiku-5-5",
+      "calls": 9,
+      "cache_hits": 0,
+      "input_tokens": 41392,
+      "output_tokens": 5800,
+      "cost_usd": 0.00574,
+      "avg_latency_ms": 4176.0
+    },
+    {
+      "stage": "rationale",
+      "model": "claude-sonnet-5-5",
+      "calls": 1,
+      "cache_hits": 0,
+      "input_tokens": 4603,
+      "output_tokens": 2472,
+      "cost_usd": 0.034616,
+      "avg_latency_ms": 16929.0
+    }
+  ],
+  "timings": [
+    {
+      "stage": "enrich",
+      "seconds": 15.13942540017888,
+      "items": 60
+    },
+    {
+      "stage": "ingest+prefilter",
+      "seconds": 0.030945900361984968,
+      "items": 0
+    },
+    {
+      "stage": "rationale",
+      "seconds": 17.321793799754232,
+      "items": 1
+    },
+    {
+      "stage": "screen",
+      "seconds": 41.998735999688506,
+      "items": 20
+    },
+    {
+      "stage": "video",
+      "seconds": 21.10035299975425,
+      "items": 0
+    }
+  ],
+  "cost_usd": 0.046627985000000004
+}

@@ -1,0 +1,288 @@
+{
+  "handle": "anhonanngon",
+  "kalodata_id": "7412510767298610177",
+  "nickname": "À nhon ăn ngon",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": null,
+  "bio": "à nhon xê ô\nchúng ta đều thích ăn ngon\n💌 for work: [email]",
+  "followers": 33500,
+  "debut_date": "2024-10-05",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": "18-24",
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được.",
+  "core_metrics": {
+    "revenue_vnd": 1750000000,
+    "live_revenue_vnd": 0,
+    "video_revenue_vnd": 1740000000,
+    "video_views": 19900000,
+    "live_views": 0,
+    "follower_change": 1300
+  },
+  "videos": [
+    {
+      "video_id": "7697982020705602832",
+      "url": "https://www.tiktok.com/@anhonanngon/video/7697982020705602832",
+      "description": "mùi cưng lắm nho #xuhuong #xitthombody #bodymist #nuochoa",
+      "duration_s": 31.534,
+      "views": 1620000,
+      "revenue_vnd": 172940000,
+      "items_sold": 1330,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "18.29%",
+      "publish_date": "2026-10-18"
+    },
+    {
+      "video_id": "7700984589732318482",
+      "url": "https://www.tiktok.com/@anhonanngon/video/7700984589732318482",
+      "description": "kem chống nắng ống đôi #xuhuong #kemchongnang #kemchongnangnangtone #skincare",
+      "duration_s": 41.3,
+      "views": 1510000,
+      "revenue_vnd": 138890000,
+      "items_sold": 1460,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.643,
+      "ad_view_ratio": "11.84%",
+      "publish_date": "2026-10-26"
+    },
+    {
+      "video_id": "7705473105518398728",
+      "url": "https://www.tiktok.com/@anhonanngon/video/7705473105518398728",
+      "description": "đây là kem đánh răng PS #xuhuong #kemdanhrang #kemdanhtrangrang #unilever #kemdanhrangps",
+      "duration_s": 23.434,
+      "views": 719370,
+      "revenue_vnd": 91110000,
+      "items_sold": 1070,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.669,
+      "ad_view_ratio": "18.02%",
+      "publish_date": "2026-11-07"
+    },
+    {
+      "video_id": "7692133535343332616",
+      "url": "https://www.tiktok.com/@anhonanngon/video/7692133535343332616",
+      "description": "sau bao lần thì giờ anh khôn hơn rồi #xuhuong #lapxuong #lapxuongnuongda #anvat",
+      "duration_s": 32.134,
+      "views": 1620000,
+      "revenue_vnd": 89490000,
+      "items_sold": 1250,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.792,
+      "ad_view_ratio": "39.10%",
+      "publish_date": "2026-10-03"
+    },
+    {
+      "video_id": "7652648050787224850",
+      "url": "https://www.tiktok.com/@anhonanngon/video/7652648050787224850",
+      "description": "thử đi các vợ #xuhuong #cachuatrang #trangda #datrang #datranghong",
+      "duration_s": 41.307,
+      "views": 440390,
+      "revenue_vnd": 81310000,
+      "items_sold": 616,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "77.43%",
+      "publish_date": "2026-06-18"
+    },
+    {
+      "video_id": "7690921281998376210",
+      "url": "https://www.tiktok.com/@anhonanngon/video/7690921281998376210",
+      "description": "vừa ấm bụng vừa ngon miệng #xuhuong #súp #suphaisan #supanlien #viensupanlien",
+      "duration_s": 54.403,
+      "views": 1350000,
+      "revenue_vnd": 78190000,
+      "items_sold": 742,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "22.74%",
+      "publish_date": "2026-09-29"
+    },
+    {
+      "video_id": "7699896843202743570",
+      "url": "https://www.tiktok.com/@anhonanngon/video/7699896843202743570",
+      "description": "Kem nghệ Thorakao #xuhuong #kemnghe #kemnghethorakao #thorakao #duongda",
+      "duration_s": 31.3,
+      "views": 398050,
+      "revenue_vnd": 76830000,
+      "items_sold": 1030,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.788,
+      "ad_view_ratio": "8.93%",
+      "publish_date": "2026-10-23"
+    },
+    {
+      "video_id": "7702479774303833352",
+      "url": "https://www.tiktok.com/@anhonanngon/video/7702479774303833352",
+      "description": "Kem chống nắng ống đôi #xuhuong #kemchongnang #kemchongnangnangtone #skincare",
+      "duration_s": 43.908,
+      "views": 949710,
+      "revenue_vnd": 71840000,
+      "items_sold": 755,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.334,
+      "ad_view_ratio": "4.85%",
+      "publish_date": "2026-10-30"
+    },
+    {
+      "video_id": "7654611076402793746",
+      "url": "https://www.tiktok.com/@anhonanngon/video/7654611076402793746",
+      "description": "sữa rửa mặt Luminous #xuhuong #suaruamat #suaruamattrangda #colorkey",
+      "duration_s": 52.546,
+      "views": 606740,
+      "revenue_vnd": 69500000,
+      "items_sold": 766,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.091,
+      "ad_view_ratio": "2.23%",
+      "publish_date": "2026-06-23"
+    },
+    {
+      "video_id": "7697600273375612176",
+      "url": "https://www.tiktok.com/@anhonanngon/video/7697600273375612176",
+      "description": "mùi cưng lắm nho #xuhuong #xitthombody #bodymist #nuochoa",
+      "duration_s": 31.834,
+      "views": 438340,
+      "revenue_vnd": 44330000,
+      "items_sold": 412,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.36,
+      "ad_view_ratio": "7.99%",
+      "publish_date": "2026-10-17"
+    }
+  ],
+  "shops": [
+    {
+      "name": "MTN Personal Care",
+      "revenue_vnd": 280200000,
+      "product_count": 1,
+      "items_sold": 2950
+    },
+    {
+      "name": "MINHGO",
+      "revenue_vnd": 224480000,
+      "product_count": 1,
+      "items_sold": 1800
+    },
+    {
+      "name": "THORAKAO STORE",
+      "revenue_vnd": 148640000,
+      "product_count": 4,
+      "items_sold": 2210
+    },
+    {
+      "name": "Công ty TNHH Thực Phẩm NFC",
+      "revenue_vnd": 121520000,
+      "product_count": 1,
+      "items_sold": 1150
+    },
+    {
+      "name": "Unilever - Chăm Sóc Cá Nhân",
+      "revenue_vnd": 106600000,
+      "product_count": 1,
+      "items_sold": 1250
+    },
+    {
+      "name": "Javata Foods",
+      "revenue_vnd": 104010000,
+      "product_count": 1,
+      "items_sold": 1450
+    },
+    {
+      "name": "COLORKEY LUMINOUS VIỆT NAM",
+      "revenue_vnd": 88070000,
+      "product_count": 4,
+      "items_sold": 909
+    },
+    {
+      "name": "7Lume",
+      "revenue_vnd": 81310000,
+      "product_count": 1,
+      "items_sold": 616
+    },
+    {
+      "name": "Unilever Beauty",
+      "revenue_vnd": 59730000,
+      "product_count": 1,
+      "items_sold": 356
+    },
+    {
+      "name": "Bánh đa Minh Khang",
+      "revenue_vnd": 43040000,
+      "product_count": 1,
+      "items_sold": 629
+    }
+  ],
+  "products": [
+    {
+      "title": "Kem Chống Nắng Cách Ly Dưỡng Trắng YOQQ ️ - Ống Đôi 100g+100g | SPF50+ PA++++ | Công Thức 3 Thành Phần Vàng: 377+577+877, Hỗ Trợ Chống Nắng 24h, Làm Mờ Nám, Dưỡng Sáng Da & Cấp Ẩm | Có Chứng Nhận Đặc Biệt (200g)",
+      "revenue_vnd": 280200000,
+      "items_sold": 2950,
+      "avg_price_vnd": 95010
+    },
+    {
+      "title": "[Mua 1 Tặng 1] Xịt Thơm Body 150ml 4 Mùi Hương Hot, Lưu Hương 5-8 Giờ, Hương Ngọt Dễ Thương Cho Nữ mùi hoa nhài",
+      "revenue_vnd": 224480000,
+      "items_sold": 1800,
+      "avg_price_vnd": 124570
+    },
+    {
+      "title": "[GIÁ SỐC 120K KÈM TẶNG THÊM 1 LY] Isoup Huups Combo 5 Ly Súp Ăn Liền Sấy Thăng Hoa( Hải Sản + Gà Táo Đỏ + Súp Yến Mạch + Súp Cá Hồi)",
+      "revenue_vnd": 121520000,
+      "items_sold": 1150,
+      "avg_price_vnd": 105300
+    },
+    {
+      "title": "[MỚI] Kem Đánh Răng P/S Ultra White Trắng Bật 5 Tông trong 1 tuần 100g - Với bộ Đôi công nghệ độc quyền Blue HAP & Microwhitening C [v]",
+      "revenue_vnd": 106600000,
+      "items_sold": 1250,
+      "avg_price_vnd": 85280
+    },
+    {
+      "title": "Lạp Xưởng Nướng Đá SAPA 500g (10 cây) - Thơm Ngon Chuẩn Vị, Hương Vị Đặc Trưng Chuẩn Hà Khẩu, Thịt Heo Tươi, Dễ Ăn, Phù Hợp Nhiều Món",
+      "revenue_vnd": 104010000,
+      "items_sold": 1450,
+      "avg_price_vnd": 71780
+    },
+    {
+      "title": "7LUME Cà Chua Trắng 5600mg-Mỗi ngày 1 gói White Tomato|Glutathione | Da Trông Sáng Rạng Rỡ Hơn,chống oxy hóa, Hỗ trợ giảm mụn,tăng cường miễn dịch,làm mờ sắc tố da，Hỗ trợ chống tia UV|Kết hợp 8 loại quả mọng như Acai|Giàu Vitamin C|7 Gói Thanh",
+      "revenue_vnd": 81310000,
+      "items_sold": 616,
+      "avg_price_vnd": 131990
+    },
+    {
+      "title": "Kem Nghệ Trang Điểm Trắng Da Thorakao 3G",
+      "revenue_vnd": 78770000,
+      "items_sold": 1060,
+      "avg_price_vnd": 74590
+    },
+    {
+      "title": "Sữa Rửa Mặt Colorkey Luminous Bùn Khoáng Hoa Sen/Trà Xanh Cho Da Nhạy Cảm Làm Sạch Sâu, Giảm Dầu Thừa & Ngăn Ngừa Mụn 100g",
+      "revenue_vnd": 74840000,
+      "items_sold": 825,
+      "avg_price_vnd": 90720
+    },
+    {
+      "title": "[1] Kem Dưỡng Ban Đêm Pond's Bright Miracle Với 50X Niasorcinol Hỗ Trợ Chăm Sóc Da Giảm Thâm Sạm Nữ 45G",
+      "revenue_vnd": 59730000,
+      "items_sold": 356,
+      "avg_price_vnd": 167790
+    },
+    {
+      "title": "Kem Dưỡng Da Tay Thorakao 80G",
+      "revenue_vnd": 54940000,
+      "items_sold": 864,
+      "avg_price_vnd": 63590
+    }
+  ],
+  "contact_keys": [
+    "lh-2"
+  ]
+}

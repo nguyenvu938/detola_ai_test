@@ -1,0 +1,19 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Trạng thái chạy và video tải về (tái tạo được, không commit)
+state/
+data/videos/
+
+# Link video có chữ ký của Kalodata (hết hạn nhanh, không cần lưu)
+data/kalodata/video_urls.json
+results/bench_log.txt
+
+# Các run thử nghiệm trung gian (giữ ở máy, chỉ nộp run "final" + benchmark)
+results/trial/
+results/kem-chong-nang-*/
+results/final-v1/
+results/demo*/

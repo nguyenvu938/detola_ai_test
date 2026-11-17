@@ -1,0 +1,286 @@
+{
+  "handle": "beobeo.21",
+  "kalodata_id": "6825064909072860162",
+  "nickname": "Peo beo",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": null,
+  "bio": "da hỗn hợp, tb sáng, warm\nlhcv ig: beo.beo21",
+  "followers": 10900,
+  "debut_date": "2023-10-10",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": "18-24",
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được.",
+  "core_metrics": {
+    "revenue_vnd": 255020000,
+    "live_revenue_vnd": 0,
+    "video_revenue_vnd": 246620000,
+    "video_views": 2140000,
+    "live_views": 0,
+    "follower_change": 200
+  },
+  "videos": [
+    {
+      "video_id": "7688629546068774164",
+      "url": "https://www.tiktok.com/@beobeo.21/video/7688629546068774164",
+      "description": "bóng nhuyễn căng cực #FlowerknowsVN #mahongunicorn #unicorn",
+      "duration_s": 90.209,
+      "views": 64370,
+      "revenue_vnd": 21260000,
+      "items_sold": 54,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.074,
+      "ad_view_ratio": "4.13%",
+      "publish_date": "2026-09-23"
+    },
+    {
+      "video_id": "7657940811832675604",
+      "url": "https://www.tiktok.com/@beobeo.21/video/7657940811832675604",
+      "description": "5 bộ tự mua 1 bộ brand gửi mà gửi xong cái mất lun giỏ hàng tới giờ mới có lại 🥹#cotrangdiem #jessup #foreseepop",
+      "duration_s": 334.622,
+      "views": 19220,
+      "revenue_vnd": 17850000,
+      "items_sold": 22,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "66.99%",
+      "publish_date": "2026-07-02"
+    },
+    {
+      "video_id": "7706011492402875700",
+      "url": "https://www.tiktok.com/@beobeo.21/video/7706011492402875700",
+      "description": "màu đẹp quá trời #nuegray #sontint #reviewlamdep",
+      "duration_s": 102.887,
+      "views": 421410,
+      "revenue_vnd": 16740000,
+      "items_sold": 165,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.771,
+      "ad_view_ratio": "6.16%",
+      "publish_date": "2026-11-09"
+    },
+    {
+      "video_id": "7619927601360030997",
+      "url": "https://www.tiktok.com/@beobeo.21/video/7619927601360030997",
+      "description": "2 bộ cọ rẻ cho mấy bà nha #goclamdep #makeup #comakeup",
+      "duration_s": 445.613,
+      "views": 7160,
+      "revenue_vnd": 11780000,
+      "items_sold": 33,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-03-22"
+    },
+    {
+      "video_id": "7626615972778102037",
+      "url": "https://www.tiktok.com/@beobeo.21/video/7626615972778102037",
+      "description": "xem tới cuối nha các bà #tipsmakeup #goclamdep #migia #milai",
+      "duration_s": 86.888,
+      "views": 132250,
+      "revenue_vnd": 9160000,
+      "items_sold": 323,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "14.22%",
+      "publish_date": "2026-04-09"
+    },
+    {
+      "video_id": "7706350377616133382",
+      "url": "https://www.tiktok.com/@beobeo.21/video/7706350377616133382",
+      "description": "màu trong trong yêu cực mà còn ẩm môi #Lipit #sonduongcomau #tintmehealthybalm",
+      "duration_s": 60.603,
+      "views": 66370,
+      "revenue_vnd": 7600000,
+      "items_sold": 94,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.783,
+      "ad_view_ratio": "19.87%",
+      "publish_date": "2026-11-10"
+    },
+    {
+      "video_id": "7654070548347194644",
+      "url": "https://www.tiktok.com/@beobeo.21/video/7654070548347194644",
+      "description": "so sánh 2 mã mi idol Milai #milai #migia #miidol",
+      "duration_s": 89.373,
+      "views": 86900,
+      "revenue_vnd": 7420000,
+      "items_sold": 187,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "18.73%",
+      "publish_date": "2026-06-22"
+    },
+    {
+      "video_id": "7676353598896213268",
+      "url": "https://www.tiktok.com/@beobeo.21/video/7676353598896213268",
+      "description": "1 shortcut kẻ bọng mắt mà hịu ứng gần như vẽ bằng phấn #flortte #kebongmat (video có chứa nội dung affiliate)",
+      "duration_s": 164.652,
+      "views": 23370,
+      "revenue_vnd": 7410000,
+      "items_sold": 49,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.719,
+      "ad_view_ratio": "67.15%",
+      "publish_date": "2026-08-22"
+    },
+    {
+      "video_id": "7694658183444434177",
+      "url": "https://www.tiktok.com/@beobeo.21/video/7694658183444434177",
+      "description": "triệu lượt bán lun nhó #HợpTácCùngMaybelline #LumiMatte",
+      "duration_s": 135,
+      "views": 17740,
+      "revenue_vnd": 7170000,
+      "items_sold": 43,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "76.78%",
+      "publish_date": "2026-10-09"
+    },
+    {
+      "video_id": "7629304668027456788",
+      "url": "https://www.tiktok.com/@beobeo.21/video/7629304668027456788",
+      "description": "đúng gu của tui là màu xinh, bóng và ẩm môi 🤌🏻 #KATETokyo #lipmonster #NoMoreRules",
+      "duration_s": 32.4,
+      "views": 14300,
+      "revenue_vnd": 6980000,
+      "items_sold": 23,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.453,
+      "ad_view_ratio": "49.67%",
+      "publish_date": "2026-04-16"
+    }
+  ],
+  "shops": [
+    {
+      "name": "Flower Knows V N",
+      "revenue_vnd": 21260000,
+      "product_count": 2,
+      "items_sold": 54
+    },
+    {
+      "name": "GUOXIAONIU VN",
+      "revenue_vnd": 20390000,
+      "product_count": 6,
+      "items_sold": 259
+    },
+    {
+      "name": "FORESEE POP",
+      "revenue_vnd": 17850000,
+      "product_count": 1,
+      "items_sold": 22
+    },
+    {
+      "name": "Nuegray",
+      "revenue_vnd": 16740000,
+      "product_count": 2,
+      "items_sold": 165
+    },
+    {
+      "name": "KATE Vietnam",
+      "revenue_vnd": 14310000,
+      "product_count": 3,
+      "items_sold": 46
+    },
+    {
+      "name": "TAPTING Cosmetics",
+      "revenue_vnd": 11780000,
+      "product_count": 1,
+      "items_sold": 33
+    },
+    {
+      "name": "MILAI Vietnam",
+      "revenue_vnd": 10950000,
+      "product_count": 2,
+      "items_sold": 292
+    },
+    {
+      "name": "The Starlens Contact Lens",
+      "revenue_vnd": 9710000,
+      "product_count": 1,
+      "items_sold": 50
+    },
+    {
+      "name": "MIlai Nhật ký",
+      "revenue_vnd": 9160000,
+      "product_count": 1,
+      "items_sold": 323
+    },
+    {
+      "name": "Thuỷ Mi Store",
+      "revenue_vnd": 9020000,
+      "product_count": 1,
+      "items_sold": 150
+    }
+  ],
+  "products": [
+    {
+      "title": "Flower Knows – Má Hồng Phấn Satin Kỳ Lân Knight Unicorn Collection",
+      "revenue_vnd": 21260000,
+      "items_sold": 54,
+      "avg_price_vnd": 393680
+    },
+    {
+      "title": "FORESEE POP Bộ Cọ Trang Điểm 14 Cây Sợi Tổng Hợp Thuần Chay Dành Cho Phấn Má, Kem Nền & Phấn Mắt, Bộ Dụng Cụ Mỹ Phẩm Đa Năng, Màu Đen Nhám Thanh Lịch",
+      "revenue_vnd": 17850000,
+      "items_sold": 22,
+      "avg_price_vnd": 811580
+    },
+    {
+      "title": "【Set Giới Hạn 1+1 Tháng 11】Hàng nhập khẩu chính ngạch | Chính hãng 100% | Kích thước đầy đủ 4.6g",
+      "revenue_vnd": 16740000,
+      "items_sold": 165,
+      "avg_price_vnd": 101420
+    },
+    {
+      "title": "Bộ cọ thân gỗ sồi cao cấp 13 cây trang điểm chuyên nghiệp - Cán gỗ sồi kết hợp inox cao cấp Cosmetic - Mỹ phẩm",
+      "revenue_vnd": 11780000,
+      "items_sold": 33,
+      "avg_price_vnd": 357070
+    },
+    {
+      "title": "MILAI Mi giả sẵn keo, 10 hàng/hộp | Kiểu tự nhiên và dày đẹp | Mua từ 3 hộp, tặng 1 nhíp và 1 kẹp mi",
+      "revenue_vnd": 9920000,
+      "items_sold": 250,
+      "avg_price_vnd": 39670
+    },
+    {
+      "title": "【Điểm nổi bật cố định】Kính áp tròng Starlens, đường kính 14,5 mm, chu kỳ thay thế 6 tháng một lần, phạm vi độ khúc xạ từ 0 đến -8.00.",
+      "revenue_vnd": 9710000,
+      "items_sold": 50,
+      "avg_price_vnd": 194210
+    },
+    {
+      "title": "MILAI Mua 3 hộp tặng nhíp, mua 5 hộp tặng kẹp mi",
+      "revenue_vnd": 9160000,
+      "items_sold": 323,
+      "avg_price_vnd": 28340
+    },
+    {
+      "title": "Mi Giả Gân Trong Hàn Quốc F21 Green Thủy Mi",
+      "revenue_vnd": 9020000,
+      "items_sold": 150,
+      "avg_price_vnd": 60150
+    },
+    {
+      "title": "Son Dưỡng Môi Có Màu Dưỡng Ẩm, Hỗ Trợ Làm Mềm Môi Lip It Tint Me Healthy Balm 3g",
+      "revenue_vnd": 7600000,
+      "items_sold": 94,
+      "avg_price_vnd": 80880
+    },
+    {
+      "title": "Flortte Mesmerizing Princess--- 4 màu bút tạo bọng mắt, thiết kế hai đầu, bao gồm tạo khối và làm sáng, mỹ phẩm dành cho nữ sinh, sản phẩm trang điểm mắt",
+      "revenue_vnd": 7410000,
+      "items_sold": 49,
+      "avg_price_vnd": 151210
+    }
+  ],
+  "contact_keys": []
+}

@@ -1,0 +1,286 @@
+{
+  "handle": "khankhongg96",
+  "kalodata_id": "7498266926922368001",
+  "nickname": "KHAN KHÔNG G96",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": "BMS PARTNERS",
+  "bio": "Anh chị mua hàng tại góc trái video\nCheck kĩ số lượng sản phẩm nhé 💕",
+  "followers": 297900,
+  "debut_date": "2025-08-16",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": null,
+  "follower_age_top": null,
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được. API không trả followerSex/followerAgeMax.",
+  "core_metrics": {
+    "revenue_vnd": 4300000000,
+    "live_revenue_vnd": 0,
+    "video_revenue_vnd": 4270000000,
+    "video_views": 38520000,
+    "live_views": 0,
+    "follower_change": 10400
+  },
+  "videos": [
+    {
+      "video_id": "7623625311111974151",
+      "url": "https://www.tiktok.com/@khankhongg96/video/7623625311111974151",
+      "description": "KA121--Quạt điện gia đình 8 giai đoạn",
+      "duration_s": 115.9,
+      "views": 2030000,
+      "revenue_vnd": 266580000,
+      "items_sold": 705,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.737,
+      "ad_view_ratio": "26.22%",
+      "publish_date": "2026-04-01"
+    },
+    {
+      "video_id": "7699504640513150226",
+      "url": "https://www.tiktok.com/@khankhongg96/video/7699504640513150226",
+      "description": "Bếp Gas Vừa Âm Vừa Dương WATASHI",
+      "duration_s": 111.734,
+      "views": 2070000,
+      "revenue_vnd": 190080000,
+      "items_sold": 207,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.424,
+      "ad_view_ratio": "23.26%",
+      "publish_date": "2026-10-22"
+    },
+    {
+      "video_id": "7697273974564195591",
+      "url": "https://www.tiktok.com/@khankhongg96/video/7697273974564195591",
+      "description": "Bếp Hồng Ngoại,Bếp Gốm Điện Misu Louis",
+      "duration_s": 92.667,
+      "views": 1320000,
+      "revenue_vnd": 150610000,
+      "items_sold": 494,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.128,
+      "ad_view_ratio": "2.96%",
+      "publish_date": "2026-10-16"
+    },
+    {
+      "video_id": "7704344731303562504",
+      "url": "https://www.tiktok.com/@khankhongg96/video/7704344731303562504",
+      "description": "Sạc nhanh 67W Type-C, hỗ trợ Sạc nhanh cho tất cả điện thoại",
+      "duration_s": 87.267,
+      "views": 1960000,
+      "revenue_vnd": 147160000,
+      "items_sold": 1820,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.785,
+      "ad_view_ratio": "15.12%",
+      "publish_date": "2026-11-04"
+    },
+    {
+      "video_id": "7695070073635163399",
+      "url": "https://www.tiktok.com/@khankhongg96/video/7695070073635163399",
+      "description": "Yukushi Bếp gas chén nhôm YK-2024 Tiết Kiệm Gas",
+      "duration_s": 103.367,
+      "views": 375630,
+      "revenue_vnd": 143410000,
+      "items_sold": 365,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-10"
+    },
+    {
+      "video_id": "7702076335325269266",
+      "url": "https://www.tiktok.com/@khankhongg96/video/7702076335325269266",
+      "description": "Nước Giặt SeeSaw 5.5kg Hương Hoa Lưu Hương 72h",
+      "duration_s": 82.7,
+      "views": 906110,
+      "revenue_vnd": 131530000,
+      "items_sold": 1280,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "15.63%",
+      "publish_date": "2026-10-29"
+    },
+    {
+      "video_id": "7701599304959544583",
+      "url": "https://www.tiktok.com/@khankhongg96/video/7701599304959544583",
+      "description": "Combo 10 Lõi Lăn Bụi TẶNG KÈM Cây Lăn",
+      "duration_s": 92.867,
+      "views": 576770,
+      "revenue_vnd": 127890000,
+      "items_sold": 4620,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.799,
+      "ad_view_ratio": "65.02%",
+      "publish_date": "2026-10-28"
+    },
+    {
+      "video_id": "7701375996628454664",
+      "url": "https://www.tiktok.com/@khankhongg96/video/7701375996628454664",
+      "description": "【giữ mùi lâu】Nước giặt hương thơm lâu, làm sạch sâu quần áo",
+      "duration_s": 77.7,
+      "views": 1570000,
+      "revenue_vnd": 112610000,
+      "items_sold": 1860,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "8.22%",
+      "publish_date": "2026-10-27"
+    },
+    {
+      "video_id": "7665630467407858962",
+      "url": "https://www.tiktok.com/@khankhongg96/video/7665630467407858962",
+      "description": "Phân Siêu Vi Lượng Bo Canxi Magie Kẽm Gói 1KG",
+      "duration_s": 110.767,
+      "views": 594630,
+      "revenue_vnd": 104070000,
+      "items_sold": 1570,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.737,
+      "ad_view_ratio": "58.45%",
+      "publish_date": "2026-07-23"
+    },
+    {
+      "video_id": "7694698726312529159",
+      "url": "https://www.tiktok.com/@khankhongg96/video/7694698726312529159",
+      "description": "Combo 50 Móc Nhôm Người Lớn Dài 40cm Dày Dặn Chắc Chắn",
+      "duration_s": 100.2,
+      "views": 146820,
+      "revenue_vnd": 99510000,
+      "items_sold": 787,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-09"
+    }
+  ],
+  "shops": [
+    {
+      "name": "Chungoanh Siêu Thị Đồ Gia Dụng",
+      "revenue_vnd": 346910000,
+      "product_count": 5,
+      "items_sold": 1520
+    },
+    {
+      "name": "GL44",
+      "revenue_vnd": 300320000,
+      "product_count": 2,
+      "items_sold": 794
+    },
+    {
+      "name": "MossWood VN",
+      "revenue_vnd": 247920000,
+      "product_count": 1,
+      "items_sold": 102
+    },
+    {
+      "name": "Gia Dụng Anh Quân 68",
+      "revenue_vnd": 208480000,
+      "product_count": 1,
+      "items_sold": 227
+    },
+    {
+      "name": "quocvietstore",
+      "revenue_vnd": 176670000,
+      "product_count": 1,
+      "items_sold": 450
+    },
+    {
+      "name": "Tidy Home Daily Essentials",
+      "revenue_vnd": 170890000,
+      "product_count": 1,
+      "items_sold": 2830
+    },
+    {
+      "name": "SeeSaw Cleaning",
+      "revenue_vnd": 164300000,
+      "product_count": 1,
+      "items_sold": 1610
+    },
+    {
+      "name": "Nông Nghiệp Việt Nhật - JVO",
+      "revenue_vnd": 162900000,
+      "product_count": 1,
+      "items_sold": 2450
+    },
+    {
+      "name": "X-KDUN",
+      "revenue_vnd": 161480000,
+      "product_count": 1,
+      "items_sold": 1990
+    },
+    {
+      "name": "BinBon Decor",
+      "revenue_vnd": 131870000,
+      "product_count": 3,
+      "items_sold": 4770
+    }
+  ],
+  "products": [
+    {
+      "title": "/KA121—Quạt điện gia đình 8 tốc độ, tiện lợi và thực dụng, cánh quạt 7 lá.",
+      "revenue_vnd": 300320000,
+      "items_sold": 794,
+      "avg_price_vnd": 378240
+    },
+    {
+      "title": "MossWood Nệm Lò Xo Túi Độc Lập Giảm Tiếng Ồn Hỗ Trợ Cột Sống Êm Ái Tuyệt Đối Chuẩn Khách Sạn 5 Sao Bảo Hành 30 Năm.",
+      "revenue_vnd": 247920000,
+      "items_sold": 102,
+      "avg_price_vnd": 2430000
+    },
+    {
+      "title": "Bếp Hồng Ngoại,Bếp Gốm Điện Misu Louis [Dùng Được Các Loại Nồi] Bếp Từ Công Suất 3500W, Tiết Kiệm Điện, Có Các Chế Độ Hướng Dẫn Tiếng Việt Sử Dụng Dễ Dàng Bếp Điện",
+      "revenue_vnd": 218710000,
+      "items_sold": 717,
+      "avg_price_vnd": 305040
+    },
+    {
+      "title": "Bếp Gas Vừa Âm Vừa Dương WATASHI WA-513 - Chén Đồng - Kiềng Chắn Gió - Lửa Xanh Tiết Kiệm Gas - Tặng Bộ Van & Dây Gas",
+      "revenue_vnd": 208480000,
+      "items_sold": 227,
+      "avg_price_vnd": 918420
+    },
+    {
+      "title": "Yukushi Bếp gas chén nhôm YK-2024N Mặt kính cường lực Lửa xanh tiết kiệm gas Bảo hành chính hãng 02 Năm Kích thước 69x37x8.5cm",
+      "revenue_vnd": 176670000,
+      "items_sold": 450,
+      "avg_price_vnd": 392600
+    },
+    {
+      "title": "【giữ mùi lâu】Nước giặt hương thơm, giữ mùi lâu, dung tích lớn, tẩy rửa mạnh, dùng gia đình, làm mềm vải, loại bỏ vết bẩn, khử ố vàng, tăng hương thơm, làm sạch sâu",
+      "revenue_vnd": 170890000,
+      "items_sold": 2830,
+      "avg_price_vnd": 60450
+    },
+    {
+      "title": "Nước Giặt SeeSaw 5.5kg Hương Hoa Oải Hương, Dịu Nhẹ Với Da Tay, Thơm Lâu 72 Giờ, Loại Bỏ Vết Bẩn, Lưu Hương Bền Lâu, Không Phốt Phát, Phù Hợp Cho Gia Đình Lavender nuoc giat xali qa",
+      "revenue_vnd": 164300000,
+      "items_sold": 1610,
+      "avg_price_vnd": 102360
+    },
+    {
+      "title": "Siêu Vi Lượng Bo Canxi Magie Kẽm Gói 1KG Cây Xanh Lá, Cứng Cây, Khắc Phục Vàng Lá JVO80 NongNghiepVietNhat",
+      "revenue_vnd": 162900000,
+      "items_sold": 2450,
+      "avg_price_vnd": 66380
+    },
+    {
+      "title": "Sạc nhanh 67W Type-C, hỗ trợ Samsung Oppo Vivo Xiaomi Iphone 15/16/17, kèm cáp sạc, dành cho người dùng Type-C, tăng tốc độ sạc, tiết kiệm thời gian",
+      "revenue_vnd": 161480000,
+      "items_sold": 1990,
+      "avg_price_vnd": 81020
+    },
+    {
+      "title": "Combo 10 Lõi Lăn Bụi TẶNG KÈM CÂY LĂN, Cây Lăn Bụi Làm Sạch Quần Ao, Chăn Ga, Đệm Sofa, Thanh Lan Lông Chó Mèo",
+      "revenue_vnd": 131770000,
+      "items_sold": 4770,
+      "avg_price_vnd": 27650
+    }
+  ],
+  "contact_keys": []
+}

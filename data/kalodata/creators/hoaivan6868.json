@@ -1,0 +1,238 @@
+{
+  "handle": "hoaivan6868",
+  "kalodata_id": "6876627275183293442",
+  "nickname": "Hoài Vân Beauty Shop",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "BELONGED_TO_SELLER",
+  "mcn_name": null,
+  "bio": "Đây là nick bán hàng của Vân nha . Nên cả nhà mua hàng yên tâm ạ",
+  "followers": 153100,
+  "debut_date": "2023-10-05",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": null,
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được. API trả followerAgeMax rỗng.",
+  "core_metrics": {
+    "revenue_vnd": 1280000000,
+    "live_revenue_vnd": 841120000,
+    "video_revenue_vnd": 436900000,
+    "video_views": 863660,
+    "live_views": 109950,
+    "follower_change": 1100
+  },
+  "videos": [
+    {
+      "video_id": "7494955666126146834",
+      "url": "https://www.tiktok.com/@hoaivan6868/video/7494955666126146834",
+      "description": "Trả lời @Loan Đoàn927",
+      "duration_s": 113.2,
+      "views": 403120,
+      "revenue_vnd": 191350000,
+      "items_sold": 602,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.788,
+      "ad_view_ratio": "88.52%",
+      "publish_date": "2025-04-19"
+    },
+    {
+      "video_id": "7697115519710792980",
+      "url": "https://www.tiktok.com/@hoaivan6868/video/7697115519710792980",
+      "description": "CẢNH BÁO HÀNG GIẢ ❌❌#kemchongnangdatanghalavi",
+      "duration_s": 216.105,
+      "views": 119380,
+      "revenue_vnd": 64470000,
+      "items_sold": 203,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.729,
+      "ad_view_ratio": "89.85%",
+      "publish_date": "2026-10-16"
+    },
+    {
+      "video_id": "7654165069927894293",
+      "url": "https://www.tiktok.com/@hoaivan6868/video/7654165069927894293",
+      "description": "Trả lời @Lan Huong",
+      "duration_s": 81.534,
+      "views": 122700,
+      "revenue_vnd": 62690000,
+      "items_sold": 197,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.691,
+      "ad_view_ratio": "88.54%",
+      "publish_date": "2026-06-22"
+    },
+    {
+      "video_id": "7630316579405745416",
+      "url": "https://www.tiktok.com/@hoaivan6868/video/7630316579405745416",
+      "description": "Trả lời @nguyenchi3020 #chongnangdatanghalavi",
+      "duration_s": 87.283,
+      "views": 61630,
+      "revenue_vnd": 33070000,
+      "items_sold": 104,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": ">90%",
+      "publish_date": "2026-04-19"
+    },
+    {
+      "video_id": "7697903229295725825",
+      "url": "https://www.tiktok.com/@hoaivan6868/video/7697903229295725825",
+      "description": "Trả lời @Thơm Ngốss  ❌❌❌ CẢNH BÁO HÀNG GIẢ #kemchongnangdatanghalavi",
+      "duration_s": 162.467,
+      "views": 27630,
+      "revenue_vnd": 16250000,
+      "items_sold": 51,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.33,
+      "ad_view_ratio": "42.92%",
+      "publish_date": "2026-10-18"
+    },
+    {
+      "video_id": "7662033423514701077",
+      "url": "https://www.tiktok.com/@hoaivan6868/video/7662033423514701077",
+      "description": "Chuẩn bị có mặt tại Hàn Quốc #kemchongnangdatanghalavi",
+      "duration_s": 80.6,
+      "views": 24300,
+      "revenue_vnd": 14900000,
+      "items_sold": 47,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "87.75%",
+      "publish_date": "2026-07-13"
+    },
+    {
+      "video_id": "7680484858770033941",
+      "url": "https://www.tiktok.com/@hoaivan6868/video/7680484858770033941",
+      "description": "#kemchongnangdatanghalavi",
+      "duration_s": 62.438,
+      "views": 18110,
+      "revenue_vnd": 11470000,
+      "items_sold": 36,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.534,
+      "ad_view_ratio": "72.33%",
+      "publish_date": "2026-09-01"
+    },
+    {
+      "video_id": "7443386322472996103",
+      "url": "https://www.tiktok.com/@hoaivan6868/video/7443386322472996103",
+      "description": "Trả lời @bà bà",
+      "duration_s": 89.976,
+      "views": 14060,
+      "revenue_vnd": 8460000,
+      "items_sold": 19,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "49.60%",
+      "publish_date": "2024-12-01"
+    },
+    {
+      "video_id": "7694976038882790676",
+      "url": "https://www.tiktok.com/@hoaivan6868/video/7694976038882790676",
+      "description": "Các chị mua hàng cẩn thận nha #kemchongnangdatanghalavi",
+      "duration_s": 86.127,
+      "views": 10940,
+      "revenue_vnd": 7320000,
+      "items_sold": 23,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-10"
+    },
+    {
+      "video_id": "7671477872564981013",
+      "url": "https://www.tiktok.com/@hoaivan6868/video/7671477872564981013",
+      "description": "Kem lười .#kemchongnangdatanghalavi",
+      "duration_s": 54.009,
+      "views": 14690,
+      "revenue_vnd": 7030000,
+      "items_sold": 22,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "88.56%",
+      "publish_date": "2026-08-08"
+    }
+  ],
+  "shops": [
+    {
+      "name": "Hoài Vân Beauty Shop",
+      "revenue_vnd": 1170000000,
+      "product_count": 10,
+      "items_sold": 2790
+    },
+    {
+      "name": "Hoaivanbeauty",
+      "revenue_vnd": 112110000,
+      "product_count": 2,
+      "items_sold": 308
+    }
+  ],
+  "products": [
+    {
+      "title": "KEM CHỐNG NẮNG HALAVI MULTI-LAYER SUNSCREEN",
+      "revenue_vnd": 545600000,
+      "items_sold": 1720,
+      "avg_price_vnd": 317950
+    },
+    {
+      "title": "HALAVI - Brightening Serum hỗ trợ sáng da (15g)",
+      "revenue_vnd": 332770000,
+      "items_sold": 630,
+      "avg_price_vnd": 528200
+    },
+    {
+      "title": "[Mua 2 tặng 1 sữa rửa mặt Radiance BHA- Collagen Cleanser ] KEM CHỐNG NẮNG MULTI-LAYER SUNSCREEN",
+      "revenue_vnd": 98360000,
+      "items_sold": 148,
+      "avg_price_vnd": 664620
+    },
+    {
+      "title": "Kem dưỡng Halavi Vital Essence (50gr)",
+      "revenue_vnd": 74650000,
+      "items_sold": 152,
+      "avg_price_vnd": 491120
+    },
+    {
+      "title": "Kem Chống Nắng Phổ Rộng Halavi Muli Layer Suncreen, Đa Tầng Kiềm Dầu Thẩm Thấu Nhanh SPF 50+,PA+++",
+      "revenue_vnd": 73840000,
+      "items_sold": 230,
+      "avg_price_vnd": 321020
+    },
+    {
+      "title": "[COMBO 2 SẢN PHẨM] Kem Chống Nắng + Kem Dưỡng Halavi Vital Essence Cream.",
+      "revenue_vnd": 40310000,
+      "items_sold": 49,
+      "avg_price_vnd": 822740
+    },
+    {
+      "title": "Kem dưỡng Halavi Vital Essence Cream (50gr)",
+      "revenue_vnd": 38270000,
+      "items_sold": 78,
+      "avg_price_vnd": 490660
+    },
+    {
+      "title": "[combo 5 có quà tặng ] KEM CHỐNG NẮNG MULTI - LAYER SUNSCREEN",
+      "revenue_vnd": 23260000,
+      "items_sold": 7,
+      "avg_price_vnd": 3320000
+    },
+    {
+      "title": "Sữa rửa mặt hỗ trợ làm sạch Radiance BHA- Collagen Cleanser",
+      "revenue_vnd": 20800000,
+      "items_sold": 60,
+      "avg_price_vnd": 346720
+    },
+    {
+      "title": "[BỘ 3 SẢN PHẨM kèm quà tặng] Kem Chống Nắng + Sữa Rửa Mặt + Kem Dưỡng",
+      "revenue_vnd": 19180000,
+      "items_sold": 17,
+      "avg_price_vnd": 1130000
+    }
+  ],
+  "contact_keys": []
+}

@@ -1,0 +1,1459 @@
+{
+  "run_id": "final-haiku",
+  "stages": {
+    "screen": [
+      {
+        "stage": "screen",
+        "model": "claude-haiku-5-5",
+        "provider": "anthropic",
+        "effort": "low",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 2,
+        "seconds": 35.3,
+        "input_tokens": 21074,
+        "output_tokens": 8159,
+        "cost_usd": 0.00570252,
+        "avg_latency_ms": 17514.5,
+        "agreement_vs_ref": {
+          "n": 16,
+          "account_kind": 1,
+          "primary_niche": 0.875,
+          "topic_relevance_mae": 0.5625,
+          "exact_avg": 0.9375
+        }
+      },
+      {
+        "stage": "screen",
+        "model": "claude-sonnet-5-5",
+        "provider": "anthropic",
+        "effort": "low",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 2,
+        "seconds": 19.6,
+        "input_tokens": 21074,
+        "output_tokens": 2961,
+        "cost_usd": 0.0682597,
+        "avg_latency_ms": 9637.5,
+        "agreement_vs_ref": {
+          "n": 16,
+          "account_kind": 1,
+          "primary_niche": 0.75,
+          "topic_relevance_mae": 0.75,
+          "exact_avg": 0.875
+        }
+      },
+      {
+        "stage": "screen",
+        "model": "claude-opus-5-5",
+        "provider": "anthropic",
+        "effort": "low",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 2,
+        "seconds": 24.2,
+        "input_tokens": 21074,
+        "output_tokens": 2838,
+        "cost_usd": 0.1340594,
+        "avg_latency_ms": 11939.5,
+        "agreement_vs_ref": {
+          "n": 16,
+          "account_kind": 0.875,
+          "primary_niche": 0.9375,
+          "topic_relevance_mae": 0.375,
+          "exact_avg": 0.90625
+        }
+      },
+      {
+        "stage": "screen",
+        "model": "gemini-3.5-flash-lite",
+        "provider": "gemini",
+        "effort": "low",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 2,
+        "seconds": 7.8,
+        "input_tokens": 10757,
+        "output_tokens": 2499,
+        "cost_usd": 0.0094746,
+        "avg_latency_ms": 3776,
+        "agreement_vs_ref": {
+          "n": 16,
+          "account_kind": 1,
+          "primary_niche": 0.75,
+          "topic_relevance_mae": 0.875,
+          "exact_avg": 0.875
+        }
+      },
+      {
+        "stage": "screen",
+        "model": "gemini-3.1-flash-lite",
+        "provider": "gemini",
+        "effort": "low",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 2,
+        "seconds": 7.9,
+        "input_tokens": 10757,
+        "output_tokens": 2398,
+        "cost_usd": 0.00628625,
+        "avg_latency_ms": 3804,
+        "agreement_vs_ref": {
+          "n": 16,
+          "account_kind": 1,
+          "primary_niche": 0.75,
+          "topic_relevance_mae": 0.8125,
+          "exact_avg": 0.875
+        }
+      },
+      {
+        "stage": "screen",
+        "model": "gemini-3.8-flash",
+        "provider": "gemini",
+        "effort": "low",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 2,
+        "seconds": 58.7,
+        "input_tokens": 10757,
+        "output_tokens": 7396,
+        "cost_usd": 0.03580275,
+        "avg_latency_ms": 29206,
+        "agreement_vs_ref": {
+          "n": 16,
+          "account_kind": 1,
+          "primary_niche": 1,
+          "topic_relevance_mae": 0.0625,
+          "exact_avg": 1
+        }
+      },
+      {
+        "stage": "screen",
+        "model": "gemini-4-carbon",
+        "provider": "gemini",
+        "effort": "low",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 2,
+        "seconds": 296.0,
+        "input_tokens": 11738,
+        "output_tokens": 4561,
+        "cost_usd": 0.069086,
+        "avg_latency_ms": 147875.5,
+        "agreement_vs_ref": {
+          "n": 16,
+          "account_kind": 1,
+          "primary_niche": 0.9375,
+          "topic_relevance_mae": 0.25,
+          "exact_avg": 0.96875
+        }
+      },
+      {
+        "stage": "screen",
+        "model": "deepseek-flash",
+        "provider": "deepseek",
+        "effort": "low",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 2,
+        "seconds": 53.1,
+        "input_tokens": 21734,
+        "output_tokens": 11761,
+        "cost_usd": 0.017698104,
+        "avg_latency_ms": 26453,
+        "agreement_vs_ref": {
+          "n": 16,
+          "account_kind": 1,
+          "primary_niche": 0.8125,
+          "topic_relevance_mae": 0.3125,
+          "exact_avg": 0.90625
+        }
+      },
+      {
+        "stage": "screen",
+        "model": "deepseek-v4-pro",
+        "provider": "deepseek",
+        "effort": "low",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 2,
+        "seconds": 152.9,
+        "input_tokens": 14349,
+        "output_tokens": 12595,
+        "cost_usd": 0.064897008,
+        "avg_latency_ms": 76340.5,
+        "agreement_vs_ref": {
+          "n": 16,
+          "account_kind": 1,
+          "primary_niche": 0.9375,
+          "topic_relevance_mae": 0.6875,
+          "exact_avg": 0.96875
+        }
+      },
+      {
+        "stage": "screen",
+        "model": "claude-opus-5-5",
+        "provider": "anthropic",
+        "effort": "high",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 2,
+        "seconds": 59.4,
+        "input_tokens": 21074,
+        "output_tokens": 6718,
+        "cost_usd": 0.2116594,
+        "avg_latency_ms": 29613.5,
+        "agreement_vs_ref": {
+          "n": 16,
+          "account_kind": 1,
+          "primary_niche": 0.9375,
+          "topic_relevance_mae": 0.0625,
+          "exact_avg": 0.96875
+        }
+      },
+      {
+        "stage": "screen",
+        "model": "gemini-4-carbon",
+        "provider": "gemini",
+        "effort": "high",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 2,
+        "seconds": 266.3,
+        "input_tokens": 11738,
+        "output_tokens": 4837,
+        "cost_usd": 0.07184600000000001,
+        "avg_latency_ms": 133036,
+        "agreement_vs_ref": {
+          "n": 16,
+          "account_kind": 1,
+          "primary_niche": 0.9375,
+          "topic_relevance_mae": 0.25,
+          "exact_avg": 0.96875
+        }
+      },
+      {
+        "stage": "screen",
+        "model": "deepseek-v4-pro",
+        "provider": "deepseek",
+        "effort": "high",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 2,
+        "seconds": 187.1,
+        "input_tokens": 14507,
+        "output_tokens": 14227,
+        "cost_usd": 0.071241632,
+        "avg_latency_ms": 93405,
+        "agreement_vs_ref": {
+          "n": 16,
+          "account_kind": 1,
+          "primary_niche": 0.9375,
+          "topic_relevance_mae": 0.1875,
+          "exact_avg": 0.96875
+        }
+      }
+    ],
+    "video": [
+      {
+        "stage": "video",
+        "model": "claude-haiku-5-5",
+        "provider": "anthropic",
+        "effort": "low",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 9,
+        "seconds": 15.8,
+        "input_tokens": 41392,
+        "output_tokens": 5747,
+        "cost_usd": 0.0054559000000000005,
+        "avg_latency_ms": 3833.222222222222,
+        "agreement_vs_ref": {
+          "n": 9,
+          "is_on_topic": 1,
+          "face_on_camera": 1,
+          "product_demo_on_skin": 0.7142857142857143,
+          "shows_texture_or_finish": 0.8333333333333334,
+          "presenter_gender": 1,
+          "hook_strength_mae": 0.2777777777777778,
+          "production_quality_mae": 0.7222222222222222,
+          "exact_avg": 0.9095238095238095
+        }
+      },
+      {
+        "stage": "video",
+        "model": "claude-sonnet-5-5",
+        "provider": "anthropic",
+        "effort": "low",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 9,
+        "seconds": 18.9,
+        "input_tokens": 41392,
+        "output_tokens": 5975,
+        "cost_usd": 0.111398,
+        "avg_latency_ms": 5270.555555555556,
+        "agreement_vs_ref": {
+          "n": 9,
+          "is_on_topic": 1,
+          "face_on_camera": 1,
+          "product_demo_on_skin": 0.8571428571428571,
+          "shows_texture_or_finish": 1,
+          "presenter_gender": 1,
+          "hook_strength_mae": 0.2777777777777778,
+          "production_quality_mae": 0.16666666666666666,
+          "exact_avg": 0.9714285714285714
+        }
+      },
+      {
+        "stage": "video",
+        "model": "claude-opus-5-5",
+        "provider": "anthropic",
+        "effort": "low",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 9,
+        "seconds": 21.8,
+        "input_tokens": 41392,
+        "output_tokens": 5539,
+        "cost_usd": 0.214076,
+        "avg_latency_ms": 6320.111111111111,
+        "agreement_vs_ref": {
+          "n": 9,
+          "is_on_topic": 1,
+          "face_on_camera": 1,
+          "product_demo_on_skin": 0.8571428571428571,
+          "shows_texture_or_finish": 1,
+          "presenter_gender": 0.875,
+          "hook_strength_mae": 0.2777777777777778,
+          "production_quality_mae": 0.16666666666666666,
+          "exact_avg": 0.9464285714285714
+        }
+      },
+      {
+        "stage": "video",
+        "model": "gemini-3.5-flash-lite",
+        "provider": "gemini",
+        "effort": "low",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 9,
+        "seconds": 28.3,
+        "input_tokens": 43852,
+        "output_tokens": 3016,
+        "cost_usd": 0.020695599999999998,
+        "avg_latency_ms": 10236.666666666666,
+        "agreement_vs_ref": {
+          "n": 9,
+          "is_on_topic": 0.8888888888888888,
+          "face_on_camera": 1,
+          "product_demo_on_skin": 1,
+          "shows_texture_or_finish": 1,
+          "presenter_gender": 1,
+          "hook_strength_mae": 0.6111111111111112,
+          "production_quality_mae": 0.16666666666666666,
+          "exact_avg": 0.9777777777777777
+        }
+      },
+      {
+        "stage": "video",
+        "model": "gemini-3.1-flash-lite",
+        "provider": "gemini",
+        "effort": "low",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 9,
+        "seconds": 27.3,
+        "input_tokens": 43852,
+        "output_tokens": 3081,
+        "cost_usd": 0.0155845,
+        "avg_latency_ms": 8869,
+        "agreement_vs_ref": {
+          "n": 9,
+          "is_on_topic": 0.8888888888888888,
+          "face_on_camera": 1,
+          "product_demo_on_skin": 1,
+          "shows_texture_or_finish": 1,
+          "presenter_gender": 1,
+          "hook_strength_mae": 0.3888888888888889,
+          "production_quality_mae": 0.2777777777777778,
+          "exact_avg": 0.9777777777777777
+        }
+      },
+      {
+        "stage": "video",
+        "model": "gemini-3.8-flash",
+        "provider": "gemini",
+        "effort": "low",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 9,
+        "seconds": 67.4,
+        "input_tokens": 43852,
+        "output_tokens": 9801,
+        "cost_usd": 0.06964275,
+        "avg_latency_ms": 23434,
+        "agreement_vs_ref": {
+          "n": 9,
+          "is_on_topic": 1,
+          "face_on_camera": 1,
+          "product_demo_on_skin": 0.8571428571428571,
+          "shows_texture_or_finish": 1,
+          "presenter_gender": 1,
+          "hook_strength_mae": 0.3888888888888889,
+          "production_quality_mae": 0.2777777777777778,
+          "exact_avg": 0.9714285714285714
+        }
+      },
+      {
+        "stage": "video",
+        "model": "gemini-4-carbon",
+        "provider": "gemini",
+        "effort": "low",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 9,
+        "seconds": 355.2,
+        "input_tokens": 57326,
+        "output_tokens": 6799,
+        "cost_usd": 0.182642,
+        "avg_latency_ms": 136398.88888888888,
+        "agreement_vs_ref": {
+          "n": 9,
+          "is_on_topic": 1,
+          "face_on_camera": 1,
+          "product_demo_on_skin": 1,
+          "shows_texture_or_finish": 1,
+          "presenter_gender": 1,
+          "hook_strength_mae": 0.3888888888888889,
+          "production_quality_mae": 0.2777777777777778,
+          "exact_avg": 1
+        }
+      },
+      {
+        "stage": "video",
+        "model": "deepseek-flash",
+        "provider": "deepseek",
+        "effort": "low",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 9,
+        "seconds": 27.7,
+        "input_tokens": 24231,
+        "output_tokens": 12175,
+        "cost_usd": 0.017024772,
+        "avg_latency_ms": 6962.555555555556,
+        "agreement_vs_ref": {
+          "n": 9,
+          "is_on_topic": 1,
+          "face_on_camera": 1,
+          "product_demo_on_skin": 0.7142857142857143,
+          "shows_texture_or_finish": 0.8333333333333334,
+          "presenter_gender": 1,
+          "hook_strength_mae": 0.3888888888888889,
+          "production_quality_mae": 0.2777777777777778,
+          "exact_avg": 0.9095238095238095
+        }
+      },
+      {
+        "stage": "video",
+        "model": "claude-opus-5-5",
+        "provider": "anthropic",
+        "effort": "high",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 9,
+        "seconds": 39.0,
+        "input_tokens": 41392,
+        "output_tokens": 10511,
+        "cost_usd": 0.313516,
+        "avg_latency_ms": 11653.666666666666,
+        "agreement_vs_ref": {
+          "n": 9,
+          "is_on_topic": 1,
+          "face_on_camera": 1,
+          "product_demo_on_skin": 1,
+          "shows_texture_or_finish": 1,
+          "presenter_gender": 1,
+          "hook_strength_mae": 0.2777777777777778,
+          "production_quality_mae": 0.16666666666666666,
+          "exact_avg": 1
+        }
+      },
+      {
+        "stage": "video",
+        "model": "gemini-4-carbon",
+        "provider": "gemini",
+        "effort": "high",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 9,
+        "seconds": 225.7,
+        "input_tokens": 57326,
+        "output_tokens": 4778,
+        "cost_usd": 0.162432,
+        "avg_latency_ms": 88339.11111111111,
+        "agreement_vs_ref": {
+          "n": 9,
+          "is_on_topic": 1,
+          "face_on_camera": 1,
+          "product_demo_on_skin": 1,
+          "shows_texture_or_finish": 1,
+          "presenter_gender": 1,
+          "hook_strength_mae": 0.2777777777777778,
+          "production_quality_mae": 0.16666666666666666,
+          "exact_avg": 1
+        }
+      }
+    ],
+    "rationale": [
+      {
+        "stage": "rationale",
+        "model": "claude-haiku-5-5",
+        "provider": "anthropic",
+        "effort": "medium",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 1,
+        "seconds": 14.3,
+        "input_tokens": 4603,
+        "output_tokens": 3141,
+        "cost_usd": 0.0020653000000000004,
+        "avg_latency_ms": 14322,
+        "citation_check": {
+          "refs_total": 25,
+          "refs_invalid": [],
+          "valid_rate": 1.0,
+          "handles_match": true
+        },
+        "avg_reason_chars": 233.5
+      },
+      {
+        "stage": "rationale",
+        "model": "claude-sonnet-5-5",
+        "provider": "anthropic",
+        "effort": "medium",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 1,
+        "seconds": 17.5,
+        "input_tokens": 4603,
+        "output_tokens": 2508,
+        "cost_usd": 0.034976,
+        "avg_latency_ms": 17471,
+        "citation_check": {
+          "refs_total": 17,
+          "refs_invalid": [],
+          "valid_rate": 1.0,
+          "handles_match": true
+        },
+        "avg_reason_chars": 218.5
+      },
+      {
+        "stage": "rationale",
+        "model": "claude-opus-5-5",
+        "provider": "anthropic",
+        "effort": "medium",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 1,
+        "seconds": 23.2,
+        "input_tokens": 4603,
+        "output_tokens": 2502,
+        "cost_usd": 0.069832,
+        "avg_latency_ms": 23248,
+        "citation_check": {
+          "refs_total": 18,
+          "refs_invalid": [],
+          "valid_rate": 1.0,
+          "handles_match": true
+        },
+        "avg_reason_chars": 231.75
+      },
+      {
+        "stage": "rationale",
+        "model": "gemini-3.5-flash-lite",
+        "provider": "gemini",
+        "effort": "medium",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 1,
+        "seconds": 3.3,
+        "input_tokens": 2270,
+        "output_tokens": 905,
+        "cost_usd": 0.0029435,
+        "avg_latency_ms": 3334,
+        "citation_check": {
+          "refs_total": 12,
+          "refs_invalid": [],
+          "valid_rate": 1.0,
+          "handles_match": true
+        },
+        "avg_reason_chars": 214.5
+      },
+      {
+        "stage": "rationale",
+        "model": "gemini-3.1-flash-lite",
+        "provider": "gemini",
+        "effort": "medium",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 1,
+        "seconds": 3.8,
+        "input_tokens": 2270,
+        "output_tokens": 922,
+        "cost_usd": 0.0019505,
+        "avg_latency_ms": 3774,
+        "citation_check": {
+          "refs_total": 15,
+          "refs_invalid": [],
+          "valid_rate": 1.0,
+          "handles_match": true
+        },
+        "avg_reason_chars": 224.25
+      },
+      {
+        "stage": "rationale",
+        "model": "gemini-3.8-flash",
+        "provider": "gemini",
+        "effort": "medium",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 1,
+        "seconds": 31.2,
+        "input_tokens": 2270,
+        "output_tokens": 4115,
+        "cost_usd": 0.01713375,
+        "avg_latency_ms": 31221,
+        "citation_check": {
+          "refs_total": 19,
+          "refs_invalid": [],
+          "valid_rate": 1.0,
+          "handles_match": true
+        },
+        "avg_reason_chars": 337.5
+      },
+      {
+        "stage": "rationale",
+        "model": "gemini-4-carbon",
+        "provider": "gemini",
+        "effort": "medium",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 1,
+        "seconds": 83.2,
+        "input_tokens": 2736,
+        "output_tokens": 5350,
+        "cost_usd": 0.058972,
+        "avg_latency_ms": 83157,
+        "citation_check": {
+          "refs_total": 29,
+          "refs_invalid": [],
+          "valid_rate": 1.0,
+          "handles_match": true
+        },
+        "avg_reason_chars": 335.25
+      },
+      {
+        "stage": "rationale",
+        "model": "deepseek-flash",
+        "provider": "deepseek",
+        "effort": "medium",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 1,
+        "seconds": 25.0,
+        "input_tokens": 3212,
+        "output_tokens": 5293,
+        "cost_usd": 0.007127039999999999,
+        "avg_latency_ms": 24983,
+        "citation_check": {
+          "refs_total": 22,
+          "refs_invalid": [],
+          "valid_rate": 1.0,
+          "handles_match": true
+        },
+        "avg_reason_chars": 335.5
+      },
+      {
+        "stage": "rationale",
+        "model": "deepseek-v4-pro",
+        "provider": "deepseek",
+        "effort": "medium",
+        "errors": [],
+        "stats_source": "lần gọi thật của biến thể này",
+        "calls": 1,
+        "seconds": 105.7,
+        "input_tokens": 3263,
+        "output_tokens": 9187,
+        "cost_usd": 0.04068767999999999,
+        "avg_latency_ms": 105730,
+        "citation_check": {
+          "refs_total": 17,
+          "refs_invalid": [],
+          "valid_rate": 1.0,
+          "handles_match": true
+        },
+        "avg_reason_chars": 273
+      }
+    ]
+  },
+  "skipped": {},
+  "reference": {
+    "screen": {
+      "models": [
+        "claude-opus-5-5",
+        "gemini-4-carbon",
+        "deepseek-v4-pro"
+      ],
+      "items": 16
+    },
+    "video": {
+      "models": [
+        "claude-opus-5-5",
+        "gemini-4-carbon"
+      ],
+      "items": 9
+    }
+  },
+  "picks": [
+    {
+      "model": "claude-haiku-5-5",
+      "effort": "low",
+      "selected": [
+        "_huongdaily",
+        "beobeo.21",
+        "lapiszuzu",
+        "reviewkemchongnang",
+        "trangriviuuu_01"
+      ],
+      "jaccard_vs_pipeline": 0.5
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "effort": "low",
+      "selected": [
+        "_huongdaily",
+        "lapiszuzu",
+        "ngoc.matcha.review",
+        "reviewkemchongnang"
+      ],
+      "jaccard_vs_pipeline": 1.0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "effort": "low",
+      "selected": [
+        "_huongdaily",
+        "lapiszuzu",
+        "ngoc.matcha.review",
+        "trangriviuuu_01"
+      ],
+      "jaccard_vs_pipeline": 0.6
+    },
+    {
+      "model": "gemini-3.5-flash-lite",
+      "effort": "low",
+      "selected": [
+        "_huongdaily",
+        "emlylynguyen",
+        "lapiszuzu",
+        "reviewkemchongnang",
+        "trangriviuuu_01"
+      ],
+      "jaccard_vs_pipeline": 0.5
+    },
+    {
+      "model": "gemini-3.1-flash-lite",
+      "effort": "low",
+      "selected": [
+        "_huongdaily",
+        "emlylynguyen",
+        "lapiszuzu",
+        "reviewkemchongnang",
+        "trangriviuuu_01"
+      ],
+      "jaccard_vs_pipeline": 0.5
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "effort": "low",
+      "selected": [
+        "_huongdaily",
+        "emlylynguyen",
+        "mai.trinh.h",
+        "reviewkemchongnang",
+        "trangriviuuu_01"
+      ],
+      "jaccard_vs_pipeline": 0.2857142857142857
+    },
+    {
+      "model": "gemini-4-carbon",
+      "effort": "low",
+      "selected": [
+        "_huongdaily",
+        "emlylynguyen",
+        "lapiszuzu",
+        "reviewkemchongnang",
+        "trangriviuuu_01"
+      ],
+      "jaccard_vs_pipeline": 0.5
+    },
+    {
+      "model": "deepseek-flash",
+      "effort": "low",
+      "selected": [
+        "lapiszuzu",
+        "ngoc.matcha.review",
+        "reviewkemchongnang",
+        "trangriviuuu_01"
+      ],
+      "jaccard_vs_pipeline": 0.6
+    },
+    {
+      "model": "claude-opus-5-5",
+      "effort": "high",
+      "selected": [
+        "_huongdaily",
+        "lapiszuzu",
+        "ngoc.matcha.review",
+        "reviewkemchongnang"
+      ],
+      "jaccard_vs_pipeline": 1.0
+    },
+    {
+      "model": "gemini-4-carbon",
+      "effort": "high",
+      "selected": [
+        "_huongdaily",
+        "emlylynguyen",
+        "lapiszuzu",
+        "reviewkemchongnang",
+        "trangriviuuu_01"
+      ],
+      "jaccard_vs_pipeline": 0.5
+    }
+  ],
+  "recommendation": {
+    "min_agreement": 0.9,
+    "stages": {
+      "screen": {
+        "cheapest_passing": "claude-haiku-5-5",
+        "model": "claude-haiku-5-5",
+        "effort": "low",
+        "agreement": 0.9375,
+        "usd_per_item": 0.0003564075,
+        "usd_500_koc": 0.712815,
+        "avg_latency_s": 17.5145,
+        "best_quality": {
+          "model": "gemini-3.8-flash",
+          "agreement": 1,
+          "usd_500_koc": 4.47534375
+        },
+        "current": "claude-haiku-5-5",
+        "why": "rẻ nhất trong các model khớp tham chiếu ≥ 90%: khớp 94%, 0.00036 USD/item. Model khớp cao nhất là gemini-3.8-flash (100%), đắt hơn 6 lần nhưng chỉ hơn 6 điểm %; không model nào vừa hơn ≥ 5 điểm % vừa tốn thêm ≤ $2/500 KOC"
+      },
+      "video": {
+        "cheapest_passing": "claude-haiku-5-5",
+        "model": "gemini-3.1-flash-lite",
+        "effort": "low",
+        "agreement": 0.9777777777777777,
+        "usd_per_item": 0.001731611111111111,
+        "usd_500_koc": 1.9480625,
+        "avg_latency_s": 8.869,
+        "best_quality": {
+          "model": "gemini-4-carbon",
+          "agreement": 1,
+          "usd_500_koc": 22.83025
+        },
+        "current": "gemini-3.1-flash-lite",
+        "why": "khớp 98%, cao hơn model rẻ nhất đạt ngưỡng (claude-haiku-5-5, 91%) 7 điểm % mà chỉ tốn thêm $1.27 cho 500 KOC (ngưỡng nâng cấp: ≥ 5 điểm %, ≤ $2)."
+      },
+      "rationale": {
+        "model": "gemini-3.1-flash-lite",
+        "effort": "medium",
+        "agreement": null,
+        "usd_per_item": 0.0019505,
+        "usd_500_koc": 0.2438125,
+        "avg_latency_s": 3.774,
+        "current": "gemini-3.1-flash-lite",
+        "why": "rẻ nhất trong 9 model có 100% mã bằng chứng hợp lệ (kiểm bằng code). Văn phong không đo tự động được: nên đọc 1 bản mẫu trước khi đổi (results/benchmark_outputs.json)."
+      }
+    },
+    "stability": [
+      {
+        "handle": "_huongdaily",
+        "share": 0.9,
+        "in_pipeline": true
+      },
+      {
+        "handle": "lapiszuzu",
+        "share": 0.9,
+        "in_pipeline": true
+      },
+      {
+        "handle": "reviewkemchongnang",
+        "share": 0.9,
+        "in_pipeline": true
+      },
+      {
+        "handle": "trangriviuuu_01",
+        "share": 0.8,
+        "in_pipeline": false
+      },
+      {
+        "handle": "emlylynguyen",
+        "share": 0.5,
+        "in_pipeline": false
+      },
+      {
+        "handle": "ngoc.matcha.review",
+        "share": 0.4,
+        "in_pipeline": true
+      },
+      {
+        "handle": "beobeo.21",
+        "share": 0.1,
+        "in_pipeline": false
+      },
+      {
+        "handle": "mai.trinh.h",
+        "share": 0.1,
+        "in_pipeline": false
+      }
+    ],
+    "providers": [
+      {
+        "name": "Anthropic (Claude)",
+        "stages": {
+          "screen": {
+            "pick": {
+              "model": "claude-haiku-5-5",
+              "agreement": 0.9375,
+              "usd_500_koc": 0.712815,
+              "latency_s": 17.5145,
+              "input": null,
+              "n": 16,
+              "fields": {
+                "account_kind": 1,
+                "primary_niche": 0.875
+              }
+            },
+            "passes": true,
+            "best": {
+              "model": "claude-haiku-5-5",
+              "agreement": 0.9375,
+              "usd_500_koc": 0.712815,
+              "latency_s": 17.5145,
+              "input": null,
+              "n": 16,
+              "fields": {
+                "account_kind": 1,
+                "primary_niche": 0.875
+              }
+            },
+            "cheapest": {
+              "model": "claude-haiku-5-5",
+              "agreement": 0.9375,
+              "usd_500_koc": 0.712815,
+              "latency_s": 17.5145,
+              "input": null,
+              "n": 16,
+              "fields": {
+                "account_kind": 1,
+                "primary_niche": 0.875
+              }
+            },
+            "tested": [
+              "claude-haiku-5-5",
+              "claude-opus-5-5",
+              "claude-sonnet-5-5"
+            ],
+            "why": "được chọn"
+          },
+          "video": {
+            "pick": {
+              "model": "claude-haiku-5-5",
+              "agreement": 0.9095238095238095,
+              "usd_500_koc": 0.6819875000000001,
+              "latency_s": 3.833222222222222,
+              "input": "6 khung hình + phụ đề",
+              "n": 9,
+              "fields": {
+                "is_on_topic": 1,
+                "face_on_camera": 1,
+                "product_demo_on_skin": 0.7142857142857143,
+                "shows_texture_or_finish": 0.8333333333333334,
+                "presenter_gender": 1
+              }
+            },
+            "passes": true,
+            "best": {
+              "model": "claude-sonnet-5-5",
+              "agreement": 0.9714285714285714,
+              "usd_500_koc": 13.92475,
+              "latency_s": 5.270555555555555,
+              "input": "6 khung hình + phụ đề",
+              "n": 9,
+              "fields": {
+                "is_on_topic": 1,
+                "face_on_camera": 1,
+                "product_demo_on_skin": 0.8571428571428571,
+                "shows_texture_or_finish": 1,
+                "presenter_gender": 1
+              }
+            },
+            "cheapest": {
+              "model": "claude-haiku-5-5",
+              "agreement": 0.9095238095238095,
+              "usd_500_koc": 0.6819875000000001,
+              "latency_s": 3.833222222222222,
+              "input": "6 khung hình + phụ đề",
+              "n": 9,
+              "fields": {
+                "is_on_topic": 1,
+                "face_on_camera": 1,
+                "product_demo_on_skin": 0.7142857142857143,
+                "shows_texture_or_finish": 0.8333333333333334,
+                "presenter_gender": 1
+              }
+            },
+            "tested": [
+              "claude-haiku-5-5",
+              "claude-opus-5-5",
+              "claude-sonnet-5-5"
+            ],
+            "why": "khớp thấp hơn 7 điểm %; rẻ hơn 2.9 lần; nhanh hơn 2.3 lần"
+          },
+          "rationale": {
+            "pick": {
+              "model": "claude-haiku-5-5",
+              "agreement": 1.0,
+              "usd_500_koc": 0.2581625000000001,
+              "latency_s": 14.322,
+              "input": null,
+              "n": null,
+              "fields": {}
+            },
+            "passes": true,
+            "best": {
+              "model": "claude-haiku-5-5",
+              "agreement": 1.0,
+              "usd_500_koc": 0.2581625000000001,
+              "latency_s": 14.322,
+              "input": null,
+              "n": null,
+              "fields": {}
+            },
+            "cheapest": {
+              "model": "claude-haiku-5-5",
+              "agreement": 1.0,
+              "usd_500_koc": 0.2581625000000001,
+              "latency_s": 14.322,
+              "input": null,
+              "n": null,
+              "fields": {}
+            },
+            "tested": [
+              "claude-haiku-5-5",
+              "claude-opus-5-5",
+              "claude-sonnet-5-5"
+            ],
+            "why": "chi phí ngang nhau; chậm hơn 3.8 lần"
+          }
+        },
+        "plan": {
+          "screen": "claude-haiku-5-5",
+          "video": "claude-haiku-5-5",
+          "rationale": "claude-haiku-5-5"
+        },
+        "cheapest_plan": {
+          "screen": "claude-haiku-5-5",
+          "video": "claude-haiku-5-5",
+          "rationale": "claude-haiku-5-5"
+        }
+      },
+      {
+        "name": "Google (Gemini)",
+        "stages": {
+          "screen": {
+            "pick": {
+              "model": "gemini-3.8-flash",
+              "agreement": 1,
+              "usd_500_koc": 4.47534375,
+              "latency_s": 29.206,
+              "input": null,
+              "n": 16,
+              "fields": {
+                "account_kind": 1,
+                "primary_niche": 1
+              }
+            },
+            "passes": true,
+            "best": {
+              "model": "gemini-3.8-flash",
+              "agreement": 1,
+              "usd_500_koc": 4.47534375,
+              "latency_s": 29.206,
+              "input": null,
+              "n": 16,
+              "fields": {
+                "account_kind": 1,
+                "primary_niche": 1
+              }
+            },
+            "cheapest": {
+              "model": "gemini-3.1-flash-lite",
+              "agreement": 0.875,
+              "usd_500_koc": 0.78578125,
+              "latency_s": 3.804,
+              "input": null,
+              "n": 16,
+              "fields": {
+                "account_kind": 1,
+                "primary_niche": 0.75
+              }
+            },
+            "tested": [
+              "gemini-3.1-flash-lite",
+              "gemini-3.5-flash-lite",
+              "gemini-3.8-flash",
+              "gemini-4-carbon"
+            ],
+            "why": "đắt hơn 6.3 lần; chậm hơn 1.7 lần"
+          },
+          "video": {
+            "pick": {
+              "model": "gemini-3.1-flash-lite",
+              "agreement": 0.9777777777777777,
+              "usd_500_koc": 1.9480625,
+              "latency_s": 8.869,
+              "input": "video gốc có tiếng",
+              "n": 9,
+              "fields": {
+                "is_on_topic": 0.8888888888888888,
+                "face_on_camera": 1,
+                "product_demo_on_skin": 1,
+                "shows_texture_or_finish": 1,
+                "presenter_gender": 1
+              }
+            },
+            "passes": true,
+            "best": {
+              "model": "gemini-4-carbon",
+              "agreement": 1,
+              "usd_500_koc": 22.83025,
+              "latency_s": 136.39888888888888,
+              "input": "video gốc có tiếng",
+              "n": 9,
+              "fields": {
+                "is_on_topic": 1,
+                "face_on_camera": 1,
+                "product_demo_on_skin": 1,
+                "shows_texture_or_finish": 1,
+                "presenter_gender": 1
+              }
+            },
+            "cheapest": {
+              "model": "gemini-3.1-flash-lite",
+              "agreement": 0.9777777777777777,
+              "usd_500_koc": 1.9480625,
+              "latency_s": 8.869,
+              "input": "video gốc có tiếng",
+              "n": 9,
+              "fields": {
+                "is_on_topic": 0.8888888888888888,
+                "face_on_camera": 1,
+                "product_demo_on_skin": 1,
+                "shows_texture_or_finish": 1,
+                "presenter_gender": 1
+              }
+            },
+            "tested": [
+              "gemini-3.1-flash-lite",
+              "gemini-3.5-flash-lite",
+              "gemini-3.8-flash",
+              "gemini-4-carbon"
+            ],
+            "why": "được chọn"
+          },
+          "rationale": {
+            "pick": {
+              "model": "gemini-3.1-flash-lite",
+              "agreement": 1.0,
+              "usd_500_koc": 0.2438125,
+              "latency_s": 3.774,
+              "input": null,
+              "n": null,
+              "fields": {}
+            },
+            "passes": true,
+            "best": {
+              "model": "gemini-3.1-flash-lite",
+              "agreement": 1.0,
+              "usd_500_koc": 0.2438125,
+              "latency_s": 3.774,
+              "input": null,
+              "n": null,
+              "fields": {}
+            },
+            "cheapest": {
+              "model": "gemini-3.1-flash-lite",
+              "agreement": 1.0,
+              "usd_500_koc": 0.2438125,
+              "latency_s": 3.774,
+              "input": null,
+              "n": null,
+              "fields": {}
+            },
+            "tested": [
+              "gemini-3.1-flash-lite",
+              "gemini-3.5-flash-lite",
+              "gemini-3.8-flash",
+              "gemini-4-carbon"
+            ],
+            "why": "được chọn"
+          }
+        },
+        "plan": {
+          "screen": "gemini-3.8-flash",
+          "video": "gemini-3.1-flash-lite",
+          "rationale": "gemini-3.1-flash-lite"
+        },
+        "cheapest_plan": {
+          "screen": "gemini-3.1-flash-lite",
+          "video": "gemini-3.1-flash-lite",
+          "rationale": "gemini-3.1-flash-lite"
+        }
+      },
+      {
+        "name": "DeepSeek",
+        "stages": {
+          "screen": {
+            "pick": {
+              "model": "deepseek-flash",
+              "agreement": 0.90625,
+              "usd_500_koc": 2.212263,
+              "latency_s": 26.453,
+              "input": null,
+              "n": 16,
+              "fields": {
+                "account_kind": 1,
+                "primary_niche": 0.8125
+              }
+            },
+            "passes": true,
+            "best": {
+              "model": "deepseek-v4-pro",
+              "agreement": 0.96875,
+              "usd_500_koc": 8.112126,
+              "latency_s": 76.3405,
+              "input": null,
+              "n": 16,
+              "fields": {
+                "account_kind": 1,
+                "primary_niche": 0.9375
+              }
+            },
+            "cheapest": {
+              "model": "deepseek-flash",
+              "agreement": 0.90625,
+              "usd_500_koc": 2.212263,
+              "latency_s": 26.453,
+              "input": null,
+              "n": 16,
+              "fields": {
+                "account_kind": 1,
+                "primary_niche": 0.8125
+              }
+            },
+            "tested": [
+              "deepseek-flash",
+              "deepseek-v4-pro"
+            ],
+            "why": "khớp thấp hơn 3 điểm %; đắt hơn 3.1 lần; chậm hơn 1.5 lần"
+          },
+          "video": {
+            "pick": {
+              "model": "deepseek-flash",
+              "agreement": 0.9095238095238095,
+              "usd_500_koc": 2.1280965000000003,
+              "latency_s": 6.962555555555555,
+              "input": "6 khung hình + phụ đề",
+              "n": 9,
+              "fields": {
+                "is_on_topic": 1,
+                "face_on_camera": 1,
+                "product_demo_on_skin": 0.7142857142857143,
+                "shows_texture_or_finish": 0.8333333333333334,
+                "presenter_gender": 1
+              }
+            },
+            "passes": true,
+            "best": {
+              "model": "deepseek-flash",
+              "agreement": 0.9095238095238095,
+              "usd_500_koc": 2.1280965000000003,
+              "latency_s": 6.962555555555555,
+              "input": "6 khung hình + phụ đề",
+              "n": 9,
+              "fields": {
+                "is_on_topic": 1,
+                "face_on_camera": 1,
+                "product_demo_on_skin": 0.7142857142857143,
+                "shows_texture_or_finish": 0.8333333333333334,
+                "presenter_gender": 1
+              }
+            },
+            "cheapest": {
+              "model": "deepseek-flash",
+              "agreement": 0.9095238095238095,
+              "usd_500_koc": 2.1280965000000003,
+              "latency_s": 6.962555555555555,
+              "input": "6 khung hình + phụ đề",
+              "n": 9,
+              "fields": {
+                "is_on_topic": 1,
+                "face_on_camera": 1,
+                "product_demo_on_skin": 0.7142857142857143,
+                "shows_texture_or_finish": 0.8333333333333334,
+                "presenter_gender": 1
+              }
+            },
+            "tested": [
+              "deepseek-flash"
+            ],
+            "why": "khớp thấp hơn 7 điểm %; chi phí ngang nhau"
+          },
+          "rationale": {
+            "pick": {
+              "model": "deepseek-flash",
+              "agreement": 1.0,
+              "usd_500_koc": 0.8908799999999999,
+              "latency_s": 24.983,
+              "input": null,
+              "n": null,
+              "fields": {}
+            },
+            "passes": true,
+            "best": {
+              "model": "deepseek-flash",
+              "agreement": 1.0,
+              "usd_500_koc": 0.8908799999999999,
+              "latency_s": 24.983,
+              "input": null,
+              "n": null,
+              "fields": {}
+            },
+            "cheapest": {
+              "model": "deepseek-flash",
+              "agreement": 1.0,
+              "usd_500_koc": 0.8908799999999999,
+              "latency_s": 24.983,
+              "input": null,
+              "n": null,
+              "fields": {}
+            },
+            "tested": [
+              "deepseek-flash",
+              "deepseek-v4-pro"
+            ],
+            "why": "đắt hơn 3.7 lần; chậm hơn 6.6 lần"
+          }
+        },
+        "plan": {
+          "screen": "deepseek-flash",
+          "video": "deepseek-flash",
+          "rationale": "deepseek-flash"
+        },
+        "cheapest_plan": {
+          "screen": "deepseek-flash",
+          "video": "deepseek-flash",
+          "rationale": "deepseek-flash"
+        },
+        "note": "deepseek-v4-pro không đọc được ảnh nên không tham gia bước xem video"
+      }
+    ],
+    "run_id": "final-haiku",
+    "plans": [
+      {
+        "name": "Đề xuất (theo benchmark)",
+        "routing": {
+          "screen": "claude-haiku-5-5",
+          "video": "gemini-3.1-flash-lite",
+          "rationale": "gemini-3.1-flash-lite"
+        },
+        "usd_500_koc": 2.9046899999999996
+      },
+      {
+        "name": "Lúc chạy run final-haiku",
+        "routing": {
+          "screen": "claude-haiku-5-5",
+          "video": "claude-haiku-5-5",
+          "rationale": "claude-sonnet-5-5"
+        },
+        "usd_500_koc": 5.7668025
+      },
+      {
+        "name": "Toàn Claude Opus 5.5",
+        "routing": {
+          "screen": "claude-opus-5-5",
+          "video": "claude-opus-5-5",
+          "rationale": "claude-opus-5-5"
+        },
+        "usd_500_koc": 52.245925
+      },
+      {
+        "name": "Chỉ dùng Anthropic (Claude)",
+        "routing": {
+          "screen": "claude-haiku-5-5",
+          "video": "claude-haiku-5-5",
+          "rationale": "claude-haiku-5-5"
+        },
+        "usd_500_koc": 1.652965
+      },
+      {
+        "name": "Chỉ dùng Google (Gemini)",
+        "routing": {
+          "screen": "gemini-3.8-flash",
+          "video": "gemini-3.1-flash-lite",
+          "rationale": "gemini-3.1-flash-lite"
+        },
+        "usd_500_koc": 6.66721875
+      },
+      {
+        "name": "Chỉ dùng Google (Gemini), model rẻ nhất mỗi bước (có bước chưa đạt ngưỡng)",
+        "routing": {
+          "screen": "gemini-3.1-flash-lite",
+          "video": "gemini-3.1-flash-lite",
+          "rationale": "gemini-3.1-flash-lite"
+        },
+        "usd_500_koc": 2.97765625
+      },
+      {
+        "name": "Chỉ dùng DeepSeek",
+        "routing": {
+          "screen": "deepseek-flash",
+          "video": "deepseek-flash",
+          "rationale": "deepseek-flash"
+        },
+        "usd_500_koc": 5.2312395
+      }
+    ],
+    "provider_share": [
+      {
+        "name": "Anthropic (Claude)",
+        "usd_500_koc": 0.712815,
+        "share": 0.24540140255930926
+      },
+      {
+        "name": "Google (Gemini)",
+        "usd_500_koc": 2.191875,
+        "share": 0.7545985974406908
+      }
+    ]
+  },
+  "total_cost_usd": 2.114168656,
+  "generated_at": "2026-11-17 21:15"
+}

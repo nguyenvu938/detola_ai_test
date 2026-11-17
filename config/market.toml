@@ -1,0 +1,52 @@
+# Số liệu thị trường dùng để ước tính chi phí booking KOC và phân bổ ngân sách.
+# Nguồn: data/market/research.md (Gemini tổng hợp từ REVU, GoSeedUp, DPS Media/ACCESSTRADE, MKT Care,
+# 12/2025–10/2026, mức tin cậy Gemini ghi "Cao"). Số do Gemini tổng hợp, cần kiểm chứng trước khi ký hợp đồng.
+# Đây là mức điển hình để xếp hạng và kiểm tra ngân sách, KHÔNG thay báo giá thật của từng KOC.
+
+# Giữ lại một phần ngân sách để chạy Spark Ads cho 2–3 video tốt nhất sau 48 giờ
+# (research.md, gợi ý phân bổ 30 triệu / 5 KOC: giữ 7,5–10 triệu; GoSeedUp 05/2026).
+reserve_for_ads_vnd = 7_500_000
+
+# Phí 1 video review (VNĐ) + phí cấp mã Spark Ads, theo tier follower (research.md Bảng 2A).
+[[rate_card]]
+tier = "micro 10k–50k"
+min_followers = 10_000
+max_followers = 50_000
+fee_vnd = 2_500_000             # KOC mỹ phẩm 1–3 tr; chuẩn quay Spark Ads 1,5–4 tr
+spark_code_vnd = 750_000        # +0,5–1 tr
+
+[[rate_card]]
+tier = "micro 50k–100k"
+min_followers = 50_000
+max_followers = 100_000
+fee_vnd = 3_000_000             # trung bình mạng ACCESSTRADE ~3 tr/KOC
+spark_code_vnd = 750_000
+
+[[rate_card]]
+tier = "mid 100k–300k"
+min_followers = 100_000
+max_followers = 300_000
+fee_vnd = 6_000_000             # review thuần 1–3 tr; có kịch bản 4–12 tr
+spark_code_vnd = 2_000_000      # +1–3 tr
+
+[[rate_card]]
+tier = "mid 300k–500k"
+min_followers = 300_000
+max_followers = 500_000
+fee_vnd = 9_000_000
+spark_code_vnd = 2_000_000
+
+[[rate_card]]
+tier = "macro >500k"
+min_followers = 500_000
+max_followers = 1_000_000_000
+fee_vnd = 20_000_000            # KOC gói Ads 12–40 tr
+spark_code_vnd = 5_000_000
+
+# Chuẩn "khỏe mạnh" view/follower để phát hiện follower ảo / kênh hết tương tác (research.md Mục 3, CreatiVault 2026)
+[[reach_benchmark]]
+max_followers = 100_000
+min_views_per_follower = 0.20
+[[reach_benchmark]]
+max_followers = 1_000_000_000
+min_views_per_follower = 0.10

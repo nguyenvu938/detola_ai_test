@@ -1,0 +1,287 @@
+{
+  "handle": "lita.living",
+  "kalodata_id": "7114545052697494530",
+  "nickname": "Lita living",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": null,
+  "bio": "🫚 Sống có ý thức với cơ thể, tâm trí & lựa chọn của mình 🌸✨\nĐồ mình chọn dùng👇",
+  "followers": 34400,
+  "debut_date": "2022-07-04",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": null,
+  "follower_age_top": null,
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được. API không trả followerSex/followerAgeMax.",
+  "description_note": "Một số mô tả video rất dài, đã cắt còn ~200 ký tự đầu.",
+  "core_metrics": {
+    "revenue_vnd": 696520000,
+    "live_revenue_vnd": 0,
+    "video_revenue_vnd": 679760000,
+    "video_views": 10400000,
+    "live_views": 0,
+    "follower_change": 300
+  },
+  "videos": [
+    {
+      "video_id": "7689093430198193428",
+      "url": "https://www.tiktok.com/@lita.living/video/7689093430198193428",
+      "description": "5 cách dùng tinh chất dưỡng sáng 377 nha #ỐngDưỡngTrắng377Kans #Kans377 #KANS #WHITENINGANTIWRINKLESERUM #kansofficialvn",
+      "duration_s": 56.54,
+      "views": 1290000,
+      "revenue_vnd": 131940000,
+      "items_sold": 969,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.696,
+      "ad_view_ratio": "20.84%",
+      "publish_date": "2026-09-24"
+    },
+    {
+      "video_id": "7701336524750687508",
+      "url": "https://www.tiktok.com/@lita.living/video/7701336524750687508",
+      "description": "Cứ ở nhà thì không sao mà không hiểu sao cứ lạ nước lạ cái 1 cái là y như rằng 🍎🍏  Nên là phải thủ sẵn em này trong túi #healthy #healthylifestyle #menvisinhKudos",
+      "duration_s": 60.58,
+      "views": 809760,
+      "revenue_vnd": 84550000,
+      "items_sold": 211,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.788,
+      "ad_view_ratio": "8.25%",
+      "publish_date": "2026-10-27"
+    },
+    {
+      "video_id": "7615974144030674194",
+      "url": "https://www.tiktok.com/@lita.living/video/7615974144030674194",
+      "description": "Nhiều hoạt chất tốt như PDRN, exosome hay growth factor gặp một vấn đề chung: khó thẩm thấu. Một số loại máy nâng cơ mặt dùng xung điện tạo electroporation mở các “kênh tạm thời” trên da để hoạt chất đi sâu hơn.",
+      "duration_s": 71.888,
+      "views": 20960,
+      "revenue_vnd": 52800000,
+      "items_sold": 10,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.48,
+      "ad_view_ratio": "36.15%",
+      "publish_date": "2026-03-11"
+    },
+    {
+      "video_id": "7642778416785132821",
+      "url": "https://www.tiktok.com/@lita.living/video/7642778416785132821",
+      "description": "Điều gì xảy ra nếu chỉ thoa serum 1 bên mặt trong 25 ngày?  #serumkanstrắng#KANSWHITENINGESSENCE#TikTokShop66 #niacinamide",
+      "duration_s": 59.953,
+      "views": 265440,
+      "revenue_vnd": 50560000,
+      "items_sold": 154,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-05-23"
+    },
+    {
+      "video_id": "7688712023831481607",
+      "url": "https://www.tiktok.com/@lita.living/video/7688712023831481607",
+      "description": "Lần đầu thấy tẩy trang làm lạ z luôn, mà lấy như này thì nó sạch hơn í nhỉ #LASY #saptaytrang #GalactoCleasingBalm #HoptacLASY",
+      "duration_s": 70.448,
+      "views": 298020,
+      "revenue_vnd": 39760000,
+      "items_sold": 169,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.785,
+      "ad_view_ratio": "23.98%",
+      "publish_date": "2026-09-23"
+    },
+    {
+      "video_id": "7693149528395877640",
+      "url": "https://www.tiktok.com/@lita.living/video/7693149528395877640",
+      "description": "Highly recommend em peel pad này của Obagi nhé, mn có thể sẽ thấy cảm giác mướt mịn từ ngay lần đầu  sử dụng, nhưng đừng lạm dụng nhé, 1 tuần t dùng max 2 lần thôi và tránh các vùng da mỏng nhe.",
+      "duration_s": 80.619,
+      "views": 580280,
+      "revenue_vnd": 37520000,
+      "items_sold": 16,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "17.11%",
+      "publish_date": "2026-10-05"
+    },
+    {
+      "video_id": "7676503409955998984",
+      "url": "https://www.tiktok.com/@lita.living/video/7676503409955998984",
+      "description": "Mình dùng em này hơn tháng kết hợp tẩy tế bào chết thấy vùng 🍑 cũng mịn màng và đều màu hơn hẳn, mà có mùi đào luôn thơm lắm 🥹 #empura #trithammong #chuanduoc #byscom",
+      "duration_s": 88.606,
+      "views": 912590,
+      "revenue_vnd": 35820000,
+      "items_sold": 62,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "8.53%",
+      "publish_date": "2026-08-21"
+    },
+    {
+      "video_id": "7694596213638696213",
+      "url": "https://www.tiktok.com/@lita.living/video/7694596213638696213",
+      "description": "1 em retinal mà mình thấy khá phù hợp với những người mới làm quen với treatment ♥️ #celimax #celimaxvn #retinalshotcelimax #chonglaohoa #chamsocda",
+      "duration_s": 49.876,
+      "views": 51100,
+      "revenue_vnd": 30250000,
+      "items_sold": 64,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": ">90%",
+      "publish_date": "2026-10-09"
+    },
+    {
+      "video_id": "7662761747446582549",
+      "url": "https://www.tiktok.com/@lita.living/video/7662761747446582549",
+      "description": "T đã tưởng là mình sẽ luôn cần đi spa để lấy sợi bã nhờn, nhưng dùng cái miếng này của @babrea.vn hiệu quả thật nha, t thấy nếu đắp bông ấm trước khi dùng sẽ có hiệu qủa hơn nhiều đấy",
+      "duration_s": 57.306,
+      "views": 178240,
+      "revenue_vnd": 22480000,
+      "items_sold": 148,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.605,
+      "ad_view_ratio": "41.70%",
+      "publish_date": "2026-07-15"
+    },
+    {
+      "video_id": "7697216711832947969",
+      "url": "https://www.tiktok.com/@lita.living/video/7697216711832947969",
+      "description": "T là fan cứng của Paula's choice từ trước đến giờ, để có được làn da khoẻ mạnh như hiện tại k thể k nhắc tới AHA &BHA chân ái, đợt này dùng thêm em kem dưỡng peptide này cũng thích quá nên phải share luôn",
+      "duration_s": 72.051,
+      "views": 314040,
+      "revenue_vnd": 22390000,
+      "items_sold": 16,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "15.02%",
+      "publish_date": "2026-10-16"
+    }
+  ],
+  "shops": [
+    {
+      "name": "Kans Official Vietnam",
+      "revenue_vnd": 188130000,
+      "product_count": 4,
+      "items_sold": 1160
+    },
+    {
+      "name": "Kudos Vietnam",
+      "revenue_vnd": 84550000,
+      "product_count": 1,
+      "items_sold": 211
+    },
+    {
+      "name": "Maxcare Home Mall",
+      "revenue_vnd": 52800000,
+      "product_count": 2,
+      "items_sold": 10
+    },
+    {
+      "name": "Obagi Vietnam",
+      "revenue_vnd": 41280000,
+      "product_count": 2,
+      "items_sold": 17
+    },
+    {
+      "name": "Lasy VN",
+      "revenue_vnd": 39760000,
+      "product_count": 1,
+      "items_sold": 169
+    },
+    {
+      "name": "EmPura by Medzavy",
+      "revenue_vnd": 36400000,
+      "product_count": 1,
+      "items_sold": 63
+    },
+    {
+      "name": "Celimax",
+      "revenue_vnd": 30250000,
+      "product_count": 1,
+      "items_sold": 64
+    },
+    {
+      "name": "BABREA VN",
+      "revenue_vnd": 22480000,
+      "product_count": 1,
+      "items_sold": 148
+    },
+    {
+      "name": "Paula's Choice Việt Nam",
+      "revenue_vnd": 22390000,
+      "product_count": 1,
+      "items_sold": 16
+    },
+    {
+      "name": "La Roche-Posay Việt Nam",
+      "revenue_vnd": 19270000,
+      "product_count": 2,
+      "items_sold": 36
+    }
+  ],
+  "products": [
+    {
+      "title": "KANS - Hộp Tinh Chất 377 Dưỡng Trắng Da, Giảm Thâm Sạm, Cải Thiện Sắc Tố Giúp Da Rạng Rỡ với Symwhite 377 Công Nghệ Bao Bọc Hoạt Chất 1.5ml x 20 ống",
+      "revenue_vnd": 136680000,
+      "items_sold": 1000,
+      "avg_price_vnd": 136140
+    },
+    {
+      "title": "TPBVSK Viên uống men vi sinh KUDOS PROBIOTICS bổ sung lợi khuẩn đường ruột, tốt cho hệ tiêu hóa (30 viên/hộp)",
+      "revenue_vnd": 84550000,
+      "items_sold": 211,
+      "avg_price_vnd": 400720
+    },
+    {
+      "title": "Máy Nâng Cơ Đẩy Tinh Chất 6 Trong 1 Maxcare V-PRO – Giảm Nhăn, Nâng Cơ, Căng Da, Dưỡng Da LED",
+      "revenue_vnd": 52800000,
+      "items_sold": 10,
+      "avg_price_vnd": 5280000
+    },
+    {
+      "title": "KANS serum trắng sáng da, Dưỡng Ẩm, Đều Màu, Mờ Thâm Sạm 30ml Tinh chất Niacinamide 99% và dẫn xuất Vitamin C 30ml",
+      "revenue_vnd": 50560000,
+      "items_sold": 154,
+      "avg_price_vnd": 328310
+    },
+    {
+      "title": "[DEAL ĐỘC QUYỀN] Sáp Tẩy Trang Và Rửa Mặt L.ASY Galacto 2in1 50ml Làm Sạch Sâu, Dưỡng Ẩm, Làm Sạch Dịu Nhẹ Cho Da Nhạy Cảm",
+      "revenue_vnd": 39760000,
+      "items_sold": 169,
+      "avg_price_vnd": 235270
+    },
+    {
+      "title": "[Độc quyền TikTokShop] Hộp 30 Miếng Pad Peel Da Obagi Làm Sạch Tế Bào Da Chết Và Cải Thiện Bề Mặt Căng Bóng CLENZIDERM M.D. RESURFACING MULTI-ACID",
+      "revenue_vnd": 37520000,
+      "items_sold": 16,
+      "avg_price_vnd": 2350000
+    },
+    {
+      "title": "[NEW] EMPURA Kem Dưỡng Mờ Thâm Mông, Nách, V3 - Peachy Plump 100g Hỗ Trợ Mờ Thâm, Cấp Ẩm, Mềm Mịn Sáng Da",
+      "revenue_vnd": 36400000,
+      "items_sold": 63,
+      "avg_price_vnd": 577750
+    },
+    {
+      "title": "[CHÍNH HÃNG] Tinh Chất Hỗ Trợ Chống Lão Hóa và Thu Nhỏ Lỗ Chân Lông Celimax The Vita-A Retinal Shot Tightening Booster 15ml [1]",
+      "revenue_vnd": 30250000,
+      "items_sold": 64,
+      "avg_price_vnd": 472630
+    },
+    {
+      "title": "Mặt nạ mũi BABREA loại bỏ mụn đầu đen và bã nhờn, thu nhỏ lỗ chân lông, làm sạch sâu, dùng cho cả nam và nữ",
+      "revenue_vnd": 22480000,
+      "items_sold": 148,
+      "avg_price_vnd": 151910
+    },
+    {
+      "title": "Kem dưỡng ẩm căng mọng và giảm nếp nhăn Paula's Choice Pro-collagen Peptide Plumping Moisturizer 50ml - 1510",
+      "revenue_vnd": 22390000,
+      "items_sold": 16,
+      "avg_price_vnd": 1400000
+    }
+  ],
+  "contact_keys": []
+}

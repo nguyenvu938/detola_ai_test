@@ -1,0 +1,245 @@
+{
+  "handle": "levananh.skincare",
+  "kalodata_id": "6860670152037188610",
+  "nickname": "Lê Vân Anh Skincare",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": null,
+  "bio": "Phụ nữ hãy đẹp mỗi ngày\nĐừng chỉ đẹp khi cần\n👄 @Lê Vân Anh Cosmetics💄",
+  "followers": 119300,
+  "debut_date": "2021-07-08",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": null,
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được. API trả followerAgeMax rỗng.",
+  "description_note": "Một số mô tả video rất dài, đã cắt còn ~200 ký tự đầu.",
+  "core_metrics": {
+    "revenue_vnd": 2160000000,
+    "live_revenue_vnd": 2090000000,
+    "video_revenue_vnd": 6360000,
+    "video_views": 455680,
+    "live_views": 856390,
+    "follower_change": 200
+  },
+  "videos": [
+    {
+      "video_id": "7700923270773673223",
+      "url": "https://www.tiktok.com/@levananh.skincare/video/7700923270773673223",
+      "description": "💄 Son thông minh – chạm môi là lên sắc riêng! ✨ Tự điều chỉnh màu theo độ pH của môi, tạo nên sắc son độc đáo, tôn nét xinh tự nhiên và mang dấu ấn riêng của mỗi nàng. 💋 #sonthongminh3in1",
+      "duration_s": 54.734,
+      "views": 3440,
+      "revenue_vnd": 4770000,
+      "items_sold": 6,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.533,
+      "ad_view_ratio": "35.35%",
+      "publish_date": "2026-10-26"
+    },
+    {
+      "video_id": "7708712602204966151",
+      "url": "https://www.tiktok.com/@levananh.skincare/video/7708712602204966151",
+      "description": "💄 MAGIC LIP – SON THÔNG MINH 3IN1, MỖI ĐÔI MÔI MỘT SẮC MÀU RIÊNG! 💋 Son đánh lên lúc đậm lúc nhạt, sợ màu không hợp với mình? Đã có em son thông minh 3in1 giúp nàng giải quyết nỗi lo ấy! 💕",
+      "duration_s": 90,
+      "views": 142,
+      "revenue_vnd": 796710,
+      "items_sold": 1,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": ">90%",
+      "publish_date": "2026-11-16"
+    },
+    {
+      "video_id": "7700924245529857287",
+      "url": "https://www.tiktok.com/@levananh.skincare/video/7700924245529857287",
+      "description": "✨ Chiếc son “biết chiều lòng” đôi môi của bạn đây rồi! 💗 Công nghệ lên màu theo độ pH giúp sắc son biến đổi tự nhiên theo môi, tạo hiệu ứng màu sắc độc đáo cho mỗi nàng.",
+      "duration_s": 42,
+      "views": 595,
+      "revenue_vnd": 794550,
+      "items_sold": 1,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "39.66%",
+      "publish_date": "2026-10-26"
+    },
+    {
+      "video_id": "7705328764405681426",
+      "url": "https://www.tiktok.com/@levananh.skincare/video/7705328764405681426",
+      "description": "Bộ đôi Kem Trang Điểm trắng sáng Vacure:treat + Son Thông Minh 3in1 Hàn Quốc",
+      "duration_s": 33,
+      "views": 603,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-11-07"
+    },
+    {
+      "video_id": "7706907642366594322",
+      "url": "https://www.tiktok.com/@levananh.skincare/video/7706907642366594322",
+      "description": "[Duy nhất 11/11] (MUA 1 TẶNG 1) Serum HA Tinh Chất Siêu Cấp Ẩm, Phục Hồi Vacure:treat Hàn Quốc Hyaluronic Peptide Serum 60ml",
+      "duration_s": 26,
+      "views": 138,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-11-11"
+    },
+    {
+      "video_id": "7700450561514081556",
+      "url": "https://www.tiktok.com/@levananh.skincare/video/7700450561514081556",
+      "description": "Combo 2 Son Thông Minh 3in1 Hàn Quốc - Son Dưỡng Không Chì - Kích Hồng Môi - Lâu Trôi - Son Dưỡng Có Màu Giúp Đôi Môi Mềm Mại Giảm Thâm VIC SMART LIPSTICK 3g",
+      "duration_s": 17,
+      "views": 991,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-25"
+    },
+    {
+      "video_id": "7698327215636794632",
+      "url": "https://www.tiktok.com/@levananh.skincare/video/7698327215636794632",
+      "description": "🚨 DA DẦU, LỖ CHÂN LÔNG TO, THÂM MỤN DAI DẲNG – BẠN ĐÃ CHĂM DA ĐÚNG CÁCH? Da bóng dầu, bề mặt kém mịn màng, thâm mụn kéo dài khiến làn da trông thiếu sức sống dù đã thử nhiều sản phẩm?",
+      "duration_s": 85,
+      "views": 249,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-19"
+    },
+    {
+      "video_id": "7703895623707282695",
+      "url": "https://www.tiktok.com/@levananh.skincare/video/7703895623707282695",
+      "description": "HĂM DA ĐỦ BƯỚC, ĐẦU TƯ KHÔNG ÍT TIỀN NHƯNG LÀN DA VẪN CHƯA NHƯ MONG MUỐN? 🥹 Skincare mỗi ngày, serum cũng không thiếu, kem dưỡng cũng chẳng bỏ qua... nhưng bạn vẫn chưa thực sự hài lòng với vẻ ngoài của làn da?",
+      "duration_s": 57,
+      "views": 1140,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-11-03"
+    },
+    {
+      "video_id": "7700213102708526343",
+      "url": "https://www.tiktok.com/@levananh.skincare/video/7700213102708526343",
+      "description": "Viên Uống Ổn Định Nội Tiết Tố MALAP Women Secret Nhật Bản Hộp 60 Viên",
+      "duration_s": 25,
+      "views": 544,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-24"
+    },
+    {
+      "video_id": "7701363238298078516",
+      "url": "https://www.tiktok.com/@levananh.skincare/video/7701363238298078516",
+      "description": "[Deal tháng 10] Bộ Đôi Son Tint + Kem Trang Điểm Trắng Sáng Vacure:treat Ultra Plus Tone Up Cream 50ml Hàn Quốc",
+      "duration_s": 32,
+      "views": 58,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-27"
+    }
+  ],
+  "shops": [
+    {
+      "name": "Lê Vân Anh Cosmetics",
+      "revenue_vnd": 2120000000,
+      "product_count": 108,
+      "items_sold": 1250
+    },
+    {
+      "name": "Vacure:treat Store",
+      "revenue_vnd": 24420000,
+      "product_count": 10,
+      "items_sold": 25
+    },
+    {
+      "name": "Vân Anh Bùi - Maya",
+      "revenue_vnd": 7340000,
+      "product_count": 2,
+      "items_sold": 2
+    }
+  ],
+  "products": [
+    {
+      "title": "Son Thông Minh 3in1 Hàn Quốc - Son Dưỡng Không Chì - Kích Hồng Môi - Lâu Trôi - Son Dưỡng Có Màu Giúp Đôi Môi Mềm Mại Giảm Thâm VIC SMART LIPSTICK 3g",
+      "revenue_vnd": 229420000,
+      "items_sold": 288,
+      "avg_price_vnd": 796580
+    },
+    {
+      "title": "Combo 3 Bộ khám phá Vacure:treat Hàn Quốc 5 Món Tiện Lợi: Nước Tẩy Trang - Sữa Rửa Mặt - Serum HA - Kem Mela - Kem Chống Nắng",
+      "revenue_vnd": 227680000,
+      "items_sold": 84,
+      "avg_price_vnd": 2710000
+    },
+    {
+      "title": "(MUA 1 TẶNG 1) Kem Dưỡng Hỗ Trợ Sáng Da, Ngừa Thâm Nám VAPARO MELA-X WHITE CREAM Skincare Nữ Women Hàn Quốc",
+      "revenue_vnd": 151650000,
+      "items_sold": 39,
+      "avg_price_vnd": 3890000
+    },
+    {
+      "title": "LVA03 (MUA 1 TẶNG 1) Tinh Chất PDRN Phục Hồi & Tái Tạo Da FOPAYSI MixShot Essence 2 Ngăn Hàn Quốc 120g",
+      "revenue_vnd": 114080000,
+      "items_sold": 57,
+      "avg_price_vnd": 2000000
+    },
+    {
+      "title": "Kem Chống Nắng Nâng Tông Vacure:treat Mild Sun Protector SPF50/PA++++ 50 ml Hàn Quốc",
+      "revenue_vnd": 109120000,
+      "items_sold": 79,
+      "avg_price_vnd": 1380000
+    },
+    {
+      "title": "Kem Mela Dưỡng Sáng, Hỗ Trợ Mờ Thâm Nám Vacure:treat Mela Shining Cream 50g Hàn Quốc - Hỗ Trợ Dưỡng Sáng, Mờ Thâm Nám Da Tác Động",
+      "revenue_vnd": 95710000,
+      "items_sold": 26,
+      "avg_price_vnd": 3680000
+    },
+    {
+      "title": "Kem Trang Điểm Trắng Sáng Vacure:treat Ultra Plus Tone Up Cream 50ml Hàn Quốc",
+      "revenue_vnd": 85730000,
+      "items_sold": 61,
+      "avg_price_vnd": 1410000
+    },
+    {
+      "title": "[Duy nhất 15/11] (Tặng Kem Dưỡng Vaparo) Combo 2 Tinh Chất Vacure:treat Niacinamide 10% Ampoule 30ml Hàn Quốc - Kiềm Dầu – Mờ Thâm Mụn - Se Nhỏ Lỗ Chân Lông - Tăng Cường Hàng Rào Bảo Vệ Da, Làm Sáng Da",
+      "revenue_vnd": 82320000,
+      "items_sold": 13,
+      "avg_price_vnd": 6330000
+    },
+    {
+      "title": "(Tặng Kem Chống Nắng Nâng Tông Vacure:treat) Bộ khám phá Vacure:treat Hàn Quốc 5 Món Tiện Lợi: Nước Tẩy Trang - Sữa Rửa Mặt - Serum HA - Kem Mela - Kem Chống Nắng",
+      "revenue_vnd": 73710000,
+      "items_sold": 32,
+      "avg_price_vnd": 2300000
+    },
+    {
+      "title": "[Duy nhất 7/11] (MUA 1 TẶNG 1) Serum HA Tinh Chất Siêu Cấp Ẩm, Phục Hồi Vacure:treat Hàn Quốc Hyaluronic Peptide Serum 60ml",
+      "revenue_vnd": 64860000,
+      "items_sold": 15,
+      "avg_price_vnd": 4320000
+    }
+  ],
+  "contact_keys": []
+}

@@ -1,0 +1,12 @@
+Bạn viết phần đề xuất KOC cho khách hàng (thương hiệu kem chống nắng Việt Nam, khách hàng mục tiêu nữ 18–30, ngân sách 30 triệu VNĐ cho 5 KOC).
+
+Input là JSON gồm 5 KOC đã được hệ thống chọn bằng thuật toán (điểm số + ràng buộc ngân sách). Mỗi KOC có danh sách bằng chứng, mỗi bằng chứng có mã (vd "M:audience", "M:gmv", "S:screen", "V:<video_id>").
+
+Yêu cầu:
+- Không đổi danh sách KOC, không xếp hạng lại.
+- reason_vi: 2–3 câu, dẫn số liệu cụ thể từ input (tỷ lệ follower nữ, doanh thu ngành, quan sát trong video).
+- evidence_refs: chỉ dùng mã có trong input. Không bịa mã, không bịa số.
+- risks_vi: rủi ro thực tế (phụ thuộc quảng cáo, đã quảng bá nhãn đối thủ, claim rủi ro, dữ liệu thiếu...).
+- brief_suggestion_vi: 1 câu gợi ý góc nội dung phù hợp thế mạnh KOC đó.
+- summary_vi: 2 câu về cả bộ (độ phủ, phân bổ ngân sách).
+Viết tiếng Việt, ngắn gọn, giọng chuyên nghiệp.

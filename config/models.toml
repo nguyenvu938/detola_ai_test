@@ -1,0 +1,126 @@
+# Danh mục model + giá (USD / 1 triệu token). Mọi tên model và giá chỉ nằm ở file này.
+# Nguồn giá (tra 2026-11-17):
+#   Claude   – bảng giá Anthropic API
+#   Gemini   – https://aistudio.google.com/docs/pricing (giá Standard; audio đắt hơn ghi trong ghi chú)
+#   DeepSeek – https://api-docs.deepseek.com/quick_start/pricing (giá giờ cao điểm; ngoài giờ cao điểm rẻ 50%)
+# vision = đọc ảnh; video = xem video gốc; audio = nghe tiếng.
+
+# ---------- Anthropic ----------
+[models.claude-haiku-5-5]
+provider = "anthropic"
+input_per_m = 0.10          # prompt <= 100K token
+output_per_m = 0.50         # gồm cả thinking token
+vision = true
+video = false
+audio = false
+
+[models.claude-sonnet-5-5]
+provider = "anthropic"
+input_per_m = 2.00
+output_per_m = 10.00
+vision = true
+video = false
+audio = false
+
+[models.claude-opus-5-5]
+provider = "anthropic"
+input_per_m = 4.00
+output_per_m = 20.00
+vision = true
+video = false
+audio = false
+
+# ---------- Google Gemini ----------
+# gemini-2.5-flash-lite: Google trả 404 "no longer available to new users" (2026-11-17) -> thay bằng 3.5-flash-lite
+[models."gemini-3.5-flash-lite"]
+provider = "gemini"
+input_per_m = 0.30          # text/ảnh/video/audio
+output_per_m = 2.50
+vision = true
+video = true
+audio = true
+
+[models."gemini-3.1-flash-lite"]
+provider = "gemini"
+input_per_m = 0.25          # text/ảnh/video; audio 0.50
+output_per_m = 1.50
+vision = true
+video = true
+audio = true
+
+[models."gemini-3.8-flash"]
+provider = "gemini"
+input_per_m = 0.75
+output_per_m = 3.75
+vision = true
+video = true
+audio = true
+
+[models."gemini-4-carbon"]
+provider = "gemini"
+input_per_m = 2.00
+output_per_m = 10.00
+vision = true
+video = true
+audio = true
+
+# ---------- DeepSeek ----------
+[models.deepseek-flash]     # DeepSeek-V4.1-Flash
+provider = "deepseek"
+input_per_m = 0.30          # cache miss, giờ cao điểm
+cache_hit_per_m = 0.006
+output_per_m = 1.20
+vision = true               # tối đa 1024 token/ảnh
+video = false
+audio = false
+
+[models.deepseek-v4-pro]
+provider = "deepseek"
+input_per_m = 1.32
+cache_hit_per_m = 0.044
+output_per_m = 3.96
+vision = false
+video = false
+audio = false
+
+# Định tuyến: mỗi bước dùng model rẻ nhất đủ tốt (xem results/benchmark_models.md để biết vì sao).
+# fallback: dùng khi máy không có API key của model chính (vd người chấm chỉ có key Anthropic)
+[routing.screen]            # Stage 4: phân loại hàng loạt từ text
+model = "claude-haiku-5-5"
+effort = "low"
+batch_size = 8
+
+[routing.video]             # Stage 5: keyframe + phụ đề (Claude/DeepSeek) hoặc video gốc có tiếng (Gemini)
+model = "gemini-3.1-flash-lite"   # benchmark: khớp 98% vs Haiku 91%, chỉ thêm ~$1.3 / 500 KOC
+fallback = "claude-haiku-5-5"
+effort = "low"
+frames = 6
+frame_width = 384
+clip_seconds = 60
+
+[routing.rationale]         # Stage 7: viết lý do đề xuất, 1 lần gọi cho mỗi lô batch_size KOC
+model = "gemini-3.1-flash-lite"   # benchmark: 100% trích dẫn hợp lệ, rẻ hơn Sonnet ~17 lần
+fallback = "claude-haiku-5-5"
+effort = "medium"
+batch_size = 10             # 500 KOC -> 50 lần gọi song song (1 lần gọi cho cả 500 sẽ vượt giới hạn token ra)
+
+[limits]
+max_usd_per_run = 1.00      # vượt ngưỡng thì dừng, tránh hóa đơn bất ngờ
+max_attempts = 3            # số lần thử lại mỗi item trước khi đánh dấu failed
+concurrency = 4
+
+# Ma trận benchmark: cùng input, đổi model, đo chi phí / thời gian / chất lượng.
+# Bước video tự bỏ model không đọc được ảnh (deepseek-v4-pro).
+[benchmark]
+models = ["claude-haiku-5-5", "claude-sonnet-5-5", "claude-opus-5-5",
+          "gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-3.8-flash", "gemini-4-carbon",
+          "deepseek-flash", "deepseek-v4-pro"]
+effort = "low"
+# Nhãn tham chiếu = đồng thuận (đa số / trung vị) của model mạnh nhất mỗi hãng, chạy effort cao,
+# để không thiên vị một hãng. Người học kiểm tra lại bằng nhãn tay (eval/golden_labels.csv).
+reference_models = ["claude-opus-5-5", "gemini-4-carbon", "deepseek-v4-pro"]
+reference_effort = "high"
+max_usd_per_variant = 1.00
+min_agreement = 0.90       # ngưỡng độ khớp tham chiếu để một model được coi là "đủ tốt"
+upgrade_min_gain = 0.05    # nâng cấp lên model khớp cao hơn nếu hơn >= 5 điểm %...
+upgrade_max_extra_usd_500 = 2.0   # ...mà chỉ tốn thêm <= $2 cho 500 KOC

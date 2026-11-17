@@ -1,0 +1,155 @@
+{
+  "handle": "soikcnduoitiauv",
+  "kalodata_id": "6832861556558021634",
+  "nickname": "SOI KCN DUOI TIA UV",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": null,
+  "bio": "",
+  "followers": 10600,
+  "debut_date": null,
+  "follower_gender": null,
+  "follower_age": null,
+  "core_metrics": {
+    "revenue_vnd": 907830000,
+    "live_revenue_vnd": 907830000,
+    "video_revenue_vnd": 0,
+    "video_views": 0,
+    "live_views": 167240,
+    "follower_change": 400
+  },
+  "videos": [],
+  "shops": [
+    {
+      "name": "Cỏ Mềm",
+      "revenue_vnd": 109260000,
+      "product_count": 3,
+      "items_sold": 316
+    },
+    {
+      "name": "Hasaki Vietnam Official",
+      "revenue_vnd": 92720000,
+      "product_count": 3,
+      "items_sold": 717
+    },
+    {
+      "name": "Meiking Việt Nam",
+      "revenue_vnd": 70370000,
+      "product_count": 3,
+      "items_sold": 299
+    },
+    {
+      "name": "Anessa Official Store",
+      "revenue_vnd": 56090000,
+      "product_count": 1,
+      "items_sold": 96
+    },
+    {
+      "name": "KAO VIETNAM",
+      "revenue_vnd": 51160000,
+      "product_count": 4,
+      "items_sold": 333
+    },
+    {
+      "name": "yesummer-vn",
+      "revenue_vnd": 35120000,
+      "product_count": 2,
+      "items_sold": 105
+    },
+    {
+      "name": "Hoài Vân Beauty Shop",
+      "revenue_vnd": 33800000,
+      "product_count": 1,
+      "items_sold": 106
+    },
+    {
+      "name": "934.Vietnam",
+      "revenue_vnd": 33250000,
+      "product_count": 3,
+      "items_sold": 91
+    },
+    {
+      "name": "SammiShop Offical",
+      "revenue_vnd": 29960000,
+      "product_count": 1,
+      "items_sold": 88
+    },
+    {
+      "name": "Phương Suri in Katy Texas",
+      "revenue_vnd": 26930000,
+      "product_count": 1,
+      "items_sold": 171
+    }
+  ],
+  "products": [
+    {
+      "title": "Tinh Chất Chống Nắng Sunplay Hiệu Chỉnh Sắc Da 50g (Tím) | HASAKI BEAUTY Skincare Làm Đẹp Da",
+      "revenue_vnd": 63560000,
+      "items_sold": 422,
+      "avg_price_vnd": 150620
+    },
+    {
+      "title": "Sữa chống nắng dưỡng da kiềm dầu bảo vệ hoàn hảo Anessa Gold Milk SPF50+ PA++++ 60ml",
+      "revenue_vnd": 56090000,
+      "items_sold": 96,
+      "avg_price_vnd": 584220
+    },
+    {
+      "title": "Kem Chống Nắng Che Khuyết ĐIểm Chiết Suất Sâm 1700 SPF50 PA++++ Ngừa Lão Hoá Bảo Vệ Dưỡng Ẩm Da Cỏ Mềm 60g",
+      "revenue_vnd": 47550000,
+      "items_sold": 115,
+      "avg_price_vnd": 413480
+    },
+    {
+      "title": "Kem Chống Nắng Nâng Tone Mịn Đẹp Thấm Nhanh Cho Mọi Loại Da Hây Hây SPF 40, PA ++ Cỏ Mềm 60g",
+      "revenue_vnd": 35320000,
+      "items_sold": 131,
+      "avg_price_vnd": 269640
+    },
+    {
+      "title": "KEM CHỐNG NẮNG HALAVI MULTI-LAYER SUNSCREEN",
+      "revenue_vnd": 33800000,
+      "items_sold": 106,
+      "avg_price_vnd": 318860
+    },
+    {
+      "title": "Combo 2 tinh chất chống nắng Meiking SPF50+ PA++++ kết cấu mỏng nhẹ, hỗ trợ dưỡng trắng, bảo vệ da khỏi ánh sáng mặt trời",
+      "revenue_vnd": 31710000,
+      "items_sold": 89,
+      "avg_price_vnd": 356270
+    },
+    {
+      "title": "934 Kem Chống Nắng Kiềm Dầu Suốt 8H Nâng Tone Nhẹ SPF50+ PA++++ Kháng Nước Mồ Hôi Chuyên Biệt Cho Da Dầu Mỏng Nhẹ Không Bết Dính",
+      "revenue_vnd": 31650000,
+      "items_sold": 84,
+      "avg_price_vnd": 376800
+    },
+    {
+      "title": "Skin1004 Kem chống nắng (Sunscreen) Madagascar Centella Air-Fit SunCream Plus 50ml Chăm Sóc Da",
+      "revenue_vnd": 29960000,
+      "items_sold": 88,
+      "avg_price_vnd": 340430
+    },
+    {
+      "title": "Sữa Chống Nắng Sunplay Skin Aqua Clear White SPF50+ PA++++ | HASAKI BEAUTY",
+      "revenue_vnd": 28700000,
+      "items_sold": 294,
+      "avg_price_vnd": 97610
+    },
+    {
+      "title": "Mua 1 Tặng 1 • Kem Chống Nắng YESUMMER SPF50 PA++++ 50g x 2 • Chống Nước & Chống Mồ Hôi • Dành Cho Lặn Biển, Lướt Sóng, Thể Thao Ngoài Trời • Không Nhờn Rít • Không Trắng Bệt",
+      "revenue_vnd": 27660000,
+      "items_sold": 86,
+      "avg_price_vnd": 321580
+    }
+  ],
+  "demographics_note": "Kalodata hiển thị biểu đồ giới tính/độ tuổi follower mặc định giống hệt nhau cho mọi creator (nữ 60/nam 40; 18-24 30.5, 25-34 39.5, 35-44 20, 45-54 7.5, 55+ 2.5), nút 'Detail' chỉ cuộn tới cùng khối, Top 5 Locations/Languages/Active Hours trống => placeholder, không phải số liệu thật.",
+  "follower_sex_label": null,
+  "follower_age_top": null,
+  "contact_keys": []
+}

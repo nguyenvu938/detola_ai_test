@@ -1,0 +1,288 @@
+{
+  "handle": "tubeaute",
+  "kalodata_id": "6605937193355608066",
+  "nickname": "Tú Phạm (Tú Beauté)",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": null,
+  "bio": "✨ Founder @Tú Beauté & @Phòng Khám Da Liễu Skin Wisdom ✨\n\nFor work: [email]",
+  "followers": 66500,
+  "debut_date": "2022-05-31",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": null,
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được. API trả followerAgeMax rỗng.",
+  "core_metrics": {
+    "revenue_vnd": 2250000000,
+    "live_revenue_vnd": 1400000000,
+    "video_revenue_vnd": 29020000,
+    "video_views": 1550000,
+    "live_views": 155600,
+    "follower_change": 10100
+  },
+  "videos": [
+    {
+      "video_id": "7686721730374552848",
+      "url": "https://www.tiktok.com/@tubeaute/video/7686721730374552848",
+      "description": "Xếp hạng tất tần tật các loại cushion (P2)@Nguyễn Mai Thu Trang  #tubeaute #tubeautereview #tubeauteskincare #cushion",
+      "duration_s": 270.604,
+      "views": 50990,
+      "revenue_vnd": 15460000,
+      "items_sold": 14,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.44,
+      "ad_view_ratio": "32.01%",
+      "publish_date": "2026-09-18"
+    },
+    {
+      "video_id": "7664455829478903041",
+      "url": "https://www.tiktok.com/@tubeaute/video/7664455829478903041",
+      "description": "Đây chính là routine skincare dành cho mấy bà bị mụn nấm men sau khi điều trị dưới sự chỉ định của bác sĩ #tubeaute #tubeautereview #tubeauteskincare #quasix #munnam",
+      "duration_s": 263.685,
+      "views": 10810,
+      "revenue_vnd": 6150000,
+      "items_sold": 8,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "38.93%",
+      "publish_date": "2026-07-20"
+    },
+    {
+      "video_id": "7700218146703019271",
+      "url": "https://www.tiktok.com/@tubeaute/video/7700218146703019271",
+      "description": "SRM da dầu mụn nhất định phải mua 2026!! Clip có nhận tài trợ của nhãn hàng. Nhưng đây là sản phẩm xứng đáng được lan toả!! #hoptaccunglibrederm #tubeaute #librederm",
+      "duration_s": 210.118,
+      "views": 67240,
+      "revenue_vnd": 3850000,
+      "items_sold": 8,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "19.32%",
+      "publish_date": "2026-10-24"
+    },
+    {
+      "video_id": "7694652114882104594",
+      "url": "https://www.tiktok.com/@tubeaute/video/7694652114882104594",
+      "description": "Hướng dẫn peel da an toàn tại nhà #tubeautereview #tubeaute #TolpaVietNam #skincareTolpa",
+      "duration_s": 319.321,
+      "views": 40490,
+      "revenue_vnd": 3560000,
+      "items_sold": 10,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-09"
+    },
+    {
+      "video_id": "7683751380091227393",
+      "url": "https://www.tiktok.com/@tubeaute/video/7683751380091227393",
+      "description": "Chấm điểm và xếp hạng tất cả các loại Vitamin C #tubeaute #tubeautereview #tubeauteskincare #vitaminc",
+      "duration_s": 318,
+      "views": 2780,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-09-10"
+    },
+    {
+      "video_id": "7688203864880729345",
+      "url": "https://www.tiktok.com/@tubeaute/video/7688203864880729345",
+      "description": "Review bánh trung thu độc lạ (P2) #tubeaute #tubeautereview #tubeauteskincare #banhtrungthu",
+      "duration_s": 271,
+      "views": 478,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-09-22"
+    },
+    {
+      "video_id": "7687837208337845520",
+      "url": "https://www.tiktok.com/@tubeaute/video/7687837208337845520",
+      "description": "Review bánh trung thu độc lạ (P1) #tubeaute #tubeautereview #tubeauteskincare #banhtrungthu",
+      "duration_s": 277,
+      "views": 185,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-09-21"
+    },
+    {
+      "video_id": "7693879875869920518",
+      "url": "https://www.tiktok.com/@tubeaute/video/7693879875869920518",
+      "description": "Hướng dẫn lựa chọn và sử dụng 20 loại sữa rửa mặt dành cho da mụn #tubeaute #tubeautereview #tubeauteskincare #Libredermvietnam",
+      "duration_s": 230,
+      "views": 107950,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-07"
+    },
+    {
+      "video_id": "7693079918879542580",
+      "url": "https://www.tiktok.com/@tubeaute/video/7693079918879542580",
+      "description": "Xếp hạng 21 loại Niacinamide (P1). Clip ko booking, ko seeding, ko quảng cáo và ko nhận tài trợ của bất kì nhãn hàng nào.  #tubeaute #tubeautereview #tubeauteskincare #niacinamide",
+      "duration_s": 233,
+      "views": 222730,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-05"
+    },
+    {
+      "video_id": "7700824460248485140",
+      "url": "https://www.tiktok.com/@tubeaute/video/7700824460248485140",
+      "description": "Review tất tần tật các dòng kem chống nắng phù hợp cho mùa thu đông và hanh khô (P1) #tubeaute #tubeautereview #tubeauteskincare #kemchongnang",
+      "duration_s": 270.117,
+      "views": 17060,
+      "revenue_vnd": 0,
+      "items_sold": 0,
+      "is_ad": false,
+      "ad_revenue_ratio": 0,
+      "ad_view_ratio": "0%",
+      "publish_date": "2026-10-26"
+    }
+  ],
+  "shops": [
+    {
+      "name": "Tú Beauté",
+      "revenue_vnd": 1800000000,
+      "product_count": 245,
+      "items_sold": 1860
+    },
+    {
+      "name": "Tú Beauté - Dược Mỹ Phẩm",
+      "revenue_vnd": 317320000,
+      "product_count": 75,
+      "items_sold": 452
+    },
+    {
+      "name": "TamSuLanDa",
+      "revenue_vnd": 52310000,
+      "product_count": 14,
+      "items_sold": 74
+    },
+    {
+      "name": "Tolpa Vietnam",
+      "revenue_vnd": 45080000,
+      "product_count": 30,
+      "items_sold": 120
+    },
+    {
+      "name": "MUSE MCN",
+      "revenue_vnd": 10820000,
+      "product_count": 12,
+      "items_sold": 13
+    },
+    {
+      "name": "Obagi Vietnam",
+      "revenue_vnd": 7110000,
+      "product_count": 2,
+      "items_sold": 6
+    },
+    {
+      "name": "AKNIX Việt Nam",
+      "revenue_vnd": 6150000,
+      "product_count": 1,
+      "items_sold": 8
+    },
+    {
+      "name": "Fasthetic101 - Hà Đông",
+      "revenue_vnd": 5200000,
+      "product_count": 6,
+      "items_sold": 3
+    },
+    {
+      "name": "LIBREDERM VIET NAM",
+      "revenue_vnd": 3850000,
+      "product_count": 2,
+      "items_sold": 8
+    },
+    {
+      "name": "FASTHETIC 101 SMART CITY",
+      "revenue_vnd": 2850000,
+      "product_count": 4,
+      "items_sold": 2
+    }
+  ],
+  "products": [
+    {
+      "title": "Kem Chống Nắng DBH EGF FGF DNA Sun Protection SPF47 PA+++ 60ml - MÀU ĐEN",
+      "revenue_vnd": 155740000,
+      "items_sold": 88,
+      "avg_price_vnd": 1770000
+    },
+    {
+      "title": "Kem Chống Nắng Hyaestic SF64 Skin Fusion Sun And Pollution Protector SPF50+",
+      "revenue_vnd": 69550000,
+      "items_sold": 153,
+      "avg_price_vnd": 454580
+    },
+    {
+      "title": "Tinh Chất 5 Loại Vitamin C Sesderma C - VIT 5 Liposomal Serum",
+      "revenue_vnd": 67670000,
+      "items_sold": 22,
+      "avg_price_vnd": 3080000
+    },
+    {
+      "title": "Tinh Chất Dưỡng Sáng Và Hỗ Trợ Giảm Nám Casmara Lightening Clarifying Concentrated Serum 30ml",
+      "revenue_vnd": 51920000,
+      "items_sold": 21,
+      "avg_price_vnd": 2470000
+    },
+    {
+      "title": "Mặt Nạ Cấp Ẩm Phục Hồi Abo Intensive Repair Treatment Mask Pack",
+      "revenue_vnd": 42490000,
+      "items_sold": 332,
+      "avg_price_vnd": 127970
+    },
+    {
+      "title": "Tinh Chất Dưỡng Ẩm Và Làm Trắng Da NanoMD Cyntra Advanced Pigment Corrector",
+      "revenue_vnd": 38510000,
+      "items_sold": 14,
+      "avg_price_vnd": 2750000
+    },
+    {
+      "title": "Tinh Chất Dưỡng Sáng Da, Giảm Thâm Nám Oh!Oh! Skin Health Serum Niacinamide 20% 30ml (R)",
+      "revenue_vnd": 37970000,
+      "items_sold": 42,
+      "avg_price_vnd": 904090
+    },
+    {
+      "title": "Tinh Chất Phục Hồi Với Ceramide Nồng Độ Tăng Cường Theramid Ceramide Treatment 30ml",
+      "revenue_vnd": 36690000,
+      "items_sold": 19,
+      "avg_price_vnd": 1930000
+    },
+    {
+      "title": "Kem Dưỡng Chống Lão Hóa Ban Đêm Revision Skincare D.E.J Night Face Cream 3.14g - Minisize",
+      "revenue_vnd": 36140000,
+      "items_sold": 17,
+      "avg_price_vnd": 2130000
+    },
+    {
+      "title": "[COMBO 2] Tinh Chất Dr. Reborn Exoshot Brightening Glutathione Derma - 15ml/ống",
+      "revenue_vnd": 35020000,
+      "items_sold": 29,
+      "avg_price_vnd": 1210000
+    }
+  ],
+  "contact_keys": [
+    "lh-24"
+  ]
+}

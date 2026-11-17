@@ -1,0 +1,286 @@
+{
+  "handle": "ngoctam.tran",
+  "kalodata_id": "7333115817402205191",
+  "nickname": "𝑵𝒈𝒐̣𝒄 𝑻𝒂̂𝒎",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": "TikCom",
+  "bio": "Không nhận booking",
+  "followers": 19000,
+  "debut_date": "2024-03-08",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": "Majority Female",
+  "follower_age_top": "25-34",
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được.",
+  "core_metrics": {
+    "revenue_vnd": 3570000000,
+    "live_revenue_vnd": 47170000,
+    "video_revenue_vnd": 3510000000,
+    "video_views": 12560000,
+    "live_views": 9780,
+    "follower_change": 900
+  },
+  "videos": [
+    {
+      "video_id": "7698773956844588296",
+      "url": "https://www.tiktok.com/@ngoctam.tran/video/7698773956844588296",
+      "description": "Săn liền nha mn #LorealParisSuperBrandDay",
+      "duration_s": 59.8,
+      "views": 90950,
+      "revenue_vnd": 115800000,
+      "items_sold": 268,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.589,
+      "ad_view_ratio": "85.20%",
+      "publish_date": "2026-10-20"
+    },
+    {
+      "video_id": "7687240196261252359",
+      "url": "https://www.tiktok.com/@ngoctam.tran/video/7687240196261252359",
+      "description": "Săn liền nha mn #Biore",
+      "duration_s": 17.267,
+      "views": 381080,
+      "revenue_vnd": 112070000,
+      "items_sold": 530,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.607,
+      "ad_view_ratio": "53.92%",
+      "publish_date": "2026-09-19"
+    },
+    {
+      "video_id": "7643091323200736530",
+      "url": "https://www.tiktok.com/@ngoctam.tran/video/7643091323200736530",
+      "description": "Săn liền nha mn #Vaseline #cuocduanhasangtaoxUnilever #HợpTácCùngUnilever",
+      "duration_s": 55,
+      "views": 533640,
+      "revenue_vnd": 98940000,
+      "items_sold": 318,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "38.08%",
+      "publish_date": "2026-05-23"
+    },
+    {
+      "video_id": "7702087064384179464",
+      "url": "https://www.tiktok.com/@ngoctam.tran/video/7702087064384179464",
+      "description": "Chống nắng Make P:rem",
+      "duration_s": 13,
+      "views": 280910,
+      "revenue_vnd": 76630000,
+      "items_sold": 235,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.513,
+      "ad_view_ratio": "36.12%",
+      "publish_date": "2026-10-29"
+    },
+    {
+      "video_id": "7672784425578433799",
+      "url": "https://www.tiktok.com/@ngoctam.tran/video/7672784425578433799",
+      "description": "Dưỡng thể Vaseline #Vaseline",
+      "duration_s": 12.12,
+      "views": 425740,
+      "revenue_vnd": 65250000,
+      "items_sold": 446,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "30.95%",
+      "publish_date": "2026-08-11"
+    },
+    {
+      "video_id": "7668740574693838088",
+      "url": "https://www.tiktok.com/@ngoctam.tran/video/7668740574693838088",
+      "description": "Kem dưỡng Obagi #Obagi",
+      "duration_s": 62.967,
+      "views": 39700,
+      "revenue_vnd": 57280000,
+      "items_sold": 22,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "76.60%",
+      "publish_date": "2026-08-01"
+    },
+    {
+      "video_id": "7700631735062514962",
+      "url": "https://www.tiktok.com/@ngoctam.tran/video/7700631735062514962",
+      "description": "Combo tặng quà ê hề #Makeprem",
+      "duration_s": 14.6,
+      "views": 77630,
+      "revenue_vnd": 50720000,
+      "items_sold": 71,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.484,
+      "ad_view_ratio": "61.24%",
+      "publish_date": "2026-10-25"
+    },
+    {
+      "video_id": "7697088540982791432",
+      "url": "https://www.tiktok.com/@ngoctam.tran/video/7697088540982791432",
+      "description": "Săn liền nha mn #LRPVN",
+      "duration_s": 48.834,
+      "views": 42110,
+      "revenue_vnd": 50660000,
+      "items_sold": 63,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": ">90%",
+      "publish_date": "2026-10-16"
+    },
+    {
+      "video_id": "7657010405935549703",
+      "url": "https://www.tiktok.com/@ngoctam.tran/video/7657010405935549703",
+      "description": "Săn liền nha mn #lorealparis #LorealParisSuperBrandDay",
+      "duration_s": 55.267,
+      "views": 157130,
+      "revenue_vnd": 45510000,
+      "items_sold": 121,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.794,
+      "ad_view_ratio": "52.54%",
+      "publish_date": "2026-06-30"
+    },
+    {
+      "video_id": "7703159554418298120",
+      "url": "https://www.tiktok.com/@ngoctam.tran/video/7703159554418298120",
+      "description": "Srm cho da mụn #Cerave #xuhuong1111",
+      "duration_s": 47.434,
+      "views": 96980,
+      "revenue_vnd": 42610000,
+      "items_sold": 114,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.611,
+      "ad_view_ratio": "66.78%",
+      "publish_date": "2026-11-01"
+    }
+  ],
+  "shops": [
+    {
+      "name": "Unilever Beauty",
+      "revenue_vnd": 736190000,
+      "product_count": 116,
+      "items_sold": 2770
+    },
+    {
+      "name": "L'oreal Paris Việt Nam",
+      "revenue_vnd": 538250000,
+      "product_count": 29,
+      "items_sold": 1510
+    },
+    {
+      "name": "CeraVe Việt Nam",
+      "revenue_vnd": 272680000,
+      "product_count": 37,
+      "items_sold": 674
+    },
+    {
+      "name": "La Roche-Posay Việt Nam",
+      "revenue_vnd": 224850000,
+      "product_count": 23,
+      "items_sold": 339
+    },
+    {
+      "name": "KAO VIETNAM",
+      "revenue_vnd": 216380000,
+      "product_count": 11,
+      "items_sold": 1120
+    },
+    {
+      "name": "Cocoon Vietnam",
+      "revenue_vnd": 197960000,
+      "product_count": 128,
+      "items_sold": 571
+    },
+    {
+      "name": "Make P:rem",
+      "revenue_vnd": 163160000,
+      "product_count": 2,
+      "items_sold": 392
+    },
+    {
+      "name": "Unilever - Chăm Sóc Cá Nhân",
+      "revenue_vnd": 137540000,
+      "product_count": 37,
+      "items_sold": 703
+    },
+    {
+      "name": "Flower Knows V N",
+      "revenue_vnd": 133910000,
+      "product_count": 4,
+      "items_sold": 235
+    },
+    {
+      "name": "Eucerin Việt Nam",
+      "revenue_vnd": 129420000,
+      "product_count": 8,
+      "items_sold": 262
+    }
+  ],
+  "products": [
+    {
+      "title": "[1] Combo 2 Serum Chống Nắng Vaseline Với SPF50+PA++++ Hỗ Trợ Bảo Vệ Da 300ml + Sữa dưỡng thể Vaseline Gluta-Hya Hỗ Trợ Dưỡng Da Chuyên Sâu Nữ 300ml",
+      "revenue_vnd": 156400000,
+      "items_sold": 503,
+      "avg_price_vnd": 310930
+    },
+    {
+      "title": "(Chọn loại) Combo 2 Biore UV Smooth Velvet Sữa Chống Nắng Màng Nhung Mịn Lì SPF50+/PA++++ 30ml",
+      "revenue_vnd": 141910000,
+      "items_sold": 671,
+      "avg_price_vnd": 211480
+    },
+    {
+      "title": "VB_BỘ DẦU GỘI XẢ NGĂN NGỪA & GIẢM GÃY RỤNG TÓC GIÚP TÓC CHẮC KHỎE L’OREAL PARIS ELSEVE Full Resist Anti Hair Fall Shampoo 440ml_ENG VER",
+      "revenue_vnd": 139210000,
+      "items_sold": 323,
+      "avg_price_vnd": 430990
+    },
+    {
+      "title": "[1] Bộ Skincare 2 Kem Dưỡng Da Pond's Bright Miracle Đa Tầng Ngày & Đêm Với 50X Niasorcinol Hỗ Trợ Chăm Sóc Da, Ngăn Vấn Đề Thâm Sạm 45Gx2 Nữ",
+      "revenue_vnd": 118580000,
+      "items_sold": 424,
+      "avg_price_vnd": 279670
+    },
+    {
+      "title": "[FlashSale] Sữa rửa mặt giảm mụn CeraVe Blemish Control Cleanser 236ml",
+      "revenue_vnd": 106970000,
+      "items_sold": 286,
+      "avg_price_vnd": 374020
+    },
+    {
+      "title": "Kem Giúp Phục Hồi Đa Năng & Dưỡng Ẩm La Roche-Posay Cicaplast Baume B5+ (100ml) giúp phục hồi da sau 1 lần sử dụng",
+      "revenue_vnd": 102290000,
+      "items_sold": 127,
+      "avg_price_vnd": 805470
+    },
+    {
+      "title": "[VC 20% - ĐỘC QUYỀN] Make P:rem Kem chống nắng Make P:rem theo từng da 50ml SPF+ PA++++",
+      "revenue_vnd": 98160000,
+      "items_sold": 301,
+      "avg_price_vnd": 326110
+    },
+    {
+      "title": "Combo Dưỡng Sáng Da NIVEA Vitamin Serum 300ml & Sữa Dưỡng Thể Extra Bright Ban Đêm 350ml",
+      "revenue_vnd": 97160000,
+      "items_sold": 320,
+      "avg_price_vnd": 303610
+    },
+    {
+      "title": "Kem Dưỡng Làm Mới Và Duy Trì Độ Tươi Trẻ Làn Da Ban Đêm Obagi Medical Retinol + PHA 50ml",
+      "revenue_vnd": 89020000,
+      "items_sold": 34,
+      "avg_price_vnd": 2620000
+    },
+    {
+      "title": "[BÁN CHẠY] Bộ đôi dầu gội xả ngăn ngừa & giảm gãy rụng tóc, giúp tóc chắc khỏe hơn L’oreal Paris Elseve Full Resist 440ml",
+      "revenue_vnd": 87530000,
+      "items_sold": 197,
+      "avg_price_vnd": 444290
+    }
+  ],
+  "contact_keys": []
+}

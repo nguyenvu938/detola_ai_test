@@ -1,0 +1,286 @@
+{
+  "handle": "lethiloan2001",
+  "kalodata_id": "6591680104417165314",
+  "nickname": "LeThiLoan (Mẹ Voi - Chíp)",
+  "collected_at": "2026-11-17",
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-11-16"
+  },
+  "region": "Vietnam",
+  "creator_type": "INDEPENDENT",
+  "mcn_name": null,
+  "bio": "☘️ Trải Nghiệm và Review Chân Thực ☘️\nLHCV: O tám sáu 5// tám tám một //79 tám 📞",
+  "followers": 76700,
+  "debut_date": "2025-07-16",
+  "follower_gender": null,
+  "follower_age": null,
+  "follower_sex_label": null,
+  "follower_age_top": null,
+  "demographics_note": "Kalodata chỉ hiển thị biểu đồ placeholder giống hệt mọi creator (nữ 60/nam 40...), không dùng được. API không trả followerSex/followerAgeMax.",
+  "core_metrics": {
+    "revenue_vnd": 6450000000,
+    "live_revenue_vnd": 0,
+    "video_revenue_vnd": 6410000000,
+    "video_views": 73240000,
+    "live_views": 0,
+    "follower_change": 7900
+  },
+  "videos": [
+    {
+      "video_id": "7680858478591692052",
+      "url": "https://www.tiktok.com/@lethiloan2001/video/7680858478591692052",
+      "description": "Gel chấm mụn #gelchammun #trimun #geltrimun #xuhuongtiktok #viral",
+      "duration_s": 44.815,
+      "views": 8190000,
+      "revenue_vnd": 616590000,
+      "items_sold": 7790,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "25.63%",
+      "publish_date": "2026-09-02"
+    },
+    {
+      "video_id": "7693202891846323508",
+      "url": "https://www.tiktok.com/@lethiloan2001/video/7693202891846323508",
+      "description": "#ad Càng da thấy da càng tắng thiệt lun nha #suaruamat #suaruamattrangda #duongtrangda #xuhuongtiktok #viral",
+      "duration_s": 49.111,
+      "views": 6210000,
+      "revenue_vnd": 512860000,
+      "items_sold": 6360,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.796,
+      "ad_view_ratio": "13.83%",
+      "publish_date": "2026-10-05"
+    },
+    {
+      "video_id": "7692112640067357973",
+      "url": "https://www.tiktok.com/@lethiloan2001/video/7692112640067357973",
+      "description": "Mặt nạ dưỡng sáng da 377 #matna #matnaduongda #matnalot #xuhuongtiktok #viral",
+      "duration_s": 57.493,
+      "views": 11590000,
+      "revenue_vnd": 509020000,
+      "items_sold": 7200,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.48,
+      "ad_view_ratio": "3.87%",
+      "publish_date": "2026-10-02"
+    },
+    {
+      "video_id": "7683950831477148948",
+      "url": "https://www.tiktok.com/@lethiloan2001/video/7683950831477148948",
+      "description": "Xài đều đặn là thấy da cải thiện nha #kemnam #kemduongtrangda #kemnamtannhang #xuhuongtiktok #viral",
+      "duration_s": 50.92,
+      "views": 2020000,
+      "revenue_vnd": 488300000,
+      "items_sold": 3090,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.798,
+      "ad_view_ratio": "46.68%",
+      "publish_date": "2026-09-10"
+    },
+    {
+      "video_id": "7694650760625147188",
+      "url": "https://www.tiktok.com/@lethiloan2001/video/7694650760625147188",
+      "description": "Kem chống nắng nâng tone mướt mịn, che khuyết điểm dưỡng trắg da #kemchongnang #kemchongnangnangtone #kemchongnangkiemdau #xuhuongtiktok #viral",
+      "duration_s": 28.049,
+      "views": 3070000,
+      "revenue_vnd": 285020000,
+      "items_sold": 3000,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "15.36%",
+      "publish_date": "2026-10-09"
+    },
+    {
+      "video_id": "7699455662287359253",
+      "url": "https://www.tiktok.com/@lethiloan2001/video/7699455662287359253",
+      "description": "Cứu tinh cho da dầu mụn, lỗ chân lông to là đây nha #icelerskinph #gelmun #trimun #xuhuongtiktok #viral",
+      "duration_s": 35.634,
+      "views": 2640000,
+      "revenue_vnd": 240990000,
+      "items_sold": 2650,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.489,
+      "ad_view_ratio": "20.44%",
+      "publish_date": "2026-10-22"
+    },
+    {
+      "video_id": "7698318276304145685",
+      "url": "https://www.tiktok.com/@lethiloan2001/video/7698318276304145685",
+      "description": "Mặt nạ lột dưỡng sáng mịn da 377 #matna #matnalot #matnaduongda #xuhuongtiktok #viral",
+      "duration_s": 57.447,
+      "views": 2450000,
+      "revenue_vnd": 221540000,
+      "items_sold": 3130,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.704,
+      "ad_view_ratio": "13.89%",
+      "publish_date": "2026-10-19"
+    },
+    {
+      "video_id": "7652749952036211988",
+      "url": "https://www.tiktok.com/@lethiloan2001/video/7652749952036211988",
+      "description": "Xài êm mà cải thiện mun ok lắm nha #gelchammun #geltrimun #trimun #xuhuongtiktok #viral",
+      "duration_s": 40.216,
+      "views": 3340000,
+      "revenue_vnd": 212770000,
+      "items_sold": 2690,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.799,
+      "ad_view_ratio": "23.88%",
+      "publish_date": "2026-06-18"
+    },
+    {
+      "video_id": "7702126897534307605",
+      "url": "https://www.tiktok.com/@lethiloan2001/video/7702126897534307605",
+      "description": "Tắm thôi mà da bật tôg tắg nha #tamtrang #duongtrangda #tamtrangda #xuhuongtiktok #viral",
+      "duration_s": 34.69,
+      "views": 1130000,
+      "revenue_vnd": 180270000,
+      "items_sold": 1120,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.795,
+      "ad_view_ratio": "48.85%",
+      "publish_date": "2026-10-29"
+    },
+    {
+      "video_id": "7688018653622717716",
+      "url": "https://www.tiktok.com/@lethiloan2001/video/7688018653622717716",
+      "description": "Cushion 2in1 , che khuyết điểm kháng nước, lâu trôi #cushion #cushion2in1 #makeup #xuhuongtiktok #viral",
+      "duration_s": 45.835,
+      "views": 1000000,
+      "revenue_vnd": 148530000,
+      "items_sold": 1630,
+      "is_ad": true,
+      "ad_revenue_ratio": 0.8,
+      "ad_view_ratio": "19.71%",
+      "publish_date": "2026-09-21"
+    }
+  ],
+  "shops": [
+    {
+      "name": "ZUNHU-VN-01",
+      "revenue_vnd": 1220000000,
+      "product_count": 4,
+      "items_sold": 19040
+    },
+    {
+      "name": "Plant Note VN",
+      "revenue_vnd": 1170000000,
+      "product_count": 1,
+      "items_sold": 14830
+    },
+    {
+      "name": "Queen Danzern Office Store",
+      "revenue_vnd": 550500000,
+      "product_count": 2,
+      "items_sold": 6900
+    },
+    {
+      "name": "Nguyen Dat Cosmetics",
+      "revenue_vnd": 492090000,
+      "product_count": 1,
+      "items_sold": 3120
+    },
+    {
+      "name": "ICE LERSKIN.VN",
+      "revenue_vnd": 389910000,
+      "product_count": 3,
+      "items_sold": 4290
+    },
+    {
+      "name": "MTN Personal Care",
+      "revenue_vnd": 380550000,
+      "product_count": 3,
+      "items_sold": 4020
+    },
+    {
+      "name": "LUMGENIC",
+      "revenue_vnd": 348750000,
+      "product_count": 3,
+      "items_sold": 5790
+    },
+    {
+      "name": "LumineeBeauty VN",
+      "revenue_vnd": 259850000,
+      "product_count": 1,
+      "items_sold": 2860
+    },
+    {
+      "name": "MANY COLORS",
+      "revenue_vnd": 186740000,
+      "product_count": 1,
+      "items_sold": 1160
+    },
+    {
+      "name": "ANGRES-VT",
+      "revenue_vnd": 161550000,
+      "product_count": 1,
+      "items_sold": 1980
+    }
+  ],
+  "products": [
+    {
+      "title": "Gel Trị Mụn & Mờ Thâm Gel Derma thực vật, 20g Điều trị mụn Thu nhỏ lỗ chân lông Paraben - free，bộc phá khối",
+      "revenue_vnd": 1170000000,
+      "items_sold": 14830,
+      "avg_price_vnd": 79170
+    },
+    {
+      "title": "Mặt nạ làm trắng ZUNHU 377 loại sửa vết thâm – Loại bỏ nám da, đốm màu và vết thâm tối, làm trắng và làm sáng làn da, dưỡng ẩm và làm mềm da ráp, chống nhăn, chăm sóc da rạng rỡ, trong suốt, 100 g",
+      "revenue_vnd": 1070000000,
+      "items_sold": 15170,
+      "avg_price_vnd": 70720
+    },
+    {
+      "title": "Sữa rửa mặt B5 Queen Danzern 80 g – làm sạch dầu thừa, bọt mịn dịu nhẹ, không gây khô căng",
+      "revenue_vnd": 533140000,
+      "items_sold": 6620,
+      "avg_price_vnd": 80600
+    },
+    {
+      "title": "[D5] Lotion Kem Nám Nhân Sâm (20g) - Ginseng Essential Cream - Hỗ Trợ Xử Lí Nám, Sạm, Da Không Đều Màu. Hỗ Trợ Làm Trắng, Làm Sáng Da Chuyên Sâu.",
+      "revenue_vnd": 492090000,
+      "items_sold": 3120,
+      "avg_price_vnd": 157820
+    },
+    {
+      "title": "【Mới & Giảm Giá】ICE LERSKIN GEL BHA LÀM SẠCH VÀ THU NHỎ LỖ CHÂN LÔNG 15ML, chứa axit salicylic. Set: Gel BHA 15ML + Tinh chất điều mụn 10ML, Gel BHA 15ML + Xịt Thanh Lọc Mụn 120ML, Gel BHA 15ML + Tinh chất điều mụn 10ML + Xịt Thanh Lọc Mụn 120ML",
+      "revenue_vnd": 385630000,
+      "items_sold": 4240,
+      "avg_price_vnd": 90930
+    },
+    {
+      "title": "Kem Chống Nắng Cách Ly Dưỡng Trắng YOQQ ️ - Ống Đôi 100g+100g | SPF50+ PA++++ | Công Thức 3 Thành Phần Vàng: 377+577+877, Hỗ Trợ Chống Nắng 24h, Làm Mờ Nám, Dưỡng Sáng Da & Cấp Ẩm | Có Chứng Nhận Đặc Biệt (200g)",
+      "revenue_vnd": 365980000,
+      "items_sold": 3860,
+      "avg_price_vnd": 94910
+    },
+    {
+      "title": "Phấn Nước Cushion 2IN1 & Phấn Phủ (8g+12g) - Đệm Khí Hai Lớp, Kiềm Dầu 12h, Lâu Trôi | 1 Giá = 2 Sản Phẩm, E06",
+      "revenue_vnd": 259850000,
+      "items_sold": 2860,
+      "avg_price_vnd": 90890
+    },
+    {
+      "title": "377 LUMGENIC – Sữa rửa mặt làm sạch sâu, cải thiện da xỉn màu, cấp ẩm sáng da [COD]",
+      "revenue_vnd": 227990000,
+      "items_sold": 3790,
+      "avg_price_vnd": 60240
+    },
+    {
+      "title": "Kem Tắm Trắng Chanh Tây Khao Than Jai Lemon 220g- Hỗ Trợ Làm Sáng Da, Mờ Thâm Body - Many Colors",
+      "revenue_vnd": 186740000,
+      "items_sold": 1160,
+      "avg_price_vnd": 161680
+    },
+    {
+      "title": "Kem Nghệ Tây Nguyệt Cấp Nước Sâu Phục Hồi Da Làm Sáng Tông Màu Giảm Nếp Nhăn Chăm Sóc Da Nhạy Cảm Không Kích Ứng Tươi Mát Hấp Thu Nhanh",
+      "revenue_vnd": 161550000,
+      "items_sold": 1980,
+      "avg_price_vnd": 81670
+    }
+  ],
+  "contact_keys": []
+}
